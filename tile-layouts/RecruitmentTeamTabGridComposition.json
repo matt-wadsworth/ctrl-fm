@@ -1,0 +1,59 @@
+{
+  "name": "RecruitmentTeamTabGridComposition",
+  "grid": {
+    "width": 20,
+    "height": 9
+  },
+  "tiles": [
+    {
+      "tile": "ClubRecruitmentStaffBlock_7x4",
+      "x": 0,
+      "y": 0,
+      "w": 7,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "bfec4d04a6455524fb383fca5e36787d",
+      "path_id": "-5500706672957665101"
+    },
+    {
+      "tile": "ClubRecruitmentStaffComparisonBlock_7x4",
+      "x": 7,
+      "y": 0,
+      "w": 7,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "1a3bc8c395c7a6f44983a8f52f4322de",
+      "path_id": "8120606562859438419"
+    },
+    {
+      "tile": "StaffContractsTile_20x5",
+      "x": 0,
+      "y": 4,
+      "w": 20,
+      "h": 5,
+      "isDynamic": false,
+      "guid": "b00fa0597031b5642ba1e26ca3fb6ee0",
+      "path_id": "7619643769336568429"
+    },
+    {
+      "tile": "StaffSearchTile_2x2",
+      "x": 14,
+      "y": 0,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "c771a37bad400d34f8cdfbe18dc69f42",
+      "path_id": "8934601083579029294"
+    },
+    {
+      "tile": "CoachAssignmentsTile_2x2",
+      "x": 14,
+      "y": 2,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d32793b580db21a48865131e1236f742",
+      "path_id": "7385167784523504897"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "SquadYouthEnvironmentMainCardComposition",
+  "grid": {
+    "width": 18,
+    "height": 9
+  },
+  "tiles": [
+    {
+      "tile": "SquadYouthEnvironmentMainBlock_12x8",
+      "x": 0,
+      "y": 0,
+      "w": 18,
+      "h": 9,
+      "isDynamic": false,
+      "guid": "bebda5797e699d945bbd338781492b7c",
+      "path_id": "-1960187802812121039"
+    }
+  ]
+}

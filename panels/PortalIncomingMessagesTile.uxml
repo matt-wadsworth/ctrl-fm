@@ -1,0 +1,81 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+    <!-- PortalIncomingMessagesTile -->
+    <Template name="ClubIcon" src="guid:9947ca486d6d8c7478a50294c6151796"/>
+    <Template name="CompIcon" src="guid:9bc6b09cb6fef3545a166203afbd10eb"/>
+    <Template name="NationFlag_XLarge" src="guid:2329f9231de4cb04c8b13f3d584d8260"/>
+    <si:BindingExpect class="base-template-grow" focusable="false" enabled-self="false">
+        <si:BindingRemapper class="base-template-grow" picking-mode="1" focusable="false" enabled-self="false">
+            <!-- Panel Background -->
+            <ui:VisualElement class="base-template-grow siblock-border" style="background-color: #0a0f1e67" focusable="false" enabled-self="false">
+                <si:BindingVariables class="base-template-grow" picking-mode="1" focusable="false" enabled-self="false">
+                    <!-- Header -->
+                    <ui:VisualElement class="margin-horizontal-global-gap-none" style="background-color: #ffffff0c; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 0; border-bottom-left-radius: 0; flex-shrink: 0" picking-mode="1" focusable="false" enabled-self="false">
+                        <ui:VisualElement class="sitile__title row-direction-normal margin-left-global-gap-large" style="align-items: center" picking-mode="1" focusable="false" enabled-self="false">
+                            <si:BindingVariables class="flex-grow-class" picking-mode="1" focusable="false" enabled-self="false">
+                                <si:SIText class="sitext fm-universe-large-22px padding-right-global-padding-none padding-left-global-padding-none padding-top-global-padding-small padding-top-global-padding-regular padding-left-global-padding-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=game.CurrentGameDateString" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false"/>
+                            </si:BindingVariables>
+                            <fm:Rotator class="margin-bottom-global-gap-small" style="align-items: flex-start; align-self: flex-end; justify-content: flex-start">
+                                <si:SIImage class="special-icons-spinner-spinner" style="align-self: flex-end" focusable="false" enabled-self="false"/>
+                            </fm:Rotator>
+                        </ui:VisualElement>
+                        <si:BindableSwitchElement class="padding-horizontal-global-padding-large padding-bottom-global-padding-large" bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=3c2056dafe9bfc048a6d7319083b69fd; is_visualscript=True">
+                            <si:SIVisible invert-direct-binding="false" binding="kind=1; path=4a1becfc0a0d04816b13fd8f330a9207; is_visualscript=True" always-bind-children="false">
+                                <si:SIVisible invert-direct-binding="false" binding="kind=1; path=4a1becfc0a0d04816b13fd8f330a9207; is_visualscript=True" visibility-type="2" always-bind-children="true">
+                                    <si:SIText class="tifo-h margin-bottom-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="26324"/>
+                                    <si:BindingRemapper class="row-direction-normal margin-bottom-global-gap-small" style="align-items: center" focusable="false" enabled-self="false" binding-mappings="comp=humanteam.NextMatchCompetition" migrate-mappings="humanteam.NextMatchCompetition">
+                                        <ui:Instance template="CompIcon" class="margin-right-global-gap-small" style="width: 16px; height: 16px"/>
+                                        <si:SIText class="tifo-p" style="-unity-text-align: middle-left" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=comp.Name" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false"/>
+                                    </si:BindingRemapper>
+                                    <ui:VisualElement class="row-direction-normal margin-bottom-global-gap-small" style="align-items: center; flex-grow: 0; flex-shrink: 0" focusable="false" enabled-self="false">
+                                        <si:BindableSwitchElement class="margin-right-global-gap-small" style="width: 16px; height: 16px" bind-direct-as-mask="true" invert-direct-binding="false" binding="kind=1; path=humanteam.NextMatchOpponent.IsClub">
+                                            <si:BindingRemapper style="flex-grow: 1" focusable="false" enabled-self="false" binding-mappings="nation=humanteam.NextMatchOpponent.Nation">
+                                                <ui:Instance template="NationFlag_XLarge" style="align-self: center; justify-content: center; flex-grow: 1"/>
+                                            </si:BindingRemapper>
+                                            <si:BindingRemapper style="flex-grow: 1; width: 16px; height: 16px" focusable="false" enabled-self="false" binding-mappings="club=humanteam.NextMatchOpponent.ClubForObjectLookupData" migrate-mappings="humanteam.NextMatchOpponent.ClubForObjectLookupData">
+                                                <ui:Instance template="ClubIcon"/>
+                                            </si:BindingRemapper>
+                                        </si:BindableSwitchElement>
+                                        <ui:VisualElement style="flex-grow: 1" focusable="false" enabled-self="false">
+                                            <ui:VisualElement class="row-direction-normal" style="align-items: center" focusable="false" enabled-self="false">
+                                                <si:SIText class="body-regular-14px-regular margin-right-global-gap-extra-small" style="-unity-text-align: middle-left; align-self: flex-start" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=humanteam.nextmatchopponent.Name" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false"/>
+                                                <si:SIText class="body-regular-14px-regular content-no-wrap flex-no-shrink-class" style="-unity-text-align: middle-left" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=aeb3536b8c3b6e64b8690d740a14587c; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false"/>
+                                                <si:SIText class="body-regular-14px-regular margin-left-global-gap-small global-text-secondary content-no-wrap flex-no-shrink-class" style="-unity-text-align: upper-left" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="In time" text-binding="kind=1; path=humanteam.NextMatchDaysText" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false"/>
+                                            </ui:VisualElement>
+                                        </ui:VisualElement>
+                                    </ui:VisualElement>
+                                </si:SIVisible>
+                            </si:SIVisible>
+                            <ui:VisualElement style="flex-grow: 1" focusable="false" enabled-self="false">
+                                <si:SIText class="tifo-h" picking-mode="1" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="26402"/>
+                                <ui:VisualElement style="flex-grow: 1" focusable="false" enabled-self="false">
+                                    <ui:VisualElement class="row-direction-normal" style="align-items: center" focusable="false" enabled-self="false">
+                                        <si:SIVisible class="row-direction-normal" invert-direct-binding="false" binding="kind=1; path=human.ReturnFromHolidayDate" visibility-type="1" faded-opacity-value="3.783505853677006e-44" always-bind-children="true" style-class-on-visible="human.ReturnFromHolidayDate">
+                                            <si:SIText class="sitext padding-right-global-padding-none padding-left-global-padding-none tifo-hp" language-direction="1" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=aeb3536b8c3b6e64b8690d740a14587c; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false"/>
+                                        </si:SIVisible>
+                                        <si:SIText class="margin-left-global-gap-small tifo-hp" bindings="7567713" tab-index="1" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=human.ReturnFromHolidayDateText" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false"/>
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </si:BindableSwitchElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="margin-horizontal-global-gap-none" style="height: 50px; flex-shrink: 0" language-direction="1" focusable="false" enabled-self="false">
+                        <ui:VisualElement class="sitile__title row-direction-normal margin-horizontal-global-gap-large" style="flex-grow: 0; flex-shrink: 0; margin-top: 16px; margin-bottom: 16px" focusable="false" enabled-self="false">
+                            <si:SIText class="margin-right-global-gap-regular tifo-h" language-direction="1" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="26308"/>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                    <ui:VisualElement class="base-template-grow" picking-mode="1" focusable="false" enabled-self="false">
+                        <ui:VisualElement class="margin-right-global-gap-small base-template-grow" style="margin-bottom: 0; margin-top: 0; margin-right: 0" usage-hints="1" focusable="false" enabled-self="false">
+                            <ui:VisualElement class="margin-right-global-gap-none base-template-grow" usage-hints="1" focusable="false" enabled-self="false">
+                                <si:BindingVariables class="base-template-grow" focusable="false" enabled-self="false">
+                                    <si:SIVisible class="base-template-grow" invert-direct-binding="false" binding="kind=1; path=fb85a893388896b458c4be0009043d13; is_visualscript=True" visibility-type="808478050" faded-opacity-value="1.6412082004535478e-07" always-bind-children="true">
+                                        <fm:MessagesStreamedObjectList class="messages---processing item-remove-background base-template-grow" diggable="false" dim="false" sort-ascending="false" dynamic-elements="true" truncate="false" alternate-rows="false" reorderable="false" set-ignore-picking-mode="false" set-scroll-to-as-selected="false" buffer-size="1" view-window-binding="-" binding="kind=1; path=game.GameCurrentManager.HumanIncomingMessages" sort-binding="-" selected-items-binding="-" row-template="779248999" use-row-index="true" animate="false"/>
+                                    </si:SIVisible>
+                                </si:BindingVariables>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </si:BindingVariables>
+            </ui:VisualElement>
+        </si:BindingRemapper>
+    </si:BindingExpect>
+</ui:UXML>

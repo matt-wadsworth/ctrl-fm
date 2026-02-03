@@ -1,0 +1,98 @@
+/* ---- TILES ---- */
+
+/* Title Colour */
+.tile-title-color {
+  color: #fbc500;
+}
+
+/* ---- Base ---- */
+.border-tile-radius-12px {
+  border-width: 1px;
+  border-color: rgba(170, 179, 194, 0.1);
+}
+.layout-tile-base-container {
+  border-width: 1px;
+  border-color: var(--none);
+  background-color: var(--none);
+}
+.layout-tile-base-container.startscreenVar {
+  background-color: var(--none);
+}
+
+.layout-tile-interaction_border {
+  border-width: 1px;
+  border-color: rgba(170, 179, 194, 0.1);
+}
+.layout-tile-interaction-button,
+.layout-tile-interaction-none {
+  background-color: var(--none);
+}
+.layout-tile-interaction-button:active,
+.layout-tile-interaction-button:hover:enabled {
+  background-color: rgba(170, 179, 194, 0.05);
+}
+
+/* ---- Tactics ---- */
+.layout-tile-tactics .layout-tile-base-container {
+  background-color: var(--none);
+  border-width: 1px;
+  border-color: rgba(170, 179, 194, 0.1);
+}
+.tactics-overlay-bkg {
+  background-color: rgba(0, 0, 0, 0);
+}
+.layout-tile-interaction-button.startscreenVar,
+.layout-tile-tactics .layout-tile-interaction-button,
+.layout-tile-interaction-button.newsTileVar {
+  background-color: var(--none);
+}
+/* ---- End of Tactics ---- */
+
+.figma-base-tool-fullscreen-template-inner-frame {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-radius: 0px;
+  background-color: var(--none);
+}
+.figma-base-tool-template-inner-frame {
+  background-color: var(none);
+}
+.figma-base-tool-template-border {
+  border-width: 0px;
+  border-color: var(none);
+  border-radius: 0px;
+}
+.figma-base-popup-template-inner-frame,
+.figma-base-report-template-inner-frame {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  background-color: var(--none);
+}
+.components-persona-bg {
+  background-color: var(--none);
+}
+
+.layout-block-base-container {
+  border-width: 1px;
+}
+.layout-block-base-container-compact {
+  border-width: 1px;
+}
+.layout-block-tactics {
+  border-width: 1px;
+}
+
+/* ---- NEWS ---- */
+/* Trending
+.trending-news-background {
+  -unity-background-image-tint-color: rgba(11, 14, 18, 0.6);
+}
+.sigradient.trending-news-background {
+  --end-colour: #ff000000;
+  --start-colour: #0044ff00;
+} */
+/* ---- End of NEWS ---- */

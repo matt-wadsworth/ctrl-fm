@@ -1,0 +1,101 @@
+{
+  "name": "TeamTrainingReportGridComposition",
+  "grid": {
+    "width": 20,
+    "height": 9
+  },
+  "tiles": [
+    {
+      "tile": "IndividualTrainingTile_4x4",
+      "x": 0,
+      "y": 5,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "01203d84ffbd8b1428230b7967874e45"
+    },
+    {
+      "tile": "TrainingIntensityTile_4x2",
+      "x": 4,
+      "y": 7,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "ed0c91b561480914b9d3653ac74454ab"
+    },
+    {
+      "tile": "TrainingUnitsTile_2x4",
+      "x": 4,
+      "y": 5,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "98c58053eb319d14abdd6d0a3c48d00d"
+    },
+    {
+      "tile": "SetPiecesTile_4x4",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 5,
+      "isDynamic": false,
+      "guid": "480cb417c12b8554cbf05cb2ac019bf2"
+    },
+    {
+      "tile": "ClubFacilitiesTile_4x4",
+      "x": 16,
+      "y": 5,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "d26251c9d9aa8294d9aa7e223fc7fa57"
+    },
+    {
+      "tile": "CoachAssignmentsTile_4x2",
+      "x": 12,
+      "y": 7,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "a974b214917d0474681ec96c70f721cd"
+    },
+    {
+      "tile": "SquadFixtureScheduleTile_4x2",
+      "x": 12,
+      "y": 5,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "78914112a6c2b53469985b79e35276e4"
+    },
+    {
+      "tile": "TrainingMentoringTile_4x4",
+      "x": 8,
+      "y": 5,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "665b524383a3c9044add6ad3b633203a"
+    },
+    {
+      "tile": "OnThePitchTacticsTile_8x4",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 5,
+      "isDynamic": false,
+      "guid": "bacec0acda299b9458070e63b004a784",
+      "path_id": "-549059308546553030"
+    },
+    {
+      "tile": "TrainingScheduleTile_8x4",
+      "x": 8,
+      "y": 0,
+      "w": 8,
+      "h": 5,
+      "isDynamic": false,
+      "guid": "bf827bf6a4a21044d95a2fdf22f8d223",
+      "path_id": "-8071643554784654985"
+    }
+  ]
+}

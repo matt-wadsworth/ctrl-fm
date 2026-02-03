@@ -1,0 +1,109 @@
+/* ---- Dividers ---- */
+/* Vertical */
+.layout-divider-solid-vertical {
+  width: 0px;
+  background-color: var(none);
+}
+.layout-divider-solid-vertical-stretch {
+  width: 0px;
+  background-color: var(none);
+}
+.layout-layout-divider-solid-vertical {
+  width: 0px;
+  background-color: var(none);
+}
+/* Horizontal */
+.layout-divider-solid-horizontal,
+.layout-divider-solid-horizontal--cutom-squad-hierarchy {
+  background-color: var(none);
+}
+.layout-divider-solid-horizontal-white {
+  background-color: var(none);
+}
+.layout-layout-divider-solid-horizontal {
+  background-color: var(none);
+}
+.border-bottom-divider {
+  border-color: var(none);
+}
+.subtle-divider {
+  background-color: var(none);
+}
+.horizontal-divider {
+  background-color: var(none);
+}
+/* ---- End of Dividers ---- */
+
+/* ---- Photos/Thumbnails ---- */
+.thumbnails-person-picture-job-player-sex-male-player-1 {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+.thumbnails-alt-person-picture-property-1-44px {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+.thumbnails-alt-person-picture-property-1-32px {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+.thumbnails-alt-person-picture-property-1-24px-v1,
+.thumbnails-alt-person-picture-property-1-variant2,
+.thumbnails-alt-person-picture-property-1-variant2 {
+  border-radius: 0px;
+  background-color: var(--none);
+}
+.thumbnails-alt-person-picture-property-1-24px {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+.thumbnails-alt-person-picture-property-1-person_picture_alt {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+.thumbnails-alt-person-picture-property-1-variant3 {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+.person_picture_120px {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+.person_picture_24px {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+.person_picture_56px {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+.person_picture_64px {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+
+.person_picture_80px {
+  background-color: var(--none);
+  border-radius: 0px;
+}
+/* ---- End of Photos/Thumbnails ---- */
+
+/* ---- Messages ---- */
+/* Change Tile Border */
+.messages-tile-background {
+  border-width: 1px;
+  border-color: rgba(170, 179, 194, 0.1);
+}
+/* Remove Tile Background */
+.midnight-background-colour {
+  background-color: var(--none);
+}
+/* Selected Message */
+.tool-messages-list .message-last-selected {
+  background-color: #f7ce6710;
+}
+.tool-messages-list .message-last-selected-indicator {
+  width: 4px;
+  background-color: #f7ce67;
+}
+/* ---- End of Messages ---- */

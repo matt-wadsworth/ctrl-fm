@@ -1,0 +1,108 @@
+/*  ---- HEADER ---- */
+
+/* Remove border and BG */
+.main-navigation-overview-container {
+  border-bottom-width: 0px;
+  background-color: var(--none);
+}
+
+/* ---- Club Colours ---- */
+/* Remove Club colour gradient */
+.titlebar-gradient-1 {
+  width: 0px;
+}
+/* Remove Club colour pips */
+.navigation-core-clubname-kit {
+  height: 0px;
+}
+.clubcolours-border {
+  border-color: var(--none);
+}
+
+/* ---- Nav Items ---- */
+.navigation-global-diagetic-container {
+  border-color: #333b44;
+  border-radius: 20px;
+}
+/* Divider */
+.navigation-global-diagetic-vertical-line {
+  background-color: var(--none);
+}
+/* Buttons (not Search) */
+.navigation-global-diagetic-button {
+  background-color: #1c252f;
+}
+.navigation-global-diagetic-button:hover {
+  background-color: #333b44;
+}
+.navigation-global-diagetic-button:hover .sibutton {
+  background-color: #333b44;
+}
+/* Search Button - BG change and alignment fixes */
+.searchButtonStandard {
+  background-color: #1c252f;
+  align-items: center;
+  height: 40px;
+  margin: 0px;
+  padding: 12px;
+}
+.searchButtonStandard:hover {
+  background-color: #333b44;
+}
+
+/* ---- Calendar Button ---- */
+/* Base */
+.navigation-main-calendar-button-default {
+  height: 40px;
+  border-radius: 20px;
+  background-color: #1c252f;
+}
+.navigation-main-calendar-button-default:hover {
+  background-color: #333b44;
+}
+/* Border */
+.calender-background-custom {
+  height: 40px;
+  border-radius: 20px;
+  border-color: #333b44;
+}
+/* Padding (Not currently supported)
+.sibutton.custom-padding-calendar-button {
+  padding: 6px 12px 4px 12px;
+} */
+
+/* ---- Continue Button ---- */
+.continue-button {
+  border-radius: 20px;
+  transition: var(--global-transition-short);
+}
+.continue-button---default:hover,
+.continue-button---default-match:hover {
+  background-color: #333b44;
+}
+.continue-button---must-respond #SIGradient {
+  --end-colour: #f22c2c;
+  --start-colour: #f22c2c;
+}
+.continue-button---must-respond,
+.continue-button---pulse {
+  border-color: #fd4a4a;
+  background-color: #f22c2c;
+}
+
+/* ---- Bookmarks ---- */
+.bookmarks-button {
+  background-color: var(none);
+}
+/* Unread Indicator BG */
+.ui-concepts-notifications-indicator {
+  background-color: #f22c2c;
+}
+/* Indicator Text Colour - set via the tutorial text color class... */
+.tutorial-text-color {
+  color: #ffffff;
+}
+/* Tutorial BG - fix unreadable text now we've changed it... */
+.tutorial-floating-main-frame {
+  background-color: var(--colours-brand-foundation-midnight);
+}

@@ -1,0 +1,185 @@
+{
+  "name": "RecruitmentComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "RecruitmentBudgetsTile_4x4",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "2267699ad0e92974eb1c5e8e3d8210c4"
+    },
+    {
+      "tile": "RecruitmentObjectivesTile_4x2",
+      "x": 0,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "33b4bf017c73e2d4abb729389c3dcb76"
+    },
+    {
+      "tile": "TransferActivityTile_8x4",
+      "x": 0,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "e0aa01a5a9afb8a4884621427769c5da"
+    },
+    {
+      "tile": "RecruitmentContractsTile_4x4",
+      "x": 12,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "3d5eb3d3defb232458e9b9e96f053379",
+      "path_id": "-7828179310886089936"
+    },
+    {
+      "tile": "ClausesTile_4x2",
+      "x": 12,
+      "y": 2,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "2213f3bf653b4d94cb65416f496ca9e0"
+    },
+    {
+      "tile": "TransferRoomInTile_4x2",
+      "x": 8,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "e98b067ddad12544f99d110ae3781b8b"
+    },
+    {
+      "tile": "RecruitmentTransferRoomOutTile_4x2",
+      "x": 8,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "ef7a786181d3f764a84c140d3ed93c83"
+    },
+    {
+      "tile": "ShortlistTile_4x2",
+      "x": 8,
+      "y": 8,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "ef2dc860b1d25fa48b024b97204034c0"
+    },
+    {
+      "tile": "ClubWagesTile_4x4",
+      "x": 16,
+      "y": 4,
+      "w": 4,
+      "h": 6,
+      "isDynamic": false,
+      "guid": "585e7c5f24e4cb54694e4579d69562fd"
+    },
+    {
+      "tile": "RecruitmentFeedbackTile_4x2",
+      "x": 4,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "434f8960d3c3b1948ba84dde46263ecd"
+    },
+    {
+      "tile": "PlayerRecommendationsTile_4x2",
+      "x": 12,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "a91b77b1d9198e94bb1088d350555663"
+    },
+    {
+      "tile": "FinancesIncomeTile_4x2",
+      "x": 12,
+      "y": 0,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "9b315450acbbc6f4c8f26f7f0553d2b5"
+    },
+    {
+      "tile": "FinancesExpenditureTile_4x2",
+      "x": 14,
+      "y": 0,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "29ba27e9cc4aadc409ac4d80b143758f"
+    },
+    {
+      "tile": "FinancesProjectionsTile_4x2",
+      "x": 8,
+      "y": 2,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "2b5e02d0e0145a14ba61c7b9c2054269"
+    },
+    {
+      "tile": "SquadFeedbackTile_2x2",
+      "x": 10,
+      "y": 8,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "959edbbc26bde9b4191881d9b199c6b0"
+    },
+    {
+      "tile": "RecruitmentPlayerSearchTile_4x4",
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "30b5231d15f8f9c46b5dc1e8a5c61343",
+      "path_id": "-4147941277941003106"
+    },
+    {
+      "tile": "StaffSearchTile_4x4",
+      "x": 4,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "ee82fda951ee1054f853531c982cae62",
+      "path_id": "8934601083579029294"
+    },
+    {
+      "tile": "ClubFinancesTile_4x2",
+      "x": 8,
+      "y": 0,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "2fa35196c917f7545a4eaaac5bfeb12d",
+      "path_id": "7160417498132461346"
+    },
+    {
+      "tile": "RecruitmentTransferHistoryTile_4x4",
+      "x": 4,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "2bfcc56d5cddd0744859a4277449a7dc",
+      "path_id": "8610079230574414452"
+    }
+  ]
+}

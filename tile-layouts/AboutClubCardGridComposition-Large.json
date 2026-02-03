@@ -1,0 +1,89 @@
+{
+  "name": "AboutClubCardGridComposition-Large",
+  "grid": {
+    "width": 16,
+    "height": 9
+  },
+  "tiles": [
+    {
+      "tile": "ClubFactsTile_4x2",
+      "guid": "9eb8ee50b66c96c4f8a5268542b79dd4",
+      "x": 12,
+      "y": 5,
+      "w": 4,
+      "h": 2
+    },
+    {
+      "tile": "ClubProfileTile_4x4",
+      "guid": "c6ae406132251e548838415d5c9ceac4",
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 4
+    },
+    {
+      "tile": "ClubInfoTile_4x4",
+      "guid": "0f272cc00d49ef54c8b57a8c018a6966",
+      "x": 0,
+      "y": 4,
+      "w": 4,
+      "h": 5
+    },
+    {
+      "tile": "ClubStatsTile_4x2",
+      "guid": "543703df3a2b565408d226b81b008a53",
+      "x": 12,
+      "y": 7,
+      "w": 4,
+      "h": 2
+    },
+    {
+      "tile": "ClubAffiliatesTile_4x4",
+      "guid": "79348578809c95e43a9a51f8402c24a3",
+      "x": 4,
+      "y": 4,
+      "w": 4,
+      "h": 5
+    },
+    {
+      "tile": "ClubFinancesTile_4x4",
+      "guid": "a61993b8f51377449bec69460cad3fde",
+      "x": 4,
+      "y": 0,
+      "w": 4,
+      "h": 4
+    },
+    {
+      "tile": "ClubHistoryTile_4x2",
+      "guid": "4f1200c065ff2e245bc928dc103838a0",
+      "x": 12,
+      "y": 3,
+      "w": 4,
+      "h": 2
+    },
+    {
+      "tile": "ClubFacilitiesTile_4x4",
+      "guid": "d26251c9d9aa8294d9aa7e223fc7fa57",
+      "x": 8,
+      "y": 0,
+      "w": 4,
+      "h": 4
+    },
+    {
+      "tile": "LoansTile_4x4",
+      "guid": "2b689fb37175c234fa48b1e2324a39fe",
+      "x": 8,
+      "y": 4,
+      "w": 4,
+      "h": 5
+    },
+    {
+      "tile": "TransferActivityTile_4x2",
+      "guid": "bec250f6e3a701d48bc8675e17f3ed58",
+      "x": 12,
+      "y": 0,
+      "w": 4,
+      "h": 3
+    }
+  ]
+}

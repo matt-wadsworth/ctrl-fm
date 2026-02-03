@@ -1,0 +1,120 @@
+{
+  "name": "PlayerReportOverviewComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 8
+  },
+  "tiles": [
+    {
+      "tile": "PlayerAttributesBlockTile_20x6",
+      "x": 0,
+      "y": 0,
+      "w": 16,
+      "h": 6,
+      "isDynamic": false,
+      "guid": "25abee27232f15047840e1c3900a8a9c"
+    },
+    {
+      "tile": "PlayerFitnessTile_2x2",
+      "x": 0,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "c9429824709d7884b8529a1b275d608d"
+    },
+    {
+      "tile": "PlayerFormTile_2x2",
+      "x": 14,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "38d3952d3ac0133439b787c692f47d7f"
+    },
+    {
+      "tile": "TrainingOverviewTile_2x2",
+      "x": 2,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "38d19da5c51041a4d92cabf86e406eb9"
+    },
+    {
+      "tile": "TrainingProgressReportTile_2x2",
+      "x": 4,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "2ecf1ee30afc3af47abccb79c50f32c7"
+    },
+    {
+      "tile": "PlayerPerformanceDataTile_4x2",
+      "x": 10,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "7ae8007f879021a47b160dd16f20d2d3"
+    },
+    {
+      "tile": "PlayerReportPlayingTimeTile_2x2",
+      "x": 6,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "b3b511cfa37e71144bee4cd113f51651"
+    },
+    {
+      "tile": "PlayerHappinessTile_2x2",
+      "x": 8,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "3f6143aa7c9070c4e8a16ab338bba154"
+    },
+    {
+      "tile": "PlayerSeasonStatsTile_4x4",
+      "x": 16,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "c8756be259f8fb644bc6393a411b1876"
+    },
+    {
+      "tile": "CoachScoutReportTile_2x2",
+      "x": 16,
+      "y": 0,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "45ea995d1732ee743b999c1205b3a9e4",
+      "path_id": "7747060321920899263"
+    },
+    {
+      "tile": "CareerStatsTile_4x2",
+      "x": 16,
+      "y": 2,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "53fbd19acd2f8be45933969c5b8a91c2",
+      "path_id": "6493930905944021670"
+    },
+    {
+      "tile": "PlayerTransferStatusTile_2x2",
+      "x": 18,
+      "y": 0,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "7777dfdacdd387145bbd44b487b4413e",
+      "path_id": "3422967586507973860"
+    }
+  ]
+}

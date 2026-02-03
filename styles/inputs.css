@@ -1,0 +1,96 @@
+/* ---- Buttons ---- */
+
+/* Button - Base */
+/* TODO: Pseudo States */
+/** NOTE: Better to leave as an alpha colour, since it overlays a lot of colours in the UI. */
+.buttons-button-base-default,
+.messages-action-dropdown .si-dropdown__selection-field {
+  border-radius: 16px;
+  border-width: 0px;
+}
+/* Button - Primary */
+/* TODO: Pseudo States */
+.buttons-button-primary-default,
+.messages-action-dropdown-primary .si-dropdown__selection-field {
+  border-radius: 16px;
+  border-width: 0px;
+  background-color: #4c5a67;
+}
+/* Button - Secondary */
+/* TODO: Pseudo States */
+.buttons-button-secondary-default,
+.buttons-dropdown-secondary-default .si-dropdown__selection-field {
+  border-color: #4c5a67;
+  border-radius: 16px;
+}
+
+/* .buttons-combo-button-base-small .si-dropdown__selection-field {
+  border-color: #f50b0b;
+  background-color: #360bf5;
+}
+
+.buttons-combo-button-base-regular {
+  border-color: #3af50b;
+  background-color: #f50baf;
+}
+
+.buttons-combo-button-base-default {
+  border-color: #f5900b;
+  background-color: #0bdaf5;
+}
+
+.buttons-dropdown-base-regular .si-dropdown__selection-field {
+  border-color: #f5900b;
+  background-color: #f5130b;
+}
+
+.buttons-dropdown-base-small .si-dropdown__selection-field {
+  border-color: #3af50b;
+  background-color: #f50baf;
+}
+
+.buttons-dropdown-icon-base-default .si-dropdown__selection-field {
+  border-color: #f50b0b;
+  background-color: #0bdaf5;
+}
+
+.buttons-dropdown-icon-base-small .si-dropdown__selection-field {
+  border-color: #f5900b;
+  background-color: #f5130b;
+}
+
+.buttons-dropdown-icon-secondary-default .si-dropdown__selection-field {
+  border-color: #f50b0b;
+  background-color: #360bf5;
+}
+
+.tactics-speak-to-combo-left {
+  border-color: #f50b0b;
+  background-color: #360bf5;
+}
+
+.tactics-speak-to-combo-right .si-dropdown__selection-field {
+  border-color: #f5900b;
+  background-color: #f5130b;
+} */
+
+/* Split Button - Tactics Player Picking
+.buttons-hybrid-split-button-left {
+  border-top-color: #c4c734;
+  border-right-color: #9134c7;
+  border-bottom-color: #34aac7;
+  border-left-color: #c73434;
+}
+
+.buttons-hybrid-split-button-right {
+  border-top-color: #c4c734;
+  border-right-color: #9134c7;
+  border-bottom-color: #34aac7;
+  border-left-color: #c73434;
+}
+
+.buttons-hybrid-split-button-left:hover,
+.buttons-hybrid-split-button-right:hover {
+  border-color: #9134c7;
+}
+*/

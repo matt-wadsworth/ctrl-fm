@@ -1,0 +1,25 @@
+{
+  "name": "SquadLoansCardPlayersOnLoanComposition",
+  "grid": {
+    "width": 16,
+    "height": 8
+  },
+  "tiles": [
+    {
+      "tile": "PlayerLoanReportTile_8x4",
+      "guid": "7bb1eadfe91ae934e982a7023546d44e",
+      "x": 8,
+      "y": 0,
+      "w": 8,
+      "h": 8
+    },
+    {
+      "tile": "LoansPlayersTile_8x3",
+      "guid": "536ad8ed4e9cc79419de96060f53c216",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 8
+    }
+  ]
+}

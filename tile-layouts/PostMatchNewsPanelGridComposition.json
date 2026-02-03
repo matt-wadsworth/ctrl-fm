@@ -1,0 +1,49 @@
+{
+  "name": "PostMatchNewsPanelGridComposition",
+  "grid": {
+    "width": 20,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "CompetitionSiteFixturesTile_8x4",
+      "guid": "123b901e52dd44b249603f398b87164f",
+      "x": 0,
+      "y": 5,
+      "w": 8,
+      "h": 5
+    },
+    {
+      "tile": "CompetitionSiteNewsTile_8x4",
+      "guid": "d8fc3c761bc7d864083d5da2604e5646",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 5
+    },
+    {
+      "tile": "CompetitionSiteTeamStatsTile_8x4",
+      "guid": "c83817df23f98474f95e505bf1650afe",
+      "x": 8,
+      "y": 0,
+      "w": 8,
+      "h": 5
+    },
+    {
+      "tile": "CompetitionSitePlayerStatsTile_8x4",
+      "guid": "629d577a761094044815cf34473fd224",
+      "x": 8,
+      "y": 5,
+      "w": 8,
+      "h": 5
+    },
+    {
+      "tile": "CompetitionsLeagueTableStagesTile_4x8",
+      "guid": "f668d3996f545a846bc789840c7b94d2",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 10
+    }
+  ]
+}

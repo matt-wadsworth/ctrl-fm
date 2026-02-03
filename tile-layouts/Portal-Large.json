@@ -1,0 +1,144 @@
+{
+  "name": "Portal-Large",
+  "grid": {
+    "width": 20,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "PortalMessagesTile",
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 10,
+      "isDynamic": false,
+      "guid": "12b9123c342cc8c40b31f08f03c7e8a9"
+    },
+    {
+      "tile": "CompetitionsLeagueTableStagesTile_4x8",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 10,
+      "isDynamic": false,
+      "guid": "f668d3996f545a846bc789840c7b94d2"
+    },
+    {
+      "tile": "StaffSearchTile_2x2",
+      "x": 14,
+      "y": 4,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "c771a37bad400d34f8cdfbe18dc69f42"
+    },
+    {
+      "tile": "DataHubTile_2x1",
+      "x": 10,
+      "y": 4,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "c7edb950f55458b459ab8f0c7ff91995"
+    },
+    {
+      "tile": "SquadCaptainTile_4x2",
+      "x": 6,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "598328d85a6bc42df85022db2db77954",
+      "path_id": "1746906528494015472"
+    },
+    {
+      "tile": "MedicalCentreTile_4x2",
+      "x": 12,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "b9662a62c6db429459d04c73abfe4d49"
+    },
+    {
+      "tile": "SquadFirstTeamTile_4x4",
+      "x": 6,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": true,
+      "guid": "ee688478205c87e47b679d02ba6edaae",
+      "path_id": "4009900239504513551"
+    },
+    {
+      "tile": "SquadFixtureScheduleTile_6x4",
+      "x": 10,
+      "y": 0,
+      "w": 6,
+      "h": 4,
+      "isDynamic": true,
+      "guid": "da75a91b670b41247abe965e44b4028d",
+      "path_id": "-7090924285933375621"
+    },
+    {
+      "tile": "OnThePitchTacticsTile_4x2",
+      "x": 8,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d035b770037af39449ee943e520b8e60",
+      "path_id": "-549059308546553030"
+    },
+    {
+      "tile": "SquadDynamicsTile_2x2",
+      "x": 6,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "4f8878a41658a2745aee3f82d0f03deb",
+      "path_id": "-3390382115548843689"
+    },
+    {
+      "tile": "IndividualTrainingTile_4x2",
+      "x": 10,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "9642db80ef0e04a45ad05f733c4f2ec5",
+      "path_id": "-1101541271461702494"
+    },
+    {
+      "tile": "SquadTrainingTile_4x2",
+      "x": 6,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": true,
+      "guid": "0ac43ed68f31a8743afc71b6e5cf84d9",
+      "path_id": "-3231225156489882398"
+    },
+    {
+      "tile": "TrainingUnitsTile_2x2",
+      "x": 14,
+      "y": 8,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d6a74af91c0b8b0428414f9739e32573",
+      "path_id": "9122273938372073414"
+    },
+    {
+      "tile": "RecruitmentPlayerSearchTile_2x2",
+      "x": 12,
+      "y": 4,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "20069451b6ede8a47a281cb37fced438",
+      "path_id": "-4147941277941003106"
+    }
+  ]
+}

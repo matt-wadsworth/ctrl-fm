@@ -1,0 +1,41 @@
+{
+  "name": "StaffReportCardGridComposition",
+  "grid": {
+    "width": 18,
+    "height": 9
+  },
+  "tiles": [
+    {
+      "tile": "ClubAllStaffTile_8x4",
+      "guid": "fba150910ec62ea47b0c067bbc114070",
+      "x": 0,
+      "y": 0,
+      "w": 9,
+      "h": 4
+    },
+    {
+      "tile": "StaffResponsibilitiesTile_8x4",
+      "guid": "8dbdce43c1d674e4da93b88fbc3e1aa9",
+      "x": 9,
+      "y": 0,
+      "w": 9,
+      "h": 4
+    },
+    {
+      "tile": "CoachAssignmentsTile_8x4",
+      "guid": "e305dc379d838f44593d914983dd26cb",
+      "x": 0,
+      "y": 4,
+      "w": 9,
+      "h": 5
+    },
+    {
+      "tile": "StaffSearchTile_8x4",
+      "guid": "f074633d80b881a469ede7da2d7f4ec7",
+      "x": 9,
+      "y": 4,
+      "w": 9,
+      "h": 5
+    }
+  ]
+}

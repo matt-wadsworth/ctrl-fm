@@ -1,0 +1,105 @@
+{
+  "name": "ClubSiteComposition - Large",
+  "grid": {
+    "width": 20,
+    "height": 8
+  },
+  "tiles": [
+    {
+      "tile": "FirstTeamTile_4x4",
+      "x": 4,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "guid": "ee688478205c87e47b679d02ba6edaae"
+    },
+    {
+      "tile": "ClubStaffTile_4x4",
+      "x": 8,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "guid": "b9fba6a793ac04945aa2bac758cd959e"
+    },
+    {
+      "tile": "LoansTile_4x2",
+      "x": 12,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "guid": "b15caf9d28749b14ead83caf6a4a91c0"
+    },
+    {
+      "tile": "TeamNewsTile_4x4",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "guid": "65f7e9c5e4914864899b2de75383a0b0"
+    },
+    {
+      "tile": "SquadFixtureScheduleTile_4x4",
+      "x": 4,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "guid": "3698b650d3c609349beb53c934c4335b"
+    },
+    {
+      "tile": "ClubHistoryTile_4x2",
+      "x": 0,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "guid": "4f1200c065ff2e245bc928dc103838a0"
+    },
+    {
+      "tile": "ClubFacilitiesTile_4x2",
+      "x": 0,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "guid": "8c0654e9bc7f16e42bbb17646c9ef385"
+    },
+    {
+      "tile": "ClubAffiliatesTile_4x2",
+      "x": 12,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "guid": "c1f71d05a885c76408a6cc5d3d71952d"
+    },
+    {
+      "tile": "CompetitionsTile_4x4",
+      "x": 8,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "guid": "89e0d85ef0a28ae42b51a46d2d86083c"
+    },
+    {
+      "tile": "RecruitmentTransferHistoryTile_4x4",
+      "x": 16,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "guid": "2bfcc56d5cddd0744859a4277449a7dc"
+    },
+    {
+      "tile": "ClubSiteAboutClubTile_4x4",
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "guid": "dfe493e0fe7fe3f4f827dc65a70a1d7f"
+    },
+    {
+      "tile": "YouthSetupTile_4x4",
+      "x": 12,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "guid": "88937f80a03d8b54987f124a89d965c1"
+    }
+  ]
+}

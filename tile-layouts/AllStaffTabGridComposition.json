@@ -1,0 +1,16 @@
+{
+  "name": "AllStaffTabGridComposition",
+  "grid": {
+    "width": 20,
+    "height": 9
+  },
+  "tiles": [
+    {
+      "tile": "StaffContractsTile_16x8",
+      "x": 0,
+      "y": 0,
+      "w": 20,
+      "h": 9
+    }
+  ]
+}

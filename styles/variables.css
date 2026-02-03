@@ -1,0 +1,25 @@
+:root {
+  --colours-base-neutral-black: #060d17;
+  --colours-base-neutral-white: #d9e8ed;
+
+  --colours-brand-foundation-midnight: #060d17;
+  --colours-brand-foundation-cloud: #d9e8ed;
+  --colours-brand-foundation-horizon: #fbc500;
+
+  --colours-brand-tints-midnight-80: #060d17cc;
+
+  --colours-brand-tints-twilight-120: #5e6b76;
+
+  --colours-brand-fm25-twiight: #4c5a67;
+
+  --colours-brand-highlight-pink: #fbc500;
+
+  /* Continue Button */
+  --continue-button-default-background: #1c252f;
+  --continue-button-default-border: #333b44;
+  --continue-button-default-background-secondary: #1c252f;
+
+  /* Tables - Remove alternating rows */
+  --data-tables-background-hover: #ffffff04;
+  --data-tables-background-odd: #ff000000;
+}

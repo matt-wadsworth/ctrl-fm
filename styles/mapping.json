@@ -1,0 +1,9 @@
+{
+  "base.css": ["FigmaGeneratedStyles", "StreamedObjectListStyles", "FMStyles"],
+  "variables.css": "FigmaStyleVariables",
+  "match.css": "MatchUIStyles",
+  "text.css": ["FigmaGeneratedTextStyles", "FigmaGeneratedStyles", "FMStyles"],
+  "header.css": "FigmaGeneratedStyles",
+  "tiles.css": ["FigmaGeneratedStyles", "FMStyles"],
+  "inputs.css": "FigmaGeneratedStyles"
+}
