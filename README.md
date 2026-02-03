@@ -2,7 +2,7 @@
 
 🚧 **Work in progress – visuals and layouts may change between versions.**
 
-**CTRL** is a custom skin for **Football Manager 26** by **MW90**. Built and maintained using **[FM Skin Builder](https://fmskinbuilder.com/)**.
+**CTRL** is a custom skin for **Football Manager 26**. Built and maintained using **[FM Skin Builder](https://fmskinbuilder.com/)**.
 
 ### 📥 Download
 
