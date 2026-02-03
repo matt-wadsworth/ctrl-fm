@@ -5,5 +5,5 @@
   "text.css": ["FigmaGeneratedTextStyles", "FigmaGeneratedStyles", "FMStyles"],
   "header.css": "FigmaGeneratedStyles",
   "tiles.css": ["FigmaGeneratedStyles", "FMStyles"],
-  "inputs.css": "FigmaGeneratedStyles"
+  "inputs.css": ["FigmaGeneratedStyles", "TabStyles"]
 }

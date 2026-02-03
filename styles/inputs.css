@@ -24,6 +24,25 @@
   border-radius: 16px;
 }
 
+/* ---- Segmented / Button Group ---- */
+/* Selected/Active */
+.buttongroup.SegmentedButtonRow .buttongroup__button--active {
+  border-color: var(--none);
+  background-color: #333b44;
+}
+.buttongroup.SegmentedButtonRow .buttongroup__button--active:hover {
+  background-color: #4c5a67;
+}
+/* Default */
+.buttongroup.SegmentedButtonRow .buttongroup__button {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttongroup.SegmentedButtonRow .buttongroup__button:hover {
+  background-color: #333b44;
+}
+
 /* .buttons-combo-button-base-small .si-dropdown__selection-field {
   border-color: #f50b0b;
   background-color: #360bf5;

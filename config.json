@@ -1,5 +1,5 @@
 {
   "schema_version": 1,
   "name": "CTRL",
-  "includes": ["styles", "graphics/backgrounds", "fonts"]
+  "includes": ["styles", "graphics/backgrounds", "fonts", "tile-layouts", "panels"]
 }
