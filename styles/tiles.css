@@ -53,6 +53,14 @@
   background-color: rgba(170, 179, 194, 0.05);
 }
 
+/* ---- Cards/Popups ---- */
+.figma-base-card-template-inner-frame {
+  background-color: #10161D;
+}
+.figma-base-card-template-border {
+  border-width: 0px;
+}
+
 /* Other Tiles - TBC */
 .figma-base-tool-fullscreen-template-inner-frame {
   border-top-width: 0px;
@@ -62,10 +70,6 @@
   border-radius: 0px;
   background-color: var(--none);
 }
-/* Fullscreen Template - First Team, Player Profile, etc.
-.figma-base-tool-template-inner-frame {
-  background-color: var(--none);
-} */
  /* Fullscreen Template - First Team, Player Profile, etc. - Border */
 .figma-base-tool-template-border {
   border-width: 0px;

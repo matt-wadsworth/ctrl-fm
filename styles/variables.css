@@ -2,6 +2,9 @@
   --colours-base-neutral-black: #060d17;
   --colours-base-neutral-white: #d9e8ed;
 
+  /* Page Overlay/Fade */
+  --midnight-alpha-65: #060d17d2;
+
   --colours-brand-foundation-midnight: #060d17;
   --colours-brand-foundation-cloud: #d9e8ed;
   --colours-brand-foundation-horizon: #fbc500;
