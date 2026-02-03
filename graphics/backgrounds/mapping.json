@@ -1,3 +1,5 @@
 {
-  "base.png": ["fm-skin-v2"]
+  "base.jpg": ["fm-skin-v2"],
+  "pl.jpg": ["premier_league_skin_fm26"],
+  "efl-cup.jpg": ["efl-league-cup-skin", "vertu_fm26"]
 }
