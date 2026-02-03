@@ -10,13 +10,6 @@
 
 Alternatively, you can use the source (e.g. clone or download the repo) for the latest fixes - but the main branch may include breaking changes between tagged releases.
 
-### ✨ Features
-
-- **Custom styling**: CSS/USS overrides in `styles/`.
-- **Backgrounds**: Custom imagery in `graphics/backgrounds/`.
-- **Typography**: Custom fonts mapped via `fonts/`.
-- **Layouts**: Tile layout tweaks in `tile-layouts/` by MrTini23.
-
 ### 🚀 Build with FM Skin Builder
 
 **Install FM Skin Builder first** - Get the latest beta from **[fmskinbuilder.com/downloads](https://fmskinbuilder.com/downloads)**, this is required before you can build and apply CTRL.

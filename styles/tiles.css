@@ -35,16 +35,22 @@
 /* ---- Tactics ---- */
 .layout-tile-tactics .layout-tile-base-container {
   background-color: var(--none);
-  border-width: 1px;
-  border-color: rgba(170, 179, 194, 0.1);
 }
 .tactics-overlay-bkg {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(170, 179, 194, 0.00);
 }
 .layout-tile-interaction-button.startscreenVar,
 .layout-tile-tactics .layout-tile-interaction-button,
 .layout-tile-interaction-button.newsTileVar {
   background-color: var(--none);
+}
+.layout-tile-interaction-button.startscreenVar:active,
+.layout-tile-interaction-button.startscreenVar:hover:enabled,
+.layout-tile-interaction-button.newsTileVar:active,
+.layout-tile-interaction-button.newsTileVar:hover:enabled,
+.layout-tile-tactics .layout-tile-interaction-button:active,
+.layout-tile-tactics .layout-tile-interaction-button:hover:enabled {
+  background-color: rgba(170, 179, 194, 0.05);
 }
 
 /* Other Tiles - TBC */
