@@ -1,6 +1,6 @@
-# ⚡CTRL
+🚧 **Work in progress – Expect bugs or visual issues in game.**
 
-🚧 **Work in progress – visuals and layouts may change between versions.**
+# ⚡CTRL
 
 **CTRL** is a custom skin for **Football Manager 26**. Built and maintained using **[FM Skin Builder](https://fmskinbuilder.com/)**.
 

@@ -46,8 +46,8 @@
 .layout-tile-interaction-button.newsTileVar {
   background-color: var(--none);
 }
-/* ---- End of Tactics ---- */
 
+/* Other Tiles - TBC */
 .figma-base-tool-fullscreen-template-inner-frame {
   border-top-width: 0px;
   border-right-width: 0px;
@@ -56,13 +56,13 @@
   border-radius: 0px;
   background-color: var(--none);
 }
+/* Fullscreen Template - First Team, Player Profile, etc.
 .figma-base-tool-template-inner-frame {
-  background-color: var(none);
-}
+  background-color: var(--none);
+} */
+ /* Fullscreen Template - First Team, Player Profile, etc. - Border */
 .figma-base-tool-template-border {
   border-width: 0px;
-  border-color: var(none);
-  border-radius: 0px;
 }
 .figma-base-popup-template-inner-frame,
 .figma-base-report-template-inner-frame {
@@ -75,16 +75,15 @@
 .components-persona-bg {
   background-color: var(--none);
 }
-
 .layout-block-base-container {
   border-width: 1px;
 }
 .layout-block-base-container-compact {
   border-width: 1px;
 }
-.layout-block-tactics {
+/* .layout-block-tactics {
   border-width: 1px;
-}
+} */
 
 /* ---- NEWS ---- */
 /* Trending
@@ -95,4 +94,4 @@
   --end-colour: #ff000000;
   --start-colour: #0044ff00;
 } */
-/* ---- End of NEWS ---- */
+/*
