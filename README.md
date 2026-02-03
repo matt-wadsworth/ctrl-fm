@@ -29,5 +29,4 @@ Alternatively, you can use the source (e.g. clone or download the repo) for the 
 
 ### 🙏 Thanks to...
 
-- **MrTini23** – for their tile layouts.
-- **lotsgon**, **Darkside**, **(sic)** and everyone else working to improve the FM skinning experience.
+- **lotsgon**, **Darkside**, **(sic)**, **MrTini23** and everyone else working to improve the FM skinning experience.
