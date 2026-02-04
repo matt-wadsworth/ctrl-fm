@@ -1,8 +1,12 @@
 🚧 **Work in progress – Expect bugs or visual issues in game.**
 
-# <img src="_assets/logo.png" alt="CTRL logo" width="64" height="64" style="vertical-align: middle; margin-right: 8px; position: relative; top: 4px;" /> CTRL
+<p align="center">
+  <img src="_assets/logo.png" alt="CTRL logo" width="96" height="96" />
+</p>
 
-**CTRL** is a custom skin for **Football Manager 26**. Built and maintained using **[FM Skin Builder](https://fmskinbuilder.com/)**.
+<h1 align="center">CTRL</h1>
+
+<p align="center"><strong>CTRL</strong> is a custom skin for <strong>Football Manager 26</strong>. Built and maintained using <strong><a href="https://fmskinbuilder.com/">FM Skin Builder</a></strong>.</p>
 
 ### 📥 Download
 
