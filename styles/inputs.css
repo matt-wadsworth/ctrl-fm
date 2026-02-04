@@ -1,6 +1,5 @@
 /* ---- Buttons ---- */
-
-/* Button - Base */
+/* Base */
 /* TODO: Pseudo States */
 /** NOTE: Better to leave as an alpha colour, since it overlays a lot of colours in the UI. */
 .buttons-button-base-default,
@@ -8,7 +7,7 @@
   border-radius: 16px;
   border-width: 0px;
 }
-/* Button - Primary */
+/* Primary */
 /* TODO: Pseudo States */
 .buttons-button-primary-default,
 .messages-action-dropdown-primary .si-dropdown__selection-field {
@@ -16,7 +15,7 @@
   border-width: 0px;
   background-color: #4c5a67;
 }
-/* Button - Secondary */
+/* Secondary */
 /* TODO: Pseudo States */
 .buttons-button-secondary-default,
 .buttons-dropdown-secondary-default .si-dropdown__selection-field {
