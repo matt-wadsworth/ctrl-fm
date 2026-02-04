@@ -80,7 +80,6 @@
   background-color: var(--none);
   border-radius: 0px;
 }
-
 .person_picture_80px {
   background-color: var(--none);
   border-radius: 0px;
@@ -98,11 +97,11 @@
 }
 /* Selected Message */
 .tool-messages-list .message-last-selected {
-  background-color: #f7ce6710;
+  background-color: rgba(251, 197, 0, 0.05);
 }
 .tool-messages-list .message-last-selected-indicator {
   width: 4px;
-  background-color: #f7ce67;
+  background-color: #fbc500;
 }
 /* Message Actions */
 /* Base */
