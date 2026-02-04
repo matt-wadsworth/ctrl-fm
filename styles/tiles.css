@@ -96,6 +96,9 @@
 } */
 
 /* ---- NEWS ---- */
+.newsTileVar .layout-tile-interaction-button {
+  background-color: var(--none);
+}
 /* Trending
 .trending-news-background {
   -unity-background-image-tint-color: rgba(11, 14, 18, 0.6);
