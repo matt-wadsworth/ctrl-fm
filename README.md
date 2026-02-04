@@ -1,4 +1,4 @@
-🚧 **Work in progress – Expect bugs or visual issues in game.**
+<p align="center"><strong>🚧 Work in progress – expect bugs or visual issues in game. 🚧</strong></p>
 
 <p align="center">
   <img src="_assets/logo.png" alt="CTRL logo" width="96" height="96" />
