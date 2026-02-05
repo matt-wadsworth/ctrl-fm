@@ -1,0 +1,9 @@
+{
+  "min-none.png": "ability=minimum, potential level=none, youth=false_*",
+  "half-none.png": "ability=half, potential level=none, youth=false_*",
+  "max-full.png": "ability=max, potential level=fullfilled, youth=false_*",
+  "min-full.png": "ability=minimum, potential level=fullfilled, youth=false_*",
+
+  "min-none-youth.png": "ability=minimum, potential level=none, youth=true_*",
+  "max-full-youth.png": "ability=max, potential level=fullfilled, youth=true_*"
+}
