@@ -1,0 +1,15 @@
+{
+  "max-full.png": "ability=max, potential level=fullfilled, youth=false_*",
+  "min-none.png": "ability=minimum, potential level=none, youth=false_*",
+  "min-full.png": "ability=minimum, potential level=full, youth=false_*",
+  "min-half.png": "ability=minimum, potential level=half, youth=false_*",
+  "half-none.png": "ability=half, potential level=none, youth=false_*",
+  "half-half.png": "ability=half, potential level=half, youth=false_*",
+
+  "max-full-youth.png": "ability=max, potential level=fullfilled, youth=true_*",
+  "min-none-youth.png": "ability=minimum, potential level=none, youth=true_*",
+  "min-full-youth.png": "ability=minimum, potential level=full, youth=true_*",
+  "min-half-youth.png": "ability=minimum, potential level=half, youth=true_*",
+  "half-none-youth.png": "ability=half, potential level=none, youth=true_*",
+  "half-half-youth.png": "ability=half, potential level=half, youth=true_*"
+}
