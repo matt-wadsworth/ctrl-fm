@@ -97,6 +97,7 @@
 }
 /* Selected Message */
 .tool-messages-list .message-last-selected {
+  border-width: 0px;
   background-color: rgba(251, 197, 0, 0.05);
 }
 .tool-messages-list .message-last-selected-indicator {
