@@ -88,6 +88,25 @@
   background-color: #10161d;
 }
 
+/* ---- Tactic Position Selector ---- */
+/* Base */
+.tactic-position-overview-widget-item {
+  border-width: 0px;
+  border-radius: 8px;
+}
+/* Unfilled */
+.tactic-position-overview-widget-item__unfilled {
+  background-color: #1c252f;
+}
+/* Filled */
+.tactic-position-overview-widget-item__first-team .tactic-position-overview-widget-item__filled {
+  background-color: #6dd362;
+}
+/* Sub */
+.tactic-position-overview-widget-item__sub .tactic-position-overview-widget-item__filled {
+  background-color: #333b44;
+}
+
 /* .buttons-combo-button-base-small .si-dropdown__selection-field {
   border-color: #f50b0b;
   background-color: #360bf5;
