@@ -42,6 +42,52 @@
   background-color: #333b44;
 }
 
+/* ---- Tactic Button (Squad) ---- */
+.buttons-button-primary-tactics {
+  border-width: 0px;
+  border-radius: 16px;
+  background-color: #1c252f;
+}
+.buttons-button-primary-tactics:hover,
+.buttons-button-primary-tactics:active {
+  background-color: #333b44;
+}
+
+/* ---- Quick Pick Button ---- */
+/* ! Border radius not currently working */
+.team_card_quick_pick_button {
+  border-width: 0px;
+  /* border-top-left-radius: 16px; */
+  /* border-bottom-left-radius: 16px; */
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.team_card_quick_pick_dropdown .si-dropdown__selection-field {
+  border-width: 0px;
+  /* border-top-right-radius: 16px; */
+  /* border-bottom-right-radius: 16px; */
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+
+/* ---- Dropdown with Icon ---- */
+/* Base */
+.buttons-dropdown-icon-base-default .si-dropdown__selection-field {
+  border-width: 0px;
+  border-radius: 16px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+/* Hover/Active */
+.buttons-dropdown-icon-base-default .si-dropdown__selection-field:hover,
+.buttons-dropdown-icon-base-default .si-dropdown__selection-field:active {
+  background-color: #333b44;
+}
+/* Disabled */
+.buttons-dropdown-icon-base-default .si-dropdown__selection-field:disabled {
+  background-color: #10161d;
+}
+
 /* .buttons-combo-button-base-small .si-dropdown__selection-field {
   border-color: #f50b0b;
   background-color: #360bf5;
