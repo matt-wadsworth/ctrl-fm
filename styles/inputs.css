@@ -80,14 +80,17 @@
 }
 /* Active */
 .buttons-dropdown-base-regular .si-dropdown__selection-field:active {
+  border-width: 0px;
   background-color: #333b44;
 }
 /* Hover */
 .buttons-dropdown-base-regular .si-dropdown__selection-field:hover {
+  border-width: 0px;
   background-color: #333b44;
 }
 /* Disabled */
 .buttons-dropdown-base-regular .si-dropdown__selection-field:disabled {
+  border-width: 0px;
   background-color: #10161d;
 }
 

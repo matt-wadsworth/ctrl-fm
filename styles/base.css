@@ -6,34 +6,42 @@
 /* ---- Dividers ---- */
 /* Vertical */
 .layout-divider-solid-vertical {
-  width: 0px;
   background-color: var(--none);
+  width: 0px;
 }
+
 .layout-divider-solid-vertical-stretch {
-  width: 0px;
   background-color: var(--none);
+  width: 0px;
 }
+
 .layout-layout-divider-solid-vertical {
-  width: 0px;
   background-color: var(--none);
+  width: 0px;
 }
+
 /* Horizontal */
 .layout-divider-solid-horizontal,
 .layout-divider-solid-horizontal--cutom-squad-hierarchy {
   background-color: var(--none);
 }
+
 .layout-divider-solid-horizontal-white {
   background-color: var(--none);
 }
+
 .layout-layout-divider-solid-horizontal {
   background-color: var(--none);
 }
+
 .border-bottom-divider {
   border-color: var(--none);
 }
+
 .subtle-divider {
   background-color: var(--none);
 }
+
 .horizontal-divider {
   background-color: var(--none);
 }
@@ -43,48 +51,59 @@
   background-color: var(--none);
   border-radius: 0px;
 }
+
 .thumbnails-alt-person-picture-property-1-44px {
   background-color: var(--none);
   border-radius: 0px;
 }
+
 .thumbnails-alt-person-picture-property-1-32px {
   background-color: var(--none);
   border-radius: 0px;
 }
+
 .thumbnails-alt-person-picture-property-1-24px-v1,
 .thumbnails-alt-person-picture-property-1-variant2,
 .thumbnails-alt-person-picture-property-1-variant2 {
-  border-radius: 0px;
   background-color: var(--none);
+  border-radius: 0px;
 }
+
 .thumbnails-alt-person-picture-property-1-24px {
   background-color: var(--none);
   border-radius: 0px;
 }
+
 .thumbnails-alt-person-picture-property-1-person_picture_alt {
   background-color: var(--none);
   border-radius: 0px;
 }
+
 .thumbnails-alt-person-picture-property-1-variant3 {
   background-color: var(--none);
   border-radius: 0px;
 }
+
 .person_picture_120px {
   background-color: var(--none);
   border-radius: 0px;
 }
+
 .person_picture_24px {
   background-color: var(--none);
   border-radius: 0px;
 }
+
 .person_picture_56px {
   background-color: var(--none);
   border-radius: 0px;
 }
+
 .person_picture_64px {
   background-color: var(--none);
   border-radius: 0px;
 }
+
 .person_picture_80px {
   background-color: var(--none);
   border-radius: 0px;
@@ -93,39 +112,58 @@
 /* ---- Messages ---- */
 /* Change Tile Border */
 .messages-tile-background {
-  border-width: 1px;
   border-color: rgba(170, 179, 194, 0.1);
+  border-width: 1px;
 }
+
 /* Remove Tile Background */
 .midnight-background-colour {
   background-color: var(--none);
 }
+
 /* Selected Message */
 .tool-messages-list .message-last-selected {
+  background-color: rgba(217, 232, 237, 0.05);
   border-width: 0px;
-  background-color: rgba(251, 197, 0, 0.05);
 }
+
 .tool-messages-list .message-last-selected-indicator {
-  width: 4px;
   background-color: #fbc500;
+  width: 4px;
 }
+
+/* Message Sender Header (Right Side) */
+.message-sender-frame-colour {
+  background-color: #10161d;
+}
+
+/* Message Container (Right Side) */
+.message-container-frame {
+  border-color: #10161d;
+  border-width: 1px;
+}
+
 /* Message Actions */
 /* Base */
 .notificationmessagestatus-action-colour {
   background-color: rgba(51, 59, 68, 0.4);
 }
+
 /* Base - Submenu */
 .notificationmessagesstatus-actionslist-colour {
   background-color: rgba(51, 59, 68, 0.2);
 }
+
 /* Actioned */
 .notificationmessagestatus-action-performed-colour {
   background-color: rgba(109, 211, 98, 0.2);
 }
+
 /* Required */
 .notificationmessagestatus-action-required-colour {
   background-color: rgba(242, 44, 44, 0.4);
 }
+
 /* Required - Submenu */
 .notificationmessagesstatus-actionslist-required-colour {
   background-color: rgba(242, 44, 44, 0.15);
