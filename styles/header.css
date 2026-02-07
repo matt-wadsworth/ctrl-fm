@@ -30,7 +30,7 @@
 }
 /* Buttons (not Search) */
 .navigation-global-diagetic-button {
-  background-color: #1c252f;
+  background-color: #1c252f; /* #1c252f */
 }
 .navigation-global-diagetic-button:hover {
   background-color: #333b44;
@@ -74,6 +74,7 @@
 
 /* ---- Continue Button ---- */
 .continue-button {
+  border-width: 0px;
   border-radius: 20px;
   transition: var(--global-transition-short);
 }
