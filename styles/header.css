@@ -21,7 +21,7 @@
 
 /* ---- Nav Items ---- */
 .navigation-global-diagetic-container {
-  border-color: #333b44;
+  border-color: var(--none); /* #333b44 */
   border-radius: 20px;
 }
 /* Divider */
@@ -64,7 +64,7 @@
 .calender-background-custom {
   height: 40px;
   border-radius: 20px;
-  border-color: #333b44;
+  border-color: var(--none); /* #333b44 */
 }
 /* Padding 
 ! Not currently supported
@@ -79,7 +79,7 @@
 }
 .continue-button---default:hover,
 .continue-button---default-match:hover {
-  background-color: #333b44;
+  background-color: #1c252f; /* #333b44 */
 }
 .continue-button---must-respond #SIGradient {
   --end-colour: #f22c2c;
