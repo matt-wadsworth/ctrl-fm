@@ -134,12 +134,12 @@
 
 /* Message Sender Header (Right Side) */
 .message-sender-frame-colour {
-  background-color: #10161d;
+  background-color: #121a24;
 }
 
 /* Message Container (Right Side) */
 .message-container-frame {
-  border-color: #10161d;
+  border-color: #121a24;
   border-width: 1px;
 }
 

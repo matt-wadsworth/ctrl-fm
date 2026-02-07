@@ -55,7 +55,7 @@
 
 /* ---- Cards/Popups ---- */
 .figma-base-card-template-inner-frame {
-  background-color: #10161D;
+  background-color: #121a24;
 }
 .figma-base-card-template-border {
   border-width: 0px;
@@ -64,11 +64,20 @@
 /* Panel Load Game */
 .panel-load-game-style-bar {
   border-width: 0px;
-  background-color: #10161D;
+  background-color: #121a24;
 }
 .modal-sheet-background,
 .meeting-tiles--background-active {
   background-color: #060D17;
+}
+
+/* Alert Modal - Quite Game etc. */
+.notifications--notifications-modal-dialog-default-default,
+.notifications-modal-dialog-default-default,
+.notifications-modal-large-default-default,
+.notifications-modal-dialog-online-default {
+  border-width: 0px;
+  background-color: #121a24;
 }
 
 /* Other Tiles - TBC */

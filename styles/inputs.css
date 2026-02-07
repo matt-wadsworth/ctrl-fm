@@ -91,7 +91,7 @@
 /* Disabled */
 .buttons-dropdown-base-regular .si-dropdown__selection-field:disabled {
   border-width: 0px;
-  background-color: #10161d;
+  background-color: #121a24;
 }
 
 /* ---- Dropdown with Icon ---- */
@@ -109,7 +109,7 @@
 }
 /* Disabled */
 .buttons-dropdown-icon-base-default .si-dropdown__selection-field:disabled {
-  background-color: #10161d;
+  background-color: #121a24;
 }
 
 /* ---- Tactic Position Selector ---- */
@@ -155,11 +155,11 @@
 .streamed-table__checkbox .unity-toggle__checkmark,
 .inputs-switch-checkbox-default-switch-false--icon-none .unity-toggle__checkmark,
 .expand-content-checkbox-default-switch-false--icon-none .unity-toggle__checkmark {
-  background-color: #10161d;
+  background-color: #121a24;
 }
 .streamed-table__checkbox .unity-toggle__input,
 .inputs-switch-checkbox-default-switch-false--icon-none .unity-toggle__input {
-  background-color: #10161d;
+  background-color: #121a24;
 }
 /* Hover */
 .inputs-switch-checkbox-default-switch-false--icon-none:hover,
