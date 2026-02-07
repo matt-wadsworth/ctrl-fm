@@ -70,6 +70,27 @@
   transition: var(--global-transition-short);
 }
 
+/* ---- Dropdown ---- */
+/* Base */
+.buttons-dropdown-base-regular .si-dropdown__selection-field {
+  border-width: 0px;
+  border-radius: 16px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+/* Active */
+.buttons-dropdown-base-regular .si-dropdown__selection-field:active {
+  background-color: #333b44;
+}
+/* Hover */
+.buttons-dropdown-base-regular .si-dropdown__selection-field:hover {
+  background-color: #333b44;
+}
+/* Disabled */
+.buttons-dropdown-base-regular .si-dropdown__selection-field:disabled {
+  background-color: #10161d;
+}
+
 /* ---- Dropdown with Icon ---- */
 /* Base */
 .buttons-dropdown-icon-base-default .si-dropdown__selection-field {
