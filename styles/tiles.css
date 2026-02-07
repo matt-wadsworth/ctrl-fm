@@ -1,4 +1,4 @@
-/* ---- TILES ---- */
+/* ---- TILES/CARDS/POPUPS ---- */
 
 /* Title Colour */
 .tile-title-color {
@@ -59,6 +59,16 @@
 }
 .figma-base-card-template-border {
   border-width: 0px;
+}
+
+/* Panel Load Game */
+.panel-load-game-style-bar {
+  border-width: 0px;
+  background-color: #10161D;
+}
+.modal-sheet-background,
+.meeting-tiles--background-active {
+  background-color: #060D17;
 }
 
 /* Other Tiles - TBC */
