@@ -1,5 +1,5 @@
 {
-  "base.css": ["FigmaGeneratedStyles", "StreamedObjectListStyles", "FMStyles"],
+  "base.css": ["FigmaGeneratedStyles", "StreamedObjectListStyles", "FMStyles", "SIStyles"],
   "variables.css": "FigmaStyleVariables",
   "match.css": "MatchUIStyles",
   "text.css": ["FigmaGeneratedTextStyles", "FigmaGeneratedStyles", "FMStyles"],
