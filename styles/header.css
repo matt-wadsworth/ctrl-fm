@@ -21,7 +21,7 @@
 
 /* ---- Nav Items ---- */
 .navigation-global-diagetic-container {
-  border-color: var(--none); /* #333b44 */
+  border-color: #10161d; /* #333b44 */
   border-radius: 20px;
 }
 /* Divider */
@@ -30,24 +30,24 @@
 }
 /* Buttons (not Search) */
 .navigation-global-diagetic-button {
-  background-color: #1c252f; /* #1c252f */
+  background-color: #10161d; /* #1c252f */
 }
 .navigation-global-diagetic-button:hover {
-  background-color: #333b44;
+  background-color: #1c252f;
 }
 .navigation-global-diagetic-button:hover .sibutton {
-  background-color: #333b44;
+  background-color: #1c252f;
 }
 /* Search Button - BG change and alignment fixes */
 .searchButtonStandard {
-  background-color: #1c252f;
+  background-color: #10161d;
   align-items: center;
   height: 40px;
   margin: 0px;
   padding: 12px;
 }
 .searchButtonStandard:hover {
-  background-color: #333b44;
+  background-color: #1c252f;
 }
 
 /* ---- Calendar Button ---- */
