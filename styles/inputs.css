@@ -45,6 +45,253 @@
   background-color: #333b44;
 }
 
+.buttons-segmented-button-row-active-default-placement-leading {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-default-placement-leading:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-default-placement-middle {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-default-placement-middle:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-default-placement-trailing {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-default-placement-trailing:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-large-placement-leading {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-large-placement-leading:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-large-placement-middle {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-large-placement-middle:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-large-placement-trailing {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-large-placement-trailing:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-past-selected-placement-leading {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-past-selected-placement-middle {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-past-selected-placement-trailing {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-regular-placement-leading {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-regular-placement-leading:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-regular-placement-middle {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-regular-placement-middle:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-regular-placement-trailing {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-regular-placement-trailing:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-small-placement-leading {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-small-placement-leading:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-small-placement-middle {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-small-placement-middle:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+.buttons-segmented-button-row-active-small-placement-trailing {
+  border-color: var(--none);
+  background-color: #333b44;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-active-small-placement-trailing:hover {
+  border-color: var(--none);
+  background-color: #4c5a67;
+}
+/* Inactive */
+.buttons-segmented-button-row-inactive-large-placement-leading {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-inactive-large-placement-leading:hover {
+  border-color: var(--none);
+  background-color: #333b44;
+}
+.buttons-segmented-button-row-inactive-large-placement-middle {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-inactive-large-placement-middle:hover {
+  border-color: var(--none);
+  background-color: #333b44;
+}
+.buttons-segmented-button-row-inactive-large-placement-trailing {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-inactive-large-placement-trailing:hover {
+  border-color: var(--none);
+  background-color: #333b44;
+}
+.buttons-segmented-button-row-inactive-regular-placement-leading {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-inactive-regular-placement-leading:hover {
+  border-color: var(--none);
+  background-color: #333b44;
+}
+.buttons-segmented-button-row-inactive-regular-placement-middle {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-inactive-regular-placement-middle:hover {
+  border-color: var(--none);
+  background-color: #333b44;
+}
+.buttons-segmented-button-row-inactive-regular-placement-trailing {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-inactive-regular-placement-trailing:hover {
+  border-color: var(--none);
+  background-color: #333b44;
+}
+.buttons-segmented-button-row-inactive-small-placement-leading {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-inactive-small-placement-leading:hover {
+  border-color: var(--none);
+  background-color: #333b44;
+}
+.buttons-segmented-button-row-inactive-small-placement-middle {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-inactive-small-placement-middle:hover {
+  border-color: var(--none);
+  background-color: #333b44;
+}
+.buttons-segmented-button-row-inactive-small-placement-trailing {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-inactive-small-placement-trailing:hover {
+  border-color: var(--none);
+  background-color: #333b44;
+}
+.buttons-segmented-button-row-regular-placement-leading {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+.buttons-segmented-button-row-regular-placement-trailing {
+  border-width: 0px;
+  background-color: #1c252f;
+  transition: var(--global-transition-short);
+}
+/* .buttons-segmented-button-row-regular-placement-trailing:hover,
+.buttons-segmented-button-row-regular-placement-leading:hover,
+.frame-enabled-content-responsibility-resolution-high:hover,
+.frame-enabled-content-responsibility-resolution-low:hover,
+.frame-enabled-content-staff-resolution-low:hover {
+  background-color: var(--buttons-toggle-active-base-hover);
+}
+.buttons-segmented-button-row-regular-selected,
+.radio_group_button_purple .unity-radio-button-group__child-active,
+.segmented-button-active,
+.segmented-button-group .unity-radio-button-group__child-active,
+.segmented-button-group-purple .unity-radio-button-group__child-active,
+.settings_highlights_block .unity-radio-button-group__child-active,
+.tabgroup__tab-settings--active .navigation-tab-settings {
+  border-color: var(--buttons-toggle-active-primary-border);
+  background-color: var(--buttons-toggle-active-primary-surface);
+} */
+
+/* Single Toggle Button */
+.buttons-button-single-toggle-default--toggle-false {
+  border-width: 1px;
+  border-color: #1c252f;
+  border-radius: 4px;
+}
+.buttons-button-single-toggle-default--toggle-false:checked,
+.buttons-button-single-toggle-default--toggle-true {
+  border-width: 1px;
+  border-color: #333b44;
+  border-radius: 4px;
+  background-color: #333b44;
+}
+
 /* ---- Tactic Button (Squad) ---- */
 .buttons-button-primary-tactics {
   border-width: 0px;
