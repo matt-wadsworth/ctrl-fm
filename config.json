@@ -1,5 +1,16 @@
 {
   "schema_version": 1,
   "name": "CTRL",
-  "includes": ["fonts", "graphics/backgrounds", "graphics/icons/condition", "graphics/icons/misc", "graphics/icons/stars", "graphics/mainmenu", "styles"]
+  "includes": [
+    "fonts",
+    "graphics/backgrounds",
+    "graphics/icons/condition",
+    "graphics/icons/misc",
+    "graphics/icons/stars",
+    "graphics/icons/union",
+    "graphics/mainmenu",
+    "styles",
+    "panels",
+    "tile-layouts"
+  ]
 }
