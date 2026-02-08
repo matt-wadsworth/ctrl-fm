@@ -14,7 +14,7 @@
 .messages-action-dropdown-primary .si-dropdown__selection-field {
   border-radius: 16px;
   border-width: 0px;
-  background-color: #4c5a67;
+  background-color: #d9e8ed40;
 }
 /* Secondary */
 /* TODO: Pseudo States */
@@ -23,7 +23,7 @@
   border-color: var(--none);
   border-width: 0px;
   border-radius: 16px;
-  background-color: #1c252f;
+  background-color: #d9e8ed40;
 }
 
 /* ---- Segmented / Button Group ---- */
