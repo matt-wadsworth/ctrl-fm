@@ -1,5 +1,5 @@
 {
   "schema_version": 1,
   "name": "CTRL",
-  "includes": ["fonts", "graphics/backgrounds", "graphics/icons/condition", "graphics/icons/misc", "graphics/icons/stars", "styles"]
+  "includes": ["fonts", "graphics/backgrounds", "graphics/icons/condition", "graphics/icons/misc", "graphics/icons/stars", "graphics/mainmenu", "styles"]
 }
