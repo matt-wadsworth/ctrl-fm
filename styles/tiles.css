@@ -37,7 +37,7 @@
   background-color: var(--none);
 }
 .tactics-overlay-bkg {
-  background-color: rgba(170, 179, 194, 0.00);
+  background-color: rgba(170, 179, 194, 0);
 }
 .layout-tile-interaction-button.startscreenVar,
 .layout-tile-tactics .layout-tile-interaction-button,
@@ -68,7 +68,7 @@
 }
 .modal-sheet-background,
 .meeting-tiles--background-active {
-  background-color: #060D17;
+  background-color: #060d17;
 }
 
 /* Alert Modal - Quite Game etc. */
@@ -89,7 +89,7 @@
   border-radius: 0px;
   background-color: var(--none);
 }
- /* Fullscreen Template - First Team, Player Profile, etc. - Border */
+/* Fullscreen Template - First Team, Player Profile, etc. - Border */
 .figma-base-tool-template-border {
   border-width: 0px;
 }
@@ -127,3 +127,15 @@
   --start-colour: #0044ff00;
 } */
 /*
+
+/* ---- Player Attributes Block ---- */
+.frames-player-attributes-full-block-size-max-rows,
+.frames-player-attributes-full-block-size-min-rows {
+  border-color: var(--none);
+}
+.frames-player-attributes-full-block-size-mid-player-attributes-property-3-compact {
+  border-color: var(--none);
+}
+.frames-player-attributes-full-block-size-min-player-attributes-property-3-compact {
+  border-color: var(--none);
+}
