@@ -6,11 +6,10 @@
     "graphics/backgrounds",
     "graphics/icons/condition",
     "graphics/icons/misc",
+    "graphics/icons/preferences",
     "graphics/icons/stars",
     "graphics/icons/union",
     "graphics/mainmenu",
-    "styles",
-    "panels",
-    "tile-layouts"
+    "styles"
   ]
 }
