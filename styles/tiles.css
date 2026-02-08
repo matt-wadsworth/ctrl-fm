@@ -58,7 +58,8 @@
   background-color: #121a24;
 }
 .figma-base-card-template-border {
-  border-width: 0px;
+  border-width: 1px;
+  border-color: rgba(217, 232, 237, 0.05);
 }
 
 /* Panel Load Game */
@@ -71,12 +72,12 @@
   background-color: #060d17;
 }
 
-/* Alert Modal - Quite Game etc. */
+/* Alert Modal - Quit Game etc. */
 .notifications--notifications-modal-dialog-default-default,
 .notifications-modal-dialog-default-default,
 .notifications-modal-large-default-default,
 .notifications-modal-dialog-online-default {
-  border-width: 0px;
+  border-width: 1px;
   background-color: #121a24;
 }
 
@@ -106,9 +107,11 @@
 }
 .layout-block-base-container {
   border-width: 1px;
+  border-color: rgba(170, 179, 194, 0.1);
 }
 .layout-block-base-container-compact {
   border-width: 1px;
+  border-color: rgba(170, 179, 194, 0.1);
 }
 /* .layout-block-tactics {
   border-width: 1px;
