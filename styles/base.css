@@ -4,8 +4,25 @@
 }
 
 /* ---- Player Report ---- */
-.player-report-role-selector-roles-size-high-possession-ip {
-  width: 280px; /* 380px */
+/* Re-size Role Selector when reducing AttributesLargeBlock width */
+/* .player-report-role-selector-roles-size-high-possession-ip {
+  width: 280px;
+} */
+/* Attributes Key */
+.attributes-row-number-key {
+  border-left-color: rgba(109, 211, 98, 0.3);
+  background-color: rgba(167, 241, 167, 0);
+}
+.attributes-row-number-key-no-border {
+  background-color: rgba(167, 241, 167, 0);
+}
+/* Attributes Preference */
+.attributes-row-number-preference {
+  border-left-color: rgba(0, 238, 255, 0.1);
+  background-color: rgba(170, 189, 234, 0);
+}
+.attributes-row-number-preference-no-border {
+  background-color: rgba(170, 189, 234, 0);
 }
 
 /* ---- Carousel ---- */
@@ -188,24 +205,6 @@
 /* Required - Submenu */
 .notificationmessagesstatus-actionslist-required-colour {
   background-color: rgba(242, 44, 44, 0.15);
-}
-
-/* ---- Attributes ---- */
-/* Key */
-.attributes-row-number-key {
-  border-left-color: #6dd362;
-  background-color: rgba(167, 241, 167, 0);
-}
-.attributes-row-number-key-no-border {
-  background-color: rgba(167, 241, 167, 0);
-}
-/* Preference */
-.attributes-row-number-preference {
-  border-left-color: #00eeff;
-  background-color: rgba(170, 189, 234, 0);
-}
-.attributes-row-number-preference-no-border {
-  background-color: rgba(170, 189, 234, 0);
 }
 
 /* ---- Data Display Cells ---- */
