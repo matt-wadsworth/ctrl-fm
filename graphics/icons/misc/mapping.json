@@ -1,4 +1,6 @@
 {
+  "fm logo_large_4x.png": "fm logo_large_*",
+
   "scouting-magnifying-glass_large_4x.png": "scouting-magnifying-glass_large_*",
   "scouting-magnifying-glass_medium_4x.png": "scouting-magnifying-glass_medium_*",
   "scouting-magnifying-glass_small_4x.png": "scouting-magnifying-glass_small_*",
@@ -13,8 +15,5 @@
 
   "fmpedia_large_4x.png": "fmpedia_large_*",
   "fmpedia_medium_4x.png": "fmpedia_medium_*",
-  "fmpedia_small_4x.png": "fmpedia_small_*",
-
-  "fm logo_large_4x.png": "fm logo_large_*",
-  "MainMenuLogo.png": "MainMenuLogo"
+  "fmpedia_small_4x.png": "fmpedia_small_*"
 }
