@@ -3,6 +3,27 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
+/* ---- Player Report ---- */
+.player-report-role-selector-roles-size-high-possession-ip {
+  width: 280px; /* 380px */
+}
+
+/* ---- Carousel ---- */
+.sicarousel-progressbar-slider {
+  height: 8px;
+  background-color: #fbc500;
+}
+.sicarousel-progressbar-active {
+  height: 8px;
+}
+.sicarousel-progressbar:hover {
+  height: 8px;
+}
+.sicarousel-progressbar:hover .sicarousel-progressbar-slider {
+  height: 8px;
+  background-color: #fbc500;
+}
+
 /* ---- Dividers ---- */
 /* Vertical */
 .layout-divider-solid-vertical {
@@ -167,4 +188,241 @@
 /* Required - Submenu */
 .notificationmessagesstatus-actionslist-required-colour {
   background-color: rgba(242, 44, 44, 0.15);
+}
+
+/* ---- Attributes ---- */
+/* Key */
+.attributes-row-number-key {
+  border-left-color: #6dd362;
+  background-color: rgba(167, 241, 167, 0);
+}
+.attributes-row-number-key-no-border {
+  background-color: rgba(167, 241, 167, 0);
+}
+/* Preference */
+.attributes-row-number-preference {
+  border-left-color: #00eeff;
+  background-color: rgba(170, 189, 234, 0);
+}
+.attributes-row-number-preference-no-border {
+  background-color: rgba(170, 189, 234, 0);
+}
+
+/* ---- Data Display Cells ---- */
+/* Standard Regular */
+.data_display-cell-standard-regular--type-standard {
+  border-width: 1px;
+  border-color: var(--none);
+  border-radius: 14px;
+  transition: var(--global-transition-short);
+}
+.data_display-cell-standard-regular--type-standard-wrapped {
+  border-color: var(--none);
+  border-radius: 14px;
+  transition: var(--global-transition-short);
+}
+/* Active */
+.data_display-cell-standard-regular--type-standard:active:enabled {
+  border-radius: 14px;
+}
+/* Hover */
+.data_display-cell-standard-regular--type-standard:hover:enabled {
+  border-radius: 14px;
+}
+/* Standard Small */
+.data_display-cell-standard-small--type-small-wrapped,
+.data_display-cell-standard-small--type-standard {
+  border-width: 1px;
+  border-color: var(--none);
+  border-radius: 10px;
+  transition: var(--global-transition-short);
+}
+.data_display-cell-standard-small--type-small:hover:enabled,
+.data_display-cell-standard-small--type-standard:hover:enabled {
+  border-radius: 10px;
+}
+.data_display-cell-standard-small--type-small:active:enabled,
+.data_display-cell-standard-small--type-standard:active:enabled {
+  border-radius: 10px;
+}
+/* Transfer Offer */
+.data_display-cell-standard-small--type-standard-transfer-offer {
+  border-width: 1px;
+  border-color: var(--none);
+  border-radius: 10px;
+  transition: var(--global-transition-short);
+}
+/* Icon and Double String */
+.data_display-cell-icon-and-double-string-regular,
+.data_display-cell-radial-gauge-single-string-regular {
+  border-color: var(--none);
+  border-radius: 14px;
+  transition: var(--global-transition-short);
+}
+/* Active */
+.data_display-cell-icon-and-double-string-regular:active:enabled,
+.data_display-cell-icon-and-string-regular:active:enabled,
+.data_display-cell-radial-gauge-single-string-regular:active:enabled,
+.data_display-cell-accent-with-icon-double-string-regular:hover:enabled,
+.data_display-cell-accent-with-icon-regular:hover:enabled,
+.data_display-cell-club-regular-left-aligned:active:enabled,
+.data_display-cell-country-regular-left-aligned:active:enabled,
+.data_display-cell-club-regular-left-aligned:hover:enabled,
+.data_display-cell-country-regular-left-aligned:hover:enabled,
+.data_display-sicell-substitute:active:enabled {
+  border-radius: 14px;
+}
+/* Hover */
+.data_display-cell-icon-and-double-string-regular:hover:enabled,
+.data_display-cell-icon-and-string-regular:hover:enabled,
+.data_display-cell-radial-gauge-single-string-regular:hover:enabled,
+.data_display-sicell-substitute:hover:enabled {
+  border-radius: 14px;
+}
+/* Icon and Double String Small */
+.data_display-cell-icon-and-double-string-small {
+  border-color: var(--none);
+  border-radius: 10px;
+  transition: var(--global-transition-short);
+}
+/* Icon and String Regular */
+.data_display-cell-icon-and-string-regular {
+  border-color: var(--none);
+  border-radius: 14px;
+  transition: var(--global-transition-short);
+}
+/* Icon and String Small */
+.data_display-cell-icon-and-string-small {
+  border-color: var(--none);
+  border-radius: 10px;
+  transition: var(--global-transition-short);
+}
+/* Icon and String Small Flex */
+.data_display-cell-icon-and-string-small_flex {
+  border-color: var(--none);
+  border-radius: 10px;
+  transition: var(--global-transition-short);
+}
+/* Radial Gauge Single String Small */
+.data_display-cell-radial-gauge-single-string-small {
+  border-color: var(--none);
+  border-radius: 14px;
+  transition: var(--global-transition-short);
+}
+.data_display-cell-radial-gauge-single-string-small:active {
+  border-radius: 14px;
+}
+.data_display-cell-radial-gauge-single-string-small:hover {
+  border-radius: 14px;
+}
+/* Recent Form Fixtures Regular */
+.data_display-cell-recent-form-fixtures-regular-property-1-default {
+  border-color: var(--none);
+  border-radius: 14px;
+  transition: var(--global-transition-short);
+}
+/* Recent Form Fixtures Small */
+.data_display-cell-recent-form-fixtures-small-property-1-default {
+  border-color: var(--none);
+  border-radius: 10px;
+  transition: var(--global-transition-short);
+}
+/* Standard Regular - Loaned In */
+.data_display-cell-standard-regular--type-loaned-in {
+  border-radius: 14px;
+  transition: var(--global-transition-short);
+}
+/* Standard Regular - Loaned Out */
+.data_display-cell-standard-regular--type-loaned-out {
+  border-radius: 14px;
+  transition: var(--global-transition-short);
+}
+/* Standard Regular - On Trial */
+.data_display-cell-standard-regular--type-on-trial {
+  border-radius: 14px;
+  transition: var(--global-transition-short);
+}
+/* Icon and String Transfer Value */
+.data-display-data_display-cell-icon-string-transfer-value {
+  border-color: var(--none);
+  border-radius: 14px;
+  background-color: var(--none);
+}
+/* Transfer Value Small - Scouted Estimate */
+.data_display-cell-transfer-value-small-type-scouted-estimate {
+  border-color: var(--none);
+  border-radius: 10px;
+  background-color: var(--none);
+}
+/* Club and Country Regular */
+.data_display-cell-club-regular,
+.data_display-cell-country-regular {
+  border-color: var(--none);
+  border-radius: 12px;
+  transition: var(--global-transition-short);
+}
+.data_display-cell-club-regular-left-aligned,
+.data_display-cell-country-regular-left-aligned {
+  border-color: var(--none);
+  border-radius: 12px;
+  transition: var(--global-transition-short);
+}
+.data_display-cell-club-regular:active,
+.data_display-cell-country-regular:active,
+.data_display-cell-country-regular:hover {
+  border-radius: 12px;
+  transition: var(--global-transition-short);
+}
+.data_display-cell-club-regular:hover {
+  border-radius: 12px;
+}
+/* Club and Country Small */
+.data_display-cell-club-small,
+.data_display-cell-country-small {
+  border-color: var(--none);
+  border-radius: 10px;
+  transition: var(--global-transition-short);
+}
+.data_display-cell-club-small:active,
+.data_display-cell-country-small:active {
+  border-radius: 10px;
+}
+.data_display-cell-club-small-left-aligned,
+.data_display-cell-country-small-left-aligned {
+  border-color: var(--none);
+  border-radius: 10px;
+  transition: var(--global-transition-short);
+}
+.data_display-cell-club-small-left-aligned:active:enabled,
+.data_display-cell-country-small-left-aligned:active:enabled {
+  border-radius: 10px;
+}
+.data_display-cell-club-small-left-aligned:hover:enabled,
+.data_display-cell-country-small-left-aligned:hover:enabled {
+  border-radius: 10px;
+}
+/* Accent with Icon Double String Regular */
+.data_display-cell-accent-with-icon-double-string-regular,
+.data_display-cell-accent-with-icon-regular {
+  border-color: var(--none);
+  border-radius: 12px;
+  background-color: var(--none);
+  transition: var(--global-transition-short);
+}
+.data_display-cell-accent-with-icon-double-string-regular:active:enabled,
+.data_display-cell-accent-with-icon-regular:active:enabled {
+  border-radius: 12px;
+}
+.data_display-cell-accent-with-icon-double-string-small {
+  border-color: var(--none);
+  border-radius: 10px;
+  background-color: var(--none);
+  transition: var(--global-transition-short);
+}
+/* Accent with Icon Regular */
+.data_display-cell-accent-with-icon-regular-default {
+  border-color: var(--none);
+  border-radius: 12px;
+  background-color: var(--none);
+  transition: var(--global-transition-short);
 }
