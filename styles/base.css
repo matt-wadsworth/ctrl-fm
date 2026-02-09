@@ -437,3 +437,26 @@
   background-color: var(--none);
   transition: var(--global-transition-short);
 }
+/* Average Rating */
+.data_display-average_rating-default-default-rating-6,
+.data_display-average_rating-default-default-rating-null {
+  border-color: var(--none);
+  background-color: #1c252fcc;
+}
+.data_display-average_rating-default-default-rating-7 {
+  border-color: var(--none);
+  background-color: #4cab4366;
+}
+.data_display-average_rating-default-default-rating-8 {
+  border-color: var(--none);
+  background-color: #0a7a72bf;
+}
+.data_display-average_rating-default-default-rating-9 {
+  border-color: var(--none);
+  background-color: #2e6e28cc;
+  color: #ffffff;
+}
+.data_display-average_rating-default-default-rating-less-than-6 {
+  border-color: var(--none);
+  background-color: #f22c2c80;
+}
