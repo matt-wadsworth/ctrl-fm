@@ -19,6 +19,12 @@
   border-color: var(--none);
 }
 
+/* ---- MenuBar ---- */
+/* Dropdown Icon Colour */
+.navigation-tab-portal-default-active-false .portal-image {
+  -unity-background-image-tint-color: rgba(217, 232, 237, 0.65);
+}
+
 /* ---- Nav Items ---- */
 .navigation-global-diagetic-container {
   border-color: #10161d; /* #333b44 */
