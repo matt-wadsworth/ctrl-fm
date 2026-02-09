@@ -79,6 +79,7 @@
 .notifications-modal-dialog-online-default {
   border-width: 1px;
   background-color: #121a24;
+  border-color: rgba(217, 232, 237, 0.05);
 }
 
 /* Other Tiles - TBC */
