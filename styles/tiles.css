@@ -142,3 +142,15 @@
 .frames-player-attributes-full-block-size-min-player-attributes-property-3-compact {
   border-color: var(--none);
 }
+
+/* ---- Tile Dot Indicators (Carousel) ---- */
+.carousel-indicator {
+  background-color: #1c252f;
+}
+.carousel-indicator:hover {
+  background-color: #333b44;
+}
+.carousel-indicator-current,
+.carousel-indicator-current:hover {
+  background-color: #fbc500;
+}
