@@ -460,3 +460,15 @@
   border-color: var(--none);
   background-color: #f22c2c80;
 }
+
+/* ---- Calendar ---- */
+/* Calendar Day Current */
+.calendar-day-current .calendar-header-gradient,
+.speakto-button-interaction-button-tag-advice-gradient,
+.speakto-button-interaction-button-tag-advice-gradient {
+  --end-colour: rgba(217, 232, 237, 0.3);
+  --start-colour: rgba(217, 232, 237, 0.3);
+}
+.calendar-day-current {
+  background-color: rgba(217, 232, 237, 0.1);
+}
