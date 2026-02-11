@@ -159,6 +159,11 @@
   border-radius: 0px;
 }
 
+/* Player Report - Potential Fix: Player Picture sub-pixel issue */
+.thumbnails-alt-person-picture-player-report {
+  height: 135px;
+}
+
 /* ---- Messages ---- */
 /* Change Tile Border */
 .messages-tile-background {
@@ -206,17 +211,17 @@
 
 /* Actioned */
 .notificationmessagestatus-action-performed-colour {
-  background-color: rgba(109, 211, 98, 0.2);
+  background-color: rgba(109, 211, 98, 0.12);
 }
 
 /* Required */
 .notificationmessagestatus-action-required-colour {
-  background-color: rgba(242, 44, 44, 0.4);
+  background-color: rgba(242, 44, 44, 0.12);
 }
 
 /* Required - Submenu */
 .notificationmessagesstatus-actionslist-required-colour {
-  background-color: rgba(242, 44, 44, 0.15);
+  background-color: rgba(242, 44, 44, 0.08);
 }
 
 /* ---- Data Display Cells ---- */
