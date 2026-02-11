@@ -149,7 +149,10 @@
 } */
 
 /* ---- NEWS ---- */
-.newsTileVar .layout-tile-interaction-button {
+/* .newsTileVar .layout-tile-interaction-button {
+  background-color: var(--none);
+} */
+.news-title-frame {
   background-color: var(--none);
 }
 /* Trending
@@ -177,11 +180,19 @@
 /* ---- Tile Dot Indicators (Carousel) ---- */
 .carousel-indicator {
   background-color: #1c252f;
+  margin-right: 4px;
 }
 .carousel-indicator:hover {
   background-color: #333b44;
 }
 .carousel-indicator-current,
 .carousel-indicator-current:hover {
+  width: 10px;
+  height: 10px;
+  min-width: 10px;
+  min-height: 10px;
+  max-width: 10px;
+  max-height: 10px;
+  border-radius: 5px;
   background-color: #fbc500;
 }
