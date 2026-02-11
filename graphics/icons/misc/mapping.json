@@ -6,5 +6,9 @@
   "cog_large.png": ["cog_large_*", "cog_medium_*", "cog_small_*"],
   "fmpedia_large.png": ["fmpedia_large_*", "fmpedia_medium_*", "fmpedia_small_*"],
 
-  "tick_large.png": ["tick_large_*", "tick_medium_*", "tick_small_*"]
+  "tick_large.png": ["tick_large_*", "tick_medium_*", "tick_small_*"],
+  "tick_circle_success.png": "tick_circle_success_*",
+
+  "warning.png": ["warning_large_*", "warning_medium_*", "warning_small_*"],
+  "medical centre.png": "medical centre_*"
 }
