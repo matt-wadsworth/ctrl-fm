@@ -362,7 +362,7 @@
   background-color: #121a24;
 }
 
-/* ---- Tactic Position Selector ---- */
+/* ---- Squad Position Selector ---- */
 /* Base */
 .tactic-position-overview-widget-item {
   border-width: 0px;
@@ -461,34 +461,209 @@
   border-color: #f50b0b;
   background-color: #360bf5;
 }
-
+ */
+/* ---- Tactics  ---- */
+/* Tactics - Quick Pick / Tactical Style */
 .tactics-speak-to-combo-left {
-  border-color: #f50b0b;
-  background-color: #360bf5;
+  border-color: #1c252f;
+  background-color: #1c252f;
 }
-
+.tactics-speak-to-combo-left:active {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+.tactics-speak-to-combo-left:disabled {
+  border-color: #121a24;
+  background-color: #121a24;
+}
+.tactics-speak-to-combo-left:hover {
+  border-color: #333b44;
+  background-color: #333b44;
+}
 .tactics-speak-to-combo-right .si-dropdown__selection-field {
-  border-color: #f5900b;
-  background-color: #f5130b;
-} */
-
-/* Split Button - Tactics Player Picking
+  border-color: #1c252f;
+  background-color: #1c252f;
+}
+.tactics-speak-to-combo-right .si-dropdown__selection-field:active {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+.tactics-speak-to-combo-right .si-dropdown__selection-field:disabled {
+  border-color: #121a24;
+  background-color: #121a24;
+}
+.tactics-speak-to-combo-right .si-dropdown__selection-field:hover {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+/* Tactic Picker */
+.buttons-hero-toggle-small--buttons-inactive--border-radius-left {
+  border-color: #1c252f;
+  background-color: #1c252f;
+}
+.buttons-hero-toggle-small--buttons-inactive--border-radius-none {
+  border-color: #1c252f;
+  background-color: #1c252f;
+}
+.buttons-hero-toggle-small--buttons-inactive--border-radius-none:active,
+.buttons-hero-toggle-small--buttons-inactive--border-radius-right:active,
+.buttons-hero-toggle-small--buttons-inactive--border-radius-left:active,
+.buttons-hero-toggle-small--dropdown--border-radius-none:active {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+.buttons-hero-toggle-small--buttons-inactive--border-radius-none:hover,
+.buttons-hero-toggle-small--buttons-inactive--border-radius-left:hover,
+.buttons-hero-toggle-small--buttons-inactive--border-radius-right:hover {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+.buttons-hero-toggle-small--buttons-inactive--border-radius-right {
+  border-color: #1c252f;
+  background-color: #1c252f;
+}
+.buttons-hero-toggle-small--dropdown--border-radius-left {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+.buttons-hero-toggle-small--dropdown--border-radius-left:active {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+.buttons-hero-toggle-small--dropdown--border-radius-left:disabled {
+  background-color: #121a24;
+}
+.buttons-hero-toggle-small--dropdown--border-radius-left:hover {
+  border-color: #4c5a67;
+  background-color: #4c5a67;
+}
+.buttons-hero-toggle-small--dropdown--border-radius-none {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+.buttons-hero-toggle-small--dropdown--border-radius-none:hover {
+  border-color: #4c5a67;
+  background-color: #4c5a67;
+}
+.buttons-hero-toggle-small--dropdown--border-radius-right {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+.buttons-hero-toggle-small--dropdown--border-radius-right:active {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+.buttons-hero-toggle-small--dropdown--border-radius-right:disabled {
+  border-color: #121a24;
+  background-color: #121a24;
+}
+.buttons-hero-toggle-small--dropdown--border-radius-right:hover {
+  border-color: #4c5a67;
+  background-color: #4c5a67;
+}
+/* Split Button - Tactics Player Picking */
 .buttons-hybrid-split-button-left {
-  border-top-color: #c4c734;
-  border-right-color: #9134c7;
-  border-bottom-color: #34aac7;
-  border-left-color: #c73434;
+  border-top-color: #1c252f00;
+  border-right-color: #1c252f00;
+  border-bottom-color: #1c252f00;
+  border-left-color: #1c252f00;
 }
-
-.buttons-hybrid-split-button-right {
-  border-top-color: #c4c734;
-  border-right-color: #9134c7;
-  border-bottom-color: #34aac7;
-  border-left-color: #c73434;
+.buttons-hybrid-split-button-left:active,
+.buttons-hybrid-split-button-right:active {
+  border-color: #1c252f;
 }
-
 .buttons-hybrid-split-button-left:hover,
 .buttons-hybrid-split-button-right:hover {
-  border-color: #9134c7;
+  border-color: #1c252f;
 }
-*/
+.buttons-hybrid-split-button-right {
+  border-top-color: #1c252f00;
+  border-right-color: #1c252f00;
+  border-bottom-color: #1c252f00;
+  border-left-color: #1c252f00;
+  background-color: #1c252f;
+}
+.buttons-hybrid-split-button-right:hover {
+  background-color: #1c252f;
+}
+.buttons-button-tactics-picked-position {
+  border-color: var(--none);
+  border-radius: 14px;
+}
+.buttons-button-tactics-picked-position:hover {
+  background-color: #1c252f;
+}
+.buttons-button-tactics-picked-position-zero-left-space {
+  border-color: var(--none);
+  border-radius: 11px;
+}
+/* Tactics - Squad Column Highlight Colour */
+.tactics-visualiser-player-position-xi-or-sub-colour-bg {
+  background-color: var(--none);
+}
+/* Tactics - Table Row - Position BG Colours */
+.tactics-visualiser-player-position-type-gk-colour-bg {
+  background-color: var(--none);
+}
+.tactics-visualiser-player-position-type-defenders-colour-bg {
+  background-color: var(--none);
+}
+.tactics-visualiser-player-position-type-defensive-midfield-colour-bg {
+  background-color: var(--none);
+}
+.tactics-visualiser-player-position-type-midfield-colour-bg {
+  background-color: var(--none);
+}
+.tactics-visualiser-player-position-type-attacking-midfield-colour-bg {
+  background-color: var(--none);
+}
+.tactics-visualiser-player-position-type-striker-colour-bg {
+  background-color: var(--none);
+}
+/* Tactics - Icon Toggle Button (Player Instructions) */
+.buttons-button-toggle-icon-active-false {
+  border-color: var(--none);
+}
+.buttons-button-toggle-icon-active-false:hover {
+  border-color: #1c252f;
+}
+.buttons-button-toggle-icon-active-true {
+  border-color: #333b44;
+  background-color: #333b44;
+}
+.buttons-button-toggle-icon-active-true:hover {
+  border-color: #333b44;
+}
+/* Tactics - Collapsable Pitch Header Button Group */
+.tactics-collapsable-pitch-header-button-group .buttongroup__button {
+  border-width: 1px;
+  border-color: #1c252f;
+  background-color: #1c252f;
+}
+.tactics-collapsable-pitch-header-button-group .buttongroup__button--active {
+  background-color: #333b44;
+}
+/* Tactics - Collapsable Pitch Header Collapse Button */
+.tactics-collapsable-pitch-header-collapse-button {
+  background-color: var(--none);
+}
+
+/* TESTING  */
+.buttons-hero-toggle-buttons-active--border-radius-left {
+  background-color: #ff0000;
+}
+.buttons-me-menu-controls-active--position-leading {
+  background-color: #2600ff;
+}
+.buttons-tactics-segmented-button-row-active-small-placement-leading {
+  background-color: #00ff00;
+}
+.rectangle-8 {
+  background-color: #0000ff;
+}
+.streamedobjectlist-squad-overview-iphone {
+  background-color: #ff00ff;
+}
+.tactics-visualiser-player-simple-position-position-gk {
+  background-color: #ff0000;
+}

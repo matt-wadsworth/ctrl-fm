@@ -52,6 +52,36 @@
 .layout-tile-tactics .layout-tile-interaction-button:hover:enabled {
   background-color: rgba(170, 179, 194, 0.05);
 }
+.tactics-pitch-tile-background-colour {
+  background-color: var(--none);
+}
+.tactics-collapsable-pitch-grass-colour {
+  background-color: rgba(46, 110, 40, 0.2);
+}
+.tactics-collapsable-pitch-header {
+  border-color: rgba(170, 179, 194, 0.1);
+  background-color: var(--none);
+}
+.tactics-collapsable-pitch-container {
+  border-width: 1px;
+  border-color: rgba(170, 179, 194, 0.1);
+  background-color: var(--none);
+  border-radius: 12px;
+}
+.tactics-subs-block {
+  border-width: 1px;
+  border-color: rgba(170, 179, 194, 0.1);
+  background-color: var(--none);
+  border-radius: 12px;
+}
+.frame-tactics-nav-menu {
+  border-width: 1px;
+  border-radius: 12px;
+  border-color: rgba(170, 179, 194, 0.1);
+}
+.tactics-nav-secondary-actions-property-1-team-shape {
+  background-color: var(--none);
+}
 
 /* ---- Cards/Popups ---- */
 .figma-base-card-template-inner-frame {
