@@ -9,5 +9,33 @@
   "league-2.jpg": ["efl-league-two-skin"],
   "pl.jpg": ["premier_league_skin_fm26"],
   "super.jpg": ["fm-super-cup-skin-min"],
-  "wuc.jpg": ["uefa-cl_womens_league_skin_fm26"]
+  "wuc.jpg": ["uefa-cl_womens_league_skin_fm26"],
+
+  "base-2x1.jpg": [
+    "BoardroomBasic",
+    "BoardroomHighEnd",
+    "BoardroomStandard",
+    "ChangingRoomBasic",
+    "ChangingRoomHighEnd",
+    "ChangingRoomStandard",
+    "ChangingRoomStateOfTheArt",
+    "CupDrawBasic",
+    "CupDrawHighEnd",
+    "CupDrawStandard",
+    "InterviewAreaBasic",
+    "InterviewAreaHighEnd",
+    "InterviewAreaStandard",
+    "ManagerOfficeBasic",
+    "ManagerOfficeHighEnd",
+    "ManagerOfficeStandard",
+    "PressConferenceRoomBasic",
+    "PressConferenceRoomHighEnd",
+    "PressConferenceRoomStandard",
+    "TeamMeetingRoomBasic",
+    "TeamMeetingRoomHighEnd",
+    "TeamMeetingRoomStandard",
+    "TrainingGroundBasic",
+    "TrainingGroundHighEnd",
+    "TrainingGroundStandard"
+  ]
 }
