@@ -12,6 +12,7 @@
     "graphics/mainmenu",
     "styles",
     "graphics/icons/morale",
-    "graphics/icons/sharpness"
+    "graphics/icons/sharpness",
+    "graphics/news"
   ]
 }
