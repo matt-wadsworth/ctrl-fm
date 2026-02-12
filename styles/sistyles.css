@@ -1,0 +1,5 @@
+/* Segmented Radial Gauge - Reputation */
+/* Fix the Reputation gauge - Set line width to 1px */
+.sisegemntedradialgauge-reputation {
+  --line-width: 1px;
+}

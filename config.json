@@ -2,7 +2,6 @@
   "schema_version": 1,
   "name": "CTRL",
   "includes": [
-    "fonts",
     "graphics/backgrounds",
     "graphics/icons/condition",
     "graphics/icons/misc",
@@ -13,6 +12,7 @@
     "styles",
     "graphics/icons/morale",
     "graphics/icons/sharpness",
-    "graphics/news"
+    "graphics/news",
+    "fonts"
   ]
 }

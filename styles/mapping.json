@@ -1,9 +1,10 @@
 {
-  "base.css": ["FigmaGeneratedStyles", "StreamedObjectListStyles", "FMStyles", "SIStyles"],
+  "base.css": ["FigmaGeneratedStyles", "StreamedObjectListStyles", "FMStyles", "FMColours"],
   "variables.css": "FigmaStyleVariables",
   "match.css": "MatchUIStyles",
   "text.css": ["FigmaGeneratedTextStyles", "FigmaGeneratedStyles", "FMStyles"],
   "header.css": "FigmaGeneratedStyles",
   "tiles.css": ["FigmaGeneratedStyles", "FMStyles"],
-  "inputs.css": ["FigmaGeneratedStyles", "TabStyles"]
+  "inputs.css": ["FigmaGeneratedStyles", "TabStyles"],
+  "sistyles.css": "SIStyles"
 }
