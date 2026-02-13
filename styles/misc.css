@@ -8,6 +8,10 @@
 .player-report-role-selector-roles-size-high-possession-ip {
   width: 280px;
 }
+/* Portrait - Potential Fix: sub-pixel issue */
+.thumbnails-alt-person-picture-player-report {
+  height: 135px;
+}
 /* Attributes Key */
 .attributes-row-number-key {
   border-left-color: rgba(109, 211, 98, 0.3);
@@ -159,39 +163,29 @@
   border-radius: 0px;
 }
 
-/* Player Report - Potential Fix: Player Picture sub-pixel issue */
-.thumbnails-alt-person-picture-player-report {
-  height: 135px;
-}
-
 /* ---- Messages ---- */
 /* Change Tile Border */
 .messages-tile-background {
   border-color: rgba(170, 179, 194, 0.1);
   border-width: 1px;
 }
-
 /* Remove Tile Background */
 .midnight-background-colour {
   background-color: var(--none);
 }
-
 /* Selected Message */
 .tool-messages-list .message-last-selected {
   background-color: rgba(217, 232, 237, 0.05);
   border-width: 0px;
 }
-
 .tool-messages-list .message-last-selected-indicator {
   background-color: #fbc500;
   width: 4px;
 }
-
 /* Message Sender Header (Right Side) */
 .message-sender-frame-colour {
   background-color: #121a24;
 }
-
 /* Message Container (Right Side) */
 .message-container-frame {
   border-color: #121a24;
@@ -203,22 +197,18 @@
 .notificationmessagestatus-action-colour {
   background-color: rgba(51, 59, 68, 0.4);
 }
-
 /* Base - Submenu */
 .notificationmessagesstatus-actionslist-colour {
   background-color: rgba(51, 59, 68, 0.2);
 }
-
 /* Actioned */
 .notificationmessagestatus-action-performed-colour {
   background-color: rgba(109, 211, 98, 0.12);
 }
-
 /* Required */
 .notificationmessagestatus-action-required-colour {
   background-color: rgba(242, 44, 44, 0.12);
 }
-
 /* Required - Submenu */
 .notificationmessagesstatus-actionslist-required-colour {
   background-color: rgba(242, 44, 44, 0.08);
@@ -476,4 +466,29 @@
 }
 .calendar-day-current {
   background-color: rgba(217, 232, 237, 0.1);
+}
+
+/*  ---- Tactics ---- */
+/* Tactics - Squad Column Highlight Colour */
+.tactics-visualiser-player-position-xi-or-sub-colour-bg {
+  background-color: var(--none);
+}
+/* Tactics - Table Row - Position BG Colours */
+.tactics-visualiser-player-position-type-gk-colour-bg {
+  background-color: var(--none);
+}
+.tactics-visualiser-player-position-type-defenders-colour-bg {
+  background-color: var(--none);
+}
+.tactics-visualiser-player-position-type-defensive-midfield-colour-bg {
+  background-color: var(--none);
+}
+.tactics-visualiser-player-position-type-midfield-colour-bg {
+  background-color: var(--none);
+}
+.tactics-visualiser-player-position-type-attacking-midfield-colour-bg {
+  background-color: var(--none);
+}
+.tactics-visualiser-player-position-type-striker-colour-bg {
+  background-color: var(--none);
 }
