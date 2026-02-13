@@ -32,6 +32,10 @@
 .buttons-button-tactics-picked-position:hover {
   background-color: var(--colours-alpha-light-alpha-14);
 }
+/* Subs Block Cell */
+.tactics-subs-block-cell {
+  border-width: 0px;
+}
 
 /* ---- Player Report ---- */
 /* Single Toggle Button - Compare/Polygon Toggle */
