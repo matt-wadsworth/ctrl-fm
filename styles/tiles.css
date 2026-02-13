@@ -8,7 +8,7 @@
 /* ---- Base ---- */
 .border-tile-radius-12px {
   border-width: 1px;
-  border-color: rgba(170, 179, 194, 0.1);
+  border-color: var(--colours-alpha-light-alpha-8);
 }
 .layout-tile-base-container {
   border-width: 1px;
@@ -21,7 +21,7 @@
 
 .layout-tile-interaction_border {
   border-width: 1px;
-  border-color: rgba(170, 179, 194, 0.1);
+  border-color: var(--colours-alpha-light-alpha-8);
 }
 .layout-tile-interaction-button,
 .layout-tile-interaction-none {
@@ -29,7 +29,7 @@
 }
 .layout-tile-interaction-button:active,
 .layout-tile-interaction-button:hover:enabled {
-  background-color: rgba(170, 179, 194, 0.05);
+  background-color: rgba(217, 232, 237, 0.02);
 }
 
 /* ---- Tactics ---- */
@@ -37,7 +37,7 @@
   background-color: var(--none);
 }
 .tactics-overlay-bkg {
-  background-color: rgba(170, 179, 194, 0);
+  background-color: var(--none);
 }
 .layout-tile-interaction-button.startscreenVar,
 .layout-tile-tactics .layout-tile-interaction-button,
@@ -50,7 +50,7 @@
 .layout-tile-interaction-button.newsTileVar:hover:enabled,
 .layout-tile-tactics .layout-tile-interaction-button:active,
 .layout-tile-tactics .layout-tile-interaction-button:hover:enabled {
-  background-color: rgba(170, 179, 194, 0.05);
+  background-color: rgba(217, 232, 237, 0.02);
 }
 .tactics-pitch-tile-background-colour {
   background-color: var(--none);
@@ -59,25 +59,25 @@
   background-color: rgba(46, 110, 40, 0.2);
 }
 .tactics-collapsable-pitch-header {
-  border-color: rgba(170, 179, 194, 0.1);
+  border-color: var(--colours-alpha-light-alpha-8);
   background-color: var(--none);
 }
 .tactics-collapsable-pitch-container {
   border-width: 1px;
-  border-color: rgba(170, 179, 194, 0.1);
+  border-color: var(--colours-alpha-light-alpha-8);
   background-color: var(--none);
   border-radius: 12px;
 }
 .tactics-subs-block {
   border-width: 1px;
-  border-color: rgba(170, 179, 194, 0.1);
+  border-color: var(--colours-alpha-light-alpha-8);
   background-color: var(--none);
   border-radius: 12px;
 }
 .frame-tactics-nav-menu {
   border-width: 1px;
   border-radius: 12px;
-  border-color: rgba(170, 179, 194, 0.1);
+  border-color: var(--colours-alpha-light-alpha-8);
 }
 .tactics-nav-secondary-actions-property-1-team-shape {
   background-color: var(--none);
@@ -89,7 +89,7 @@
 }
 .figma-base-card-template-border {
   border-width: 1px;
-  border-color: rgba(217, 232, 237, 0.05);
+  border-color: var(--colours-alpha-light-alpha-8);
 }
 
 /* Panel Load Game */
@@ -109,7 +109,7 @@
 .notifications-modal-dialog-online-default {
   border-width: 1px;
   background-color: #121a24;
-  border-color: rgba(217, 232, 237, 0.05);
+  border-color: var(--colours-alpha-light-alpha-8);
 }
 
 /* Other Tiles - TBC */
@@ -138,11 +138,11 @@
 }
 .layout-block-base-container {
   border-width: 1px;
-  border-color: rgba(170, 179, 194, 0.1);
+  border-color: var(--colours-alpha-light-alpha-8);
 }
 .layout-block-base-container-compact {
   border-width: 1px;
-  border-color: rgba(170, 179, 194, 0.1);
+  border-color: var(--colours-alpha-light-alpha-8);
 }
 /* .layout-block-tactics {
   border-width: 1px;

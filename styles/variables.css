@@ -1,21 +1,47 @@
 :root {
+  /* Border Widths*/
+  --border-width-border-width-1: 0px;
+  --border-width-border-width-2: 0px;
+
+  /* Base Colours - Neutral*/
   --colours-base-neutral-black: #060d17;
   --colours-base-neutral-white: #d9e8ed;
 
+  /* Base Colours - Teal*/
+  --colours-base-teal-20: #8fe287;
+  --colours-base-teal-40: #6dd362;
+  --colours-base-teal-50: #4cab43;
+  --colours-base-teal-60: #2e6e28;
+  --colours-base-teal-80: #2e6e28;
+
+  /* Brand Colours - Foundation*/
   --colours-brand-foundation-midnight: #060d17;
   --colours-brand-foundation-cloud: #d9e8ed;
   --colours-brand-foundation-horizon: #fbc500;
   --colours-brand-foundation-twilight: #4c5a67;
 
+  /* Brand Colours - Tints*/
   --colours-brand-tints-midnight-80: #060d17cc;
   --colours-brand-tints-twilight-120: #5e6b76;
 
+  /* Brand Colours - FM*/
   --colours-brand-fm25-twiight: #4c5a67;
   --colours-brand-fm25-lilac: #fbc500;
 
+  /* Brand Colours - Highlights*/
   --colours-brand-highlight-pink: #fbc500;
 
-  --colours-alpha-light-alpha-35: rgba(217, 232, 237, 0.35);
+  /* Alpha Colours - Light*/
+  --colours-alpha-light-alpha-8: rgba(217, 232, 237, 0.05);
+  --colours-alpha-light-alpha-12: rgba(217, 232, 237, 0.08);
+  --colours-alpha-light-alpha-14: rgba(217, 232, 237, 0.1);
+  --colours-alpha-light-alpha-16: rgba(217, 232, 237, 0.12);
+  --colours-alpha-light-alpha-20: rgba(217, 232, 237, 0.18);
+  --colours-alpha-light-alpha-35: rgba(217, 232, 237, 0.28);
+  --colours-alpha-light-alpha-65: rgba(217, 232, 237, 0.6);
+  --colours-alpha-light-alpha-75: rgba(217, 232, 237, 0.75);
+  --colours-alpha-light-alpha-85: rgba(217, 232, 237, 0.85);
+  --colours-alpha-light-alpha-90: rgba(217, 232, 237, 0.9);
 
   /* Page Overlay/Fade */
   --midnight-alpha-65: #060d17d2;
@@ -28,6 +54,10 @@
   /* Tables - Remove alternating rows */
   --data-tables-background-hover: #ffffff04;
   --data-tables-background-odd: #ff000000;
+
+  /* Tactics - Active Tactic, Active Tab and Collapse */
+  --colours-tactics-base-00: rgba(217, 232, 237, 0.35);
+  --colours-tactics-base-20: rgba(217, 232, 237, 0.2);
 
   /* Tactics - Positions
   --colours-tactics-goalkeeper-background: #1e1e3200;
