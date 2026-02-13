@@ -1,6 +1,9 @@
 {
   "base.jpg": ["fm-skin-v2"],
 
+  "startup.jpg": "dynamic-pattern-dark-texture",
+
+  "bundes.jpg": ["fm-bundesliga-skin-min"],
   "championship.jpg": ["efl-championship-skin"],
   "cl.jpg": ["uefa-cl_league_skin_fm26"],
   "efl-cup.jpg": ["efl-league-cup-skin", "vertu_fm26"],
