@@ -168,7 +168,6 @@
 .messages-tile-background {
   border-color: rgba(170, 179, 194, 0.1);
   border-width: 1px;
-  background-color: rgba(10, 15, 30, 0) !important;
 }
 /* Remove Tile Background
 .midnight-background-colour {
