@@ -44,7 +44,7 @@
   --colours-alpha-light-alpha-90: rgba(217, 232, 237, 0.9);
 
   /* Page Overlay/Fade */
-  --midnight-alpha-65: #060d17d2;
+  --midnight-alpha-65: rgba(6, 13, 23, 0.7);
 
   /* Continue Button */
   --continue-button-default-background: #1c252f;
