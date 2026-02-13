@@ -1,3 +1,9 @@
+/* ---- General ---- */
+/* Close Button */
+.buttons-controls-pc-default--active-true {
+  border-width: 0px;
+}
+
 /* ---- Tactics ---- */
 /* Undo Button */
 .buttons-combo-button-base-regular {
