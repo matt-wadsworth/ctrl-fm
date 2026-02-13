@@ -6,5 +6,6 @@
   "header.css": "FigmaGeneratedStyles",
   "text.css": ["FigmaGeneratedTextStyles", "FigmaGeneratedStyles", "FMStyles"],
   "match.css": "MatchUIStyles",
-  "fixes.css": "FMColours"
+  "fixes.css": "FMColours",
+  "_testing.css": ["FigmaGeneratedStyles", "FMStyles", "FMColours", "StreamedObjectListStyles", "TabStyles", "FigmaGeneratedTextStyles", "MatchUIStyles"]
 }
