@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+    <!-- TrendingIndicator -->
+    <si:BindingExpect style="align-items: flex-start" bindings="32210692985809252" focusable="true" enabled-self="false">
+        <si:SIVisible style="align-items: flex-start" invert-direct-binding="false" binding="kind=1; path=newsitem.IsTrending" always-bind-children="false" style-class-on-visible="newsitem.IsTrending">
+            <ui:VisualElement class="row-direction-normal margin-horizontal-global-gap-none padding-horizontal-global-padding-regular" style="flex-grow: 0; flex-shrink: 0; margin-top: 0; margin-bottom: 0; background-color: #fbc500; padding-top: 3px; padding-bottom: 1px; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px" usage-hints="1" focusable="false" enabled-self="false">
+                <ui:VisualElement class="game-concepts-trending-arrow_small" picking-mode="1" focusable="false" enabled-self="false"/>
+                <si:SIText class="primary-text-colour body-xsmall-10px-bold margin-horizontal-global-gap-extra-small" style="overflow: hidden; align-self: center; color: #060d17;" picking-mode="1" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="TRENDING" text-binding="kind=1; path=TRENDING" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="20174"/>
+            </ui:VisualElement>
+        </si:SIVisible>
+    </si:BindingExpect>
+</ui:UXML>

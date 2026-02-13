@@ -1,0 +1,95 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+    <!-- PlayerAttributesLargeBlock -->
+    <Template name="AttributesTableTemplate" src="guid:faa627c7e02762847b92be132216db17"/>
+    <Template name="FootednessStepperWithBorderCell" src="guid:13a62bdd03abe454c961f56c83e2e55f"/>
+    <Template name="data_display-cell-standard-small" src="guid:ceb1c4a27e1f07b4cacd2f9694657480"/>
+    <Template name="layout-divider-solid-horizontal" src="guid:54ffead3e652b1541aab0ebadd074df1"/>
+    <Template name="layout-divider-solid-vertical" src="guid:e06a1ab43169d1c44bc53c2c069f44e1"/>
+    <Template name="role_selector-large" src="guid:71ce851e086e1f440b63ed3dbda009d9"/>
+    <si:BindingExpect picking-mode="1" focusable="false" enabled-self="false">
+        <si:BindingVariables focusable="false" enabled-self="false">
+            <si:BindingRemapper focusable="false" enabled-self="false" binding-mappings="human=Human">
+                <ui:VisualElement class="frames-player-attributes-full-block-size-max-rows" bindings="7809840353862051373" focusable="false" enabled-self="false">
+                    <!-- Left: Role selector -->
+                    <ui:Instance template="role_selector-large"/>
+                    <ui:Instance template="layout-divider-solid-vertical" class="margin-horizontal-global-gap-large" style="align-self: stretch"/>
+                    <si:BindableSwitchElement class="row-direction-normal" bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=polygonselected">
+                         <!-- Middle: Attributes table -->
+                        <ui:Instance template="AttributesTableTemplate" style="width: 760px; height: 100%"/>
+                        <ui:VisualElement class="column-direction-normal margin-right-global-gap-large" style="width: 760px; justify-content: center; align-items: center; align-self: center; height: 100%" picking-mode="1" focusable="false" enabled-self="false">
+                            <si:BindableSwitchElement bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=person.IsGoalkeeper">
+                                <ui:VisualElement class="data_display-graph-spider-graph-labelled--tile-x-large" focusable="false" enabled-self="false">
+                                    <fm:FMPolarChart class="margin-horizontal-global-gap-none padding-horizontal-global-padding-none" style="flex-grow: 1; margin-top: 0; margin-bottom: 0; padding-bottom: 0; padding-top: 0"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="data_display-graph-spider-graph-labelled--tile-x-large" focusable="false" enabled-self="false">
+                                    <fm:FMPolarChart class="margin-horizontal-global-gap-none padding-horizontal-global-padding-none" style="flex-grow: 1; margin-top: 0; margin-bottom: 0; padding-bottom: 0; padding-top: 0"/>
+                                </ui:VisualElement>
+                            </si:BindableSwitchElement>
+                        </ui:VisualElement>
+                    </si:BindableSwitchElement>
+                          <!-- Right column -->
+                    <ui:Instance template="layout-divider-solid-vertical" class="margin-horizontal-global-gap-large" style="align-self: stretch"/>
+                    <ui:VisualElement class="column-direction-normal" style="width: 190px; align-items: flex-start; align-self: stretch" focusable="false" enabled-self="false">
+                        <ui:VisualElement class="column-direction-normal flex-grow-class" style="align-items: flex-start; align-self: stretch" focusable="false" enabled-self="false">
+                            <ui:VisualElement class="row-direction-normal width-100-percent justify-content-space-between align-items-start" focusable="false" enabled-self="false">
+                                <si:SIText class="body-small-12px-bold global-text-secondary" style="align-self: flex-end" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Info" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="20918"/>
+                                <si:SICheckBox class="buttons-button-single-toggle-default--toggle-false" toggle-on-label-click="false" selection-binding="polygonselected" interactable="true" has-initial-focus="false">
+                                    <ui:VisualElement class="game-concepts-attributes-medium" focusable="false" enabled-self="false"/>
+                                </si:SICheckBox>
+                            </ui:VisualElement>
+                            <ui:Instance template="layout-divider-solid-horizontal" class="margin-vertical-global-gap-large" style="align-self: stretch"/>
+                            <ui:VisualElement class="column-direction-normal" style="align-items: flex-start; align-self: stretch" focusable="false" enabled-self="false">
+                                <ui:VisualElement class="column-direction-normal margin-bottom-global-gap-large" style="align-items: flex-start; align-self: stretch" focusable="false" enabled-self="false">
+                                    <ui:VisualElement class="column-direction-normal align-items-start" style="align-self: stretch" focusable="false" enabled-self="false">
+                                        <si:SIText class="global-text-secondary body-small-12px-regular margin-bottom-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Height" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="20919"/>
+                                        <si:SIText class="body-regular-14px-regular global-text-primary" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="181cm" text-binding="kind=1; path=f97abdf5a74842647ba921d183f4a3eb; is_visualscript=True; resolves_to=Person.Height" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="20924"/>
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="column-direction-normal margin-bottom-global-gap-large align-items-start" style="align-self: stretch" focusable="false" enabled-self="false">
+                                    <si:SIText class="global-text-secondary body-small-12px-regular margin-bottom-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Reputation" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="20920"/>
+                                    <si:SIText class="global-text-primary body-regular-14px-regular" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="National" text-binding="kind=1; path=e281793f1cc6505468b78ca3cc9222da; is_visualscript=True; resolves_to=Person.Reputation" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false"/>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="column-direction-normal align-items-start" style="align-self: stretch" focusable="false" enabled-self="false">
+                                    <si:SIVisible invert-direct-binding="false" binding="kind=1; path=person.IsVirtual" always-bind-children="false" style-class-on-visible="person.IsVirtual">
+                                        <ui:VisualElement class="column-direction-normal align-items-start" style="align-self: stretch" focusable="false" enabled-self="false">
+                                            <si:SIText class="global-text-secondary body-small-12px-regular margin-bottom-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Personality" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="20921"/>
+                                            <si:SIText class="body-regular-14px-regular global-text-primary" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Professional" text-binding="kind=1; path=Person.Personality" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false"/>
+                                        </ui:VisualElement>
+                                    </si:SIVisible>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:Instance template="layout-divider-solid-horizontal" class="margin-vertical-global-gap-large" style="align-self: stretch"/>
+                            <ui:VisualElement class="row-direction-normal" style="align-self: stretch; justify-content: space-between" focusable="false" enabled-self="false">
+                                <ui:VisualElement class="margin-right-global-gap-large" style="flex: 1 0 0; flex-basis: 250px" focusable="false" enabled-self="false">
+                                    <si:SIText class="global-text-secondary body-small-12px-regular margin-bottom-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Left Foot" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="10162"/>
+                                    <si:BindingRemapper focusable="false" enabled-self="false" binding-mappings="footednessValue=Person.Footedness.LeftFootedness; footednessString=Person.Footedness.LeftFootednessString">
+                                        <ui:Instance template="FootednessStepperWithBorderCell"/>
+                                    </si:BindingRemapper>
+                                </ui:VisualElement>
+                                <ui:VisualElement style="flex: 1 0 0; flex-basis: 250px" focusable="false" enabled-self="false">
+                                    <si:SIText class="global-text-secondary body-small-12px-regular margin-bottom-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Right Foot" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="10161"/>
+                                    <si:BindingRemapper focusable="false" enabled-self="false" binding-mappings="footednessValue=Person.Footedness.RightFootedness; footednessString=Person.Footedness.RightFootednessString">
+                                        <ui:Instance template="FootednessStepperWithBorderCell"/>
+                                    </si:BindingRemapper>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <ui:Instance template="layout-divider-solid-horizontal" class="margin-vertical-global-gap-large" style="align-self: stretch"/>
+                            <ui:VisualElement class="column-direction-normal flex-grow-class height-100-percent" style="align-items: flex-start; align-self: stretch" usage-hints="1" focusable="false" enabled-self="false">
+                                <ui:VisualElement class="row-direction-normal" style="align-items: center; align-self: stretch; margin-bottom: 10px" usage-hints="1" focusable="false" enabled-self="false">
+                                    <si:SIButton class="margin-horizontal-global-gap-none data_display-cell-standard-small--type-standard" style="margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" trigger-hover-binding-when-focused="false" allows-inside-elements-navigation="false" has-initial-focus="false" stops-event-propagation="false" only-accepts-submit-events="false" only-accepts-click-events="false" ignore-multi-select-events="false" bind-text-function="e13833cbc3a7c6542b274683e4f138ca:person,player">
+                                        <ui:Instance template="data_display-cell-standard-small" class="body-regular-14px-regular"/>
+                                    </si:SIButton>
+                                </ui:VisualElement>
+                                <ui:VisualElement class="row-direction-normal flex-grow-class" style="align-items: flex-start; align-self: stretch" picking-mode="1" focusable="false" enabled-self="false">
+                                    <ui:VisualElement class="column-direction-normal height-100-percent" style="align-items: flex-start; flex: 1 0 0" picking-mode="1" focusable="false" enabled-self="false">
+                                        <si:StreamedObjectList class="flex-grow-class" diggable="false" dim="false" sort-ascending="false" vertical-scroller-visibility="1" dynamic-elements="false" truncate="false" alternate-rows="true" reorderable="true" selection-mode="909403191" direction="1647719524" set-ignore-picking-mode="true" set-scroll-to-as-selected="true" binding="kind=1; path=Person.PlayerTraits" sort-binding="Person.PlayerTraits" selected-items-binding="Person.PlayerTraits" row-template="19" use-row-index="true"/>
+                                    </ui:VisualElement>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </si:BindingRemapper>
+        </si:BindingVariables>
+    </si:BindingExpect>
+</ui:UXML>

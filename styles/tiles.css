@@ -155,15 +155,15 @@
 .news-title-frame {
   background-color: var(--none);
 }
-/* Trending
+/* Trending News Background Image Tint */
 .trending-news-background {
-  -unity-background-image-tint-color: rgba(11, 14, 18, 0.6);
+  -unity-background-image-tint-color: #fbc500;
 }
+/* Trending News Background Gradient */
 .sigradient.trending-news-background {
-  --end-colour: #ff000000;
-  --start-colour: #0044ff00;
-} */
-/*
+  --end-colour: rgba(138, 108, 0, 0.5);
+  --start-colour: rgba(6, 13, 23, 0.2);
+}
 
 /* ---- Player Attributes Block ---- */
 .frames-player-attributes-full-block-size-max-rows,
