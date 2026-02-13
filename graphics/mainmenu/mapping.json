@@ -2,5 +2,6 @@
   "bg.png": "start_screen_main_texture",
   "new-game.png": "start_screen_startnewcareer",
   "new-game-wide.png": ["start_screen_startscreennewcareer_large", "newgame_fresh_4x2_startnewcareer"],
-  "logo.png": "MainMenuLogo"
+  "logo.png": "MainMenuLogo",
+  "MainMenuPen.png": "MainMenuPen"
 }

@@ -8,6 +8,9 @@
 
   "tick_large.png": ["tick_large_*", "tick_medium_*", "tick_small_*"],
   "tick_circle_success.png": "tick_circle_success_*",
+  "cross.png": ["cross_large_*", "cross_medium_*", "cross_small_*"],
+  "delete.png": "delete_*",
+  "edit.png": "edit_*",
 
   "warning.png": ["warning_large_*", "warning_medium_*", "warning_small_*"],
   "medical centre.png": "medical centre_*"
