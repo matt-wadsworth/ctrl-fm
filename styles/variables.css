@@ -1,37 +1,37 @@
 :root {
-  /* Border Widths*/
+  /* Border Widths */
   --border-width-border-width-1: 0px;
   --border-width-border-width-2: 0px;
 
-  /* Base Colours - Neutral*/
+  /* Base Colours - Neutral */
   --colours-base-neutral-black: #060d17;
   --colours-base-neutral-white: #d9e8ed;
 
-  /* Base Colours - Teal*/
+  /* Base Colours - Teal */
   --colours-base-teal-20: #8fe287;
   --colours-base-teal-40: #6dd362;
   --colours-base-teal-50: #4cab43;
   --colours-base-teal-60: #2e6e28;
   --colours-base-teal-80: #2e6e28;
 
-  /* Brand Colours - Foundation*/
+  /* Brand Colours - Foundation */
   --colours-brand-foundation-midnight: #060d17;
   --colours-brand-foundation-cloud: #d9e8ed;
   --colours-brand-foundation-horizon: #fbc500;
   --colours-brand-foundation-twilight: #4c5a67;
 
-  /* Brand Colours - Tints*/
+  /* Brand Colours - Tints */
   --colours-brand-tints-midnight-80: #060d17cc;
   --colours-brand-tints-twilight-120: #5e6b76;
 
-  /* Brand Colours - FM*/
+  /* Brand Colours - FM */
   --colours-brand-fm25-twiight: #4c5a67;
   --colours-brand-fm25-lilac: #fbc500;
 
-  /* Brand Colours - Highlights*/
+  /* Brand Colours - Highlights */
   --colours-brand-highlight-pink: #fbc500;
 
-  /* Alpha Colours - Light*/
+  /* Alpha Colours - Light */
   --colours-alpha-light-alpha-8: rgba(217, 232, 237, 0.05);
   --colours-alpha-light-alpha-12: rgba(217, 232, 237, 0.08);
   --colours-alpha-light-alpha-14: rgba(217, 232, 237, 0.1);
