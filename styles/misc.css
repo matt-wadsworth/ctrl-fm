@@ -191,7 +191,16 @@
   border-color: #121a24;
   border-width: 1px;
 }
-
+/* Message Gradient - Optional */
+.messages-optional-gradient {
+  --end-colour: rgba(94, 107, 118, 0);
+  --start-colour: rgba(94, 107, 118, 0.3);
+}
+/* Message Gradient - Priority */
+.messages-priority-gradient {
+  --end-colour: rgba(122, 16, 16, 0);
+  --start-colour: rgba(122, 16, 16, 0.6);
+}
 /* Message Actions */
 /* Base */
 .notificationmessagestatus-action-colour {

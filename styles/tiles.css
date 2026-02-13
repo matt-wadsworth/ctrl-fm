@@ -144,14 +144,9 @@
   border-width: 1px;
   border-color: var(--colours-alpha-light-alpha-8);
 }
-/* .layout-block-tactics {
-  border-width: 1px;
-} */
 
 /* ---- NEWS ---- */
-/* .newsTileVar .layout-tile-interaction-button {
-  background-color: var(--none);
-} */
+/* Header - See All News */
 .news-title-frame {
   background-color: var(--none);
 }
