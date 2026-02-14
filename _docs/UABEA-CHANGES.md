@@ -31,10 +31,11 @@ For each item:
 
 ## Borders & tiles
 
-| Name                | File                       | Path ID (or Name)       | Reference    | Note                                                                                                                             |
-| ------------------- | -------------------------- | ----------------------- | ------------ | -------------------------------------------------------------------------------------------------------------------------------- |
-| Messages Border     | ui-tiles_assets_all.bundle | -1082094815230004916    | Color [0]    | Border for messages tiles                                                                                                        |
-| Messages Background | ui-tiles_assets_all.bundle | PortalMessagesTile.uxml | Remove class | Remove `.midnight-background-colour` so tile uses `.messages-tile-background`; then patch that class in Skin Builder for colour. |
+| Name                | File                       | Path ID (or Name)       | Reference      | Note                                                                                                                                                                      |
+| ------------------- | -------------------------- | ----------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Messages Border     | ui-tiles_assets_all.bundle | -1082094815230004916    | Color [0]      | Border for messages tiles                                                                                                                                                 |
+| Messages Background | ui-tiles_assets_all.bundle | PortalMessagesTile.uxml | Remove class   | Remove `.midnight-background-colour` so tile uses `.messages-tile-background`; then patch that class in Skin Builder for colour.                                          |
+| Messages Padding    | ui-tiles_assets_all.bundle | PortalMessagesTile.uxml | Change classes | Change `.padding-horizontal-global-padding-large` to `.padding-horizontal-global-padding-none`. Add the original class to the second element with `.row-direction-normal` |
 
 ---
 
