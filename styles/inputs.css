@@ -99,3 +99,28 @@
 .cascading-menu__folder__entry.virtualised-list__item--odd:hover {
   background-color: var(--colours-alpha-light-alpha-8);
 }
+
+/* ---- Navigation Tabs ---- */
+/* Portal Messages - Read */
+.portal-messages-item-message-text-read {
+  font-size: 14px;
+}
+/* Navigation Tabs - Small */
+.navigation-tab-small-default--active-false .navigation-tab-small-default-text {
+  font-size: 12px;
+}
+.navigation-tab-small-default--active-true .navigation-tab-small-default-text {
+  font-size: 12px;
+}
+/* Navigation Tabs - Default */
+.navigation-tab-default-default--active-false .navigation-tab-default-default-text {
+  font-size: 14px;
+}
+.navigation-tab-default-default--active-true .navigation-tab-default-default-text {
+  font-size: 14px;
+}
+/* Tab Border */
+.buttongroup.Default .buttongroup__button--active {
+  border-bottom-width: 2px;
+  border-bottom-color: var(--colours-brand-foundation-horizon);
+}

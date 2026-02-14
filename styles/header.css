@@ -27,7 +27,7 @@
 
 /* ---- Nav Items ---- */
 .navigation-global-diagetic-container {
-  border-color: #10161d; /* #333b44 */
+  border-color: #10161d;
   border-radius: 20px;
 }
 /* Divider */
@@ -36,7 +36,7 @@
 }
 /* Buttons (not Search) */
 .navigation-global-diagetic-button {
-  background-color: #10161d; /* #1c252f */
+  background-color: #10161d;
 }
 .navigation-global-diagetic-button:hover {
   background-color: #1c252f;

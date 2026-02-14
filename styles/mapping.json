@@ -7,5 +7,5 @@
   "text.css": ["FigmaGeneratedTextStyles", "FigmaGeneratedStyles", "FMStyles"],
   "match.css": "MatchUIStyles",
   "fixes.css": "FMColours",
-  "_testing.css": ["FigmaGeneratedStyles", "FMStyles", "FMColours", "StreamedObjectListStyles", "TabStyles", "FigmaGeneratedTextStyles", "MatchUIStyles"]
+  "_testing.css": ["FigmaGeneratedStyles", "FMStyles", "FMColours", "StreamedObjectListStyles", "TabStyles", "FigmaGeneratedTextStyles", "MatchUIStyles", "SIStyles"]
 }
