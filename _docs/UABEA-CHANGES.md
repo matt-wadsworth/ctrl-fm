@@ -2,7 +2,7 @@
 
 Manual changes to apply in UABEA during skin development (after building the skin).
 
-**Dev notes only.** End users using bundle releases, do not need to apply these changes.
+**Dev notes only -** End users using bundle releases do not need to apply these changes.
 
 ---
 
