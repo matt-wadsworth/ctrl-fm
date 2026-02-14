@@ -73,3 +73,29 @@
 .buttons-button-primary-tactics:active {
   background-color: var(--colours-alpha-light-alpha-20);
 }
+
+/* ---- Menu/Dropdowns ---- */
+/* Base - Floating Element */
+.floating-element {
+  border-radius: 8px;
+  border-color: var(--colours-alpha-light-alpha-8);
+}
+/* Divider - Cascading Menu */
+.cascading-menu__folder__separator {
+  border-top-width: 1px;
+  border-top-color: var(--colours-alpha-light-alpha-8);
+}
+/* Divider - List */
+.list-layout-divider-solid-horizontal {
+  border-top-width: 1px;
+  border-top-color: var(--colours-alpha-light-alpha-8);
+}
+/* Hover - Dropdown */
+.si-dropdown .virtualised-list__item:hover,
+.si-dropdown .virtualised-list__item.visual-highlighted,
+.si-dropdown .virtualised-list__item--odd:hover,
+.cascading-menu__folder__entry:hover.virtualised-list__item:hover,
+.cascading-menu__folder__entry.visual-highlighted,
+.cascading-menu__folder__entry.virtualised-list__item--odd:hover {
+  background-color: var(--colours-alpha-light-alpha-8);
+}
