@@ -164,15 +164,12 @@
 }
 
 /* ---- Messages ---- */
-/* Change Tile Border */
+/* Change Tile Border + remove Background */
 .messages-tile-background {
   border-color: rgba(170, 179, 194, 0.1);
   border-width: 1px;
-}
-/* Remove Tile Background
-.midnight-background-colour {
   background-color: var(--none);
-} */
+}
 /* Selected Message */
 .tool-messages-list .message-last-selected {
   background-color: rgba(217, 232, 237, 0.05);
