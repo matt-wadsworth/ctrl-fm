@@ -10,14 +10,6 @@
 
 ### 📥 Download
 
-Releases come in **three types**:
-
-| Type | Description |
-|------|-------------|
-| **Skin Builder files** | Source code at a stable release (this repo’s contents). For building with FM Skin Builder and applying to your game yourself. |
-| **Bundles (WIN)** | Pre-built skin for **Windows**. Drop into FM’s folder to install; no build step. |
-| **Bundles (MAC)** | Pre-built skin for **macOS**. Same idea—replace game files to install. |
-
 Grab what you need from the **[Releases](releases)** section. If you want the latest fixes between tagged releases, you can clone or download the repo, but the main branch may include breaking changes.
 
 ### 🚀 Build with FM Skin Builder
@@ -29,13 +21,7 @@ Grab what you need from the **[Releases](releases)** section. If you want the la
 3. Wait for the build steps to complete; output is written to `packages/` as modified `.bundle` files.
 4. After building, click **Apply to Game** (or **Build > Game Status**) to copy bundles into FM’s directory.
 
-> First build may take 30s–2 minutes while bundles are scanned; later builds use cache and are typically faster.
-
-### 📚 FM Skin Builder Docs
-
-- [Installation](https://fmskinbuilder.com/docs/getting-started/installation)
-- [Full Build](https://fmskinbuilder.com/docs/building/full-build)
-- [Applying to Game](https://fmskinbuilder.com/docs/building/applying-to-game)
+> First build may take 30s–2 minutes while bundles are scanned; later builds use cache and are typically faster. See [Installation](https://fmskinbuilder.com/docs/getting-started/installation), [Full Build](https://fmskinbuilder.com/docs/building/full-build) and [Applying to Game](https://fmskinbuilder.com/docs/building/applying-to-game) for more information.
 
 ### 📦 Install from bundles
 
