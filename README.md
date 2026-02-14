@@ -4,15 +4,21 @@
   <img src="_assets/logo.png" alt="CTRL logo" width="96" height="96" />
 </p>
 
-<h1 align="center">CTRL</h1>
+<h1 align="center">CTRL 26</h1>
 
-<p align="center"><strong>CTRL</strong> is a custom skin for <strong>Football Manager 26</strong>. Built and maintained using <strong><a href="https://fmskinbuilder.com/">FM Skin Builder</a></strong>.</p>
+<p align="center"><strong>CTRL 26</strong> is a custom skin for <strong>Football Manager 26</strong>. Built and maintained using <strong><a href="https://fmskinbuilder.com/">FM Skin Builder</a></strong>.</p>
 
 ### 📥 Download
 
-**Recommended:** Grab a stable build from the **[Releases](releases)** section. Major versions are tagged there.
+Releases come in **three types**:
 
-Alternatively, you can use the source (e.g. clone or download the repo) for the latest fixes - but the main branch may include breaking changes between tagged releases.
+| Type | Description |
+|------|-------------|
+| **Skin Builder files** | Source code at a stable release (this repo’s contents). For building with FM Skin Builder and applying to your game yourself. |
+| **Bundles (WIN)** | Pre-built skin for **Windows**. Drop into FM’s folder to install; no build step. |
+| **Bundles (MAC)** | Pre-built skin for **macOS**. Same idea—replace game files to install. |
+
+Grab what you need from the **[Releases](releases)** section. If you want the latest fixes between tagged releases, you can clone or download the repo, but the main branch may include breaking changes.
 
 ### 🚀 Build with FM Skin Builder
 
@@ -30,6 +36,15 @@ Alternatively, you can use the source (e.g. clone or download the repo) for the 
 - [Installation](https://fmskinbuilder.com/docs/getting-started/installation)
 - [Full Build](https://fmskinbuilder.com/docs/building/full-build)
 - [Applying to Game](https://fmskinbuilder.com/docs/building/applying-to-game)
+
+### 📦 Install from bundles
+
+If you downloaded a **Bundles (WIN)** or **Bundles (MAC)** release:
+
+1. **Extract** the bundle files into your game installation folder (replace the existing files when prompted).
+2. **Windows (Steam):** Default folder is  
+   `C:\Program Files (x86)\Steam\steamapps\common\Football Manager 26\fm_Data\StreamingAssets\aa\StandaloneWindows64`
+3. **macOS:** Right-click the **Football Manager** app → **Show Package Contents**, then navigate to the bundles folder using the same path structure as above (`fm_Data` → `StreamingAssets` → `aa` → platform folder).
 
 ### 🙏 Thanks to...
 
