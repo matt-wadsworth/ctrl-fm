@@ -1,6 +1,16 @@
-/* ---- Scrollbar  - Hide It ---- */
+/* ---- Scrollbar  - Hide It... ---- */
+/* Hide the dragger */
 .siscrollview .siscrollview--dragger {
   background-color: rgba(255, 255, 255, 0);
+}
+/* Hide the vertical slider completely */
+.siscrollview .siscrollview--slider__vertical {
+  width: 0px;
+  min-width: 0px;
+}
+.siscrollview--vertical-scroller {
+  width: 0px;
+  min-width: 0px;
 }
 
 /* ---- Player Report ---- */
