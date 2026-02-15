@@ -153,3 +153,14 @@
   border-bottom-width: 2px;
   border-bottom-color: var(--colours-brand-foundation-horizon);
 }
+
+/* Radio */
+/* Selected */
+.radio-toggle .unity-toggle__input:checked:enabled .unity-toggle__checkmark {
+  border-color: var(--colours-brand-foundation-horizon);
+}
+/* Hover */
+.radio-toggle:hover:enabled .unity-toggle__input:checked:enabled .unity-toggle__checkmark,
+.radio-toggle:focus:enabled .unity-toggle__input:checked:enabled .unity-toggle__checkmark {
+  border-color: var(--colours-brand-foundation-horizon);
+}
