@@ -1,0 +1,55 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+    <!-- MeetingSpeakToContainer -->
+    <Template name="interaction-hub-body-message_sender-primary" src="guid:a7f70ad1be203804bb0c1627983e3ea2"/>
+    <Template name="speakto-button-additional-actions-selector" src="guid:4765fb80af276fa409209d67ed2adb6b"/>
+    <si:BindingExpect class="speakto-container" language-direction="1" focusable="false" enabled-self="false">
+        <si:SIVisible class="speakto-mobile-visible" invert-direct-binding="false" binding="kind=1; path=64af653e4b39b204e89a2987a7732a70; is_visualscript=True; resolves_to=config.HideSpeakToOnPhone" always-bind-children="false">
+            <ui:VisualElement class="height-100-percent speakto-size speakto-content" style="border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; background-color: #232c40; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-left-color: #0000003e; border-right-color: #0000003e; border-top-color: #0000003e; border-bottom-color: #0000003e; overflow: hidden" bindings="7296803838933544293" focusable="false" enabled-self="false">
+                <ui:VisualElement class="height-100-percent" picking-mode="1" focusable="false" enabled-self="false">
+                    <si:BindingExpect class="height-100-percent" style="align-items: stretch; align-self: stretch; border-top-left-radius: 12px; border-top-right-radius: 12px; border-bottom-right-radius: 12px; border-bottom-left-radius: 12px; overflow: hidden" bindings="119182899368037" focusable="true" enabled-self="false">
+                        <si:SIButton class="shortcut-fake-button height-100-percent" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" trigger-hover-binding-when-focused="false" allows-inside-elements-navigation="false" has-initial-focus="false" stops-event-propagation="false" only-accepts-submit-events="false" only-accepts-click-events="false" ignore-multi-select-events="false">
+                            <si:NavigationFocusser class="height-100-percent" usage-hints="1" focusable="false" enabled-self="false" limit-navigatable-elements="false">
+                                <ui:VisualElement class="interaction-_interaction-hub-base-default" style="flex-grow: 1; overflow: hidden; align-items: stretch" focusable="false" enabled-self="false">
+                                    <fm:ContextShortcutsElement class="height-100-percent margin-horizontal-global-gap-large" style="margin-top: 12px; margin-bottom: 12px" language-direction="1" focusable="false" enabled-self="false">
+                                        <si:BindingRemapper class="height-100-percent" usage-hints="1" focusable="false" enabled-self="false">
+                                            <ui:VisualElement class="height-100-percent" picking-mode="1" focusable="false" enabled-self="false">
+                                                <si:BindingExpect style="align-items: stretch; flex-grow: 1" picking-mode="1" focusable="false" enabled-self="false">
+                                                    <si:BindingRemapper style="flex-grow: 1; justify-content: space-between" bindings="491328139361" focusable="true" enabled-self="false">
+                                                        <ui:VisualElement class="speakto-frame-sender-message-response height-100-percent" style="align-items: stretch; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0" picking-mode="1" focusable="false" enabled-self="false">
+                                                            <si:BindingRemapper style="flex-shrink: 0" focusable="false" enabled-self="false">
+                                                                <ui:Instance template="interaction-hub-body-message_sender-primary" style="flex-grow: 1"/>
+                                                            </si:BindingRemapper>
+                                                            <si:StreamedObjectList class="speak-to-speech-bubbles-or-action-button" style="flex-grow: 1" diggable="false" dim="false" sort-ascending="true" horizontal-scroller-visibility="1" dynamic-elements="false" truncate="false" alternate-rows="false" reorderable="false" set-ignore-picking-mode="false" set-scroll-to-as-selected="false" scroll-to-element-binding="Actions.OptionalActions" buffer-size="1" view-window-binding="Actions.OptionalActions" binding="kind=1; path=Actions.OptionalActions" sort-binding="Actions.OptionalActions" selected-items-binding="Actions.OptionalActions" use-row-index="false"/>
+                                                        </ui:VisualElement>
+                                                        <si:SIVisible class="speak-to-speech-bubbles-or-action-button" style="flex-shrink: 0" invert-direct-binding="false" binding="kind=1; path=fb85a893388896b458c4be0009043d13; is_visualscript=True" always-bind-children="false">
+                                                            <si:StreamedObjectList style="flex-shrink: 0" diggable="false" dim="false" sort-ascending="false" dynamic-elements="true" truncate="false" alternate-rows="false" reorderable="false" set-ignore-picking-mode="false" set-scroll-to-as-selected="false" scroll-to-element-binding="Actions.ExitActions" buffer-size="1" view-window-binding="Actions.ExitActions" binding="kind=1; path=Actions.ExitActions" sort-binding="Actions.ExitActions" selected-items-binding="Actions.ExitActions" use-row-index="false"/>
+                                                        </si:SIVisible>
+                                                    </si:BindingRemapper>
+                                                </si:BindingExpect>
+                                            </ui:VisualElement>
+                                        </si:BindingRemapper>
+                                    </fm:ContextShortcutsElement>
+                                    <si:SIVisible style="align-items: stretch; flex-shrink: 0" invert-direct-binding="false" binding="kind=1; path=fb85a893388896b458c4be0009043d13; is_visualscript=True" always-bind-children="false">
+                                        <si:BindingVariables style="margin-top: 4px; flex-shrink: 0" focusable="false" enabled-self="false">
+                                            <ui:VisualElement style="flex-grow: 1; align-items: center" focusable="false" enabled-self="false">
+                                                <ui:Instance template="speakto-button-additional-actions-selector"/>
+                                            </ui:VisualElement>
+                                            <si:SIVisible invert-direct-binding="false" binding="kind=1; path=additionalactionsexpanded" visibility-type="1" faded-opacity-value="3.5032461608120427e-44" always-bind-children="true" style-class-on-visible="additionalactionsexpanded">
+                                                <si:NavigationFocusser bindings="114" tab-index="1" focusable="false" enabled-self="false" limit-navigatable-elements="false">
+                                                    <ui:VisualElement class="interaction-hub-action-area-default-optional-response" style="flex-grow: 1; flex-shrink: 0" focusable="false" enabled-self="false">
+                                                        <si:StreamedObjectList style="align-self: stretch" diggable="false" dim="false" sort-ascending="false" dynamic-elements="false" truncate="false" alternate-rows="false" reorderable="false" set-ignore-picking-mode="false" set-scroll-to-as-selected="false" scroll-to-element-binding="SpeakTo.AdditionalActions" view-window-binding="SpeakTo.AdditionalActions" binding="kind=1; path=SpeakTo.AdditionalActions" sort-binding="SpeakTo.AdditionalActions" selected-items-binding="SpeakTo.AdditionalActions" use-row-index="false"/>
+                                                    </ui:VisualElement>
+                                                </si:NavigationFocusser>
+                                                <si:EventTrigger focusable="false" enabled-self="false"/>
+                                            </si:SIVisible>
+                                        </si:BindingVariables>
+                                    </si:SIVisible>
+                                </ui:VisualElement>
+                            </si:NavigationFocusser>
+                        </si:SIButton>
+                    </si:BindingExpect>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </si:SIVisible>
+    </si:BindingExpect>
+</ui:UXML>

@@ -60,6 +60,10 @@
   --colours-tactics-base-00: rgba(217, 232, 237, 0.35);
   --colours-tactics-base-20: rgba(217, 232, 237, 0.2);
 
+  /* Speak To */
+  --colours-speak-to-background-dark: #060d17;
+  --colours-speak-to-background-default: #121a24;
+
   /* Tactics - Positions
   --colours-tactics-goalkeeper-background: #1e1e3200;
   --colours-tactics-goalkeeper-foreground: #3c3c5a;

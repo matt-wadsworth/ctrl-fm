@@ -191,3 +191,12 @@
   border-radius: 5px;
   background-color: #fbc500;
 }
+
+/* ---- Speak To ---- */
+.interaction-_interaction-hub-base-default {
+  border-color: var(--none);
+}
+/* Sender */
+.speakto-frame-sender-message-response {
+  border-color: var(--colours-alpha-light-alpha-8);
+}

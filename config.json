@@ -13,6 +13,7 @@
     "graphics/icons/morale",
     "graphics/icons/sharpness",
     "graphics/news",
-    "fonts"
+    "fonts",
+    "panels"
   ]
 }
