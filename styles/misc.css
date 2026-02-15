@@ -508,3 +508,13 @@
 .tactics-visualiser-player-position-type-striker-colour-bg {
   background-color: var(--none);
 }
+
+/* ---- Stepper ---- */
+/* Default */
+.stepper-step {
+  background-color: var(--colours-alpha-light-alpha-12);
+}
+/* Selected */
+.stepper-step-purple .stepper-step--selected {
+  background-color: var(--colours-brand-foundation-horizon);
+}
