@@ -1,18 +1,20 @@
 {
-  "base.jpg": ["fm-skin-v2"],
+  "base.jpg": [
+    "fm-skin-v2",
+    "fm-bundesliga-skin-min",
+    "efl-championship-skin",
+    "uefa-cl_league_skin_fm26",
+    "efl-league-cup-skin",
+    "vertu_fm26",
+    "fm-europa-league-skin-min",
+    "efl-league-one-skin",
+    "efl-league-two-skin",
+    "premier_league_skin_fm26",
+    "fm-super-cup-skin-min",
+    "uefa-cl_womens_league_skin_fm26"
+  ],
 
   "startup.jpg": "dynamic-pattern-dark-texture",
-
-  "bundes.jpg": ["fm-bundesliga-skin-min"],
-  "championship.jpg": ["efl-championship-skin"],
-  "cl.jpg": ["uefa-cl_league_skin_fm26"],
-  "efl-cup.jpg": ["efl-league-cup-skin", "vertu_fm26"],
-  "europa.jpg": ["fm-europa-league-skin-min"],
-  "league-1.jpg": ["efl-league-one-skin"],
-  "league-2.jpg": ["efl-league-two-skin"],
-  "pl.jpg": ["premier_league_skin_fm26"],
-  "super.jpg": ["fm-super-cup-skin-min"],
-  "wuc.jpg": ["uefa-cl_womens_league_skin_fm26"],
 
   "base-2x1.jpg": [
     "BoardroomBasic",
