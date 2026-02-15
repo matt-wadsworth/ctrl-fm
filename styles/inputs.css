@@ -36,6 +36,25 @@
 .tactics-subs-block-cell {
   border-width: 0px;
 }
+/* Hybrid Split Button - Left */
+.buttons-hybrid-split-button-left {
+  border-right-width: 0px;
+}
+/* Hybrid Split Button - Right */
+.buttons-hybrid-split-button-right {
+  border-left-width: 0px;
+  background-color: var(--colours-alpha-light-alpha-8);
+}
+/* Hybrid Split Button - Hover */
+.buttons-hybrid-split-button-left:hover,
+.buttons-hybrid-split-button-right:hover {
+  border-color: var(--colours-alpha-light-alpha-20);
+}
+/* Hybrid Split Button - Active */
+.buttons-hybrid-split-button-left:active,
+.buttons-hybrid-split-button-right:active {
+  border-color: var(--colours-alpha-light-alpha-20);
+}
 
 /* ---- Player Report ---- */
 /* Single Toggle Button - Compare/Polygon Toggle */
