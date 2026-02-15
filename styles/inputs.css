@@ -90,6 +90,11 @@
   border-top-width: 1px;
   border-top-color: var(--colours-alpha-light-alpha-8);
 }
+/* Divider - Spacer Above */
+.show-spacer-above {
+  border-top-width: 1px;
+  border-top-color: var(--colours-alpha-light-alpha-8);
+}
 /* Hover - Dropdown */
 .si-dropdown .virtualised-list__item:hover,
 .si-dropdown .virtualised-list__item.visual-highlighted,
@@ -98,6 +103,11 @@
 .cascading-menu__folder__entry.visual-highlighted,
 .cascading-menu__folder__entry.virtualised-list__item--odd:hover {
   background-color: var(--colours-alpha-light-alpha-8);
+}
+/* Panel - Bookmark Edit */
+.bookmark-edit-panel {
+  border-width: 1px;
+  border-color: var(--colours-alpha-light-alpha-8);
 }
 
 /* ---- Navigation Tabs ---- */
