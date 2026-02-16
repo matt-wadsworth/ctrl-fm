@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+    <!-- MatchStatsMomentumxGLatestScoreLiveTableCarousel_4x4 -->
+    <Template name="LatestScores_4x6" src="guid:f117aa48917891e49abf9ff3c4e70a61"/>
+    <Template name="LiveTable_4x6" src="guid:5419b7e50881faf45a7fc3dfccc3179e"/>
+    <Template name="MatchMomentumTile_4x4" src="guid:673508f7b5d384e438302c19f237c48f"/>
+    <Template name="MatchStats_4x4" src="guid:2d544919fb4423542bab0c8fe1588f64"/>
+    <Template name="xGStoryTile_4x4" src="guid:50b6faeac267c6a45909cd2ed5ab384a"/>
+    <si:BindingExpect usage-hints="1" focusable="true" enabled-self="false">
+        <ui:VisualElement class="layout-tile-large_4x4-default--background-false height-100-percent ios-tile-background-colour" style="flex-direction: column" bindings="500035838310" focusable="true" enabled-self="false">
+            <si:BindableCarouselTileRoot style="flex-grow: 1; width: 312px; height: 312px; overflow: hidden; background-color: #060D17F2; border-radius: 12px; border-width: 1px; border-color: #D9E8ED0D;" focusable="false" enabled-self="false">
+                <ui:Instance template="MatchStats_4x4" class="carousel-page"/>
+                <ui:Instance template="MatchMomentumTile_4x4" class="carousel-page"/>
+                <ui:Instance template="xGStoryTile_4x4" class="carousel-page"/>
+                <ui:Instance template="LatestScores_4x6"/>
+                <ui:Instance template="LiveTable_4x6"/>
+            </si:BindableCarouselTileRoot>
+        </ui:VisualElement>
+    </si:BindingExpect>
+</ui:UXML>
