@@ -31,3 +31,7 @@ If you downloaded a **Bundles (WIN)** or **Bundles (MAC)** release:
 ### 🙏 Thanks to...
 
 - **lotsgon**, **Darkside**, **(sic)**, **MrTini23** and everyone else working to improve the FM skinning experience.
+
+### 🔧 Bugs & improvements
+
+Known bugs, planned changes and improvement ideas are tracked on the public **[Trello board](https://trello.com/b/5BB8Gpe3/ctrl-26)**. You can check it for current issues, see what’s in the pipeline, or get an idea of what might be fixed in future updates.
