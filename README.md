@@ -1,7 +1,7 @@
 <p align="center"><strong>🚧 Work in progress – expect bugs or visual issues in game. 🚧</strong></p>
 
 <p align="center">
-  <img src="_assets/hero.png" alt="CTRL" height="400" />
+  <img src="_assets/hero.png" alt="CTRL" height="480" />
 </p>
 
 # CTRL 26
