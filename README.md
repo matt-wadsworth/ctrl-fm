@@ -8,10 +8,6 @@
 
 <p align="center"><strong>CTRL 26</strong> is a custom skin for <strong>Football Manager 26</strong>. Built and maintained using <strong><a href="https://fmskinbuilder.com/">FM Skin Builder</a></strong>.</p>
 
-### 📥 Download
-
-Grab what you need from the **[Releases](releases)** section. If you want the latest fixes between tagged releases, you can clone or download the repo, but the main branch may include breaking changes.
-
 ### 🚀 Build with FM Skin Builder
 
 **Install FM Skin Builder first** - Get the latest beta from **[fmskinbuilder.com/downloads](https://fmskinbuilder.com/downloads)**, this is required before you can build and apply CTRL.
@@ -23,14 +19,14 @@ Grab what you need from the **[Releases](releases)** section. If you want the la
 
 > First build may take 30s–2 minutes while bundles are scanned; later builds use cache and are typically faster. See [Installation](https://fmskinbuilder.com/docs/getting-started/installation), [Full Build](https://fmskinbuilder.com/docs/building/full-build) and [Applying to Game](https://fmskinbuilder.com/docs/building/applying-to-game) for more information.
 
-### 📦 Install from bundles
+<!-- ### 📦 Install from bundles
 
 If you downloaded a **Bundles (WIN)** or **Bundles (MAC)** release:
 
 1. **Extract** the bundle files into your game installation folder (replace the existing files when prompted).
-2. **Windows (Steam):** Default folder is  
+2. **Windows (Steam):** Default folder is
    `C:\Program Files (x86)\Steam\steamapps\common\Football Manager 26\fm_Data\StreamingAssets\aa\StandaloneWindows64`
-3. **macOS:** Right-click the **Football Manager** app → **Show Package Contents**, then navigate to the bundles folder using the same path structure as above (`fm_Data` → `StreamingAssets` → `aa` → platform folder).
+3. **macOS:** Right-click the **Football Manager** app → **Show Package Contents**, then navigate to the bundles folder using the same path structure as above (`fm_Data` → `StreamingAssets` → `aa` → platform folder). -->
 
 ### 🙏 Thanks to...
 
