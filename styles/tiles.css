@@ -174,21 +174,28 @@
 
 /* ---- Tile Dot Indicators (Carousel) ---- */
 .carousel-indicator {
-  background-color: #1c252f;
+  background-color: #333b44;
   margin-right: 4px;
+  border-radius: 3px;
+  width: 24px;
+  height: 6px;
+  min-width: 24px;
+  min-height: 6px;
+  max-width: 24px;
+  max-height: 6px;
 }
 .carousel-indicator:hover {
-  background-color: #333b44;
+  background-color: #4c5a67;
 }
 .carousel-indicator-current,
 .carousel-indicator-current:hover {
-  width: 10px;
-  height: 10px;
-  min-width: 10px;
-  min-height: 10px;
-  max-width: 10px;
-  max-height: 10px;
-  border-radius: 5px;
+  border-radius: 3px;
+  width: 24px;
+  height: 6px;
+  min-width: 24px;
+  min-height: 6px;
+  max-width: 24px;
+  max-height: 6px;
   background-color: #fbc500;
 }
 
