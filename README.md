@@ -8,14 +8,14 @@
 
 ### 🚀 Build with FM Skin Builder
 
-**Install FM Skin Builder first** - Get the latest beta from **[fmskinbuilder.com/downloads](https://fmskinbuilder.com/downloads)**, this is required before you can build and apply CTRL.
+**Install FM Skin Builder first** - Get the latest beta from **<a href="https://fmskinbuilder.com/downloads" target="_blank" rel="noopener noreferrer">fmskinbuilder.com/downloads</a>**, this is required before you can build and apply CTRL.
 
 1. Open the `CTRL` folder in **FM Skin Builder**.
 2. Click **Build** in the toolbar, or use **Build > Output > Build**.
 3. Wait for the build steps to complete; output is written to `packages/` as modified `.bundle` files.
 4. After building, click **Apply to Game** (or **Build > Game Status**) to copy bundles into FM’s directory.
 
-> First build may take 30s–2 minutes while bundles are scanned; later builds use cache and are typically faster. See [Installation](https://fmskinbuilder.com/docs/getting-started/installation), [Full Build](https://fmskinbuilder.com/docs/building/full-build) and [Applying to Game](https://fmskinbuilder.com/docs/building/applying-to-game) for more information.
+> First build may take a few minutes while bundles are scanned; later builds use cache and are typically faster. See <a href="https://fmskinbuilder.com/docs/getting-started/installation" target="_blank" rel="noopener noreferrer">Installation</a>, <a href="https://fmskinbuilder.com/docs/building/full-build" target="_blank" rel="noopener noreferrer">Full Build</a> and <a href="https://fmskinbuilder.com/docs/building/applying-to-game" target="_blank" rel="noopener noreferrer">Applying to Game</a> for more information.
 
 <!-- ### 📦 Install from bundles
 
@@ -28,7 +28,7 @@ If you downloaded a **Bundles (WIN)** or **Bundles (MAC)** release:
 
 ### 🔧 Bugs & improvements
 
-Known bugs, planned changes and improvement ideas are tracked on the public **[Trello board](https://trello.com/b/5BB8Gpe3/ctrl-26)**. You can check it for current issues, see what’s in the pipeline, or get an idea of what might be fixed in future updates.
+Known bugs, planned changes and improvement ideas are tracked on the public **<a href="https://trello.com/b/5BB8Gpe3/ctrl-26" target="_blank" rel="noopener noreferrer">Trello board</a>**. You can check it for current issues, see what’s in the pipeline, or get an idea of what might be fixed in future updates.
 
 ### 🙏 Thanks to...
 
