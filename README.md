@@ -30,7 +30,7 @@ If you downloaded a **Bundles (WIN)** or **Bundles (MAC)** release:
 
 ### 🙏 Thanks to...
 
-- **lotsgon**, **Darkside**, **(sic)**, **MrTini23** and everyone else working to improve the FM skinning experience.
+**lotsgon**, **Darkside**, **(sic)**, **MrTini23** and everyone else working to improve the FM skinning experience.
 
 ### 🔧 Bugs & improvements
 
