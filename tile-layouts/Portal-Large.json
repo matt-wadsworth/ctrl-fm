@@ -1,0 +1,127 @@
+{
+  "name": "Portal-Large",
+  "grid": {
+    "width": 20,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "PortalMessagesTile_6x10",
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 10,
+      "isDynamic": false,
+      "guid": "12b9123c342cc8c40b31f08f03c7e8a9",
+      "path_id": "-8285224197565872725"
+    },
+    {
+      "tile": "SquadFixtureScheduleTile_6x4",
+      "x": 6,
+      "y": 4,
+      "w": 6,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "da75a91b670b41247abe965e44b4028d",
+      "path_id": "-7090924285933375621",
+      "additionalConfigs": [
+        {
+          "guid": "61872d8d296a4504ebd3a5caf21e0048",
+          "path_id": "9165539665808390330",
+          "w": 6,
+          "h": 4
+        }
+      ]
+    },
+    {
+      "tile": "CompetitionLeagueTableStagesTile_4x8",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 10,
+      "isDynamic": false,
+      "guid": "f668d3996f545a846bc789840c7b94d2",
+      "path_id": "-8192312741035252680"
+    },
+    {
+      "tile": "PortalNewsTimedTile_8x4",
+      "x": 6,
+      "y": 0,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "de2ab5c8b6b6c754f9bc8345ccd0c9a6",
+      "path_id": "4204875269942216327"
+    },
+    {
+      "tile": "SquadFirstTeamSecondaryTile_4x2",
+      "x": 12,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "7370c15083a04e24ba05662e630de061",
+      "path_id": "-7879925543493845871"
+    },
+    {
+      "tile": "SquadMedicalCentreTile_4x2",
+      "x": 14,
+      "y": 8,
+      "w": 2,
+      "h": 2,
+      "isDynamic": true,
+      "guid": "b9662a62c6db429459d04c73abfe4d49",
+      "path_id": "3395238359748706489"
+    },
+    {
+      "tile": "SquadTrainingTile_4x2",
+      "x": 6,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": true,
+      "guid": "0ac43ed68f31a8743afc71b6e5cf84d9",
+      "path_id": "-3231225156489882398"
+    },
+    {
+      "tile": "IndividualTrainingTile_4x2",
+      "x": 10,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "9642db80ef0e04a45ad05f733c4f2ec5",
+      "path_id": "-1101541271461702494"
+    },
+    {
+      "tile": "RecruitmentPlayerSearchTile_2x2",
+      "x": 14,
+      "y": 0,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "20069451b6ede8a47a281cb37fced438",
+      "path_id": "-4147941277941003106"
+    },
+    {
+      "tile": "TeamOrOppositionReportTile_4x2",
+      "x": 12,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d177033bd2926a440972ad50eefca137",
+      "path_id": "-4859405567768119315"
+    },
+    {
+      "tile": "DataHubTile_2x2",
+      "x": 14,
+      "y": 2,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "ad19bd27d9a10e14a9a8c40c7c278a75",
+      "path_id": "-541733676374805413"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "MainMenuHasSaveComposition-Large",
+  "grid": {
+    "width": 8,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "MainMenuLoadMostRecentTile_8x4",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "a4bb8d1982779024aad3fce0f403f0fc",
+      "path_id": "-4634327521742775394"
+    },
+    {
+      "tile": "MainMenuStartNewCareerTile_8x4",
+      "x": 0,
+      "y": 6,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "12e2f93fc18966241a1155b1ab2852ee",
+      "path_id": "2657259570277902013"
+    },
+    {
+      "tile": "MainMenuLoadGameTile_4x2",
+      "x": 0,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "43a866cec73e1b54e9f4e2455851afb0",
+      "path_id": "3909485318098081133"
+    },
+    {
+      "tile": "MainMenuOnlineTile_4x2",
+      "x": 4,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "e7ef1e234affffd4ebc0878304ab7716",
+      "path_id": "6333114678723872717"
+    }
+  ]
+}
