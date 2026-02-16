@@ -1,6 +1,9 @@
 {
   "schema_version": 1,
   "name": "CTRL",
+  "description": "CTRL is a custom skin for FM26 by MW90.",
+  "author": "MW90",
+  "version": "0.1.0",
   "includes": [
     "graphics/backgrounds",
     "graphics/icons/condition",
@@ -9,10 +12,11 @@
     "graphics/icons/stars",
     "graphics/icons/union",
     "graphics/mainmenu",
-    "styles",
     "graphics/icons/morale",
     "graphics/icons/sharpness",
+    "graphics/icons/status",
     "graphics/news",
+    "styles",
     "fonts",
     "panels",
     "tile-layouts"
