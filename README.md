@@ -28,10 +28,10 @@ If you downloaded a **Bundles (WIN)** or **Bundles (MAC)** release:
    `C:\Program Files (x86)\Steam\steamapps\common\Football Manager 26\fm_Data\StreamingAssets\aa\StandaloneWindows64`
 3. **macOS:** Right-click the **Football Manager** app → **Show Package Contents**, then navigate to the bundles folder using the same path structure as above (`fm_Data` → `StreamingAssets` → `aa` → platform folder). -->
 
-### 🙏 Thanks to...
-
-**lotsgon**, **Darkside**, **(sic)**, **MrTini23** and everyone else working to improve the FM skinning experience.
-
 ### 🔧 Bugs & improvements
 
 Known bugs, planned changes and improvement ideas are tracked on the public **[Trello board](https://trello.com/b/5BB8Gpe3/ctrl-26)**. You can check it for current issues, see what’s in the pipeline, or get an idea of what might be fixed in future updates.
+
+### 🙏 Thanks to...
+
+**lotsgon**, **Darkside**, **(sic)**, **MrTini23** and everyone else working to improve the FM skinning experience.
