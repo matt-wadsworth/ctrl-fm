@@ -17,6 +17,8 @@
 
 > First build may take a few minutes while bundles are scanned; later builds use cache and are typically faster. See [Installation](https://fmskinbuilder.com/docs/getting-started/installation), [Full Build](https://fmskinbuilder.com/docs/building/full-build) and [Applying to Game](https://fmskinbuilder.com/docs/building/applying-to-game) for more information.
 
+Note: Some changes must be made manually in UABEA (e.g. message indicators, gradients, dugout tiles). See `_uabea/UABEA-Notes.md` for details.
+
 <!-- ### 📦 Install from bundles
 
 If you downloaded a **Bundles (WIN)** or **Bundles (MAC)** release:
