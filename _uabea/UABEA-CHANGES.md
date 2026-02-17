@@ -144,3 +144,12 @@ function hexToUnityGradientBytes(hex) {
 | [2]   | Image width      | 116      | 140       |
 
 ---
+
+## Dugout popups/tiles
+
+These are to give the in match popups a background colour, as the tiles are transparent otherwise. Unfortunately we cannot patch this with SB.
+
+| Name                     | File                       | Path ID (or Name)                  | Reference                   | Note                                                                                                                       |
+| ------------------------ | -------------------------- | ---------------------------------- | --------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Dugout 4x8 collapse tile | ui-tiles_assets_all.bundle | -389085435411529779                | class `base-template-grow` | In `Dugout_4x8_with_collapse`, find the element with class `base-template-grow` and change its `m_RuleIndex` from `-1` to `6`. |
+| Dugout 4x8 inline style  | ui-tiles_assets_all.bundle | 4355907201153990605 (`inlineStyle`) | Rule index `6`             | Add a **new style rule at index 6** that defines `background-color`, `border-radius`, `border-width`, `border-color` (radius 12, width 1, using your chosen dark BG and light border colours). |
