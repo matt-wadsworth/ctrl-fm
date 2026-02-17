@@ -20,6 +20,8 @@
   --colours-brand-foundation-cloud: #d9e8ed;
   --colours-brand-foundation-horizon: #fbc500;
   --colours-brand-foundation-twilight: rgba(217, 232, 237, 0.05); /* Menu Hover */
+  --colours-brand-foundation-twinight: #121a24;
+  --colours-brand-foundation-twinight-120: #121a24;
 
   /* Brand Colours - Tints */
   --colours-brand-tints-midnight-80: #060d17cc;

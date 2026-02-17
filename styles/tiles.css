@@ -112,7 +112,13 @@
   border-color: var(--colours-alpha-light-alpha-8);
 }
 
-/* Other Tiles - TBC */
+/* Modal Dialog - Individual Training - Filter */
+.notifications-modal-dialog-background {
+  border-color: var(--colours-alpha-light-alpha-8);
+  border-radius: 8px;
+}
+
+/* ---- Other Tiles ---- */
 .figma-base-tool-fullscreen-template-inner-frame {
   border-top-width: 0px;
   border-right-width: 0px;
@@ -133,6 +139,7 @@
   border-left-width: 0px;
   background-color: var(--none);
 }
+/* Manager Creation - Background */
 .components-persona-bg {
   background-color: #060d17;
 }
@@ -172,7 +179,7 @@
   border-color: var(--none);
 }
 
-/* ---- Tile Dot Indicators (Carousel) ---- */
+/* ---- Tile Indicators (Carousel) ---- */
 .carousel-indicator {
   background-color: #333b44;
   margin-right: 4px;
@@ -200,10 +207,11 @@
 }
 
 /* ---- Speak To ---- */
+/* Base */
 .interaction-_interaction-hub-base-default {
   border-color: var(--none);
 }
-/* Sender */
+/* Sender - Inner Frame*/
 .speakto-frame-sender-message-response {
   border-color: var(--colours-alpha-light-alpha-8);
 }
