@@ -518,3 +518,11 @@
 .stepper-step-purple .stepper-step--selected {
   background-color: var(--colours-brand-foundation-horizon);
 }
+
+/* ---- Tooltips ---- */
+.sitooltip {
+  border-color: var(--colours-alpha-light-alpha-8);
+}
+.sitext-tooltip {
+  border-color: var(--colours-alpha-light-alpha-8);
+}
