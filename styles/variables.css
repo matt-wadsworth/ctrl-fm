@@ -3,9 +3,6 @@
   --border-width-border-width-1: 0px;
   --border-width-border-width-2: 0px;
 
-  /* Global Colours */
-  --global-border-color: var(--colours-alpha-light-alpha-8);
-
   /* Base Colours - Neutral */
   --colours-base-neutral-black: #060d17;
   --colours-base-neutral-white: #d9e8ed;

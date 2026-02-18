@@ -15,8 +15,6 @@
     "graphics/icons/status",
     "graphics/news",
     "styles",
-    "fonts",
-    "panels",
-    "tile-layouts"
+    "fonts"
   ]
 }
