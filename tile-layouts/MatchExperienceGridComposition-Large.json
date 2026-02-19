@@ -1,0 +1,113 @@
+{
+  "name": "MatchExperienceGridComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 8
+  },
+  "tiles": [
+    {
+      "tile": "MatchStatsTile_4x4",
+      "x": 8,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "c37595e32e86f154ba80b19ae5fb8107",
+      "path_id": "-7687323964896797688"
+    },
+    {
+      "tile": "MatchEventsTile_4x4",
+      "x": 8,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "c432d2ed1c72dad458e0814eb5b6e2fd",
+      "path_id": "-8929835592117333473"
+    },
+    {
+      "tile": "LiveTableTile_4x8",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 8,
+      "isDynamic": false,
+      "guid": "6527b2aa0749db84d802288b4cb6434d",
+      "path_id": "3468244692418197726"
+    },
+    {
+      "tile": "MatchViewerVerticalTile_4x6",
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 6,
+      "isDynamic": false,
+      "guid": "7801510f1d5845547a101caba49431d3",
+      "path_id": "648502813412822921"
+    },
+    {
+      "tile": "AwayTeamFormationIPTile_4x6",
+      "x": 12,
+      "y": 0,
+      "w": 4,
+      "h": 6,
+      "isDynamic": false,
+      "guid": "dd14815c08cb7834590fb5317e2bf64a",
+      "path_id": "6180089565216212846",
+      "additionalConfigs": [
+        {
+          "tile": "AwayTeamFormationOOPTile_4x6",
+          "guid": "dd14815c08cb7834590fb5317e2bf64a",
+          "path_id": "-8016649857285246824"
+        }
+      ]
+    },
+    {
+      "tile": "HomeTeamFormationIPTile_4x6",
+      "x": 4,
+      "y": 0,
+      "w": 4,
+      "h": 6,
+      "isDynamic": false,
+      "guid": "dd14815c08cb7834590fb5317e2bf64a",
+      "path_id": "-851068954229406534",
+      "additionalConfigs": [
+        {
+          "tile": "HomeTeamFormationOOPTile_4x6",
+          "guid": "dd14815c08cb7834590fb5317e2bf64a",
+          "path_id": "8131671911671655671"
+        }
+      ]
+    },
+    {
+      "tile": "LatestScoresTile_4x2",
+      "x": 12,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "8474a8838367004438fa336257d7dfb1",
+      "path_id": "6706023867355077772"
+    },
+    {
+      "tile": "DugoutTile_4x2",
+      "x": 4,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "a06437511db2d4c43a714c317442d40f",
+      "path_id": "7247121503982343376"
+    },
+    {
+      "tile": "xGStoryTile_4x2",
+      "x": 0,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "7318335237d0c7a4db83a5d6dc6265ca",
+      "path_id": "-5918686528339476329"
+    }
+  ]
+}
