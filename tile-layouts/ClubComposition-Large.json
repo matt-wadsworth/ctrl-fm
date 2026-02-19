@@ -1,0 +1,169 @@
+{
+  "name": "ClubComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "ClubBoardTile_4x4",
+      "x": 16,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "76145f40980e286459f8c693a6f79882",
+      "path_id": "8174050334443273315"
+    },
+    {
+      "tile": "ClubSupportersTile_4x2",
+      "x": 12,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "459461706df47e84595838425003cfd5",
+      "path_id": "-9172006177740957598"
+    },
+    {
+      "tile": "ClubAffiliatesTile_4x2",
+      "x": 8,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "c1f71d05a885c76408a6cc5d3d71952d",
+      "path_id": "-5326533450138461988"
+    },
+    {
+      "tile": "ClubFacilitiesTile_4x4",
+      "x": 4,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "d26251c9d9aa8294d9aa7e223fc7fa57",
+      "path_id": "-979692468553441214"
+    },
+    {
+      "tile": "JobCentreTile_4x2",
+      "x": 16,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "026f40426e63a1245a49fe369df5850c",
+      "path_id": "7857264312649708419"
+    },
+    {
+      "tile": "ClubSiteTile_8x4",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "98a808576120a784894f5d36cc0c8dc0",
+      "path_id": "-5582134839463339108"
+    },
+    {
+      "tile": "RecruitmentTransferHistoryTile_4x2",
+      "x": 12,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "9b7ea9f15a87f7f45b6df638649d0973",
+      "path_id": "8610079230574414452"
+    },
+    {
+      "tile": "ClubAllStaffTile_4x4",
+      "x": 8,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": true,
+      "guid": "7cc22dd8ea53df14aa41c8b20578ba3b",
+      "path_id": "-4305017948259856791"
+    },
+    {
+      "tile": "ClubFinancesTile_4x4",
+      "x": 12,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "a61993b8f51377449bec69460cad3fde",
+      "path_id": "7160417498132461346"
+    },
+    {
+      "tile": "PerformanceFeedbackTile_4x2",
+      "x": 12,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "ede07e51a9387f744978eafd28a0fda1",
+      "path_id": "3445950547408205012"
+    },
+    {
+      "tile": "ClubWagesTile_4x4",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "585e7c5f24e4cb54694e4579d69562fd",
+      "path_id": "-7408710739031957841"
+    },
+    {
+      "tile": "ClubHistoryTile_4x2",
+      "x": 0,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "4f1200c065ff2e245bc928dc103838a0",
+      "path_id": "2881935432113935909"
+    },
+    {
+      "tile": "ClubVisionTile_4x4",
+      "x": 8,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "70f7696285cbb094ab35074045fd1a38",
+      "path_id": "8373102815860985467"
+    },
+    {
+      "tile": "ClubFactsTile_4x2",
+      "x": 0,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "9eb8ee50b66c96c4f8a5268542b79dd4",
+      "path_id": "-6585019791564536299"
+    },
+    {
+      "tile": "ClubHistoryLandmarksTile_2x2",
+      "x": 4,
+      "y": 8,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "fdad5d95ca7b37147b61aaa7b18a1d80",
+      "path_id": "-953176093359915059"
+    },
+    {
+      "tile": "ClubHistoryRecordsTile_2x2",
+      "x": 6,
+      "y": 8,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "9c0f4c01a078dad4d98024833791d995",
+      "path_id": "-8197417982966085475"
+    }
+  ]
+}

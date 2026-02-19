@@ -1,0 +1,147 @@
+{
+  "name": "OnThePitchComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "OnThePitchMatchSquadTile_4x8",
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 8,
+      "isDynamic": false,
+      "guid": "62978b0167a20d54caa423b2251ae6f9",
+      "path_id": "1144291766346510870"
+    },
+    {
+      "tile": "OnThePitchTacticsTile_8x4",
+      "x": 4,
+      "y": 0,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "bacec0acda299b9458070e63b004a784",
+      "path_id": "-549059308546553030"
+    },
+    {
+      "tile": "OnThePitchMatchesFeedbackTile_4x2",
+      "x": 8,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "6ab8ceaa24cdecf419781dddc44f073b",
+      "path_id": "5852272048655485325"
+    },
+    {
+      "tile": "CompetitionLeagueTableStagesTile_4x8",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 10,
+      "isDynamic": false,
+      "guid": "f668d3996f545a846bc789840c7b94d2",
+      "path_id": "-8192312741035252680",
+      "additionalConfigs": [
+        {
+          "guid": "4d54ebe9986f1d44c8708ddcab70dfae",
+          "path_id": "-8804771185934842602",
+          "w": 4,
+          "h": 8
+        }
+      ]
+    },
+    {
+      "tile": "OnThePitchTacticsFeedbackTile_4x2",
+      "x": 4,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d0f28a30066cc2f4593dd72fd9806160",
+      "path_id": "2675200207953237449"
+    },
+    {
+      "tile": "MatchPreparationTile_4x4",
+      "x": 4,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "17c50ff3d75c2be4ba2fe93f5b5c3844",
+      "path_id": "6497940642311826740"
+    },
+    {
+      "tile": "TeamOrOppositionReportTile_4x2",
+      "x": 12,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d177033bd2926a440972ad50eefca137",
+      "path_id": "-4859405567768119315"
+    },
+    {
+      "tile": "DataHubTile_4x2",
+      "x": 12,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "26771f738deefc04896cea7b03915443",
+      "path_id": "-541733676374805413"
+    },
+    {
+      "tile": "SquadFixtureScheduleTile_4x4",
+      "x": 12,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "3698b650d3c609349beb53c934c4335b",
+      "path_id": "-7090924285933375621"
+    },
+    {
+      "tile": "CompetitionsTile_4x2",
+      "x": 12,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "a8b8d2678a4e61744b3caae692a7be19",
+      "path_id": "-5925175220937073605"
+    },
+    {
+      "tile": "SquadTrainingTile_4x2",
+      "x": 0,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "0ac43ed68f31a8743afc71b6e5cf84d9",
+      "path_id": "-3231225156489882398"
+    },
+    {
+      "tile": "OnThePitchOppositionInstructionsTile_4x2",
+      "x": 8,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "6dfc1c4c3d48848189d4eee3a907cbf1",
+      "path_id": "-8006909493395707993"
+    },
+    {
+      "tile": "OnThePitchSetPiecesTile_4x2",
+      "x": 8,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "9b8b51cdd59a440059d9690a102debe9",
+      "path_id": "1384800690337876646"
+    }
+  ]
+}

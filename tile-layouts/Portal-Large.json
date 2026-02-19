@@ -26,6 +26,7 @@
       "path_id": "-7090924285933375621",
       "additionalConfigs": [
         {
+          "tile": "Agent Offers",
           "guid": "61872d8d296a4504ebd3a5caf21e0048",
           "path_id": "9165539665808390330",
           "w": 6,
@@ -54,34 +55,14 @@
       "path_id": "4204875269942216327"
     },
     {
-      "tile": "SquadFirstTeamSecondaryTile_4x2",
+      "tile": "TeamOrOppositionReportTile_4x2",
       "x": 12,
       "y": 4,
       "w": 4,
       "h": 2,
       "isDynamic": false,
-      "guid": "7370c15083a04e24ba05662e630de061",
-      "path_id": "-7879925543493845871"
-    },
-    {
-      "tile": "SquadMedicalCentreTile_4x2",
-      "x": 14,
-      "y": 8,
-      "w": 2,
-      "h": 2,
-      "isDynamic": true,
-      "guid": "b9662a62c6db429459d04c73abfe4d49",
-      "path_id": "3395238359748706489"
-    },
-    {
-      "tile": "SquadTrainingTile_4x2",
-      "x": 6,
-      "y": 8,
-      "w": 4,
-      "h": 2,
-      "isDynamic": true,
-      "guid": "0ac43ed68f31a8743afc71b6e5cf84d9",
-      "path_id": "-3231225156489882398"
+      "guid": "d177033bd2926a440972ad50eefca137",
+      "path_id": "-4859405567768119315"
     },
     {
       "tile": "IndividualTrainingTile_4x2",
@@ -94,9 +75,39 @@
       "path_id": "-1101541271461702494"
     },
     {
-      "tile": "RecruitmentPlayerSearchTile_2x2",
+      "tile": "SquadFirstTeamSecondaryTile_4x2",
+      "x": 12,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "7370c15083a04e24ba05662e630de061",
+      "path_id": "-7879925543493845871"
+    },
+    {
+      "tile": "SquadTrainingTile_4x2",
+      "x": 6,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": true,
+      "guid": "0ac43ed68f31a8743afc71b6e5cf84d9",
+      "path_id": "-3231225156489882398"
+    },
+    {
+      "tile": "DataHubTile_2x2",
       "x": 14,
       "y": 0,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "ad19bd27d9a10e14a9a8c40c7c278a75",
+      "path_id": "-541733676374805413"
+    },
+    {
+      "tile": "RecruitmentPlayerSearchTile_2x2",
+      "x": 14,
+      "y": 2,
       "w": 2,
       "h": 2,
       "isDynamic": false,
@@ -104,24 +115,14 @@
       "path_id": "-4147941277941003106"
     },
     {
-      "tile": "TeamOrOppositionReportTile_4x2",
-      "x": 12,
-      "y": 6,
-      "w": 4,
-      "h": 2,
-      "isDynamic": false,
-      "guid": "d177033bd2926a440972ad50eefca137",
-      "path_id": "-4859405567768119315"
-    },
-    {
-      "tile": "DataHubTile_2x2",
+      "tile": "SquadMedicalCentreTile_2x2",
       "x": 14,
-      "y": 2,
+      "y": 8,
       "w": 2,
       "h": 2,
-      "isDynamic": false,
-      "guid": "ad19bd27d9a10e14a9a8c40c7c278a75",
-      "path_id": "-541733676374805413"
+      "isDynamic": true,
+      "guid": "76609fa4e8f7ebc4182174e383bd08f2",
+      "path_id": "3395238359748706489"
     }
   ]
 }

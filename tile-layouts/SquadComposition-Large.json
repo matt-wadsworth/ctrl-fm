@@ -1,0 +1,129 @@
+{
+  "name": "SquadComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "SquadMedicalCentreTile_4x2",
+      "x": 12,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": true,
+      "guid": "b9662a62c6db429459d04c73abfe4d49",
+      "path_id": "3395238359748706489"
+    },
+    {
+      "tile": "SquadInternationalsTile_4x2",
+      "x": 16,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "48917cff3685cc34082c2f5d87462157",
+      "path_id": "-1046896979369412401"
+    },
+    {
+      "tile": "SquadPromisesTile_4x2",
+      "x": 12,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "55f9f789dde52354da828defe0a0c6c3",
+      "path_id": "-491807929799900960"
+    },
+    {
+      "tile": "SquadTargetsTile_4x2",
+      "x": 16,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "3196ab03b5f609e4184d633514167ff5",
+      "path_id": "1127065230388536907"
+    },
+    {
+      "tile": "SquadFirstTeamTile_8x8",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 10,
+      "isDynamic": true,
+      "guid": "cb6226a4d0f7d5e45be62dd7003d9c68",
+      "path_id": "4009900239504513551"
+    },
+    {
+      "tile": "SquadAtmosphereTile_4x2",
+      "x": 16,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": true,
+      "guid": "f3efbac2b378b4b779c78744b7a86d4c",
+      "path_id": "919986441625255961"
+    },
+    {
+      "tile": "SquadLoansTile_4x2",
+      "x": 12,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "b15caf9d28749b14ead83caf6a4a91c0",
+      "path_id": "-170620690769355010"
+    },
+    {
+      "tile": "SquadYouthSetupTile_4x4",
+      "x": 8,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "88937f80a03d8b54987f124a89d965c1",
+      "path_id": "2127192121779866165"
+    },
+    {
+      "tile": "SquadTrainingTile_8x4",
+      "x": 12,
+      "y": 0,
+      "w": 8,
+      "h": 4,
+      "isDynamic": true,
+      "guid": "aa27a0f03cf2af3459e185ab8a93b7e3",
+      "path_id": "-3231225156489882398"
+    },
+    {
+      "tile": "OnThePitchTacticsTile_4x4",
+      "x": 8,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "a653d065e432dd049ac74d64b85659f2",
+      "path_id": "-549059308546553030"
+    },
+    {
+      "tile": "SquadRegistrationTile_2x2",
+      "x": 8,
+      "y": 8,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "5f0c659fecdd52f4b9880f5fd7d0ec3d",
+      "path_id": "7974516641986673666"
+    },
+    {
+      "tile": "SquadNumbersTile_2x2",
+      "x": 10,
+      "y": 8,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d469895effdffff4e9d7179465e20532",
+      "path_id": "-4046802246998584124"
+    }
+  ]
+}
