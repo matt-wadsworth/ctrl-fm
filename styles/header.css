@@ -24,6 +24,21 @@
 .navigation-tab-portal-default-active-false .portal-image {
   -unity-background-image-tint-color: rgba(217, 232, 237, 0.65);
 }
+/* Portal Icon Colour */
+.navigation-tab-portal-default-active-false .portal-image {
+  -unity-background-image-tint-color: var(--colours-base-neutral-white);
+}
+/* Portal Text Colour */
+.navigation-tab-portal-default-active-true .portal-text,
+.navigation-tab-portal-default-active-true:hover .portal-text {
+  color: var(--colours-base-neutral-white);
+}
+/* Portal Icon Colour - Hover */
+.navigation-tab-portal-default-active-true:hover,
+.navigation-tab-portal-default-active-true:hover .portal-image,
+.navigation-tab-portal-default-active-true.navigation-tab-portal-default-active-false:hover .portal-image {
+  -unity-background-image-tint-color: #fbc500;
+}
 
 /* ---- Nav Items ---- */
 .navigation-global-diagetic-container {
