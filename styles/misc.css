@@ -71,17 +71,17 @@
 /* Vertical */
 .layout-divider-solid-vertical {
   background-color: var(--none);
-  width: 1px;
+  width: 0px;
 }
 
 .layout-divider-solid-vertical-stretch {
   background-color: var(--none);
-  width: 1px;
+  width: 0px;
 }
 
 .layout-layout-divider-solid-vertical {
   background-color: var(--none);
-  width: 1px;
+  width: 0px;
 }
 
 /* Horizontal */
