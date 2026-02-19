@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+    <!-- FinancesReportLineChartPointSmall -->
+    <Template name="StandardTextTooltip" src="guid:c21ee7f2de573ca439f6d96122eb4ef5"/>
+    <si:BindingRoot focusable="false" enabled-self="false" value-properties="[1 items]">
+        <si:SIVisible invert-direct-binding="false" binding="kind=1; path=binding.LineChartIsLast" always-bind-children="true" style-class-on-visible="binding.LineChartIsLast">
+            <si:SIImage class="data_display-graphs-data_points-medium-circle-grey" style="background-color: #fbc500; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; width: 4px; height: 4px" picking-mode="1" focusable="false" enabled-self="false"/>
+        </si:SIVisible>
+        <si:SIVisible invert-direct-binding="false" binding="kind=1; path=binding.LineChartIsLast" faded-opacity-value="1.401298464324817e-45" always-bind-children="true" style-class-on-visible="binding.LineChartIsLast">
+            <si:SIImage class="data_display-graphs-data_points-medium-circle-grey" style="background-color: #e6e6fa97; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; width: 4px; height: 4px" picking-mode="1" focusable="false" enabled-self="false"/>
+        </si:SIVisible>
+        <ui:Instance template="StandardTextTooltip"/>
+    </si:BindingRoot>
+</ui:UXML>

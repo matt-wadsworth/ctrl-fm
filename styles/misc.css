@@ -471,6 +471,11 @@
   border-color: var(--none);
   background-color: #f22c2c80;
 }
+/* Finances - Medium Circle Purple */
+.data_display-graphs-data_points-medium-circle-purple {
+  border-color: #060d17;
+  background-color: #fbc500;
+}
 
 /* ---- Calendar ---- */
 /* Calendar Day Current */
