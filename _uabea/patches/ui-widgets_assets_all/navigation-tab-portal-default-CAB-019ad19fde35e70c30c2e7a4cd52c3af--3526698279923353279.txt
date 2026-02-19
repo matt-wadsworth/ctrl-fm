@@ -330,7 +330,7 @@
       1 Array Array (0 items)
        0 int size = 0
      1 string m_Name = ""
-     0 int m_RuleIndex = -1
+     0 int m_RuleIndex = 9
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
@@ -339,7 +339,7 @@
        [0]
         1 string data = "portal-image"
        [1]
-        1 string data = "margin-right-global-gap-regular"
+        1 string data = "margin-right-global-gap-small"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0

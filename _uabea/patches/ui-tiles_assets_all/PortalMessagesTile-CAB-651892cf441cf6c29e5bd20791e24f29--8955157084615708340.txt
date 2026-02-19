@@ -412,12 +412,14 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (2 items)
-       0 int size = 2
+      1 Array Array (3 items)
+       0 int size = 3
        [0]
-        1 string data = "padding-horizontal-global-padding-none"
+        1 string data = "padding-horizontal-global-padding-regular"
        [1]
         1 string data = "padding-top-global-padding-large"
+       [2]
+        1 string data = "padding-right-global-padding-extra-small"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
