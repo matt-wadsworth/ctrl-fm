@@ -15,7 +15,7 @@
                     <ui:Instance template="layout-divider-solid-vertical" class="margin-horizontal-global-gap-large" style="align-self: stretch"/>
                     <si:BindableSwitchElement class="row-direction-normal" bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=polygonselected">
                          <!-- Attributes Table -->
-                        <ui:Instance template="AttributesTableTemplate" style="width: 720px; height: 100%"/>
+                        <ui:Instance template="AttributesTableTemplate" style="width: 760px; height: 100%"/>
                         <ui:VisualElement class="column-direction-normal margin-right-global-gap-large" style="width: 760px; justify-content: center; align-items: center; align-self: center; height: 100%" picking-mode="1" focusable="false" enabled-self="false">
                             <si:BindableSwitchElement bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=person.IsGoalkeeper">
                                 <ui:VisualElement class="data_display-graph-spider-graph-labelled--tile-x-large" focusable="false" enabled-self="false">
@@ -28,9 +28,9 @@
                         </ui:VisualElement>
                     </si:BindableSwitchElement>
                     <!-- Divider -->
-                    <ui:Instance template="layout-divider-solid-vertical" class="margin-horizontal-global-gap-large" style="align-self: stretch; background-color: #d9e8ed0d;"/>
+                    <ui:Instance template="layout-divider-solid-vertical" class="margin-horizontal-global-gap-large" style="align-self: stretch; background-color: #d9e8ed0d; width: 1px;"/>
                      <!-- Info Column -->
-                    <ui:VisualElement class="column-direction-normal" style="width: 240px; align-items: flex-start; align-self: stretch" focusable="false" enabled-self="false">
+                    <ui:VisualElement class="column-direction-normal" style="width: 221px; align-items: flex-start; align-self: stretch" focusable="false" enabled-self="false">
                         <ui:VisualElement class="column-direction-normal flex-grow-class" style="align-items: flex-start; align-self: stretch" focusable="false" enabled-self="false">
                             <ui:VisualElement class="row-direction-normal width-100-percent justify-content-space-between align-items-start" focusable="false" enabled-self="false">
                                 <si:SIText class="body-small-12px-bold global-text-secondary" style="align-self: flex-end" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Info" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="20918"/>
@@ -63,7 +63,24 @@
                                 </ui:VisualElement>
                             </ui:VisualElement>
                             <!-- Divider -->
-                            <ui:Instance template="layout-divider-solid-horizontal" class="margin-vertical-global-gap-large" style="align-self: stretch;"/>
+                            <ui:Instance template="layout-divider-solid-horizontal" class="margin-vertical-global-gap-large" style="align-self: stretch; background-color: #d9e8ed0d;"/>
+                            <!-- Footedness - Left and Right Foot -->
+                            <ui:VisualElement class="row-direction-normal margin-top-global-gap-large" style="align-self: stretch; justify-content: start; height: 60px" focusable="false" enabled-self="false">
+                                <ui:VisualElement class="margin-right-global-gap-large" focusable="false" enabled-self="false">
+                                    <si:SIText class="global-text-secondary body-small-12px-regular margin-bottom-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Left Foot" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="10162"/>
+                                    <si:BindingRemapper focusable="false" enabled-self="false" binding-mappings="footednessValue=Person.Footedness.LeftFootedness; footednessString=Person.Footedness.LeftFootednessString">
+                                        <ui:Instance template="FootednessStepperWithBorderCell"/>
+                                    </si:BindingRemapper>
+                                </ui:VisualElement>
+                                <ui:VisualElement focusable="false" enabled-self="false">
+                                    <si:SIText class="global-text-secondary body-small-12px-regular margin-bottom-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Right Foot" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="10161"/>
+                                    <si:BindingRemapper focusable="false" enabled-self="false" binding-mappings="footednessValue=Person.Footedness.RightFootedness; footednessString=Person.Footedness.RightFootednessString">
+                                        <ui:Instance template="FootednessStepperWithBorderCell"/>
+                                    </si:BindingRemapper>
+                                </ui:VisualElement>
+                            </ui:VisualElement>
+                            <!-- Divider -->
+                            <ui:Instance template="layout-divider-solid-horizontal" class="margin-vertical-global-gap-large" style="align-self: stretch; background-color: #d9e8ed0d;"/>
                             <!-- Player Traits -->
                             <ui:VisualElement class="column-direction-normal flex-grow-class height-100-percent" style="align-items: flex-start; align-self: stretch" usage-hints="1" focusable="false" enabled-self="false">
                                 <ui:VisualElement class="row-direction-normal" style="align-items: center; align-self: stretch; margin-bottom: 10px" usage-hints="1" focusable="false" enabled-self="false">
@@ -80,15 +97,12 @@
                         </ui:VisualElement>
                     </ui:VisualElement>
                     <!-- Divider -->
-                    <ui:Instance template="layout-divider-solid-vertical" class="margin-horizontal-global-gap-large" style="align-self: stretch; background-color: #d9e8ed0d;"/>
-                    <!-- Polar/Polygon Chart -->
-                    <ui:VisualElement class="column-direction-normal" style="width: 320px; align-items: flex-start; align-self: stretch" focusable="false" enabled-self="false">
+                    <ui:Instance template="layout-divider-solid-vertical" class="margin-horizontal-global-gap-large" style="align-self: stretch; background-color: #d9e8ed0d; width: 1px;"/>
+                    <!-- Right Column -->
+                    <ui:VisualElement class="column-direction-normal" style="width: 300px; align-items: flex-start; align-self: stretch" focusable="false" enabled-self="false">
                         <ui:VisualElement class="column-direction-normal flex-grow-class" style="align-items: flex-start; align-self: stretch" focusable="false" enabled-self="false">
-                            <ui:VisualElement class="row-direction-normal width-100-percent justify-content-space-between align-items-start" focusable="false" enabled-self="false">
-                                <si:SIText class="body-small-12px-bold global-text-secondary" style="align-self: flex-end" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Polygon Chart" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="27124"/>
-                            </ui:VisualElement>
-                            <ui:Instance template="layout-divider-solid-horizontal" class="margin-vertical-global-gap-large" style="align-self: stretch;"/>
-                            <ui:VisualElement class="column-direction-normal" style="align-items: center; align-self: stretch; flex-grow: 1; justify-content: flex-start; margin-top: 0" focusable="false" enabled-self="false">
+                            <!-- Polar/Polygon Chart -->
+                            <ui:VisualElement class="column-direction-normal" style="align-items: center; align-self: stretch; flex-grow: 1; justify-content: center; margin-top: 0" focusable="false" enabled-self="false">
                                 <si:BindableSwitchElement style="align-self: center" bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=person.IsGoalkeeper">
                                     <ui:VisualElement class="data_display-graph-spider-graph-labelled--tile-x-large" style="width: 456px; height: 300px" focusable="false" enabled-self="false">
                                         <fm:FMPolarChart class="margin-horizontal-global-gap-none padding-horizontal-global-padding-none" style="flex-grow: 1; margin-top: 0; margin-bottom: 0; padding-bottom: 0; padding-top: 0"/>
@@ -97,23 +111,6 @@
                                         <fm:FMPolarChart class="margin-horizontal-global-gap-none padding-horizontal-global-padding-none" style="flex-grow: 1; margin-top: 0; margin-bottom: 0; padding-bottom: 0; padding-top: 0"/>
                                     </ui:VisualElement>
                                 </si:BindableSwitchElement>
-                            </ui:VisualElement>
-                            <!-- Divider -->
-                            <ui:Instance template="layout-divider-solid-horizontal" class="margin-vertical-global-gap-large" style="align-self: stretch; background-color: #d9e8ed0d;"/>
-                            <!-- Footedness -->
-                            <ui:VisualElement class="row-direction-normal" style="align-self: stretch; justify-content: start; height: 60px" focusable="false" enabled-self="false">
-                                <ui:VisualElement class="margin-right-global-gap-large" focusable="false" enabled-self="false">
-                                    <si:SIText class="global-text-secondary body-small-12px-regular margin-bottom-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Left Foot" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="10162"/>
-                                    <si:BindingRemapper focusable="false" enabled-self="false" binding-mappings="footednessValue=Person.Footedness.LeftFootedness; footednessString=Person.Footedness.LeftFootednessString">
-                                        <ui:Instance template="FootednessStepperWithBorderCell"/>
-                                    </si:BindingRemapper>
-                                </ui:VisualElement>
-                                <ui:VisualElement focusable="false" enabled-self="false">
-                                    <si:SIText class="global-text-secondary body-small-12px-regular margin-bottom-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Right Foot" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="10161"/>
-                                    <si:BindingRemapper focusable="false" enabled-self="false" binding-mappings="footednessValue=Person.Footedness.RightFootedness; footednessString=Person.Footedness.RightFootednessString">
-                                        <ui:Instance template="FootednessStepperWithBorderCell"/>
-                                    </si:BindingRemapper>
-                                </ui:VisualElement>
                             </ui:VisualElement>
                         </ui:VisualElement>
                     </ui:VisualElement>
