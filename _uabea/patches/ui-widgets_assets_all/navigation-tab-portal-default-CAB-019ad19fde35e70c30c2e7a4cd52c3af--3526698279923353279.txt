@@ -1,0 +1,4167 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 11995
+ 1 string m_Name = "navigation-tab-portal-default"
+ 1 UInt8 m_ImportedWithErrors = 0
+ 1 UInt8 m_HasUpdatedUrls = 0
+ 1 UInt8 m_ImportedWithWarnings = 0
+ 0 UsingEntry m_Usings
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 PPtr<$StyleSheet> inlineSheet
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 8251223908227938625
+ 0 VisualElementAsset m_VisualElementAssets
+  0 Array Array (19 items)
+   0 int size = 19
+   [0]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "UnityEngine.UIElements.UXML"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = 1660652056
+     0 int m_OrderInDocument = 0
+     0 int m_ParentId = 0
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = -1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = -2
+     1 UInt8 m_SkipClone = 0
+   [1]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.BindingExpect"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -42804607
+     0 int m_OrderInDocument = 1
+     0 int m_ParentId = 1660652056
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = 0
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1000
+     1 UInt8 m_SkipClone = 0
+   [2]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.BindingVariables"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = 1027571731
+     0 int m_OrderInDocument = 2
+     0 int m_ParentId = -42804607
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = 1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1001
+     1 UInt8 m_SkipClone = 0
+   [3]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.SIButton"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = 576813774
+     0 int m_OrderInDocument = 3
+     0 int m_ParentId = 1027571731
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = 2
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (2 items)
+       0 int size = 2
+       [0]
+        1 string data = "navigation-tab-portal-default-active-false"
+       [1]
+        1 string data = "margin-horizontal-global-gap-none"
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1002
+     1 UInt8 m_SkipClone = 0
+   [4]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "UnityEngine.UIElements.VisualElement"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -1395078478
+     0 int m_OrderInDocument = 4
+     0 int m_ParentId = 576813774
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = 3
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1003
+     1 UInt8 m_SkipClone = 0
+   [5]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "UnityEngine.UIElements.VisualElement"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -593137729
+     0 int m_OrderInDocument = 5
+     0 int m_ParentId = -1395078478
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = 4
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (5 items)
+       0 int size = 5
+       [0]
+        1 string data = "row-direction-normal"
+       [1]
+        1 string data = "padding-bottom-global-padding-none"
+       [2]
+        1 string data = "padding-left-global-padding-none"
+       [3]
+        1 string data = "padding-top-global-padding-none"
+       [4]
+        1 string data = "padding-right-global-padding-large"
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1004
+     1 UInt8 m_SkipClone = 0
+   [6]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.SIVisible"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -1312331275
+     0 int m_OrderInDocument = 6
+     0 int m_ParentId = -593137729
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = -1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1005
+     1 UInt8 m_SkipClone = 0
+   [7]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "UnityEngine.UIElements.VisualElement"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = 742308180
+     0 int m_OrderInDocument = 7
+     0 int m_ParentId = -1312331275
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = -1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (1 items)
+       0 int size = 1
+       [0]
+        1 string data = "navigation-tab-no-dropdown-padding-element"
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1006
+     1 UInt8 m_SkipClone = 0
+   [8]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.SIVisible"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -59632569
+     0 int m_OrderInDocument = 7
+     0 int m_ParentId = -593137729
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = -1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1007
+     1 UInt8 m_SkipClone = 0
+   [9]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.SIImage"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -1047261704
+     0 int m_OrderInDocument = 8
+     0 int m_ParentId = 1193066137
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = -1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (2 items)
+       0 int size = 2
+       [0]
+        1 string data = "portal-image"
+       [1]
+        1 string data = "margin-right-global-gap-regular"
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1008
+     1 UInt8 m_SkipClone = 0
+   [10]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.SIVisible"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = 1193066137
+     0 int m_OrderInDocument = 8
+     0 int m_ParentId = -593137729
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = -1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (1 items)
+       0 int size = 1
+       [0]
+        1 string data = "row-direction-normal"
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1009
+     1 UInt8 m_SkipClone = 0
+   [11]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.SIText"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = 1458135708
+     0 int m_OrderInDocument = 9
+     0 int m_ParentId = 1193066137
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = -1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (5 items)
+       0 int size = 5
+       [0]
+        1 string data = "portal-text"
+       [1]
+        1 string data = "fm-universe-20px"
+       [2]
+        1 string data = "margin-right-global-gap-none"
+       [3]
+        1 string data = "sitext-hover-cursor"
+       [4]
+        1 string data = "margin-right-global-gap-small"
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1010
+     1 UInt8 m_SkipClone = 0
+   [12]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.SIVisible"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -1849202453
+     0 int m_OrderInDocument = 9
+     0 int m_ParentId = -593137729
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = 5
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1011
+     1 UInt8 m_SkipClone = 0
+   [13]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.SIStyleSetter"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -331434176
+     0 int m_OrderInDocument = 10
+     0 int m_ParentId = -1849202453
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = 6
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1012
+     1 UInt8 m_SkipClone = 0
+   [14]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.BindingRemapper"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -334800194
+     0 int m_OrderInDocument = 11
+     0 int m_ParentId = -331434176
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = 7
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1013
+     1 UInt8 m_SkipClone = 0
+   [15]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.SIDropdown"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -1859300507
+     0 int m_OrderInDocument = 12
+     0 int m_ParentId = -334800194
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = 8
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (2 items)
+       0 int size = 2
+       [0]
+        1 string data = "navigation-tab-dropdown"
+       [1]
+        1 string data = "flex-grow-class"
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1014
+     1 UInt8 m_SkipClone = 0
+   [16]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "UnityEngine.UIElements.VisualElement"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -609967819
+     0 int m_OrderInDocument = 13
+     0 int m_ParentId = -1859300507
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = -1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (2 items)
+       0 int size = 2
+       [0]
+        1 string data = "ui-concepts-chevron-down_small"
+       [1]
+        1 string data = "portal-image"
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1015
+     1 UInt8 m_SkipClone = 0
+   [17]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "SI.Bindable.SIVisible"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = -864939336
+     0 int m_OrderInDocument = 10
+     0 int m_ParentId = -593137729
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = -1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1016
+     1 UInt8 m_SkipClone = 0
+   [18]
+    0 VisualElementAsset data
+     1 string m_FullTypeName = "UnityEngine.UIElements.VisualElement"
+     0 UxmlNamespaceDefinition m_XmlNamespace
+      1 string prefix = ""
+      1 string resolvedNamespace = ""
+     0 int m_Id = 1637092058
+     0 int m_OrderInDocument = 11
+     0 int m_ParentId = -864939336
+     0 UxmlNamespaceDefinition m_NamespaceDefinitions
+      0 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Properties
+      1 Array Array (0 items)
+       0 int size = 0
+     1 string m_Name = ""
+     0 int m_RuleIndex = -1
+     1 string m_Text = ""
+     0 int m_PickingMode = 0
+     0 vector m_Classes
+      1 Array Array (1 items)
+       0 int size = 1
+       [0]
+        1 string data = "navigation-tab-no-dropdown-padding-element"
+     0 vector m_StylesheetPaths
+      1 Array Array (0 items)
+       0 int size = 0
+     0 vector m_Stylesheets
+      0 Array Array (0 items)
+       0 int size = 0
+     0 managedReference m_SerializedData
+      0 SInt64 rid = 1017
+     1 UInt8 m_SkipClone = 0
+ 0 TemplateAsset m_TemplateAssets
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 UxmlObjectEntry m_UxmlObjectEntries
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 vector m_UxmlObjectIds
+  1 Array Array (0 items)
+   0 int size = 0
+ 0 AssetEntry m_AssetEntries
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 SlotDefinition m_Slots
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 int m_ContentContainerId = 0
+ 0 int m_ContentHash = 1842974424
+ 0 ManagedReferencesRegistry references
+  0 int version = 2
+  0 vector RefIds
+   1 Array Array
+    0 int size = 19
+    0 ReferencedObject data
+     0 SInt64 rid = -2
+     0 ReferencedManagedType type
+      1 string class = ""
+      1 string ns = ""
+      1 string asm = ""
+     0 ReferencedObjectData data
+    0 ReferencedObject data
+     0 SInt64 rid = 1000
+     0 ReferencedManagedType type
+      1 string class = "BindingExpect/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -42804607
+      1 string name = "NavigationTabPortalBindingExpect"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 0
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      0 Parameter Parameters
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string MigrateParameters = ""
+      1 UInt8 Parameters_UxmlAttributeFlags = 0
+      1 UInt8 MigrateParameters_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1001
+     0 ReferencedManagedType type
+      1 string class = "BindingVariables/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = 1027571731
+      1 string name = "NavigationTabPortalBindingVariables"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 0
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      0 BindingValueVariable ValueVariables
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 BindingValueVariable data
+          1 string m_name = "tabpanel"
+          1 string m_serializedData = "{"$type":"SI.Bindable.AssetReferenceScopeValue, SI.Bindable","m_value":{"m_AssetGUID":"","m_SubObjectName":"","m_SubObjectGUID":"","m_SubObjectType":"","m_EditorAssetChanged":false}}"
+      1 UInt8 ValueVariables_UxmlAttributeFlags = 1
+      0 BindingReferenceVariable ReferenceVariables
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 BindingReferenceVariable data
+          0 ReferenceID m_type
+           0 unsigned int id = 1513318467
+          1 UInt8 m_initToNull = 1
+          1 string m_name = "selectedSubtabElement"
+      1 UInt8 ReferenceVariables_UxmlAttributeFlags = 1
+    0 ReferencedObject data
+     0 SInt64 rid = 1002
+     0 ReferencedManagedType type
+      1 string class = "SIButton/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = 576813774
+      1 string name = "buttons-button-navigation-default"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 0
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 1
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 1
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      1 string bindingPath = ""
+      1 UInt8 bindingPath_UxmlAttributeFlags = 0
+      1 string text = ""
+      1 UInt8 text_UxmlAttributeFlags = 0
+      1 UInt8 enableRichText = 0
+      1 UInt8 enableRichText_UxmlAttributeFlags = 0
+      1 UInt8 emojiFallbackSupport = 0
+      1 UInt8 emojiFallbackSupport_UxmlAttributeFlags = 0
+      1 UInt8 parseEscapeSequences = 0
+      1 UInt8 parseEscapeSequences_UxmlAttributeFlags = 0
+      1 UInt8 isSelectable = 0
+      1 UInt8 isSelectable_UxmlAttributeFlags = 0
+      1 UInt8 doubleClickSelectsWord = 0
+      1 UInt8 doubleClickSelectsWord_UxmlAttributeFlags = 0
+      1 UInt8 tripleClickSelectsLine = 0
+      1 UInt8 tripleClickSelectsLine_UxmlAttributeFlags = 0
+      1 UInt8 displayTooltipWhenElided = 0
+      1 UInt8 displayTooltipWhenElided_UxmlAttributeFlags = 0
+      0 PPtr<$Object> iconImageReference
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 UInt8 iconImageReference_UxmlAttributeFlags = 0
+      0 DataDrivenVisualRunnerConfig`2 BindTextFunction
+       1 UInt8 m_isAssigned = 0
+       0 AssetReferenceT`1 m_target
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       0 DataDrivenVisualArgs`1 m_inputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+       0 DataDrivenVisualArgs`1 m_outputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+      0 EventList Events
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (50 items)
+         0 int size = 50
+         [0]
+          0 UInt8 data = 0
+         [1]
+          0 UInt8 data = 1
+         [2]
+          0 UInt8 data = 1
+         [3]
+          0 UInt8 data = 1
+         [4]
+          0 UInt8 data = 1
+         [5]
+          0 UInt8 data = 207
+         [6]
+          0 UInt8 data = 211
+         [7]
+          0 UInt8 data = 101
+         [8]
+          0 UInt8 data = 102
+         [9]
+          0 UInt8 data = 7
+         [10]
+          0 UInt8 data = 1
+         [11]
+          0 UInt8 data = 207
+         [12]
+          0 UInt8 data = 1
+         [13]
+          0 UInt8 data = 0
+         [14]
+          0 UInt8 data = 1
+         [15]
+          0 UInt8 data = 0
+         [16]
+          0 UInt8 data = 207
+         [17]
+          0 UInt8 data = 1
+         [18]
+          0 UInt8 data = 1
+         [19]
+          0 UInt8 data = 0
+         [20]
+          0 UInt8 data = 188
+         [21]
+          0 UInt8 data = 188
+         [22]
+          0 UInt8 data = 207
+         [23]
+          0 UInt8 data = 1
+         [24]
+          0 UInt8 data = 1
+         [25]
+          0 UInt8 data = 1
+         [26]
+          0 UInt8 data = 1
+         [27]
+          0 UInt8 data = 1
+         [28]
+          0 UInt8 data = 0
+         [29]
+          0 UInt8 data = 1
+         [30]
+          0 UInt8 data = 0
+         [31]
+          0 UInt8 data = 207
+         [32]
+          0 UInt8 data = 1
+         [33]
+          0 UInt8 data = 1
+         [34]
+          0 UInt8 data = 8
+         [35]
+          0 UInt8 data = 116
+         [36]
+          0 UInt8 data = 97
+         [37]
+          0 UInt8 data = 98
+         [38]
+          0 UInt8 data = 112
+         [39]
+          0 UInt8 data = 97
+         [40]
+          0 UInt8 data = 110
+         [41]
+          0 UInt8 data = 101
+         [42]
+          0 UInt8 data = 108
+         [43]
+          0 UInt8 data = 188
+         [44]
+          0 UInt8 data = 188
+         [45]
+          0 UInt8 data = 1
+         [46]
+          0 UInt8 data = 1
+         [47]
+          0 UInt8 data = 0
+         [48]
+          0 UInt8 data = 2
+         [49]
+          0 UInt8 data = 188
+      0 EventList RightClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 SIInputActionReference InputActionRef
+       0 AssetReferenceT`1 m_inputActionAsset
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       1 string m_actionID = ""
+      0 BindingPath HoverBinding
+       1 string m_path = ""
+      1 string StaticText = ""
+      1 string MigrateEventTemplate = ""
+      0 int ShortcutIconPlacement = 0
+      1 UInt8 TriggerHoverBindingWhenFocused = 0
+      1 UInt8 AllowsInsideElementsNavigation = 0
+      1 UInt8 HasInitialFocus = 0
+      1 UInt8 StopsEventPropagation = 0
+      1 UInt8 OnlyAcceptsSubmitEvents = 0
+      1 UInt8 OnlyAcceptsClickEvents = 0
+      1 UInt8 IgnoreMultiSelectEvents = 0
+      1 UInt8 BindTextFunction_UxmlAttributeFlags = 0
+      1 UInt8 Events_UxmlAttributeFlags = 1
+      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
+      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
+      1 UInt8 HoverBinding_UxmlAttributeFlags = 0
+      1 UInt8 StaticText_UxmlAttributeFlags = 0
+      1 UInt8 MigrateEventTemplate_UxmlAttributeFlags = 0
+      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 TriggerHoverBindingWhenFocused_UxmlAttributeFlags = 0
+      1 UInt8 AllowsInsideElementsNavigation_UxmlAttributeFlags = 0
+      1 UInt8 HasInitialFocus_UxmlAttributeFlags = 0
+      1 UInt8 StopsEventPropagation_UxmlAttributeFlags = 0
+      1 UInt8 OnlyAcceptsSubmitEvents_UxmlAttributeFlags = 0
+      1 UInt8 OnlyAcceptsClickEvents_UxmlAttributeFlags = 0
+      1 UInt8 IgnoreMultiSelectEvents_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1003
+     0 ReferencedManagedType type
+      1 string class = "VisualElement/UxmlSerializedData"
+      1 string ns = "UnityEngine.UIElements"
+      1 string asm = "UnityEngine.UIElementsModule"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -1395078478
+      1 string name = ""
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 0
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1004
+     0 ReferencedManagedType type
+      1 string class = "VisualElement/UxmlSerializedData"
+      1 string ns = "UnityEngine.UIElements"
+      1 string asm = "UnityEngine.UIElementsModule"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -593137729
+      1 string name = "MainFrame"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1005
+     0 ReferencedManagedType type
+      1 string class = "SIVisible/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -1312331275
+      1 string name = "NoDropdownPaddingVisible"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysInstantiate = 0
+      1 UInt8 AlwaysInstantiate_UxmlAttributeFlags = 0
+      0 DataDrivenVisualRunnerConfig`2 BindFunction
+       1 UInt8 m_isAssigned = 0
+       0 AssetReferenceT`1 m_target
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       0 DataDrivenVisualArgs`1 m_inputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+       0 DataDrivenVisualArgs`1 m_outputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+      1 UInt8 InvertDirectBinding = 1
+      0 BindingMethod`1 Binding
+       1 UInt8 m_kind = 1
+       0 BindingPath m_direct
+        1 string m_path = "config.ShowMainTabsDropdown"
+       0 DataDrivenVisualRunnerConfig`2 m_visualFunction
+        1 UInt8 m_isAssigned = 0
+        0 AssetReferenceT`1 m_target
+         1 string m_AssetGUID = ""
+         1 string m_SubObjectName = ""
+         1 string m_SubObjectType = ""
+        0 DataDrivenVisualArgs`1 m_inputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+        0 DataDrivenVisualArgs`1 m_outputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+      1 UInt8 PreviewVisibilityToggle = 0
+      0 int VisibilityType = 0
+      0 float FadedOpacityValue = 0
+      1 UInt8 AlwaysBindChildren = 0
+      1 string StyleClassToApplyOnVisible = ""
+      0 BindingPath StyleClassBindingToApplyOnVisible
+       1 string m_path = ""
+      1 UInt8 BindFunction_UxmlAttributeFlags = 0
+      1 UInt8 InvertDirectBinding_UxmlAttributeFlags = 1
+      1 UInt8 Binding_UxmlAttributeFlags = 1
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 1
+      1 UInt8 VisibilityType_UxmlAttributeFlags = 0
+      1 UInt8 FadedOpacityValue_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysBindChildren_UxmlAttributeFlags = 0
+      1 UInt8 StyleClassToApplyOnVisible_UxmlAttributeFlags = 0
+      1 UInt8 StyleClassBindingToApplyOnVisible_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1006
+     0 ReferencedManagedType type
+      1 string class = "VisualElement/UxmlSerializedData"
+      1 string ns = "UnityEngine.UIElements"
+      1 string asm = "UnityEngine.UIElementsModule"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = 742308180
+      1 string name = ""
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 0
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1007
+     0 ReferencedManagedType type
+      1 string class = "SIVisible/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -59632569
+      1 string name = "IconVisible"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysInstantiate = 0
+      1 UInt8 AlwaysInstantiate_UxmlAttributeFlags = 0
+      0 DataDrivenVisualRunnerConfig`2 BindFunction
+       1 UInt8 m_isAssigned = 0
+       0 AssetReferenceT`1 m_target
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       0 DataDrivenVisualArgs`1 m_inputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+       0 DataDrivenVisualArgs`1 m_outputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+      1 UInt8 InvertDirectBinding = 0
+      0 BindingMethod`1 Binding
+       1 UInt8 m_kind = 1
+       0 BindingPath m_direct
+        1 string m_path = "config.ShowMainTabsIcon"
+       0 DataDrivenVisualRunnerConfig`2 m_visualFunction
+        1 UInt8 m_isAssigned = 0
+        0 AssetReferenceT`1 m_target
+         1 string m_AssetGUID = ""
+         1 string m_SubObjectName = ""
+         1 string m_SubObjectType = ""
+        0 DataDrivenVisualArgs`1 m_inputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+        0 DataDrivenVisualArgs`1 m_outputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+      1 UInt8 PreviewVisibilityToggle = 1
+      0 int VisibilityType = 0
+      0 float FadedOpacityValue = 0
+      1 UInt8 AlwaysBindChildren = 0
+      1 string StyleClassToApplyOnVisible = "icon-visible"
+      0 BindingPath StyleClassBindingToApplyOnVisible
+       1 string m_path = ""
+      1 UInt8 BindFunction_UxmlAttributeFlags = 0
+      1 UInt8 InvertDirectBinding_UxmlAttributeFlags = 1
+      1 UInt8 Binding_UxmlAttributeFlags = 1
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 1
+      1 UInt8 VisibilityType_UxmlAttributeFlags = 0
+      1 UInt8 FadedOpacityValue_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysBindChildren_UxmlAttributeFlags = 0
+      1 UInt8 StyleClassToApplyOnVisible_UxmlAttributeFlags = 1
+      1 UInt8 StyleClassBindingToApplyOnVisible_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1008
+     0 ReferencedManagedType type
+      1 string class = "SIImage/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -1047261704
+      1 string name = "Icon"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      0 int StyleRecolourMode = 0
+      0 int ScaleMode = 0
+      1 UInt8 StyleRecolourMode_UxmlAttributeFlags = 0
+      1 UInt8 ScaleMode_UxmlAttributeFlags = 0
+      0 AssetReferenceT`1 StaticImage
+       1 string m_AssetGUID = ""
+       1 string m_SubObjectName = ""
+       1 string m_SubObjectType = ""
+      0 DataDrivenVisualRunnerConfig`2 BindFunction
+       1 UInt8 m_isAssigned = 0
+       0 AssetReferenceT`1 m_target
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       0 DataDrivenVisualArgs`1 m_inputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+       0 DataDrivenVisualArgs`1 m_outputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+      1 UInt8 ImageKind = 0
+      0 BindingMethod`1 Binding
+       1 UInt8 m_kind = 2
+       0 BindingPath m_direct
+        1 string m_path = ""
+       0 DataDrivenVisualRunnerConfig`2 m_visualFunction
+        1 UInt8 m_isAssigned = 1
+        0 AssetReferenceT`1 m_target
+         1 string m_AssetGUID = "a98ee3711c16f884fa4d750e0c63a9b3"
+         1 string m_SubObjectName = ""
+         1 string m_SubObjectType = ""
+        0 DataDrivenVisualArgs`1 m_inputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (41 items)
+            0 int size = 41
+            [0]
+             0 UInt8 data = 1
+            [1]
+             0 UInt8 data = 36
+            [2]
+             0 UInt8 data = 0
+            [3]
+             0 UInt8 data = 0
+            [4]
+             0 UInt8 data = 0
+            [5]
+             0 UInt8 data = 34
+            [6]
+             0 UInt8 data = 83
+            [7]
+             0 UInt8 data = 73
+            [8]
+             0 UInt8 data = 46
+            [9]
+             0 UInt8 data = 86
+            [10]
+             0 UInt8 data = 105
+            [11]
+             0 UInt8 data = 115
+            [12]
+             0 UInt8 data = 117
+            [13]
+             0 UInt8 data = 97
+            [14]
+             0 UInt8 data = 108
+            [15]
+             0 UInt8 data = 83
+            [16]
+             0 UInt8 data = 99
+            [17]
+             0 UInt8 data = 114
+            [18]
+             0 UInt8 data = 105
+            [19]
+             0 UInt8 data = 112
+            [20]
+             0 UInt8 data = 116
+            [21]
+             0 UInt8 data = 105
+            [22]
+             0 UInt8 data = 110
+            [23]
+             0 UInt8 data = 103
+            [24]
+             0 UInt8 data = 46
+            [25]
+             0 UInt8 data = 83
+            [26]
+             0 UInt8 data = 116
+            [27]
+             0 UInt8 data = 114
+            [28]
+             0 UInt8 data = 105
+            [29]
+             0 UInt8 data = 110
+            [30]
+             0 UInt8 data = 103
+            [31]
+             0 UInt8 data = 86
+            [32]
+             0 UInt8 data = 105
+            [33]
+             0 UInt8 data = 115
+            [34]
+             0 UInt8 data = 117
+            [35]
+             0 UInt8 data = 97
+            [36]
+             0 UInt8 data = 108
+            [37]
+             0 UInt8 data = 65
+            [38]
+             0 UInt8 data = 114
+            [39]
+             0 UInt8 data = 103
+            [40]
+             0 UInt8 data = 0
+        0 DataDrivenVisualArgs`1 m_outputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+      1 string PlaceholderImagePath = ""
+      1 UInt8 StaticImage_UxmlAttributeFlags = 0
+      1 UInt8 BindFunction_UxmlAttributeFlags = 0
+      1 UInt8 ImageKind_UxmlAttributeFlags = 1
+      1 UInt8 Binding_UxmlAttributeFlags = 1
+      1 UInt8 PlaceholderImagePath_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1009
+     0 ReferencedManagedType type
+      1 string class = "SIVisible/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = 1193066137
+      1 string name = "TextVisible"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysInstantiate = 0
+      1 UInt8 AlwaysInstantiate_UxmlAttributeFlags = 0
+      0 DataDrivenVisualRunnerConfig`2 BindFunction
+       1 UInt8 m_isAssigned = 0
+       0 AssetReferenceT`1 m_target
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       0 DataDrivenVisualArgs`1 m_inputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+       0 DataDrivenVisualArgs`1 m_outputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+      1 UInt8 InvertDirectBinding = 1
+      0 BindingMethod`1 Binding
+       1 UInt8 m_kind = 1
+       0 BindingPath m_direct
+        1 string m_path = "config.ShowMainTabsIcon"
+       0 DataDrivenVisualRunnerConfig`2 m_visualFunction
+        1 UInt8 m_isAssigned = 0
+        0 AssetReferenceT`1 m_target
+         1 string m_AssetGUID = ""
+         1 string m_SubObjectName = ""
+         1 string m_SubObjectType = ""
+        0 DataDrivenVisualArgs`1 m_inputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+        0 DataDrivenVisualArgs`1 m_outputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+      1 UInt8 PreviewVisibilityToggle = 1
+      0 int VisibilityType = 0
+      0 float FadedOpacityValue = 0
+      1 UInt8 AlwaysBindChildren = 0
+      1 string StyleClassToApplyOnVisible = ""
+      0 BindingPath StyleClassBindingToApplyOnVisible
+       1 string m_path = ""
+      1 UInt8 BindFunction_UxmlAttributeFlags = 0
+      1 UInt8 InvertDirectBinding_UxmlAttributeFlags = 1
+      1 UInt8 Binding_UxmlAttributeFlags = 1
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 1
+      1 UInt8 VisibilityType_UxmlAttributeFlags = 0
+      1 UInt8 FadedOpacityValue_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysBindChildren_UxmlAttributeFlags = 0
+      1 UInt8 StyleClassToApplyOnVisible_UxmlAttributeFlags = 0
+      1 UInt8 StyleClassBindingToApplyOnVisible_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1010
+     0 ReferencedManagedType type
+      1 string class = "SIText/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = 1458135708
+      1 string name = "text"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 0
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      1 string bindingPath = ""
+      1 UInt8 bindingPath_UxmlAttributeFlags = 0
+      1 string text = ""
+      1 UInt8 text_UxmlAttributeFlags = 0
+      1 UInt8 enableRichText = 0
+      1 UInt8 enableRichText_UxmlAttributeFlags = 0
+      1 UInt8 emojiFallbackSupport = 0
+      1 UInt8 emojiFallbackSupport_UxmlAttributeFlags = 0
+      1 UInt8 parseEscapeSequences = 0
+      1 UInt8 parseEscapeSequences_UxmlAttributeFlags = 0
+      1 UInt8 isSelectable = 0
+      1 UInt8 isSelectable_UxmlAttributeFlags = 0
+      1 UInt8 doubleClickSelectsWord = 0
+      1 UInt8 doubleClickSelectsWord_UxmlAttributeFlags = 0
+      1 UInt8 tripleClickSelectsLine = 0
+      1 UInt8 tripleClickSelectsLine_UxmlAttributeFlags = 0
+      1 UInt8 displayTooltipWhenElided = 0
+      1 UInt8 displayTooltipWhenElided_UxmlAttributeFlags = 0
+      0 DataDrivenVisualRunnerConfig`2 BindTextFunction
+       1 UInt8 m_isAssigned = 0
+       0 AssetReferenceT`1 m_target
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       0 DataDrivenVisualArgs`1 m_inputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+       0 DataDrivenVisualArgs`1 m_outputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+      0 int TextCase = 0
+      1 string DebugDisplay = "Item"
+      0 BindingMethod`1 TextBinding
+       1 UInt8 m_kind = 2
+       0 BindingPath m_direct
+        1 string m_path = ""
+       0 DataDrivenVisualRunnerConfig`2 m_visualFunction
+        1 UInt8 m_isAssigned = 1
+        0 AssetReferenceT`1 m_target
+         1 string m_AssetGUID = "eae2be944eee9e2449baef416111a087"
+         1 string m_SubObjectName = ""
+         1 string m_SubObjectType = ""
+        0 DataDrivenVisualArgs`1 m_inputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (83 items)
+            0 int size = 83
+            [0]
+             0 UInt8 data = 1
+            [1]
+             0 UInt8 data = 78
+            [2]
+             0 UInt8 data = 0
+            [3]
+             0 UInt8 data = 0
+            [4]
+             0 UInt8 data = 0
+            [5]
+             0 UInt8 data = 67
+            [6]
+             0 UInt8 data = 83
+            [7]
+             0 UInt8 data = 73
+            [8]
+             0 UInt8 data = 46
+            [9]
+             0 UInt8 data = 86
+            [10]
+             0 UInt8 data = 105
+            [11]
+             0 UInt8 data = 115
+            [12]
+             0 UInt8 data = 117
+            [13]
+             0 UInt8 data = 97
+            [14]
+             0 UInt8 data = 108
+            [15]
+             0 UInt8 data = 83
+            [16]
+             0 UInt8 data = 99
+            [17]
+             0 UInt8 data = 114
+            [18]
+             0 UInt8 data = 105
+            [19]
+             0 UInt8 data = 112
+            [20]
+             0 UInt8 data = 116
+            [21]
+             0 UInt8 data = 105
+            [22]
+             0 UInt8 data = 110
+            [23]
+             0 UInt8 data = 103
+            [24]
+             0 UInt8 data = 46
+            [25]
+             0 UInt8 data = 71
+            [26]
+             0 UInt8 data = 101
+            [27]
+             0 UInt8 data = 110
+            [28]
+             0 UInt8 data = 101
+            [29]
+             0 UInt8 data = 114
+            [30]
+             0 UInt8 data = 105
+            [31]
+             0 UInt8 data = 99
+            [32]
+             0 UInt8 data = 86
+            [33]
+             0 UInt8 data = 105
+            [34]
+             0 UInt8 data = 115
+            [35]
+             0 UInt8 data = 117
+            [36]
+             0 UInt8 data = 97
+            [37]
+             0 UInt8 data = 108
+            [38]
+             0 UInt8 data = 65
+            [39]
+             0 UInt8 data = 114
+            [40]
+             0 UInt8 data = 103
+            [41]
+             0 UInt8 data = 96
+            [42]
+             0 UInt8 data = 49
+            [43]
+             0 UInt8 data = 91
+            [44]
+             0 UInt8 data = 83
+            [45]
+             0 UInt8 data = 73
+            [46]
+             0 UInt8 data = 46
+            [47]
+             0 UInt8 data = 84
+            [48]
+             0 UInt8 data = 114
+            [49]
+             0 UInt8 data = 97
+            [50]
+             0 UInt8 data = 110
+            [51]
+             0 UInt8 data = 115
+            [52]
+             0 UInt8 data = 108
+            [53]
+             0 UInt8 data = 97
+            [54]
+             0 UInt8 data = 116
+            [55]
+             0 UInt8 data = 105
+            [56]
+             0 UInt8 data = 111
+            [57]
+             0 UInt8 data = 110
+            [58]
+             0 UInt8 data = 46
+            [59]
+             0 UInt8 data = 84
+            [60]
+             0 UInt8 data = 114
+            [61]
+             0 UInt8 data = 97
+            [62]
+             0 UInt8 data = 110
+            [63]
+             0 UInt8 data = 115
+            [64]
+             0 UInt8 data = 108
+            [65]
+             0 UInt8 data = 97
+            [66]
+             0 UInt8 data = 116
+            [67]
+             0 UInt8 data = 105
+            [68]
+             0 UInt8 data = 111
+            [69]
+             0 UInt8 data = 110
+            [70]
+             0 UInt8 data = 73
+            [71]
+             0 UInt8 data = 68
+            [72]
+             0 UInt8 data = 93
+            [73]
+             0 UInt8 data = 176
+            [74]
+             0 UInt8 data = 98
+            [75]
+             0 UInt8 data = 0
+            [76]
+             0 UInt8 data = 0
+            [77]
+             0 UInt8 data = 1
+            [78]
+             0 UInt8 data = 4
+            [79]
+             0 UInt8 data = 73
+            [80]
+             0 UInt8 data = 116
+            [81]
+             0 UInt8 data = 101
+            [82]
+             0 UInt8 data = 109
+        0 DataDrivenVisualArgs`1 m_outputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+      1 UInt8 IgnoreEmbeddedDataStyling = 0
+      1 UInt8 EnableEmbeddedLinks = 0
+      1 UInt8 DisableLinkStyling = 0
+      1 UInt8 DisplayTooltipWhenElided = 0
+      1 UInt8 DisableContextMenu = 0
+      1 UInt8 BindTextFunction_UxmlAttributeFlags = 0
+      1 UInt8 TextCase_UxmlAttributeFlags = 0
+      1 UInt8 DebugDisplay_UxmlAttributeFlags = 1
+      1 UInt8 TextBinding_UxmlAttributeFlags = 1
+      1 UInt8 IgnoreEmbeddedDataStyling_UxmlAttributeFlags = 0
+      1 UInt8 EnableEmbeddedLinks_UxmlAttributeFlags = 0
+      1 UInt8 DisableLinkStyling_UxmlAttributeFlags = 0
+      1 UInt8 DisplayTooltipWhenElided_UxmlAttributeFlags = 0
+      1 UInt8 DisableContextMenu_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1011
+     0 ReferencedManagedType type
+      1 string class = "SIVisible/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -1849202453
+      1 string name = "DropdownVisible"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysInstantiate = 0
+      1 UInt8 AlwaysInstantiate_UxmlAttributeFlags = 0
+      0 DataDrivenVisualRunnerConfig`2 BindFunction
+       1 UInt8 m_isAssigned = 0
+       0 AssetReferenceT`1 m_target
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       0 DataDrivenVisualArgs`1 m_inputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+       0 DataDrivenVisualArgs`1 m_outputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+      1 UInt8 InvertDirectBinding = 0
+      0 BindingMethod`1 Binding
+       1 UInt8 m_kind = 2
+       0 BindingPath m_direct
+        1 string m_path = ""
+       0 DataDrivenVisualRunnerConfig`2 m_visualFunction
+        1 UInt8 m_isAssigned = 1
+        0 AssetReferenceT`1 m_target
+         1 string m_AssetGUID = "64af653e4b39b204e89a2987a7732a70"
+         1 string m_SubObjectName = ""
+         1 string m_SubObjectType = ""
+        0 DataDrivenVisualArgs`1 m_inputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (313 items)
+            0 int size = 313
+            [0]
+             0 UInt8 data = 4
+            [1]
+             0 UInt8 data = 37
+            [2]
+             0 UInt8 data = 0
+            [3]
+             0 UInt8 data = 0
+            [4]
+             0 UInt8 data = 0
+            [5]
+             0 UInt8 data = 35
+            [6]
+             0 UInt8 data = 83
+            [7]
+             0 UInt8 data = 73
+            [8]
+             0 UInt8 data = 46
+            [9]
+             0 UInt8 data = 86
+            [10]
+             0 UInt8 data = 105
+            [11]
+             0 UInt8 data = 115
+            [12]
+             0 UInt8 data = 117
+            [13]
+             0 UInt8 data = 97
+            [14]
+             0 UInt8 data = 108
+            [15]
+             0 UInt8 data = 83
+            [16]
+             0 UInt8 data = 99
+            [17]
+             0 UInt8 data = 114
+            [18]
+             0 UInt8 data = 105
+            [19]
+             0 UInt8 data = 112
+            [20]
+             0 UInt8 data = 116
+            [21]
+             0 UInt8 data = 105
+            [22]
+             0 UInt8 data = 110
+            [23]
+             0 UInt8 data = 103
+            [24]
+             0 UInt8 data = 46
+            [25]
+             0 UInt8 data = 66
+            [26]
+             0 UInt8 data = 111
+            [27]
+             0 UInt8 data = 111
+            [28]
+             0 UInt8 data = 108
+            [29]
+             0 UInt8 data = 101
+            [30]
+             0 UInt8 data = 97
+            [31]
+             0 UInt8 data = 110
+            [32]
+             0 UInt8 data = 86
+            [33]
+             0 UInt8 data = 105
+            [34]
+             0 UInt8 data = 115
+            [35]
+             0 UInt8 data = 117
+            [36]
+             0 UInt8 data = 97
+            [37]
+             0 UInt8 data = 108
+            [38]
+             0 UInt8 data = 65
+            [39]
+             0 UInt8 data = 114
+            [40]
+             0 UInt8 data = 103
+            [41]
+             0 UInt8 data = 1
+            [42]
+             0 UInt8 data = 73
+            [43]
+             0 UInt8 data = 0
+            [44]
+             0 UInt8 data = 0
+            [45]
+             0 UInt8 data = 0
+            [46]
+             0 UInt8 data = 62
+            [47]
+             0 UInt8 data = 83
+            [48]
+             0 UInt8 data = 73
+            [49]
+             0 UInt8 data = 46
+            [50]
+             0 UInt8 data = 86
+            [51]
+             0 UInt8 data = 105
+            [52]
+             0 UInt8 data = 115
+            [53]
+             0 UInt8 data = 117
+            [54]
+             0 UInt8 data = 97
+            [55]
+             0 UInt8 data = 108
+            [56]
+             0 UInt8 data = 83
+            [57]
+             0 UInt8 data = 99
+            [58]
+             0 UInt8 data = 114
+            [59]
+             0 UInt8 data = 105
+            [60]
+             0 UInt8 data = 112
+            [61]
+             0 UInt8 data = 116
+            [62]
+             0 UInt8 data = 105
+            [63]
+             0 UInt8 data = 110
+            [64]
+             0 UInt8 data = 103
+            [65]
+             0 UInt8 data = 46
+            [66]
+             0 UInt8 data = 71
+            [67]
+             0 UInt8 data = 101
+            [68]
+             0 UInt8 data = 110
+            [69]
+             0 UInt8 data = 101
+            [70]
+             0 UInt8 data = 114
+            [71]
+             0 UInt8 data = 105
+            [72]
+             0 UInt8 data = 99
+            [73]
+             0 UInt8 data = 86
+            [74]
+             0 UInt8 data = 105
+            [75]
+             0 UInt8 data = 115
+            [76]
+             0 UInt8 data = 117
+            [77]
+             0 UInt8 data = 97
+            [78]
+             0 UInt8 data = 108
+            [79]
+             0 UInt8 data = 65
+            [80]
+             0 UInt8 data = 114
+            [81]
+             0 UInt8 data = 103
+            [82]
+             0 UInt8 data = 96
+            [83]
+             0 UInt8 data = 49
+            [84]
+             0 UInt8 data = 91
+            [85]
+             0 UInt8 data = 83
+            [86]
+             0 UInt8 data = 73
+            [87]
+             0 UInt8 data = 46
+            [88]
+             0 UInt8 data = 66
+            [89]
+             0 UInt8 data = 105
+            [90]
+             0 UInt8 data = 110
+            [91]
+             0 UInt8 data = 100
+            [92]
+             0 UInt8 data = 97
+            [93]
+             0 UInt8 data = 98
+            [94]
+             0 UInt8 data = 108
+            [95]
+             0 UInt8 data = 101
+            [96]
+             0 UInt8 data = 46
+            [97]
+             0 UInt8 data = 66
+            [98]
+             0 UInt8 data = 105
+            [99]
+             0 UInt8 data = 110
+            [100]
+             0 UInt8 data = 100
+            [101]
+             0 UInt8 data = 105
+            [102]
+             0 UInt8 data = 110
+            [103]
+             0 UInt8 data = 103
+            [104]
+             0 UInt8 data = 80
+            [105]
+             0 UInt8 data = 97
+            [106]
+             0 UInt8 data = 116
+            [107]
+             0 UInt8 data = 104
+            [108]
+             0 UInt8 data = 93
+            [109]
+             0 UInt8 data = 1
+            [110]
+             0 UInt8 data = 8
+            [111]
+             0 UInt8 data = 116
+            [112]
+             0 UInt8 data = 97
+            [113]
+             0 UInt8 data = 98
+            [114]
+             0 UInt8 data = 112
+            [115]
+             0 UInt8 data = 97
+            [116]
+             0 UInt8 data = 110
+            [117]
+             0 UInt8 data = 101
+            [118]
+             0 UInt8 data = 108
+            [119]
+             0 UInt8 data = 96
+            [120]
+             0 UInt8 data = 0
+            [121]
+             0 UInt8 data = 0
+            [122]
+             0 UInt8 data = 0
+            [123]
+             0 UInt8 data = 64
+            [124]
+             0 UInt8 data = 83
+            [125]
+             0 UInt8 data = 73
+            [126]
+             0 UInt8 data = 46
+            [127]
+             0 UInt8 data = 86
+            [128]
+             0 UInt8 data = 105
+            [129]
+             0 UInt8 data = 115
+            [130]
+             0 UInt8 data = 117
+            [131]
+             0 UInt8 data = 97
+            [132]
+             0 UInt8 data = 108
+            [133]
+             0 UInt8 data = 83
+            [134]
+             0 UInt8 data = 99
+            [135]
+             0 UInt8 data = 114
+            [136]
+             0 UInt8 data = 105
+            [137]
+             0 UInt8 data = 112
+            [138]
+             0 UInt8 data = 116
+            [139]
+             0 UInt8 data = 105
+            [140]
+             0 UInt8 data = 110
+            [141]
+             0 UInt8 data = 103
+            [142]
+             0 UInt8 data = 46
+            [143]
+             0 UInt8 data = 83
+            [144]
+             0 UInt8 data = 116
+            [145]
+             0 UInt8 data = 114
+            [146]
+             0 UInt8 data = 117
+            [147]
+             0 UInt8 data = 99
+            [148]
+             0 UInt8 data = 116
+            [149]
+             0 UInt8 data = 76
+            [150]
+             0 UInt8 data = 105
+            [151]
+             0 UInt8 data = 115
+            [152]
+             0 UInt8 data = 116
+            [153]
+             0 UInt8 data = 86
+            [154]
+             0 UInt8 data = 105
+            [155]
+             0 UInt8 data = 115
+            [156]
+             0 UInt8 data = 117
+            [157]
+             0 UInt8 data = 97
+            [158]
+             0 UInt8 data = 108
+            [159]
+             0 UInt8 data = 65
+            [160]
+             0 UInt8 data = 114
+            [161]
+             0 UInt8 data = 103
+            [162]
+             0 UInt8 data = 96
+            [163]
+             0 UInt8 data = 49
+            [164]
+             0 UInt8 data = 91
+            [165]
+             0 UInt8 data = 83
+            [166]
+             0 UInt8 data = 73
+            [167]
+             0 UInt8 data = 46
+            [168]
+             0 UInt8 data = 66
+            [169]
+             0 UInt8 data = 105
+            [170]
+             0 UInt8 data = 110
+            [171]
+             0 UInt8 data = 100
+            [172]
+             0 UInt8 data = 97
+            [173]
+             0 UInt8 data = 98
+            [174]
+             0 UInt8 data = 108
+            [175]
+             0 UInt8 data = 101
+            [176]
+             0 UInt8 data = 46
+            [177]
+             0 UInt8 data = 66
+            [178]
+             0 UInt8 data = 111
+            [179]
+             0 UInt8 data = 111
+            [180]
+             0 UInt8 data = 108
+            [181]
+             0 UInt8 data = 101
+            [182]
+             0 UInt8 data = 97
+            [183]
+             0 UInt8 data = 110
+            [184]
+             0 UInt8 data = 65
+            [185]
+             0 UInt8 data = 114
+            [186]
+             0 UInt8 data = 103
+            [187]
+             0 UInt8 data = 93
+            [188]
+             0 UInt8 data = 1
+            [189]
+             0 UInt8 data = 1
+            [190]
+             0 UInt8 data = 27
+            [191]
+             0 UInt8 data = 99
+            [192]
+             0 UInt8 data = 111
+            [193]
+             0 UInt8 data = 110
+            [194]
+             0 UInt8 data = 102
+            [195]
+             0 UInt8 data = 105
+            [196]
+             0 UInt8 data = 103
+            [197]
+             0 UInt8 data = 46
+            [198]
+             0 UInt8 data = 83
+            [199]
+             0 UInt8 data = 104
+            [200]
+             0 UInt8 data = 111
+            [201]
+             0 UInt8 data = 119
+            [202]
+             0 UInt8 data = 77
+            [203]
+             0 UInt8 data = 97
+            [204]
+             0 UInt8 data = 105
+            [205]
+             0 UInt8 data = 110
+            [206]
+             0 UInt8 data = 84
+            [207]
+             0 UInt8 data = 97
+            [208]
+             0 UInt8 data = 98
+            [209]
+             0 UInt8 data = 115
+            [210]
+             0 UInt8 data = 68
+            [211]
+             0 UInt8 data = 114
+            [212]
+             0 UInt8 data = 111
+            [213]
+             0 UInt8 data = 112
+            [214]
+             0 UInt8 data = 100
+            [215]
+             0 UInt8 data = 111
+            [216]
+             0 UInt8 data = 119
+            [217]
+             0 UInt8 data = 110
+            [218]
+             0 UInt8 data = 0
+            [219]
+             0 UInt8 data = 90
+            [220]
+             0 UInt8 data = 0
+            [221]
+             0 UInt8 data = 0
+            [222]
+             0 UInt8 data = 0
+            [223]
+             0 UInt8 data = 85
+            [224]
+             0 UInt8 data = 83
+            [225]
+             0 UInt8 data = 73
+            [226]
+             0 UInt8 data = 46
+            [227]
+             0 UInt8 data = 86
+            [228]
+             0 UInt8 data = 105
+            [229]
+             0 UInt8 data = 115
+            [230]
+             0 UInt8 data = 117
+            [231]
+             0 UInt8 data = 97
+            [232]
+             0 UInt8 data = 108
+            [233]
+             0 UInt8 data = 83
+            [234]
+             0 UInt8 data = 99
+            [235]
+             0 UInt8 data = 114
+            [236]
+             0 UInt8 data = 105
+            [237]
+             0 UInt8 data = 112
+            [238]
+             0 UInt8 data = 116
+            [239]
+             0 UInt8 data = 105
+            [240]
+             0 UInt8 data = 110
+            [241]
+             0 UInt8 data = 103
+            [242]
+             0 UInt8 data = 46
+            [243]
+             0 UInt8 data = 69
+            [244]
+             0 UInt8 data = 110
+            [245]
+             0 UInt8 data = 117
+            [246]
+             0 UInt8 data = 109
+            [247]
+             0 UInt8 data = 86
+            [248]
+             0 UInt8 data = 105
+            [249]
+             0 UInt8 data = 115
+            [250]
+             0 UInt8 data = 117
+            [251]
+             0 UInt8 data = 97
+            [252]
+             0 UInt8 data = 108
+            [253]
+             0 UInt8 data = 65
+            [254]
+             0 UInt8 data = 114
+            [255]
+             0 UInt8 data = 103
+            [256]
+             0 UInt8 data = 96
+            [257]
+             0 UInt8 data = 49
+            [258]
+             0 UInt8 data = 91
+            [259]
+             0 UInt8 data = 83
+            [260]
+             0 UInt8 data = 73
+            [261]
+             0 UInt8 data = 46
+            [262]
+             0 UInt8 data = 86
+            [263]
+             0 UInt8 data = 105
+            [264]
+             0 UInt8 data = 115
+            [265]
+             0 UInt8 data = 117
+            [266]
+             0 UInt8 data = 97
+            [267]
+             0 UInt8 data = 108
+            [268]
+             0 UInt8 data = 83
+            [269]
+             0 UInt8 data = 99
+            [270]
+             0 UInt8 data = 114
+            [271]
+             0 UInt8 data = 105
+            [272]
+             0 UInt8 data = 112
+            [273]
+             0 UInt8 data = 116
+            [274]
+             0 UInt8 data = 105
+            [275]
+             0 UInt8 data = 110
+            [276]
+             0 UInt8 data = 103
+            [277]
+             0 UInt8 data = 46
+            [278]
+             0 UInt8 data = 86
+            [279]
+             0 UInt8 data = 105
+            [280]
+             0 UInt8 data = 115
+            [281]
+             0 UInt8 data = 105
+            [282]
+             0 UInt8 data = 98
+            [283]
+             0 UInt8 data = 108
+            [284]
+             0 UInt8 data = 101
+            [285]
+             0 UInt8 data = 70
+            [286]
+             0 UInt8 data = 117
+            [287]
+             0 UInt8 data = 110
+            [288]
+             0 UInt8 data = 99
+            [289]
+             0 UInt8 data = 116
+            [290]
+             0 UInt8 data = 105
+            [291]
+             0 UInt8 data = 111
+            [292]
+             0 UInt8 data = 110
+            [293]
+             0 UInt8 data = 115
+            [294]
+             0 UInt8 data = 43
+            [295]
+             0 UInt8 data = 76
+            [296]
+             0 UInt8 data = 111
+            [297]
+             0 UInt8 data = 103
+            [298]
+             0 UInt8 data = 105
+            [299]
+             0 UInt8 data = 99
+            [300]
+             0 UInt8 data = 79
+            [301]
+             0 UInt8 data = 112
+            [302]
+             0 UInt8 data = 101
+            [303]
+             0 UInt8 data = 114
+            [304]
+             0 UInt8 data = 97
+            [305]
+             0 UInt8 data = 116
+            [306]
+             0 UInt8 data = 111
+            [307]
+             0 UInt8 data = 114
+            [308]
+             0 UInt8 data = 93
+            [309]
+             0 UInt8 data = 0
+            [310]
+             0 UInt8 data = 0
+            [311]
+             0 UInt8 data = 0
+            [312]
+             0 UInt8 data = 0
+        0 DataDrivenVisualArgs`1 m_outputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+      1 UInt8 PreviewVisibilityToggle = 0
+      0 int VisibilityType = 0
+      0 float FadedOpacityValue = 0
+      1 UInt8 AlwaysBindChildren = 0
+      1 string StyleClassToApplyOnVisible = ""
+      0 BindingPath StyleClassBindingToApplyOnVisible
+       1 string m_path = ""
+      1 UInt8 BindFunction_UxmlAttributeFlags = 0
+      1 UInt8 InvertDirectBinding_UxmlAttributeFlags = 1
+      1 UInt8 Binding_UxmlAttributeFlags = 1
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
+      1 UInt8 VisibilityType_UxmlAttributeFlags = 0
+      1 UInt8 FadedOpacityValue_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysBindChildren_UxmlAttributeFlags = 0
+      1 UInt8 StyleClassToApplyOnVisible_UxmlAttributeFlags = 0
+      1 UInt8 StyleClassBindingToApplyOnVisible_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1012
+     0 ReferencedManagedType type
+      1 string class = "SIStyleSetter/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -331434176
+      1 string name = "DropdownStyleSetter"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      0 DataDrivenVisualRunnerConfig`2 BindFunction
+       1 UInt8 m_isAssigned = 1
+       0 AssetReferenceT`1 m_target
+        1 string m_AssetGUID = "d47d9f6bfe419344692270d5af16c5ef"
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       0 DataDrivenVisualArgs`1 m_inputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (317 items)
+           0 int size = 317
+           [0]
+            0 UInt8 data = 5
+           [1]
+            0 UInt8 data = 90
+           [2]
+            0 UInt8 data = 0
+           [3]
+            0 UInt8 data = 0
+           [4]
+            0 UInt8 data = 0
+           [5]
+            0 UInt8 data = 62
+           [6]
+            0 UInt8 data = 83
+           [7]
+            0 UInt8 data = 73
+           [8]
+            0 UInt8 data = 46
+           [9]
+            0 UInt8 data = 86
+           [10]
+            0 UInt8 data = 105
+           [11]
+            0 UInt8 data = 115
+           [12]
+            0 UInt8 data = 117
+           [13]
+            0 UInt8 data = 97
+           [14]
+            0 UInt8 data = 108
+           [15]
+            0 UInt8 data = 83
+           [16]
+            0 UInt8 data = 99
+           [17]
+            0 UInt8 data = 114
+           [18]
+            0 UInt8 data = 105
+           [19]
+            0 UInt8 data = 112
+           [20]
+            0 UInt8 data = 116
+           [21]
+            0 UInt8 data = 105
+           [22]
+            0 UInt8 data = 110
+           [23]
+            0 UInt8 data = 103
+           [24]
+            0 UInt8 data = 46
+           [25]
+            0 UInt8 data = 71
+           [26]
+            0 UInt8 data = 101
+           [27]
+            0 UInt8 data = 110
+           [28]
+            0 UInt8 data = 101
+           [29]
+            0 UInt8 data = 114
+           [30]
+            0 UInt8 data = 105
+           [31]
+            0 UInt8 data = 99
+           [32]
+            0 UInt8 data = 86
+           [33]
+            0 UInt8 data = 105
+           [34]
+            0 UInt8 data = 115
+           [35]
+            0 UInt8 data = 117
+           [36]
+            0 UInt8 data = 97
+           [37]
+            0 UInt8 data = 108
+           [38]
+            0 UInt8 data = 65
+           [39]
+            0 UInt8 data = 114
+           [40]
+            0 UInt8 data = 103
+           [41]
+            0 UInt8 data = 96
+           [42]
+            0 UInt8 data = 49
+           [43]
+            0 UInt8 data = 91
+           [44]
+            0 UInt8 data = 83
+           [45]
+            0 UInt8 data = 73
+           [46]
+            0 UInt8 data = 46
+           [47]
+            0 UInt8 data = 66
+           [48]
+            0 UInt8 data = 105
+           [49]
+            0 UInt8 data = 110
+           [50]
+            0 UInt8 data = 100
+           [51]
+            0 UInt8 data = 97
+           [52]
+            0 UInt8 data = 98
+           [53]
+            0 UInt8 data = 108
+           [54]
+            0 UInt8 data = 101
+           [55]
+            0 UInt8 data = 46
+           [56]
+            0 UInt8 data = 66
+           [57]
+            0 UInt8 data = 105
+           [58]
+            0 UInt8 data = 110
+           [59]
+            0 UInt8 data = 100
+           [60]
+            0 UInt8 data = 105
+           [61]
+            0 UInt8 data = 110
+           [62]
+            0 UInt8 data = 103
+           [63]
+            0 UInt8 data = 80
+           [64]
+            0 UInt8 data = 97
+           [65]
+            0 UInt8 data = 116
+           [66]
+            0 UInt8 data = 104
+           [67]
+            0 UInt8 data = 93
+           [68]
+            0 UInt8 data = 1
+           [69]
+            0 UInt8 data = 25
+           [70]
+            0 UInt8 data = 97
+           [71]
+            0 UInt8 data = 112
+           [72]
+            0 UInt8 data = 112
+           [73]
+            0 UInt8 data = 46
+           [74]
+            0 UInt8 data = 71
+           [75]
+            0 UInt8 data = 114
+           [76]
+            0 UInt8 data = 105
+           [77]
+            0 UInt8 data = 100
+           [78]
+            0 UInt8 data = 66
+           [79]
+            0 UInt8 data = 114
+           [80]
+            0 UInt8 data = 101
+           [81]
+            0 UInt8 data = 97
+           [82]
+            0 UInt8 data = 107
+           [83]
+            0 UInt8 data = 112
+           [84]
+            0 UInt8 data = 111
+           [85]
+            0 UInt8 data = 105
+           [86]
+            0 UInt8 data = 110
+           [87]
+            0 UInt8 data = 116
+           [88]
+            0 UInt8 data = 73
+           [89]
+            0 UInt8 data = 115
+           [90]
+            0 UInt8 data = 83
+           [91]
+            0 UInt8 data = 109
+           [92]
+            0 UInt8 data = 97
+           [93]
+            0 UInt8 data = 108
+           [94]
+            0 UInt8 data = 108
+           [95]
+            0 UInt8 data = 66
+           [96]
+            0 UInt8 data = 0
+           [97]
+            0 UInt8 data = 0
+           [98]
+            0 UInt8 data = 0
+           [99]
+            0 UInt8 data = 34
+           [100]
+            0 UInt8 data = 83
+           [101]
+            0 UInt8 data = 73
+           [102]
+            0 UInt8 data = 46
+           [103]
+            0 UInt8 data = 86
+           [104]
+            0 UInt8 data = 105
+           [105]
+            0 UInt8 data = 115
+           [106]
+            0 UInt8 data = 117
+           [107]
+            0 UInt8 data = 97
+           [108]
+            0 UInt8 data = 108
+           [109]
+            0 UInt8 data = 83
+           [110]
+            0 UInt8 data = 99
+           [111]
+            0 UInt8 data = 114
+           [112]
+            0 UInt8 data = 105
+           [113]
+            0 UInt8 data = 112
+           [114]
+            0 UInt8 data = 116
+           [115]
+            0 UInt8 data = 105
+           [116]
+            0 UInt8 data = 110
+           [117]
+            0 UInt8 data = 103
+           [118]
+            0 UInt8 data = 46
+           [119]
+            0 UInt8 data = 83
+           [120]
+            0 UInt8 data = 116
+           [121]
+            0 UInt8 data = 114
+           [122]
+            0 UInt8 data = 105
+           [123]
+            0 UInt8 data = 110
+           [124]
+            0 UInt8 data = 103
+           [125]
+            0 UInt8 data = 86
+           [126]
+            0 UInt8 data = 105
+           [127]
+            0 UInt8 data = 115
+           [128]
+            0 UInt8 data = 117
+           [129]
+            0 UInt8 data = 97
+           [130]
+            0 UInt8 data = 108
+           [131]
+            0 UInt8 data = 65
+           [132]
+            0 UInt8 data = 114
+           [133]
+            0 UInt8 data = 103
+           [134]
+            0 UInt8 data = 1
+           [135]
+            0 UInt8 data = 29
+           [136]
+            0 UInt8 data = 110
+           [137]
+            0 UInt8 data = 97
+           [138]
+            0 UInt8 data = 118
+           [139]
+            0 UInt8 data = 105
+           [140]
+            0 UInt8 data = 103
+           [141]
+            0 UInt8 data = 97
+           [142]
+            0 UInt8 data = 116
+           [143]
+            0 UInt8 data = 105
+           [144]
+            0 UInt8 data = 111
+           [145]
+            0 UInt8 data = 110
+           [146]
+            0 UInt8 data = 45
+           [147]
+            0 UInt8 data = 116
+           [148]
+            0 UInt8 data = 97
+           [149]
+            0 UInt8 data = 98
+           [150]
+            0 UInt8 data = 45
+           [151]
+            0 UInt8 data = 100
+           [152]
+            0 UInt8 data = 114
+           [153]
+            0 UInt8 data = 111
+           [154]
+            0 UInt8 data = 112
+           [155]
+            0 UInt8 data = 100
+           [156]
+            0 UInt8 data = 111
+           [157]
+            0 UInt8 data = 119
+           [158]
+            0 UInt8 data = 110
+           [159]
+            0 UInt8 data = 45
+           [160]
+            0 UInt8 data = 115
+           [161]
+            0 UInt8 data = 109
+           [162]
+            0 UInt8 data = 97
+           [163]
+            0 UInt8 data = 108
+           [164]
+            0 UInt8 data = 108
+           [165]
+            0 UInt8 data = 66
+           [166]
+            0 UInt8 data = 0
+           [167]
+            0 UInt8 data = 0
+           [168]
+            0 UInt8 data = 0
+           [169]
+            0 UInt8 data = 34
+           [170]
+            0 UInt8 data = 83
+           [171]
+            0 UInt8 data = 73
+           [172]
+            0 UInt8 data = 46
+           [173]
+            0 UInt8 data = 86
+           [174]
+            0 UInt8 data = 105
+           [175]
+            0 UInt8 data = 115
+           [176]
+            0 UInt8 data = 117
+           [177]
+            0 UInt8 data = 97
+           [178]
+            0 UInt8 data = 108
+           [179]
+            0 UInt8 data = 83
+           [180]
+            0 UInt8 data = 99
+           [181]
+            0 UInt8 data = 114
+           [182]
+            0 UInt8 data = 105
+           [183]
+            0 UInt8 data = 112
+           [184]
+            0 UInt8 data = 116
+           [185]
+            0 UInt8 data = 105
+           [186]
+            0 UInt8 data = 110
+           [187]
+            0 UInt8 data = 103
+           [188]
+            0 UInt8 data = 46
+           [189]
+            0 UInt8 data = 83
+           [190]
+            0 UInt8 data = 116
+           [191]
+            0 UInt8 data = 114
+           [192]
+            0 UInt8 data = 105
+           [193]
+            0 UInt8 data = 110
+           [194]
+            0 UInt8 data = 103
+           [195]
+            0 UInt8 data = 86
+           [196]
+            0 UInt8 data = 105
+           [197]
+            0 UInt8 data = 115
+           [198]
+            0 UInt8 data = 117
+           [199]
+            0 UInt8 data = 97
+           [200]
+            0 UInt8 data = 108
+           [201]
+            0 UInt8 data = 65
+           [202]
+            0 UInt8 data = 114
+           [203]
+            0 UInt8 data = 103
+           [204]
+            0 UInt8 data = 1
+           [205]
+            0 UInt8 data = 29
+           [206]
+            0 UInt8 data = 110
+           [207]
+            0 UInt8 data = 97
+           [208]
+            0 UInt8 data = 118
+           [209]
+            0 UInt8 data = 105
+           [210]
+            0 UInt8 data = 103
+           [211]
+            0 UInt8 data = 97
+           [212]
+            0 UInt8 data = 116
+           [213]
+            0 UInt8 data = 105
+           [214]
+            0 UInt8 data = 111
+           [215]
+            0 UInt8 data = 110
+           [216]
+            0 UInt8 data = 45
+           [217]
+            0 UInt8 data = 116
+           [218]
+            0 UInt8 data = 97
+           [219]
+            0 UInt8 data = 98
+           [220]
+            0 UInt8 data = 45
+           [221]
+            0 UInt8 data = 100
+           [222]
+            0 UInt8 data = 114
+           [223]
+            0 UInt8 data = 111
+           [224]
+            0 UInt8 data = 112
+           [225]
+            0 UInt8 data = 100
+           [226]
+            0 UInt8 data = 111
+           [227]
+            0 UInt8 data = 119
+           [228]
+            0 UInt8 data = 110
+           [229]
+            0 UInt8 data = 45
+           [230]
+            0 UInt8 data = 108
+           [231]
+            0 UInt8 data = 97
+           [232]
+            0 UInt8 data = 114
+           [233]
+            0 UInt8 data = 103
+           [234]
+            0 UInt8 data = 101
+           [235]
+            0 UInt8 data = 37
+           [236]
+            0 UInt8 data = 0
+           [237]
+            0 UInt8 data = 0
+           [238]
+            0 UInt8 data = 0
+           [239]
+            0 UInt8 data = 35
+           [240]
+            0 UInt8 data = 83
+           [241]
+            0 UInt8 data = 73
+           [242]
+            0 UInt8 data = 46
+           [243]
+            0 UInt8 data = 86
+           [244]
+            0 UInt8 data = 105
+           [245]
+            0 UInt8 data = 115
+           [246]
+            0 UInt8 data = 117
+           [247]
+            0 UInt8 data = 97
+           [248]
+            0 UInt8 data = 108
+           [249]
+            0 UInt8 data = 83
+           [250]
+            0 UInt8 data = 99
+           [251]
+            0 UInt8 data = 114
+           [252]
+            0 UInt8 data = 105
+           [253]
+            0 UInt8 data = 112
+           [254]
+            0 UInt8 data = 116
+           [255]
+            0 UInt8 data = 105
+           [256]
+            0 UInt8 data = 110
+           [257]
+            0 UInt8 data = 103
+           [258]
+            0 UInt8 data = 46
+           [259]
+            0 UInt8 data = 66
+           [260]
+            0 UInt8 data = 111
+           [261]
+            0 UInt8 data = 111
+           [262]
+            0 UInt8 data = 108
+           [263]
+            0 UInt8 data = 101
+           [264]
+            0 UInt8 data = 97
+           [265]
+            0 UInt8 data = 110
+           [266]
+            0 UInt8 data = 86
+           [267]
+            0 UInt8 data = 105
+           [268]
+            0 UInt8 data = 115
+           [269]
+            0 UInt8 data = 117
+           [270]
+            0 UInt8 data = 97
+           [271]
+            0 UInt8 data = 108
+           [272]
+            0 UInt8 data = 65
+           [273]
+            0 UInt8 data = 114
+           [274]
+            0 UInt8 data = 103
+           [275]
+            0 UInt8 data = 0
+           [276]
+            0 UInt8 data = 37
+           [277]
+            0 UInt8 data = 0
+           [278]
+            0 UInt8 data = 0
+           [279]
+            0 UInt8 data = 0
+           [280]
+            0 UInt8 data = 35
+           [281]
+            0 UInt8 data = 83
+           [282]
+            0 UInt8 data = 73
+           [283]
+            0 UInt8 data = 46
+           [284]
+            0 UInt8 data = 86
+           [285]
+            0 UInt8 data = 105
+           [286]
+            0 UInt8 data = 115
+           [287]
+            0 UInt8 data = 117
+           [288]
+            0 UInt8 data = 97
+           [289]
+            0 UInt8 data = 108
+           [290]
+            0 UInt8 data = 83
+           [291]
+            0 UInt8 data = 99
+           [292]
+            0 UInt8 data = 114
+           [293]
+            0 UInt8 data = 105
+           [294]
+            0 UInt8 data = 112
+           [295]
+            0 UInt8 data = 116
+           [296]
+            0 UInt8 data = 105
+           [297]
+            0 UInt8 data = 110
+           [298]
+            0 UInt8 data = 103
+           [299]
+            0 UInt8 data = 46
+           [300]
+            0 UInt8 data = 66
+           [301]
+            0 UInt8 data = 111
+           [302]
+            0 UInt8 data = 111
+           [303]
+            0 UInt8 data = 108
+           [304]
+            0 UInt8 data = 101
+           [305]
+            0 UInt8 data = 97
+           [306]
+            0 UInt8 data = 110
+           [307]
+            0 UInt8 data = 86
+           [308]
+            0 UInt8 data = 105
+           [309]
+            0 UInt8 data = 115
+           [310]
+            0 UInt8 data = 117
+           [311]
+            0 UInt8 data = 97
+           [312]
+            0 UInt8 data = 108
+           [313]
+            0 UInt8 data = 65
+           [314]
+            0 UInt8 data = 114
+           [315]
+            0 UInt8 data = 103
+           [316]
+            0 UInt8 data = 1
+       0 DataDrivenVisualArgs`1 m_outputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+      0 BindingPath SecondaryColorDataLink
+       1 string m_path = ""
+      0 BindingPath PrimaryColorDataLink
+       1 string m_path = ""
+      1 UInt8 BindFunction_UxmlAttributeFlags = 1
+      1 UInt8 SecondaryColorDataLink_UxmlAttributeFlags = 0
+      1 UInt8 PrimaryColorDataLink_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1013
+     0 ReferencedManagedType type
+      1 string class = "BindingRemapper/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -334800194
+      1 string name = "DropdownRemapper"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      0 RemapInfo Mappings
+       0 Array Array (1 items)
+        0 int size = 1
+        [0]
+         0 RemapInfo data
+          0 unsigned int m_serialisedType = 0
+          1 string from = "Panel"
+          0 BindingPath to
+           1 string m_path = "tabpanel"
+          0 ReferenceID type
+           0 unsigned int id = 0
+      1 string MigrateMappings = ""
+      1 UInt8 Mappings_UxmlAttributeFlags = 1
+      1 UInt8 MigrateMappings_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1014
+     0 ReferencedManagedType type
+      1 string class = "SIDropdown/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -1859300507
+      1 string name = "NavTabDropdown"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 0
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      1 UInt8 HasInitialFocus = 0
+      1 UInt8 HasInitialFocus_UxmlAttributeFlags = 0
+      0 DataDrivenVisualRunnerConfig`2 BindChoicesFunction
+       1 UInt8 m_isAssigned = 1
+       0 AssetReferenceT`1 m_target
+        1 string m_AssetGUID = "0f43f251c886ffb43801e215c8be916a"
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       0 DataDrivenVisualArgs`1 m_inputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (158 items)
+           0 int size = 158
+           [0]
+            0 UInt8 data = 2
+           [1]
+            0 UInt8 data = 33
+           [2]
+            0 UInt8 data = 0
+           [3]
+            0 UInt8 data = 0
+           [4]
+            0 UInt8 data = 0
+           [5]
+            0 UInt8 data = 31
+           [6]
+            0 UInt8 data = 83
+           [7]
+            0 UInt8 data = 73
+           [8]
+            0 UInt8 data = 46
+           [9]
+            0 UInt8 data = 66
+           [10]
+            0 UInt8 data = 105
+           [11]
+            0 UInt8 data = 110
+           [12]
+            0 UInt8 data = 100
+           [13]
+            0 UInt8 data = 97
+           [14]
+            0 UInt8 data = 98
+           [15]
+            0 UInt8 data = 108
+           [16]
+            0 UInt8 data = 101
+           [17]
+            0 UInt8 data = 46
+           [18]
+            0 UInt8 data = 66
+           [19]
+            0 UInt8 data = 105
+           [20]
+            0 UInt8 data = 110
+           [21]
+            0 UInt8 data = 100
+           [22]
+            0 UInt8 data = 105
+           [23]
+            0 UInt8 data = 110
+           [24]
+            0 UInt8 data = 103
+           [25]
+            0 UInt8 data = 75
+           [26]
+            0 UInt8 data = 101
+           [27]
+            0 UInt8 data = 121
+           [28]
+            0 UInt8 data = 86
+           [29]
+            0 UInt8 data = 105
+           [30]
+            0 UInt8 data = 115
+           [31]
+            0 UInt8 data = 117
+           [32]
+            0 UInt8 data = 97
+           [33]
+            0 UInt8 data = 108
+           [34]
+            0 UInt8 data = 65
+           [35]
+            0 UInt8 data = 114
+           [36]
+            0 UInt8 data = 103
+           [37]
+            0 UInt8 data = 0
+           [38]
+            0 UInt8 data = 116
+           [39]
+            0 UInt8 data = 0
+           [40]
+            0 UInt8 data = 0
+           [41]
+            0 UInt8 data = 0
+           [42]
+            0 UInt8 data = 62
+           [43]
+            0 UInt8 data = 83
+           [44]
+            0 UInt8 data = 73
+           [45]
+            0 UInt8 data = 46
+           [46]
+            0 UInt8 data = 86
+           [47]
+            0 UInt8 data = 105
+           [48]
+            0 UInt8 data = 115
+           [49]
+            0 UInt8 data = 117
+           [50]
+            0 UInt8 data = 97
+           [51]
+            0 UInt8 data = 108
+           [52]
+            0 UInt8 data = 83
+           [53]
+            0 UInt8 data = 99
+           [54]
+            0 UInt8 data = 114
+           [55]
+            0 UInt8 data = 105
+           [56]
+            0 UInt8 data = 112
+           [57]
+            0 UInt8 data = 116
+           [58]
+            0 UInt8 data = 105
+           [59]
+            0 UInt8 data = 110
+           [60]
+            0 UInt8 data = 103
+           [61]
+            0 UInt8 data = 46
+           [62]
+            0 UInt8 data = 71
+           [63]
+            0 UInt8 data = 101
+           [64]
+            0 UInt8 data = 110
+           [65]
+            0 UInt8 data = 101
+           [66]
+            0 UInt8 data = 114
+           [67]
+            0 UInt8 data = 105
+           [68]
+            0 UInt8 data = 99
+           [69]
+            0 UInt8 data = 86
+           [70]
+            0 UInt8 data = 105
+           [71]
+            0 UInt8 data = 115
+           [72]
+            0 UInt8 data = 117
+           [73]
+            0 UInt8 data = 97
+           [74]
+            0 UInt8 data = 108
+           [75]
+            0 UInt8 data = 65
+           [76]
+            0 UInt8 data = 114
+           [77]
+            0 UInt8 data = 103
+           [78]
+            0 UInt8 data = 96
+           [79]
+            0 UInt8 data = 49
+           [80]
+            0 UInt8 data = 91
+           [81]
+            0 UInt8 data = 83
+           [82]
+            0 UInt8 data = 73
+           [83]
+            0 UInt8 data = 46
+           [84]
+            0 UInt8 data = 66
+           [85]
+            0 UInt8 data = 105
+           [86]
+            0 UInt8 data = 110
+           [87]
+            0 UInt8 data = 100
+           [88]
+            0 UInt8 data = 97
+           [89]
+            0 UInt8 data = 98
+           [90]
+            0 UInt8 data = 108
+           [91]
+            0 UInt8 data = 101
+           [92]
+            0 UInt8 data = 46
+           [93]
+            0 UInt8 data = 66
+           [94]
+            0 UInt8 data = 105
+           [95]
+            0 UInt8 data = 110
+           [96]
+            0 UInt8 data = 100
+           [97]
+            0 UInt8 data = 105
+           [98]
+            0 UInt8 data = 110
+           [99]
+            0 UInt8 data = 103
+           [100]
+            0 UInt8 data = 80
+           [101]
+            0 UInt8 data = 97
+           [102]
+            0 UInt8 data = 116
+           [103]
+            0 UInt8 data = 104
+           [104]
+            0 UInt8 data = 93
+           [105]
+            0 UInt8 data = 1
+           [106]
+            0 UInt8 data = 51
+           [107]
+            0 UInt8 data = 103
+           [108]
+            0 UInt8 data = 97
+           [109]
+            0 UInt8 data = 109
+           [110]
+            0 UInt8 data = 101
+           [111]
+            0 UInt8 data = 119
+           [112]
+            0 UInt8 data = 111
+           [113]
+            0 UInt8 data = 114
+           [114]
+            0 UInt8 data = 108
+           [115]
+            0 UInt8 data = 100
+           [116]
+            0 UInt8 data = 115
+           [117]
+            0 UInt8 data = 117
+           [118]
+            0 UInt8 data = 98
+           [119]
+            0 UInt8 data = 116
+           [120]
+            0 UInt8 data = 97
+           [121]
+            0 UInt8 data = 98
+           [122]
+            0 UInt8 data = 115
+           [123]
+            0 UInt8 data = 97
+           [124]
+            0 UInt8 data = 110
+           [125]
+            0 UInt8 data = 100
+           [126]
+            0 UInt8 data = 98
+           [127]
+            0 UInt8 data = 111
+           [128]
+            0 UInt8 data = 111
+           [129]
+            0 UInt8 data = 107
+           [130]
+            0 UInt8 data = 109
+           [131]
+            0 UInt8 data = 97
+           [132]
+            0 UInt8 data = 114
+           [133]
+            0 UInt8 data = 107
+           [134]
+            0 UInt8 data = 115
+           [135]
+            0 UInt8 data = 46
+           [136]
+            0 UInt8 data = 80
+           [137]
+            0 UInt8 data = 97
+           [138]
+            0 UInt8 data = 110
+           [139]
+            0 UInt8 data = 101
+           [140]
+            0 UInt8 data = 108
+           [141]
+            0 UInt8 data = 83
+           [142]
+            0 UInt8 data = 101
+           [143]
+            0 UInt8 data = 99
+           [144]
+            0 UInt8 data = 111
+           [145]
+            0 UInt8 data = 110
+           [146]
+            0 UInt8 data = 100
+           [147]
+            0 UInt8 data = 97
+           [148]
+            0 UInt8 data = 114
+           [149]
+            0 UInt8 data = 121
+           [150]
+            0 UInt8 data = 84
+           [151]
+            0 UInt8 data = 97
+           [152]
+            0 UInt8 data = 98
+           [153]
+            0 UInt8 data = 115
+           [154]
+            0 UInt8 data = 76
+           [155]
+            0 UInt8 data = 105
+           [156]
+            0 UInt8 data = 115
+           [157]
+            0 UInt8 data = 116
+       0 DataDrivenVisualArgs`1 m_outputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+      0 SIInputActionReference InputActionRef
+       0 AssetReferenceT`1 m_inputActionAsset
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       1 string m_actionID = ""
+      0 EventList LeftClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 AssetReferenceT`1 RowTemplate
+       1 string m_AssetGUID = "b21e2c4e16ed17b4fb294c1466bea37d"
+       1 string m_SubObjectName = ""
+       1 string m_SubObjectType = ""
+      0 EventList SelectionEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (110 items)
+         0 int size = 110
+         [0]
+          0 UInt8 data = 0
+         [1]
+          0 UInt8 data = 1
+         [2]
+          0 UInt8 data = 1
+         [3]
+          0 UInt8 data = 1
+         [4]
+          0 UInt8 data = 1
+         [5]
+          0 UInt8 data = 207
+         [6]
+          0 UInt8 data = 222
+         [7]
+          0 UInt8 data = 227
+         [8]
+          0 UInt8 data = 86
+         [9]
+          0 UInt8 data = 20
+         [10]
+          0 UInt8 data = 2
+         [11]
+          0 UInt8 data = 207
+         [12]
+          0 UInt8 data = 1
+         [13]
+          0 UInt8 data = 1
+         [14]
+          0 UInt8 data = 35
+         [15]
+          0 UInt8 data = 115
+         [16]
+          0 UInt8 data = 101
+         [17]
+          0 UInt8 data = 108
+         [18]
+          0 UInt8 data = 101
+         [19]
+          0 UInt8 data = 99
+         [20]
+          0 UInt8 data = 116
+         [21]
+          0 UInt8 data = 101
+         [22]
+          0 UInt8 data = 100
+         [23]
+          0 UInt8 data = 83
+         [24]
+          0 UInt8 data = 117
+         [25]
+          0 UInt8 data = 98
+         [26]
+          0 UInt8 data = 116
+         [27]
+          0 UInt8 data = 97
+         [28]
+          0 UInt8 data = 98
+         [29]
+          0 UInt8 data = 69
+         [30]
+          0 UInt8 data = 108
+         [31]
+          0 UInt8 data = 101
+         [32]
+          0 UInt8 data = 109
+         [33]
+          0 UInt8 data = 101
+         [34]
+          0 UInt8 data = 110
+         [35]
+          0 UInt8 data = 116
+         [36]
+          0 UInt8 data = 46
+         [37]
+          0 UInt8 data = 80
+         [38]
+          0 UInt8 data = 114
+         [39]
+          0 UInt8 data = 111
+         [40]
+          0 UInt8 data = 112
+         [41]
+          0 UInt8 data = 101
+         [42]
+          0 UInt8 data = 114
+         [43]
+          0 UInt8 data = 116
+         [44]
+          0 UInt8 data = 121
+         [45]
+          0 UInt8 data = 86
+         [46]
+          0 UInt8 data = 97
+         [47]
+          0 UInt8 data = 108
+         [48]
+          0 UInt8 data = 117
+         [49]
+          0 UInt8 data = 101
+         [50]
+          0 UInt8 data = 188
+         [51]
+          0 UInt8 data = 207
+         [52]
+          0 UInt8 data = 1
+         [53]
+          0 UInt8 data = 1
+         [54]
+          0 UInt8 data = 13
+         [55]
+          0 UInt8 data = 99
+         [56]
+          0 UInt8 data = 111
+         [57]
+          0 UInt8 data = 110
+         [58]
+          0 UInt8 data = 115
+         [59]
+          0 UInt8 data = 116
+         [60]
+          0 UInt8 data = 46
+         [61]
+          0 UInt8 data = 110
+         [62]
+          0 UInt8 data = 117
+         [63]
+          0 UInt8 data = 108
+         [64]
+          0 UInt8 data = 108
+         [65]
+          0 UInt8 data = 114
+         [66]
+          0 UInt8 data = 101
+         [67]
+          0 UInt8 data = 102
+         [68]
+          0 UInt8 data = 188
+         [69]
+          0 UInt8 data = 207
+         [70]
+          0 UInt8 data = 1
+         [71]
+          0 UInt8 data = 1
+         [72]
+          0 UInt8 data = 35
+         [73]
+          0 UInt8 data = 115
+         [74]
+          0 UInt8 data = 101
+         [75]
+          0 UInt8 data = 108
+         [76]
+          0 UInt8 data = 101
+         [77]
+          0 UInt8 data = 99
+         [78]
+          0 UInt8 data = 116
+         [79]
+          0 UInt8 data = 101
+         [80]
+          0 UInt8 data = 100
+         [81]
+          0 UInt8 data = 83
+         [82]
+          0 UInt8 data = 117
+         [83]
+          0 UInt8 data = 98
+         [84]
+          0 UInt8 data = 116
+         [85]
+          0 UInt8 data = 97
+         [86]
+          0 UInt8 data = 98
+         [87]
+          0 UInt8 data = 69
+         [88]
+          0 UInt8 data = 108
+         [89]
+          0 UInt8 data = 101
+         [90]
+          0 UInt8 data = 109
+         [91]
+          0 UInt8 data = 101
+         [92]
+          0 UInt8 data = 110
+         [93]
+          0 UInt8 data = 116
+         [94]
+          0 UInt8 data = 46
+         [95]
+          0 UInt8 data = 80
+         [96]
+          0 UInt8 data = 114
+         [97]
+          0 UInt8 data = 111
+         [98]
+          0 UInt8 data = 112
+         [99]
+          0 UInt8 data = 101
+         [100]
+          0 UInt8 data = 114
+         [101]
+          0 UInt8 data = 116
+         [102]
+          0 UInt8 data = 121
+         [103]
+          0 UInt8 data = 86
+         [104]
+          0 UInt8 data = 97
+         [105]
+          0 UInt8 data = 108
+         [106]
+          0 UInt8 data = 117
+         [107]
+          0 UInt8 data = 101
+         [108]
+          0 UInt8 data = 188
+         [109]
+          0 UInt8 data = 188
+      0 EventList RightClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 BindingPath SelectedHistoryGroupNameBinding
+       1 string m_path = ""
+      1 UInt8 ScrollToSelection = 0
+      1 UInt8 AlternateRows = 0
+      1 UInt8 AlwaysUpdateInternalSelection = 0
+      1 UInt8 PreviewVisibilityToggle = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      1 UInt8 ForceRefreshOnNewChoices = 0
+      1 UInt8 ShowSearchResults = 0
+      1 UInt8 ShouldHideIfNoItems = 0
+      1 UInt8 AllowsQuickChangeShortcut = 0
+      1 UInt8 UseRowTemplateToShowSelectedValue = 0
+      1 UInt8 TriggerSelectionEventOnInit = 0
+      1 UInt8 HideOnSelectionChange = 0
+      1 UInt8 AddSelectedHistoryOnSelectionChange = 0
+      1 UInt8 DynamicElements = 0
+      1 UInt8 SelectingSameItemDeselects = 0
+      1 UInt8 HideOnFocusLoss = 0
+      0 BindingPath SearchValueBinding
+       1 string m_path = ""
+      0 BindingPath CanSelectNextBinding
+       1 string m_path = ""
+      0 int ChildDropdownArrowDirection = 1
+      0 SInt64 HoverDelayMs = 0
+      0 int DropdownControl = 2
+      1 string DropdownArrowUSSClass = ""
+      1 string PopupClass = ""
+      1 string RowParamName = "row"
+      0 BindingPath CanSelectPreviousBinding
+       1 string m_path = ""
+      1 string AnchorParentName = "MainFrame"
+      0 int AnchorStyle = 1
+      0 int Anchor = 3
+      1 string MigrateSelectionEvent = ""
+      1 UInt8 SetSelectedValueToSearch = 0
+      0 int ShortcutIconPlacement = 0
+      0 BindingPath SelectionValueBinding
+       1 string m_path = "selectedSubtabElement"
+      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
+      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
+      1 UInt8 LeftClickEvents_UxmlAttributeFlags = 0
+      1 UInt8 RowTemplate_UxmlAttributeFlags = 1
+      1 UInt8 SelectionEvents_UxmlAttributeFlags = 1
+      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
+      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
+      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 0
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 ForceRefreshOnNewChoices_UxmlAttributeFlags = 0
+      1 UInt8 ShowSearchResults_UxmlAttributeFlags = 0
+      1 UInt8 ShouldHideIfNoItems_UxmlAttributeFlags = 0
+      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 0
+      1 UInt8 UseRowTemplateToShowSelectedValue_UxmlAttributeFlags = 0
+      1 UInt8 TriggerSelectionEventOnInit_UxmlAttributeFlags = 0
+      1 UInt8 HideOnSelectionChange_UxmlAttributeFlags = 0
+      1 UInt8 AddSelectedHistoryOnSelectionChange_UxmlAttributeFlags = 0
+      1 UInt8 DynamicElements_UxmlAttributeFlags = 0
+      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
+      1 UInt8 HideOnFocusLoss_UxmlAttributeFlags = 0
+      1 UInt8 SearchValueBinding_UxmlAttributeFlags = 0
+      1 UInt8 CanSelectNextBinding_UxmlAttributeFlags = 0
+      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 1
+      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
+      1 UInt8 DropdownControl_UxmlAttributeFlags = 1
+      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 0
+      1 UInt8 PopupClass_UxmlAttributeFlags = 0
+      1 UInt8 RowParamName_UxmlAttributeFlags = 1
+      1 UInt8 CanSelectPreviousBinding_UxmlAttributeFlags = 0
+      1 UInt8 AnchorParentName_UxmlAttributeFlags = 1
+      1 UInt8 AnchorStyle_UxmlAttributeFlags = 1
+      1 UInt8 Anchor_UxmlAttributeFlags = 1
+      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
+      1 UInt8 SetSelectedValueToSearch_UxmlAttributeFlags = 0
+      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 SelectionValueBinding_UxmlAttributeFlags = 1
+    0 ReferencedObject data
+     0 SInt64 rid = 1015
+     0 ReferencedManagedType type
+      1 string class = "VisualElement/UxmlSerializedData"
+      1 string ns = "UnityEngine.UIElements"
+      1 string asm = "UnityEngine.UIElementsModule"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -609967819
+      1 string name = "NavTabDropdownIndicator"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1016
+     0 ReferencedManagedType type
+      1 string class = "SIVisible/UxmlSerializedData"
+      1 string ns = "SI.Bindable"
+      1 string asm = "SI.Bindable"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = -864939336
+      1 string name = "NoDropdownPaddingVisible"
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 1
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysInstantiate = 0
+      1 UInt8 AlwaysInstantiate_UxmlAttributeFlags = 0
+      0 DataDrivenVisualRunnerConfig`2 BindFunction
+       1 UInt8 m_isAssigned = 0
+       0 AssetReferenceT`1 m_target
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       0 DataDrivenVisualArgs`1 m_inputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+       0 DataDrivenVisualArgs`1 m_outputs
+        0 VariableVisualArgs m_variable
+         1 vector m_argumentBytes
+          1 Array Array (0 items)
+           0 int size = 0
+      1 UInt8 InvertDirectBinding = 1
+      0 BindingMethod`1 Binding
+       1 UInt8 m_kind = 1
+       0 BindingPath m_direct
+        1 string m_path = "config.ShowMainTabsDropdown"
+       0 DataDrivenVisualRunnerConfig`2 m_visualFunction
+        1 UInt8 m_isAssigned = 0
+        0 AssetReferenceT`1 m_target
+         1 string m_AssetGUID = ""
+         1 string m_SubObjectName = ""
+         1 string m_SubObjectType = ""
+        0 DataDrivenVisualArgs`1 m_inputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+        0 DataDrivenVisualArgs`1 m_outputs
+         0 VariableVisualArgs m_variable
+          1 vector m_argumentBytes
+           1 Array Array (0 items)
+            0 int size = 0
+      1 UInt8 PreviewVisibilityToggle = 0
+      0 int VisibilityType = 0
+      0 float FadedOpacityValue = 0
+      1 UInt8 AlwaysBindChildren = 0
+      1 string StyleClassToApplyOnVisible = ""
+      0 BindingPath StyleClassBindingToApplyOnVisible
+       1 string m_path = ""
+      1 UInt8 BindFunction_UxmlAttributeFlags = 0
+      1 UInt8 InvertDirectBinding_UxmlAttributeFlags = 1
+      1 UInt8 Binding_UxmlAttributeFlags = 1
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
+      1 UInt8 VisibilityType_UxmlAttributeFlags = 0
+      1 UInt8 FadedOpacityValue_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysBindChildren_UxmlAttributeFlags = 0
+      1 UInt8 StyleClassToApplyOnVisible_UxmlAttributeFlags = 0
+      1 UInt8 StyleClassBindingToApplyOnVisible_UxmlAttributeFlags = 0
+    0 ReferencedObject data
+     0 SInt64 rid = 1017
+     0 ReferencedManagedType type
+      1 string class = "VisualElement/UxmlSerializedData"
+      1 string ns = "UnityEngine.UIElements"
+      1 string asm = "UnityEngine.UIElementsModule"
+     0 ReferencedObjectData data
+      0 int uxmlAssetId = 1637092058
+      1 string name = ""
+      0 UxmlSerializedData bindings
+       0 Array Array (0 items)
+        0 int size = 0
+      1 string tooltip = ""
+      1 string dataSourcePathString = ""
+      1 string dataSourceTypeString = ""
+      0 PPtr<$Object> dataSourceUnityObject
+       0 int m_FileID = 0
+       0 SInt64 m_PathID = 0
+      1 string viewDataKey = ""
+      0 int pickingMode = 1
+      0 int usageHints = 0
+      0 int languageDirection = 0
+      0 int tabIndex = 0
+      1 UInt8 focusable = 0
+      1 UInt8 enabledSelf = 0
+      1 UInt8 name_UxmlAttributeFlags = 0
+      1 UInt8 enabledSelf_UxmlAttributeFlags = 0
+      1 UInt8 viewDataKey_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
+      1 UInt8 tooltip_UxmlAttributeFlags = 0
+      1 UInt8 usageHints_UxmlAttributeFlags = 0
+      1 UInt8 tabIndex_UxmlAttributeFlags = 0
+      1 UInt8 focusable_UxmlAttributeFlags = 0
+      1 UInt8 languageDirection_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceUnityObject_UxmlAttributeFlags = 0
+      1 UInt8 dataSourcePathString_UxmlAttributeFlags = 0
+      1 UInt8 dataSourceTypeString_UxmlAttributeFlags = 0
+      1 UInt8 bindings_UxmlAttributeFlags = 0
