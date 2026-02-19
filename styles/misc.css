@@ -16,7 +16,7 @@
 /* ---- Player Report ---- */
 /* Re-size Role Selector when reducing AttributesLargeBlock width */
 .player-report-role-selector-roles-size-high-possession-ip {
-  width: 280px;
+  width: 300px;
 }
 /* Portrait - Potential Fix: sub-pixel issue */
 .thumbnails-alt-person-picture-player-report {
@@ -71,17 +71,17 @@
 /* Vertical */
 .layout-divider-solid-vertical {
   background-color: var(--none);
-  width: 0px;
+  width: 1px;
 }
 
 .layout-divider-solid-vertical-stretch {
   background-color: var(--none);
-  width: 0px;
+  width: 1px;
 }
 
 .layout-layout-divider-solid-vertical {
   background-color: var(--none);
-  width: 0px;
+  width: 1px;
 }
 
 /* Horizontal */
