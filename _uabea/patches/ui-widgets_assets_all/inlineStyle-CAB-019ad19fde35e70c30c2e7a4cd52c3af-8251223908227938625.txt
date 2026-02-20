@@ -344,9 +344,9 @@
    0 int size = 1
    [0]
     0 ColorRGBA data
-     0 float r = 0.2
-     0 float g = 0.231
-     0 float b = 0.267
+     0 float r = 0.851
+     0 float g = 0.91
+     0 float b = 0.929
      0 float a = 1
  0 vector strings
   1 Array Array (2 items)

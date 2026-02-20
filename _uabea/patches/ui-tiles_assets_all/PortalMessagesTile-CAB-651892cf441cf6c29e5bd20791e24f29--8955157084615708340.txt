@@ -415,7 +415,7 @@
       1 Array Array (3 items)
        0 int size = 3
        [0]
-        1 string data = "padding-horizontal-global-padding-regular"
+        1 string data = "padding-left-global-padding-regular"
        [1]
         1 string data = "padding-top-global-padding-large"
        [2]
