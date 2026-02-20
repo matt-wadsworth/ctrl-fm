@@ -17,7 +17,7 @@
 
 > First build may take a few minutes while bundles are scanned; later builds use cache and are typically faster. See [Installation](https://fmskinbuilder.com/docs/getting-started/installation), [Full Build](https://fmskinbuilder.com/docs/building/full-build) and [Applying to Game](https://fmskinbuilder.com/docs/building/applying-to-game) for more information.
 
-Note: Some changes must be made manually in UABEA (e.g. message indicators, gradients, dugout tiles). See `_uabea/UABEA-Notes.md` for details.
+Note: Some changes must be made manually in UABEA (e.g. message indicators, gradients, dugout tiles). See `_uabea/UABEA-Notes.md` for details on Windows changes.
 
 <!-- ### 📦 Install from bundles
 
@@ -26,7 +26,7 @@ If you downloaded a **Bundles (WIN)** or **Bundles (MAC)** release:
 1. **Extract** the bundle files into your game installation folder (replace the existing files when prompted).
 2. **Windows (Steam):** Default folder is
    `C:\Program Files (x86)\Steam\steamapps\common\Football Manager 26\fm_Data\StreamingAssets\aa\StandaloneWindows64`
-3. **macOS:** Right-click the **Football Manager** app → **Show Package Contents**, then navigate to the bundles folder using the same path structure as above (`fm_Data` → `StreamingAssets` → `aa` → platform folder). -->
+3. **macOS:** Right-click the **Football Manager** app → **Show Package Contents**, then navigate to the bundles folder using a similar path structure as above (`Content` → `Resources` → `Data` → `StreamingAssets` → `aa` → `StandaloneOSX`). -->
 
 ### 🔧 Bugs & improvements
 
