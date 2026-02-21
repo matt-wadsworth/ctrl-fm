@@ -18,6 +18,24 @@ For each item:
 
 ---
 
+## Path IDs (all patch files)
+
+Use these to find assets quickly in UABEA (View → Go To Asset, or search by path ID).
+
+| Bundle                | Filename (patch)              | Path ID              |
+| --------------------- | ----------------------------- | -------------------- |
+| ui-tactics_assets_all | TacticalPlannerHeader         | -966834888143150418  |
+| ui-tiles_assets_all   | Dugout_4x8_with_collapse      | -389085435411529779  |
+| ui-tiles_assets_all   | inlineStyle                   | 4355907201153990605  |
+| ui-tiles_assets_all   | inlineStyle                   | -1082094815230004916 |
+| ui-tiles_assets_all   | PortalMessagesTile            | -8955157084615708340 |
+| ui-widgets_assets_all | inlineStyle                   | -4684259242089685901 |
+| ui-widgets_assets_all | inlineStyle                   | -8675747941173082291 |
+| ui-widgets_assets_all | inlineStyle                   | 8251223908227938625  |
+| ui-widgets_assets_all | navigation-tab-portal-default | -3526698279923353279 |
+
+---
+
 ## Message indicators
 
 | Name                           | File                         | Path ID (or Name)    | Reference | Note                                            |
@@ -39,17 +57,38 @@ For each item:
 
 ---
 
-## Reports – Gradient Removal
+## Portal Icons
 
-Remove gradients by changing `m_SerializedData` (or equivalent) as below.
+Portal tab icons (e.g. Portal, Squad) need structural changes in **navigation-tab-portal-default** plus a new style rule in the shared **inlineStyle** so the SIImage can be tinted. Both assets are in **ui-widgets_assets_all.bundle**.
 
-| Name                          | File                         | Change                                    | Reference        | Value       |
-| ----------------------------- | ---------------------------- | ----------------------------------------- | ---------------- | ----------- |
-| PlayerReportHeader            | ui-tiles_assets_all.bundle   | Remove gradient from player               | m_SerializedData | 1002 → 1001 |
-| NonPlayerReportHeader         | ui-tiles_assets_all.bundle   | Remove gradient from non-player           | m_SerializedData | 1004 → 1002 |
-| RetiredPlayerReportHeader     | ui-tiles_assets_all.bundle   | Remove gradient from player               | m_SerializedData | 1002 → 1001 |
-| PlayerReportPreviewTooltip    | ui-widgets_assets_all.bundle | Remove gradient from tooltip (player)     | m_SerializedData | 1007 → 1006 |
-| NonPlayerReportPreviewTooltip | ui-widgets_assets_all.bundle | Remove gradient from tooltip (non-player) | m_SerializedData | 1008 → 1002 |
+**Summary:** Move the SIImage element into the same parent as the tab text (SIText), set that parent to flex row, and apply an inline style to the icon for colour (background-image tint).
+
+**Note:** Do not rely on m_Id or array indices — they can differ per platform. Locate elements by **type** and **class names** (or by following the hierarchy in your dump).
+
+### 1. navigation-tab-portal-default (Path ID: -3526698279923353279)
+
+In **m_VisualElementAssets**:
+
+| Find by type + class                                                               | Change                                                                                                                                                                                                                                                                                                                                                                        |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **SIImage** with class `portal-image`                                              | **m_ParentId:** set to the same value as the SIText’s parent (the SIVisible that currently contains the tab text). **m_RuleIndex:** set to the index of the new tint rule you add in inlineStyle (below). **m_Classes:** add `margin-right-global-gap-small` (keep `portal-image`). **m_OrderInDocument:** use a value so the icon is first before the SIText in that parent. |
+| **SIVisible** that is the direct parent of the **SIText** with class `portal-text` | **m_Classes:** add `row-direction-normal` (flex row). This container will then have both the SIImage and the SIText as children.                                                                                                                                                                                                                                              |
+
+Resulting structure: the “text” container (the SIVisible that has the portal text) has two children — SIImage first, then SIText — and uses `row-direction-normal`; the SIImage's **m_RuleIndex** points at the new tint rule in inlineStyle.
+
+### 2. inlineStyle (Path ID: 8251223908227938625)
+
+This stylesheet is referenced by **navigation-tab-portal-default** (inlineSheet). Add one new rule and one new colour so the portal icon can be tinted.
+
+| What to change    | Detail                                                                                                                                                                                                 |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **m_Rules**       | **Add a new rule** at the next index (e.g. if you currently have 9 rules, add at index 9). One property: `m_Name` = `-unity-background-image-tint-color`, `m_ValueType` = 4 (color), `valueIndex` = 0. |
+| **vector colors** | **Add one ColorRGBA** (e.g. r=0.851, g=0.91, b=0.929, a=1). The new rule's’s valueIndex 0 refers to the first entry in vector colors.                                                                  |
+
+- **Original:** 9 rules, 0 entries in vector colors.
+- **Patched:** 10 rules (one new rule appended), 1 entry in vector colors.
+
+Use the **index of that new rule** as the SIImage's **m_RuleIndex** in navigation-tab-portal-default. Adjust the ColorRGBA values to match your skin.
 
 ---
 
@@ -115,9 +154,36 @@ function hexToUnityGradientBytes(hex) {
 // Example: hexToUnityGradientBytes("#1F1F1F");
 ```
 
-## Player Portrait – sizes/scale
+---
 
-### 1. Margin and scale (styles)
+## Dugout popups/tiles
+
+These are to give the in match popups a background colour, as the tiles are transparent otherwise. Unfortunately we cannot patch this with SB.
+
+| Name                     | File                       | Path ID (or Name)                   | Reference                  | Note                                                                                                                                                                                           |
+| ------------------------ | -------------------------- | ----------------------------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dugout 4x8 collapse tile | ui-tiles_assets_all.bundle | -389085435411529779                 | class `base-template-grow` | In `Dugout_4x8_with_collapse`, find the element with class `base-template-grow` and change its `m_RuleIndex` from `-1` to `6`.                                                                 |
+| Dugout 4x8 inline style  | ui-tiles_assets_all.bundle | 4355907201153990605 (`inlineStyle`) | Rule index `6`             | Add a **new style rule at index 6** that defines `background-color`, `border-radius`, `border-width`, `border-color` (radius 12, width 1, using your chosen dark BG and light border colours). |
+
+---
+
+## Extras (not currently applying – notes kept for reference)
+
+### Reports – Gradient Removal
+
+Remove gradients by changing `m_SerializedData` (or equivalent) as below.
+
+| Name                          | File                         | Change                                    | Reference        | Value       |
+| ----------------------------- | ---------------------------- | ----------------------------------------- | ---------------- | ----------- |
+| PlayerReportHeader            | ui-tiles_assets_all.bundle   | Remove gradient from player               | m_SerializedData | 1002 → 1001 |
+| NonPlayerReportHeader         | ui-tiles_assets_all.bundle   | Remove gradient from non-player           | m_SerializedData | 1004 → 1002 |
+| RetiredPlayerReportHeader     | ui-tiles_assets_all.bundle   | Remove gradient from player               | m_SerializedData | 1002 → 1001 |
+| PlayerReportPreviewTooltip    | ui-widgets_assets_all.bundle | Remove gradient from tooltip (player)     | m_SerializedData | 1007 → 1006 |
+| NonPlayerReportPreviewTooltip | ui-widgets_assets_all.bundle | Remove gradient from tooltip (non-player) | m_SerializedData | 1008 → 1002 |
+
+### Player Portrait – sizes/scale
+
+#### 1. Margin and scale (styles)
 
 **File:** ui-styles_assets_default  
 **Asset:** FigmaGeneratedStyles
@@ -130,7 +196,7 @@ function hexToUnityGradientBytes(hex) {
 
 - There may be more than one [5139]; ensure you edit the **Dimension** value (margin).
 
-### 2. Image/container dimensions (tiles)
+#### 2. Image/container dimensions (tiles)
 
 **File:** ui-tiles_assets_all  
 **Path ID:** -1940069326759809061
@@ -142,14 +208,3 @@ function hexToUnityGradientBytes(hex) {
 | ----- | ---------------- | -------- | --------- |
 | [0]   | Container height | 148      | 170       |
 | [2]   | Image width      | 116      | 140       |
-
----
-
-## Dugout popups/tiles
-
-These are to give the in match popups a background colour, as the tiles are transparent otherwise. Unfortunately we cannot patch this with SB.
-
-| Name                     | File                       | Path ID (or Name)                  | Reference                   | Note                                                                                                                       |
-| ------------------------ | -------------------------- | ---------------------------------- | --------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| Dugout 4x8 collapse tile | ui-tiles_assets_all.bundle | -389085435411529779                | class `base-template-grow` | In `Dugout_4x8_with_collapse`, find the element with class `base-template-grow` and change its `m_RuleIndex` from `-1` to `6`. |
-| Dugout 4x8 inline style  | ui-tiles_assets_all.bundle | 4355907201153990605 (`inlineStyle`) | Rule index `6`             | Add a **new style rule at index 6** that defines `background-color`, `border-radius`, `border-width`, `border-color` (radius 12, width 1, using your chosen dark BG and light border colours). |
