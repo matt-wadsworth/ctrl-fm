@@ -171,6 +171,7 @@
 .frames-player-attributes-full-block-size-max-rows,
 .frames-player-attributes-full-block-size-min-rows {
   border-color: var(--none);
+  padding: 4px;
 }
 .frames-player-attributes-full-block-size-mid-player-attributes-property-3-compact {
   border-color: var(--none);

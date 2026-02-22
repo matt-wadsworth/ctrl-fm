@@ -19,7 +19,7 @@
   --colours-brand-foundation-midnight-100: #121a24;
   --colours-brand-foundation-cloud: #d9e8ed;
   --colours-brand-foundation-horizon: #fbc500;
-  --colours-brand-foundation-twilight: rgba(217, 232, 237, 0.05); /* Menu Hover */
+  --colours-brand-foundation-twilight: rgba(217, 232, 237, 0.05);
   --colours-brand-foundation-twinight: #121a24;
   --colours-brand-foundation-twinight-120: #121a24;
 
@@ -65,6 +65,10 @@
   /* Speak To */
   --colours-speak-to-background-dark: #060d17;
   --colours-speak-to-background-default: #121a24;
+
+  /* Communication Feedback */
+  --communication-feedback-negative: #f22c2c;
+  --communication-feedback-positive: #4cab43;
 
   /* Tactics - Positions
   --colours-tactics-goalkeeper-background: #1e1e3200;

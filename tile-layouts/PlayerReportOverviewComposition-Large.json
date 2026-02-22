@@ -1,0 +1,103 @@
+{
+  "name": "PlayerReportOverviewComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 8
+  },
+  "tiles": [
+    {
+      "tile": "PlayerAttributesBlockTile_20x6",
+      "x": 0,
+      "y": 0,
+      "w": 20,
+      "h": 6,
+      "isDynamic": false,
+      "guid": "25abee27232f15047840e1c3900a8a9c",
+      "path_id": "6067656787038004271"
+    },
+    {
+      "tile": "PlayerHappinessTile_2x2",
+      "x": 0,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "3f6143aa7c9070c4e8a16ab338bba154",
+      "path_id": "7836823169461453336"
+    },
+    {
+      "tile": "PlayerFitnessTile_2x2",
+      "x": 2,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "c9429824709d7884b8529a1b275d608d",
+      "path_id": "1595869164690944144"
+    },
+    {
+      "tile": "PlayerFormTile_4x2",
+      "x": 8,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "e141a0ac31f3f62498110f79e3a25219",
+      "path_id": "-3559556146518178503"
+    },
+    {
+      "tile": "PlayerDisciplineAndBansTile_2x2",
+      "x": 4,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "024e947fcd3a304468dc10411a34dd26",
+      "path_id": "-6101737071355220823"
+    },
+    {
+      "tile": "PlayerTrainingOverviewTile_2x2",
+      "x": 6,
+      "y": 6,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "38d19da5c51041a4d92cabf86e406eb9",
+      "path_id": "1707707894050824105",
+      "additionalConfigs": [
+        {
+          "guid": "b92d732e5545396429c2585efcd3eded",
+          "path_id": "2417164967573657729",
+          "w": 2,
+          "h": 2
+        },
+        {
+          "guid": "fb4c7e28da92a2947bd79668f43be5c0",
+          "path_id": "7213312529119324453",
+          "w": 2,
+          "h": 2
+        }
+      ]
+    },
+    {
+      "tile": "PlayerSeasonStatsTile_4x2",
+      "x": 16,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "91e48e3eabd524e42afdd00ee9473657",
+      "path_id": "-1621476867434330705"
+    },
+    {
+      "tile": "CareerStatsTile_4x2",
+      "x": 12,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "53fbd19acd2f8be45933969c5b8a91c2",
+      "path_id": "6493930905944021670"
+    }
+  ]
+}
