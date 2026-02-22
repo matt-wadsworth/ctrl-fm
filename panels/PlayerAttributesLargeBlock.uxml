@@ -97,10 +97,8 @@
             <si:BindingRemapper focusable="false" enabled-self="false" binding-mappings="report=Player.PlayerReportForContextTeam" style="align-self: stretch; height: 350px; flex-grow: 1; margin-top: 0px;">
               <ui:Instance template="ScoutedProsAndCons" style="align-self: stretch" />
             </si:BindingRemapper>
-
             <!-- Divider -->
             <ui:Instance template="layout-divider-solid-horizontal" class="margin-vertical-global-gap-small" style="align-self: stretch; background-color: #d9e8ed0d;" />
-
             <!-- Traits -->
             <ui:VisualElement class="column-direction-normal flex-grow-class" style="align-items: flex-start; align-self: stretch; width: 100%;" usage-hints="1" focusable="false" enabled-self="false">
               <ui:VisualElement class="row-direction-normal" style="align-items: center; align-self: stretch; flex-shrink: 0; width: 100%;" usage-hints="1" focusable="false" enabled-self="false">
@@ -109,7 +107,7 @@
                 </si:SIButton>
               </ui:VisualElement>
               <ui:VisualElement class="row-direction-normal flex-grow-class" style="align-items: flex-start; align-self: stretch; width: 100%;" picking-mode="1" focusable="false" enabled-self="false">
-                <ui:VisualElement class="column-direction-normal height-100-percent" style="align-items: flex-start; flex: 1 0 0; min-height: 100px;" picking-mode="1" focusable="false" enabled-self="false">
+                <ui:VisualElement class="column-direction-normal height-100-percent" style="align-items: flex-start; flex: 1 0 0; min-height: 102px;" picking-mode="1" focusable="false" enabled-self="false">
                   <si:StreamedObjectList class="flex-grow-class" diggable="false" dim="false" sort-ascending="false" vertical-scroller-visibility="1" dynamic-elements="false" truncate="false" alternate-rows="true" reorderable="true" selection-mode="909403191" direction="1647719524" set-ignore-picking-mode="true" set-scroll-to-as-selected="true" binding="kind=1; path=Person.PlayerTraits" sort-binding="Person.PlayerTraits" selected-items-binding="Person.PlayerTraits" row-template="19" use-row-index="true" />
                 </ui:VisualElement>
               </ui:VisualElement>
