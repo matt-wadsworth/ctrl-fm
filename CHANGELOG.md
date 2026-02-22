@@ -13,6 +13,7 @@ All notable changes to the CTRL skin are documented here.
 
 - **Key/Preferred attribute highlights** – Made these more obvious (may still tweak; want to keep them quite subtle).
 - **Match View** - Re-arranged tiles a little and changed Commentary Bar styling.
+- **Switches** - Updated styling.
 
 ### Fixed
 
