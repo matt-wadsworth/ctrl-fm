@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+  <!-- data_display-string-list-item-pro-con -->
+  <si:BindingExpect focusable="false" enabled-self="false">
+    <ui:VisualElement class="data_display-string-list-item-pro-con-type-pro" style="margin-bottom: 6px" bindings="8246140865592191277" focusable="false" enabled-self="false">
+      <ui:VisualElement bindings="7306014443378600237" focusable="false" enabled-self="false">
+        <ui:VisualElement class="row-direction-normal" bindings="7306014443378600237" focusable="false" enabled-self="false">
+          <si:SIImage class="margin-right-global-gap-regular" language-direction="1" focusable="false" enabled-self="false" binding="kind=1; path=0043cf8d52dec664881cdc004dc65dea; is_visualscript=True" />
+          <si:SIText class="body-regular-14px-regular content-no-wrap content-ellipsis global-text-secondary" style="white-space: normal" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Ake suspended vs Celtic (UCL)" text-binding="kind=1; path=binding.ProConsShortString" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" />
+        </ui:VisualElement>
+      </ui:VisualElement>
+    </ui:VisualElement>
+  </si:BindingExpect>
+</ui:UXML>

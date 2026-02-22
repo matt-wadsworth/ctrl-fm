@@ -1,9 +1,9 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
   <!-- ScoutedProsAndCons -->
   <si:BindingExpect focusable="false" enabled-self="false">
-    <ui:VisualElement style="flex-direction: column; height: 380px; width: 100%;" picking-mode="1" focusable="false" enabled-self="false">
+    <ui:VisualElement style="flex-direction: column; height: 350px; width: 100%;" picking-mode="1" focusable="false" enabled-self="false">
       <!-- Pros -->
-      <ui:VisualElement style="flex: 1 1 0; flex-direction: column; min-height: 120px; padding: 4px; background-color: #2e6e281a; border-radius: 8px; border-width: 1px; border-color: #2e6e2826" focusable="false" enabled-self="false">
+      <ui:VisualElement style="flex: 1 1 0; flex-direction: column; min-height: 120px;" focusable="false" enabled-self="false">
         <ui:VisualElement class="row-direction-normal" style="flex-shrink: 0; margin-bottom: 8px" focusable="false" enabled-self="false">
           <ui:VisualElement class="ui-concepts-thumbs-up_small margin-right-global-gap-regular positive-icon-colour" bindings="7105633" tab-index="1" focusable="false" enabled-self="false" />
           <si:SIText class="heading-small-14px positive-string-colour" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Pros" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="6123" />
@@ -12,7 +12,7 @@
       </ui:VisualElement>
 
       <!-- Cons -->
-      <ui:VisualElement style="flex: 1 1 0; flex-direction: column; min-height: 120px; margin-top: 8px; padding: 4px; background-color:#7a101033; border-radius: 8px; border-width: 1px; border-color: #7a101047" focusable="false" enabled-self="false">
+      <ui:VisualElement style="flex: 1 1 0; flex-direction: column; min-height: 120px; margin-top: 8px;" focusable="false" enabled-self="false">
         <ui:VisualElement class="row-direction-normal" style="flex-shrink: 0; margin-bottom: 8px" focusable="false" enabled-self="false">
           <ui:VisualElement class="ui-concepts-thumbs-down_small margin-right-global-gap-regular negative-icon-colour" bindings="465674792307" focusable="true" enabled-self="false" />
           <si:SIText class="heading-small-14px negative-string-colour" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" debug-display="Cons" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="6124" />
