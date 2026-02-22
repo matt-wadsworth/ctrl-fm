@@ -7,10 +7,12 @@ All notable changes to the CTRL skin are documented here.
 ### Added
 
 - **Pros and Cons** – Added to Player Reports.
+- **Match View** - Added Pass Maps.
 
 ### Changed
 
 - **Key/Preferred attribute highlights** – Made these more obvious (may still tweak; want to keep them quite subtle).
+- **Match View** - Re-arranged tiles a little and changed Commentary Bar styling.
 
 ### Fixed
 

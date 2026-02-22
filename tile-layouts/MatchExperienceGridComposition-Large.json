@@ -8,7 +8,7 @@
     {
       "tile": "MatchStatsTile_4x4",
       "x": 8,
-      "y": 4,
+      "y": 0,
       "w": 4,
       "h": 4,
       "isDynamic": false,
@@ -18,7 +18,7 @@
     {
       "tile": "MatchEventsTile_4x4",
       "x": 8,
-      "y": 0,
+      "y": 4,
       "w": 4,
       "h": 4,
       "isDynamic": false,
@@ -33,17 +33,31 @@
       "h": 8,
       "isDynamic": false,
       "guid": "6527b2aa0749db84d802288b4cb6434d",
-      "path_id": "3468244692418197726"
+      "path_id": "3468244692418197726",
+      "additionalConfigs": [
+        {
+          "tile": "LatestScoresTile_4x4",
+          "guid": "8474a8838367004438fa336257d7dfb1",
+          "path_id": "6706023867355077772"
+        }
+      ]
     },
     {
-      "tile": "MatchViewerVerticalTile_4x6",
+      "tile": "LatestScoresTile_4x4",
       "x": 0,
       "y": 0,
       "w": 4,
       "h": 6,
       "isDynamic": false,
-      "guid": "7801510f1d5845547a101caba49431d3",
-      "path_id": "648502813412822921"
+      "guid": "8474a8838367004438fa336257d7dfb1",
+      "path_id": "6706023867355077772",
+      "additionalConfigs": [
+        {
+          "tile": "MatchViewerVerticalTile_4x6",
+          "guid": "7801510f1d5845547a101caba49431d3",
+          "path_id": "648502813412822921"
+        }
+      ]
     },
     {
       "tile": "AwayTeamFormationIPTile_4x6",
@@ -59,6 +73,11 @@
           "tile": "AwayTeamFormationOOPTile_4x6",
           "guid": "dd14815c08cb7834590fb5317e2bf64a",
           "path_id": "-8016649857285246824"
+        },
+        {
+          "tile": "AwayTeamPassMapTile_4x6",
+          "guid": "d3786a019ac76274ca47d95ac01268de",
+          "path_id": "-7283601885498801864"
         }
       ]
     },
@@ -76,22 +95,27 @@
           "tile": "HomeTeamFormationOOPTile_4x6",
           "guid": "dd14815c08cb7834590fb5317e2bf64a",
           "path_id": "8131671911671655671"
+        },
+        {
+          "tile": "HomeTeamPassMapTile_4x6",
+          "guid": "d3786a019ac76274ca47d95ac01268de",
+          "path_id": "8615856199638608629"
         }
       ]
     },
     {
-      "tile": "LatestScoresTile_4x2",
+      "tile": "MatchMomentumTile_4x2",
       "x": 12,
       "y": 6,
       "w": 4,
       "h": 2,
       "isDynamic": false,
-      "guid": "8474a8838367004438fa336257d7dfb1",
-      "path_id": "6706023867355077772"
+      "guid": "3e017e8aafcd0e64491a50667c9a4e1a",
+      "path_id": "7038882805663058795"
     },
     {
       "tile": "DugoutTile_4x2",
-      "x": 4,
+      "x": 0,
       "y": 6,
       "w": 4,
       "h": 2,
@@ -101,7 +125,7 @@
     },
     {
       "tile": "xGStoryTile_4x2",
-      "x": 0,
+      "x": 4,
       "y": 6,
       "w": 4,
       "h": 2,
