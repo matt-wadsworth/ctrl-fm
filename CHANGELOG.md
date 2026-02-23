@@ -8,6 +8,7 @@ All notable changes to the CTRL skin are documented here.
 
 - **Pros and Cons** – Added to Player Reports.
 - **Match View** - Added Pass Maps.
+- **Individual Training** - New layout.
 
 ### Changed
 

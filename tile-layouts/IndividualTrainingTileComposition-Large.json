@@ -1,0 +1,99 @@
+{
+  "name": "IndividualTrainingTileComposition-Large",
+  "grid": {
+    "width": 10,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "IndividualTrainingHeaderTile_10x1",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 1,
+      "isDynamic": false,
+      "guid": "ce1c7cf21d55dd644962e2c28383796a",
+      "path_id": "906895924564006190"
+    },
+    {
+      "tile": "PlayerTraitsTile_2x2",
+      "x": 0,
+      "y": 2,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "8c10433ef75df24418edc653d9aa399f",
+      "path_id": "-3175238688636608863"
+    },
+    {
+      "tile": "WeakFootTile_2x1",
+      "x": 2,
+      "y": 3,
+      "w": 2,
+      "h": 1,
+      "isDynamic": false,
+      "guid": "076deca4315ec3e47abd0ec90d218248",
+      "path_id": "631772815110457186"
+    },
+    {
+      "tile": "PlayerTrainingUnitTile_2x1",
+      "x": 2,
+      "y": 2,
+      "w": 2,
+      "h": 1,
+      "isDynamic": false,
+      "guid": "00f794e333e5b3a40bdead6f836830af",
+      "path_id": "8380002754384126350"
+    },
+    {
+      "tile": "PlayerIndividualTrainingOptionsBlock_8x1",
+      "x": 0,
+      "y": 1,
+      "w": 8,
+      "h": 1,
+      "isDynamic": false,
+      "guid": "23af61209cf031e4aa6c488fd7efe36d",
+      "path_id": "2020621545567606390"
+    },
+    {
+      "tile": "IndividualTrainingPlayerAttributesAndCoachReportTile_10x5",
+      "x": 0,
+      "y": 4,
+      "w": 10,
+      "h": 6,
+      "isDynamic": false,
+      "guid": "b9c2555892e355542abb02df32b2ce91",
+      "path_id": "-1499201771004927918"
+    },
+    {
+      "tile": "PlayerPositionalAbilityTile_2x2",
+      "x": 8,
+      "y": 0,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "c5084b12f25733a4ab0a661d996a7efa",
+      "path_id": "8394172455261572655"
+    },
+    {
+      "tile": "TrainingProgressReportTile_4x2",
+      "x": 6,
+      "y": 2,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "87b26e81436060d49b4a0a375358a152",
+      "path_id": "-1047488043607626173"
+    },
+    {
+      "tile": "PlayerFatigueTile_2x2",
+      "x": 4,
+      "y": 2,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "48bee266d732a0146ab7e4932b2f8c76",
+      "path_id": "-2241962998573114878"
+    }
+  ]
+}

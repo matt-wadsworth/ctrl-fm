@@ -216,3 +216,8 @@
 .speakto-frame-sender-message-response {
   border-color: var(--colours-alpha-light-alpha-8);
 }
+
+/* ---- Individual Training Block ---- */
+.individual-training-block {
+  border-color: var(--colours-alpha-light-alpha-8);
+}

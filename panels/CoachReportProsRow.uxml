@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+  <!-- CoachReportProsRow -->
+  <si:BindingExpect picking-mode="1" tab-index="1" focusable="false" enabled-self="false">
+    <ui:VisualElement style="margin-bottom: 4px; margin-top: 4px" bindings="7378413710771774819" data-source-unity-object="1684368685" picking-mode="762212201" usage-hints="1953654134" language-direction="1818321769" tab-index="1836016429" focusable="true" enabled-self="true">
+      <ui:VisualElement style="flex-grow: 1" usage-hints="1" focusable="false" enabled-self="false">
+        <ui:VisualElement class="row-direction-normal" style="flex-grow: 1; border-left-width: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0" picking-mode="1" tab-index="1" focusable="false" enabled-self="false">
+          <si:SIImage class="margin-horizontal-global-gap-regular" data-source-unity-object="1" language-direction="1" focusable="false" enabled-self="false" binding="kind=1; path=0043cf8d52dec664881cdc004dc65dea; is_visualscript=True" />
+          <si:SIText class="body-small-12px-regular global-text-secondary content-ellipsis" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=row.ProConsShortString" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" />
+        </ui:VisualElement>
+      </ui:VisualElement>
+    </ui:VisualElement>
+  </si:BindingExpect>
+</ui:UXML>
