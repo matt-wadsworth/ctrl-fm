@@ -11,11 +11,15 @@
     "efl-league-two-skin",
     "premier_league_skin_fm26",
     "fm-super-cup-skin-min",
-    "uefa-cl_womens_league_skin_fm26"
+    "uefa-cl_womens_league_skin_fm26",
+    "bundesliga_fm26",
+    "efl_skin_fm26",
+    "efl_vertu_skin_fm26",
+    "uefa-conference_league_skin_fm26",
+    "uefa-europa_league_skin_fm26",
+    "uefa-super-cup_league_skin_fm26"
   ],
-
   "startup.jpg": "dynamic-pattern-dark-texture",
-
   "base-2x1.jpg": [
     "BoardroomBasic",
     "BoardroomHighEnd",

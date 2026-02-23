@@ -19,6 +19,7 @@ All notable changes to the CTRL skin are documented here.
 
 - **Player Polygon** – Fixed for goalkeepers.
 - **Warning Icon** - Reverted to white icon to make it visible on Continue/Must Respond.
+- **Background Replacement** - Fixed for Bundesliga and added others in case another league was missed.
 
 ---
 
