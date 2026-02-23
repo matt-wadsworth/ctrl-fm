@@ -66,6 +66,11 @@
   --colours-speak-to-background-dark: #060d17;
   --colours-speak-to-background-default: #121a24;
 
+  /* Layout - UI Tiles - Interaction Border */
+  --layout-ui-tiles-interaction-border-default: var(
+    --colours-alpha-light-alpha-8
+  );
+
   /* Communication Feedback
   --communication-feedback-negative: #f22c2c;
   --communication-feedback-positive: #4cab43; */

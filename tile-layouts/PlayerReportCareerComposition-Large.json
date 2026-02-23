@@ -1,0 +1,79 @@
+{
+  "name": "PlayerReportCareerComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 8
+  },
+  "tiles": [
+    {
+      "tile": "BiographyTile_4x4",
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "ae304b761a163534fbcc5117abd6a65e",
+      "path_id": "-3621625735349895697"
+    },
+    {
+      "tile": "CareerStatsBlock_12x8",
+      "x": 4,
+      "y": 0,
+      "w": 12,
+      "h": 8,
+      "isDynamic": false,
+      "guid": "298d500326b115a46a730bf8c3860381",
+      "path_id": "6188826901409702066"
+    },
+    {
+      "tile": "PlayerMilestonesTile_4x4",
+      "x": 0,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "a57f3672ec7f8024db11a5ca74329516",
+      "path_id": "643899870297747186"
+    },
+    {
+      "tile": "FavouredPeopleTile_4x2",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "ddb5a38e724693449a08e8fd1cd74d25",
+      "path_id": "7038787285997562897"
+    },
+    {
+      "tile": "FavouredClubsTile_4x2",
+      "x": 16,
+      "y": 2,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "cd15b53862dd3d641bd02135adcaae0c",
+      "path_id": "7857441550174209174"
+    },
+    {
+      "tile": "NationalityTile_4x2",
+      "x": 16,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "297dd8d53999f9d4db8b79bbcb3af466",
+      "path_id": "1963177352498875614"
+    },
+    {
+      "tile": "NationalTeamTile_4x2",
+      "x": 16,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "07902a2d2265df444b4c716cd55e1147",
+      "path_id": "833202231303459992"
+    }
+  ]
+}
