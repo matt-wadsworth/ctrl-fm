@@ -18,6 +18,7 @@ All notable changes to the CTRL skin are documented here.
 - **Switches** - Updated styling.
 - **Font** - Removed replacement of language fonts.
 - **Club Site** - Added more relevant info - based on MrTini/WTS work.
+- **Checkboxes** - Updated styling.
 
 ### Fixed
 
