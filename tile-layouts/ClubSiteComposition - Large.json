@@ -7,53 +7,23 @@
   "tiles": [
     {
       "tile": "SquadFirstTeamTile_4x4",
-      "x": 12,
-      "y": 0,
+      "x": 4,
+      "y": 2,
       "w": 4,
-      "h": 4,
+      "h": 3,
       "isDynamic": true,
       "guid": "ee688478205c87e47b679d02ba6edaae",
       "path_id": "4009900239504513551"
     },
     {
-      "tile": "ClubStaffTile_4x4",
-      "x": 16,
-      "y": 0,
+      "tile": "SquadFixtureScheduleTile_4x4",
+      "x": 12,
+      "y": 2,
       "w": 4,
       "h": 4,
-      "isDynamic": false,
-      "guid": "b9fba6a793ac04945aa2bac758cd959e",
-      "path_id": "5490210081571461461"
-    },
-    {
-      "tile": "SquadLoansTile_4x2",
-      "x": 12,
-      "y": 6,
-      "w": 4,
-      "h": 2,
-      "isDynamic": false,
-      "guid": "b15caf9d28749b14ead83caf6a4a91c0",
-      "path_id": "-170620690769355010"
-    },
-    {
-      "tile": "SquadFixtureScheduleTile_4x6",
-      "x": 4,
-      "y": 3,
-      "w": 4,
-      "h": 5,
       "isDynamic": true,
-      "guid": "5fb69fcf7f663724884b70c4cb39b42e",
+      "guid": "3698b650d3c609349beb53c934c4335b",
       "path_id": "-7090924285933375621"
-    },
-    {
-      "tile": "ClubHistoryTile_4x2",
-      "x": 0,
-      "y": 4,
-      "w": 4,
-      "h": 2,
-      "isDynamic": false,
-      "guid": "4f1200c065ff2e245bc928dc103838a0",
-      "path_id": "2881935432113935909"
     },
     {
       "tile": "ClubFacilitiesTile_4x2",
@@ -66,64 +36,101 @@
       "path_id": "-979692468553441214"
     },
     {
-      "tile": "ClubAffiliatesTile_4x2",
-      "x": 8,
+      "tile": "CompetitionsTile_4x2",
+      "x": 12,
       "y": 6,
       "w": 4,
       "h": 2,
-      "isDynamic": false,
-      "guid": "c1f71d05a885c76408a6cc5d3d71952d",
-      "path_id": "-5326533450138461988"
-    },
-    {
-      "tile": "CompetitionsTile_4x4",
-      "x": 8,
-      "y": 3,
-      "w": 4,
-      "h": 3,
       "isDynamic": true,
-      "guid": "89e0d85ef0a28ae42b51a46d2d86083c",
+      "guid": "a8b8d2678a4e61744b3caae692a7be19",
       "path_id": "-5925175220937073605"
     },
     {
       "tile": "RecruitmentTransferHistoryTile_4x4",
       "x": 16,
-      "y": 4,
+      "y": 2,
       "w": 4,
       "h": 4,
-      "isDynamic": false,
+      "isDynamic": true,
       "guid": "2bfcc56d5cddd0744859a4277449a7dc",
       "path_id": "8610079230574414452"
     },
     {
-      "tile": "ClubInfoTile_4x4",
+      "tile": "ClubSiteAboutClubTile_4x4",
       "x": 0,
       "y": 0,
       "w": 4,
       "h": 4,
       "isDynamic": false,
-      "guid": "0f272cc00d49ef54c8b57a8c018a6966",
-      "path_id": "2755048566621421870"
+      "guid": "dfe493e0fe7fe3f4f827dc65a70a1d7f",
+      "path_id": "-710824463346674235"
     },
     {
-      "tile": "SquadYouthSetupTile_4x2",
-      "x": 12,
-      "y": 4,
-      "w": 4,
-      "h": 2,
-      "isDynamic": false,
-      "guid": "b819857d2e7c2a74f83614e3cdbb19dc",
-      "path_id": "2127192121779866165"
-    },
-    {
-      "tile": "KitsBlock_8x3",
+      "tile": "LeagueHistory_8x3",
       "x": 4,
-      "y": 0,
+      "y": 5,
       "w": 8,
       "h": 3,
       "isDynamic": false,
-      "guid": "aa11baf9b62f03a42afe53d743a77b92",
-      "path_id": "-4678789022288771086"
+      "guid": "9dc1186be61d4b242a4857942a6da7fc",
+      "path_id": "5080048528912811898",
+      "additionalConfigs": [
+        {
+          "tile": "KitsBlock_8x3",
+          "guid": "aa11baf9b62f03a42afe53d743a77b92",
+          "path_id": "-4678789022288771086"
+        }
+      ]
+    },
+    {
+      "tile": "TeamReportManagerInformationBlock_8x2",
+      "x": 12,
+      "y": 0,
+      "w": 8,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "70bd6de9e438b0f458b36ab26599a469",
+      "path_id": "-5020987963006672450"
+    },
+    {
+      "tile": "NotablePlayersBlock_8x2",
+      "x": 4,
+      "y": 0,
+      "w": 8,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "3c80175257ab02a44be155be715efe22",
+      "path_id": "-1220584739020313109"
+    },
+    {
+      "tile": "RecruitmentBudgetsTile_4x2",
+      "x": 16,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "4623ff1fc467a5745a4b4e405166cb8a",
+      "path_id": "4113553140105478280"
+    },
+    {
+      "tile": "ClubStaffTile_4x4",
+      "x": 8,
+      "y": 2,
+      "w": 4,
+      "h": 3,
+      "isDynamic": true,
+      "guid": "b9fba6a793ac04945aa2bac758cd959e",
+      "path_id": "5490210081571461461"
+    },
+    {
+      "tile": "ClubHistoryTile_4x2",
+      "x": 0,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": true,
+      "guid": "4f1200c065ff2e245bc928dc103838a0",
+      "path_id": "2881935432113935909"
     }
   ]
 }

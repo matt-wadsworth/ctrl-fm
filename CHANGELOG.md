@@ -8,19 +8,23 @@ All notable changes to the CTRL skin are documented here.
 
 - **Pros and Cons** – Added to Player Reports.
 - **Match View** - Added Pass Maps.
-- **Individual Training** - New layout.
+- **Individual Training** - New tile layout.
+- **Player Reports** - New tile layouts for Overview, Performance and Career tabs.
 
 ### Changed
 
 - **Key/Preferred attribute highlights** – Made these more obvious (may still tweak; want to keep them quite subtle).
-- **Match View** - Re-arranged tiles a little and changed Commentary Bar styling.
+- **Match View** - Re-arranged tiles and updated Commentary Bar styling.
 - **Switches** - Updated styling.
+- **Font** - Removed replacement of language fonts.
+- **Club Site** - Added more relevant info - based on MrTini/WTS work.
 
 ### Fixed
 
 - **Player Polygon** – Fixed for goalkeepers.
-- **Warning Icon** - Reverted to white icon to make it visible on Continue/Must Respond.
+- **Warning Icon** - Reverted to white icon to make it visible on Continue/Must Respond buttons.
 - **Background Replacement** - Fixed for Bundesliga and added others in case another league was missed.
+- **Incoming Messages** - Removed blue background.
 
 ---
 
