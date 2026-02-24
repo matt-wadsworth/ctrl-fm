@@ -2,7 +2,8 @@
 
 /* Remove border and BG */
 .main-navigation-overview-container {
-  border-bottom-width: 0px;
+  border-bottom-width: 1px;
+  border-bottom-color: var(--colours-alpha-light-alpha-8);
   background-color: var(--none);
 }
 
@@ -36,7 +37,8 @@
 /* Portal Icon Colour - Hover */
 .navigation-tab-portal-default-active-true:hover,
 .navigation-tab-portal-default-active-true:hover .portal-image,
-.navigation-tab-portal-default-active-true.navigation-tab-portal-default-active-false:hover .portal-image {
+.navigation-tab-portal-default-active-true.navigation-tab-portal-default-active-false:hover
+  .portal-image {
   -unity-background-image-tint-color: #fbc500;
 }
 
