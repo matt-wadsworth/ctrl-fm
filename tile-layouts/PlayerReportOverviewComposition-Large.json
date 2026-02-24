@@ -17,7 +17,7 @@
     },
     {
       "tile": "PlayerHappinessTile_2x2",
-      "x": 0,
+      "x": 4,
       "y": 6,
       "w": 2,
       "h": 2,
@@ -27,7 +27,7 @@
     },
     {
       "tile": "PlayerFitnessTile_2x2",
-      "x": 2,
+      "x": 0,
       "y": 6,
       "w": 2,
       "h": 2,
@@ -36,18 +36,18 @@
       "path_id": "1595869164690944144"
     },
     {
-      "tile": "PlayerFormTile_4x2",
-      "x": 8,
+      "tile": "PlayerFormTile_2x2",
+      "x": 6,
       "y": 6,
-      "w": 4,
+      "w": 2,
       "h": 2,
       "isDynamic": false,
-      "guid": "e141a0ac31f3f62498110f79e3a25219",
+      "guid": "38d3952d3ac0133439b787c692f47d7f",
       "path_id": "-3559556146518178503"
     },
     {
       "tile": "PlayerDisciplineAndBansTile_2x2",
-      "x": 4,
+      "x": 2,
       "y": 6,
       "w": 2,
       "h": 2,
@@ -57,7 +57,7 @@
     },
     {
       "tile": "PlayerTrainingOverviewTile_2x2",
-      "x": 6,
+      "x": 8,
       "y": 6,
       "w": 2,
       "h": 2,
@@ -80,23 +80,23 @@
       ]
     },
     {
-      "tile": "PlayerSeasonStatsTile_4x2",
-      "x": 16,
+      "tile": "PlayerSeasonStatsTile_8x2",
+      "x": 10,
       "y": 6,
-      "w": 4,
+      "w": 8,
       "h": 2,
       "isDynamic": false,
-      "guid": "91e48e3eabd524e42afdd00ee9473657",
+      "guid": "c83093f833e6cfb48bc57d548176a9ce",
       "path_id": "-1621476867434330705"
     },
     {
-      "tile": "CareerStatsTile_4x2",
-      "x": 12,
+      "tile": "CareerStatsTile_2x2",
+      "x": 18,
       "y": 6,
-      "w": 4,
+      "w": 2,
       "h": 2,
       "isDynamic": false,
-      "guid": "53fbd19acd2f8be45933969c5b8a91c2",
+      "guid": "bdd436c6fa07ea2428b43680df08d09a",
       "path_id": "6493930905944021670"
     }
   ]

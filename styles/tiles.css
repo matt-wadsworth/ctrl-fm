@@ -31,6 +31,10 @@
 .layout-tile-interaction-button:hover:enabled {
   background-color: rgba(217, 232, 237, 0.02);
 }
+/* SI Block - Border */
+.siblock-border {
+  border-color: var(--colours-alpha-light-alpha-8);
+}
 
 /* ---- Tactics ---- */
 .layout-tile-tactics .layout-tile-base-container {
