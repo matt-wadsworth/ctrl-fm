@@ -1,16 +1,4 @@
 {
   "BigShoulders-Bold.ttf": ["FMUniverse-Regular", "GT-America-Standard-Black"],
-  "Nacelle-Regular.otf": [
-    "NotoSans-Regular",
-    "NotoSansArabic-Regular",
-    "NotoSansArabicUpdated-Regular",
-    "NotoSansJP-Regular",
-    "NotoSansKR-Regular",
-    "NotoSansSC-Regular",
-    "Paperlogy-4Regular",
-    "TurkishExtra-Regular",
-    "NotInter-Regular",
-    "ABCSocial-Regular",
-    "LanguageFallback"
-  ]
+  "Nacelle-Regular.otf": ["NotoSans-Regular", "ABCSocial-Regular"]
 }
