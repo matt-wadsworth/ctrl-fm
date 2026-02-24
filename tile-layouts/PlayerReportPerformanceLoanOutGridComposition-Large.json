@@ -1,0 +1,79 @@
+{
+  "name": "PlayerReportPerformanceLoanOutGridComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 8
+  },
+  "tiles": [
+    {
+      "tile": "PlayerFitnessTile_4x2",
+      "x": 12,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "6aba96ab5ab91f049b6c9d71e1641d9b",
+      "path_id": "1595869164690944144"
+    },
+    {
+      "tile": "CoachScoutReportTile_4x4",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "349cc85700bf5a444bf7ba5dd60d51a8",
+      "path_id": "7747060321920899263"
+    },
+    {
+      "tile": "PlayerDisciplineAndBansTile_4x2",
+      "x": 12,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "3af7fce5da34c7e4e8b7cf47bc99466f",
+      "path_id": "-6101737071355220823"
+    },
+    {
+      "tile": "PlayerSeasonStatsBlock_12x8",
+      "x": 0,
+      "y": 0,
+      "w": 12,
+      "h": 8,
+      "isDynamic": false,
+      "guid": "8d097ce1fecd53c44b17e8853e3f1534",
+      "path_id": "4844022730820645526"
+    },
+    {
+      "tile": "PlayerMatchSharpnessTile_4x2",
+      "x": 16,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "b888be6cf07ba8a4e9883f4e0e18b2b1",
+      "path_id": "3221203411864526092"
+    },
+    {
+      "tile": "InjurySusceptibilityTile_4x2",
+      "x": 16,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "0c1f0537c836cef4e9ccf72a482d1229",
+      "path_id": "-3635960798345045559"
+    },
+    {
+      "tile": "PlayerLoanReportTile_4x4",
+      "x": 12,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "3482bba9f3cd51e40b1af6548de1d237",
+      "path_id": "7213312529119324453"
+    }
+  ]
+}
