@@ -22,17 +22,17 @@ For each item:
 
 Use these to find assets quickly in UABEA (View → Go To Asset, or search by path ID).
 
-| Bundle                | Filename (patch)              | Path ID              | Change                                                                                                  |
-| --------------------- | ----------------------------- | -------------------- | ------------------------------------------------------------------------------------------------------- |
-| ui-tactics_assets_all | TacticalPlannerHeader         | -966834888143150418  | Tactics header gradient – change rid (1002 → 1001) or update gradient colours.                        |
-| ui-tiles_assets_all   | Dugout_4x8_with_collapse      | -389085435411529779  | Dugout 4x8 tile – set `base-template-grow` element `m_RuleIndex` to `6`.                               |
-| ui-tiles_assets_all   | inlineStyle                   | 4355907201153990605  | Dugout 4x8 inline style – add background + border rule at index `6`.                                   |
-| ui-tiles_assets_all   | inlineStyle                   | -1082094815230004916 | Messages border – adjust `Color[0]` for messages tile border.                                          |
+| Bundle                | Filename (patch)              | Path ID              | Change                                                                                                   |
+| --------------------- | ----------------------------- | -------------------- | -------------------------------------------------------------------------------------------------------- |
+| ui-tactics_assets_all | TacticalPlannerHeader         | -966834888143150418  | Tactics header gradient – change rid (1002 → 1001) or update gradient colours.                           |
+| ui-tiles_assets_all   | Dugout_4x8_with_collapse      | -389085435411529779  | Dugout 4x8 tile – set `base-template-grow` element `m_RuleIndex` to `6`.                                 |
+| ui-tiles_assets_all   | inlineStyle                   | 4355907201153990605  | Dugout 4x8 inline style – add background + border rule at index `6`.                                     |
+| ui-tiles_assets_all   | inlineStyle                   | -1082094815230004916 | Messages border – adjust `Color[0]` for messages tile border.                                            |
 | ui-tiles_assets_all   | PortalMessagesTile            | -8955157084615708340 | Messages tile – update background class and padding classes/strings (see “Messages Background/Padding”). |
-| ui-widgets_assets_all | inlineStyle                   | -4684259242089685901 | Processing unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.               |
-| ui-widgets_assets_all | inlineStyle                   | -8675747941173082291 | Portal unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.                   |
-| ui-widgets_assets_all | inlineStyle                   | 8251223908227938625  | Portal tab inline style – add new background-image tint rule + color entry.                            |
-| ui-widgets_assets_all | navigation-tab-portal-default | -3526698279923353279 | Portal tab layout – move icon next to text, set `row-direction-normal`, assign icon tint rule index.   |
+| ui-widgets_assets_all | inlineStyle                   | -4684259242089685901 | Processing unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.                 |
+| ui-widgets_assets_all | inlineStyle                   | -8675747941173082291 | Portal unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.                     |
+| ui-widgets_assets_all | inlineStyle                   | 8251223908227938625  | Portal tab inline style – add new background-image tint rule + color entry.                              |
+| ui-widgets_assets_all | navigation-tab-portal-default | -3526698279923353279 | Portal tab layout – move icon next to text, set `row-direction-normal`, assign icon tint rule index.     |
 
 ---
 
@@ -49,11 +49,11 @@ Use these to find assets quickly in UABEA (View → Go To Asset, or search by pa
 
 ## Borders & tiles
 
-| Name                | File                       | Path ID (or Name)       | Reference      | Note                                                                                                                                                                      |
-| ------------------- | -------------------------- | ----------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Messages Border     | ui-tiles_assets_all.bundle | -1082094815230004916    | Color [0]      | Border for messages tiles                                                                                                                                                 |
-| Messages Background | ui-tiles_assets_all.bundle | PortalMessagesTile.uxml | Remove class   | Remove `.midnight-background-colour` so tile uses `.messages-tile-background`; then patch that class in Skin Builder for colour.                                          |
-| Messages Padding    | ui-tiles_assets_all.bundle | PortalMessagesTile.uxml | Change classes | Change `.padding-horizontal-global-padding-large` to `.padding-horizontal-global-padding-none`. Add the original class to the second element with `.row-direction-normal`. In the `padding` string array for `PortalMessagesTile`, set: [0] `padding-left-global-padding-regular`, [1] `padding-top-global-padding-large`, [2] `padding-right-global-padding-extra-small` (instead of `none`). |
+| Name                | File                       | Path ID (or Name)       | Reference      | Note                                                                                                                                                                                                                  |
+| ------------------- | -------------------------- | ----------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Messages Border     | ui-tiles_assets_all.bundle | -1082094815230004916    | Color [0]      | Border for messages tiles                                                                                                                                                                                             |
+| Messages Background | ui-tiles_assets_all.bundle | PortalMessagesTile.uxml | Remove class   | Remove `.midnight-background-colour` so tile uses `.messages-tile-background`; then patch that class in Skin Builder for colour.                                                                                      |
+| Messages Padding    | ui-tiles_assets_all.bundle | PortalMessagesTile.uxml | Change classes | Change `.padding-horizontal-global-padding-large` to `padding-left-global-padding-regular` and `padding-right-global-padding-extra-small`. Add the original class to the second element with `.row-direction-normal`. |
 
 ---
 
@@ -142,7 +142,9 @@ Use this to turn a hex colour into the 16-byte sequence to paste at index 39 or 
 ```javascript
 function hexToUnityGradientBytes(hex) {
   const h = hex.replace("#", "");
-  const rgba = (h.length === 6 ? h + "FF" : h).match(/.{2}/g).map((b) => parseInt(b, 16) / 255);
+  const rgba = (h.length === 6 ? h + "FF" : h)
+    .match(/.{2}/g)
+    .map((b) => parseInt(b, 16) / 255);
   if (rgba.length !== 4) throw new Error("Hex must be 6 or 8 digits.");
   const buf = new ArrayBuffer(16);
   const view = new DataView(buf);
