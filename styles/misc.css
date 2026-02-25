@@ -176,7 +176,7 @@
 /* ---- Messages ---- */
 /* Change Tile Border + remove Background */
 .messages-tile-background {
-  border-color: rgba(170, 179, 194, 0.1);
+  border-color: var(--colours-alpha-light-alpha-8);
   border-width: 1px;
   background-color: var(--none);
 }
