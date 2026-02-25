@@ -2,6 +2,12 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.1.1] – 25-02-2026
+
+### Fixed
+
+- **Individual Training** - Fixed a bug preventing Praise/Criticise actions from showing.
+
 ## [1.1] – 25-02-2026
 
 ### Added
