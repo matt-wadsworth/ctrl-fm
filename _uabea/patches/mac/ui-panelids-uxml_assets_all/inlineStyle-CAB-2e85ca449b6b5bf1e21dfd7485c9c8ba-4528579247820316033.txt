@@ -148,8 +148,8 @@
    [2]
     0 StyleRule data
      0 StyleProperty m_Properties
-      0 Array Array (3 items)
-       0 int size = 3
+      0 Array Array (11 items)
+       0 int size = 11
        [0]
         0 StyleProperty data
          1 string m_Name = "flex-grow"
@@ -173,6 +173,94 @@
              0 int m_ValueType = 7
              0 int valueIndex = 1
        [2]
+        0 StyleProperty data
+         1 string m_Name = "border-top-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 1
+       [3]
+        0 StyleProperty data
+         1 string m_Name = "border-right-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 1
+       [4]
+        0 StyleProperty data
+         1 string m_Name = "border-bottom-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 1
+       [5]
+        0 StyleProperty data
+         1 string m_Name = "border-left-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 1
+       [6]
+        0 StyleProperty data
+         1 string m_Name = "border-left-color"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 4
+             0 int valueIndex = 0
+       [7]
+        0 StyleProperty data
+         1 string m_Name = "border-right-color"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 4
+             0 int valueIndex = 0
+       [8]
+        0 StyleProperty data
+         1 string m_Name = "border-top-color"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 4
+             0 int valueIndex = 0
+       [9]
+        0 StyleProperty data
+         1 string m_Name = "border-bottom-color"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 4
+             0 int valueIndex = 0
+       [10]
         0 StyleProperty data
          1 string m_Name = "align-items"
          0 int m_Line = -1
