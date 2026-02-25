@@ -1,0 +1,590 @@
+0 MonoBehaviour Base
+ 0 PPtr<GameObject> m_GameObject
+  0 int m_FileID = 0
+  0 SInt64 m_PathID = 0
+ 1 UInt8 m_Enabled = 1
+ 0 PPtr<MonoScript> m_Script
+  0 int m_FileID = 1
+  0 SInt64 m_PathID = 11998
+ 1 string m_Name = "inlineStyle"
+ 1 UInt8 m_ImportedWithErrors = 0
+ 1 UInt8 m_ImportedWithWarnings = 0
+ 0 StyleRule m_Rules
+  0 Array Array (12 items)
+   0 int size = 12
+   [0]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (7 items)
+       0 int size = 7
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "align-items"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 7
+             0 int valueIndex = 0
+       [1]
+        0 StyleProperty data
+         1 string m_Name = "align-self"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 7
+             0 int valueIndex = 0
+       [2]
+        0 StyleProperty data
+         1 string m_Name = "border-top-left-radius"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 0
+       [3]
+        0 StyleProperty data
+         1 string m_Name = "border-top-right-radius"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 0
+       [4]
+        0 StyleProperty data
+         1 string m_Name = "border-bottom-right-radius"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 0
+       [5]
+        0 StyleProperty data
+         1 string m_Name = "border-bottom-left-radius"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 0
+       [6]
+        0 StyleProperty data
+         1 string m_Name = "overflow"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 7
+             0 int valueIndex = 1
+     0 int line = -1
+   [1]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (4 items)
+       0 int size = 4
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "border-top-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 0
+       [1]
+        0 StyleProperty data
+         1 string m_Name = "border-right-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 0
+       [2]
+        0 StyleProperty data
+         1 string m_Name = "border-bottom-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 0
+       [3]
+        0 StyleProperty data
+         1 string m_Name = "border-left-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 0
+     0 int line = -1
+   [2]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (11 items)
+       0 int size = 11
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "flex-grow"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 1
+       [1]
+        0 StyleProperty data
+         1 string m_Name = "overflow"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 7
+             0 int valueIndex = 1
+       [2]
+        0 StyleProperty data
+         1 string m_Name = "border-top-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 1
+       [3]
+        0 StyleProperty data
+         1 string m_Name = "border-right-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 1
+       [4]
+        0 StyleProperty data
+         1 string m_Name = "border-bottom-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 1
+       [5]
+        0 StyleProperty data
+         1 string m_Name = "border-left-width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 1
+       [6]
+        0 StyleProperty data
+         1 string m_Name = "border-left-color"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 4
+             0 int valueIndex = 0
+       [7]
+        0 StyleProperty data
+         1 string m_Name = "border-right-color"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 4
+             0 int valueIndex = 0
+       [8]
+        0 StyleProperty data
+         1 string m_Name = "border-top-color"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 4
+             0 int valueIndex = 0
+       [9]
+        0 StyleProperty data
+         1 string m_Name = "border-bottom-color"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 4
+             0 int valueIndex = 0
+       [10]
+        0 StyleProperty data
+         1 string m_Name = "align-items"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 7
+             0 int valueIndex = 0
+     0 int line = -1
+   [3]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (2 items)
+       0 int size = 2
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "margin-top"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 0
+       [1]
+        0 StyleProperty data
+         1 string m_Name = "margin-bottom"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 0
+     0 int line = -1
+   [4]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (3 items)
+       0 int size = 3
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "flex-grow"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 1
+       [1]
+        0 StyleProperty data
+         1 string m_Name = "align-self"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 7
+             0 int valueIndex = 0
+       [2]
+        0 StyleProperty data
+         1 string m_Name = "margin-top"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 2
+     0 int line = -1
+   [5]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (1 items)
+       0 int size = 1
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "flex-grow"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 0
+     0 int line = -1
+   [6]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (3 items)
+       0 int size = 3
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "flex-grow"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 1
+       [1]
+        0 StyleProperty data
+         1 string m_Name = "width"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 3
+       [2]
+        0 StyleProperty data
+         1 string m_Name = "align-self"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 7
+             0 int valueIndex = 2
+     0 int line = -1
+   [7]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (2 items)
+       0 int size = 2
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "align-items"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 7
+             0 int valueIndex = 0
+       [1]
+        0 StyleProperty data
+         1 string m_Name = "flex-shrink"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 0
+     0 int line = -1
+   [8]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (2 items)
+       0 int size = 2
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "margin-top"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 3
+             0 int valueIndex = 4
+       [1]
+        0 StyleProperty data
+         1 string m_Name = "flex-shrink"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 0
+     0 int line = -1
+   [9]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (2 items)
+       0 int size = 2
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "flex-grow"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 1
+       [1]
+        0 StyleProperty data
+         1 string m_Name = "align-items"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 7
+             0 int valueIndex = 2
+     0 int line = -1
+   [10]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (2 items)
+       0 int size = 2
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "flex-grow"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 1
+       [1]
+        0 StyleProperty data
+         1 string m_Name = "flex-shrink"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 2
+             0 int valueIndex = 0
+     0 int line = -1
+   [11]
+    0 StyleRule data
+     0 StyleProperty m_Properties
+      0 Array Array (1 items)
+       0 int size = 1
+       [0]
+        0 StyleProperty data
+         1 string m_Name = "align-self"
+         0 int m_Line = -1
+         0 StyleValueHandle m_Values
+          0 Array Array (1 items)
+           0 int size = 1
+           [0]
+            0 StyleValueHandle data
+             0 int m_ValueType = 7
+             0 int valueIndex = 0
+     0 int line = -1
+ 0 StyleComplexSelector m_ComplexSelectors
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 vector floats
+  1 Array Array (2 items)
+   0 int size = 2
+   [0]
+    0 float data = 0
+   [1]
+    0 float data = 1
+ 0 Dimension dimensions
+  0 Array Array (5 items)
+   0 int size = 5
+   [0]
+    0 Dimension data
+     0 int unit = 1
+     0 float value = 12
+   [1]
+    0 Dimension data
+     0 int unit = 1
+     0 float value = 1
+   [2]
+    0 Dimension data
+     0 int unit = 1
+     0 float value = 8
+   [3]
+    0 Dimension data
+     0 int unit = 1
+     0 float value = 200
+   [4]
+    0 Dimension data
+     0 int unit = 1
+     0 float value = 4
+ 0 vector colors
+  1 Array Array (1 items)
+   0 int size = 1
+   [0]
+    0 ColorRGBA data
+     0 float r = 0.41568628
+     0 float g = 0.42352942
+     0 float b = 0.44313726
+     0 float a = 0
+ 0 vector strings
+  1 Array Array (3 items)
+   0 int size = 3
+   [0]
+    1 string data = "stretch"
+   [1]
+    1 string data = "hidden"
+   [2]
+    1 string data = "center"
+ 0 vector assets
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 ImportStruct imports
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 vector m_FlattenedImportedStyleSheets
+  0 Array Array (0 items)
+   0 int size = 0
+ 0 int m_ContentHash = 0
+ 0 ScalableImage scalableImages
+  0 Array Array (0 items)
+   0 int size = 0

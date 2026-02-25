@@ -22,17 +22,18 @@ For each item:
 
 Use these to find assets quickly in UABEA (View → Go To Asset, or search by path ID).
 
-| Bundle                | Filename (patch)              | Path ID              | Change                                                                                                   |
-| --------------------- | ----------------------------- | -------------------- | -------------------------------------------------------------------------------------------------------- |
-| ui-tactics_assets_all | TacticalPlannerHeader         | -966834888143150418  | Tactics header gradient – change rid (1002 → 1001) or update gradient colours.                           |
-| ui-tiles_assets_all   | Dugout_4x8_with_collapse      | -389085435411529779  | Dugout 4x8 tile – set `base-template-grow` element `m_RuleIndex` to `6`.                                 |
-| ui-tiles_assets_all   | inlineStyle                   | 4355907201153990605  | Dugout 4x8 inline style – add background + border rule at index `6`.                                     |
-| ui-tiles_assets_all   | inlineStyle                   | -1082094815230004916 | Messages border – adjust `Color[0]` for messages tile border.                                            |
-| ui-tiles_assets_all   | PortalMessagesTile            | -8955157084615708340 | Messages tile – update background class and padding classes/strings (see “Messages Background/Padding”). |
-| ui-widgets_assets_all | inlineStyle                   | -4684259242089685901 | Processing unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.                 |
-| ui-widgets_assets_all | inlineStyle                   | -8675747941173082291 | Portal unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.                     |
-| ui-widgets_assets_all | inlineStyle                   | 8251223908227938625  | Portal tab inline style – add new background-image tint rule + color entry.                              |
-| ui-widgets_assets_all | navigation-tab-portal-default | -3526698279923353279 | Portal tab layout – move icon next to text, set `row-direction-normal`, assign icon tint rule index.     |
+| Bundle                      | Filename (patch)              | Path ID              | Change                                                                                                   |
+| --------------------------- | ----------------------------- | -------------------- | -------------------------------------------------------------------------------------------------------- |
+| ui-tactics_assets_all       | TacticalPlannerHeader         | -966834888143150418  | Tactics header gradient – change rid (1002 → 1001) or update gradient colours.                           |
+| ui-tiles_assets_all         | Dugout_4x8_with_collapse      | -389085435411529779  | Dugout 4x8 tile – set `base-template-grow` element `m_RuleIndex` to `6`.                                 |
+| ui-tiles_assets_all         | inlineStyle                   | 4355907201153990605  | Dugout 4x8 inline style – add background + border rule at index `6`.                                     |
+| ui-tiles_assets_all         | inlineStyle                   | -1082094815230004916 | Messages border – adjust `Color[0]` for messages tile border.                                            |
+| ui-tiles_assets_all         | PortalMessagesTile            | -8955157084615708340 | Messages tile – update background class and padding classes/strings (see “Messages Background/Padding”). |
+| ui-widgets_assets_all       | inlineStyle                   | -4684259242089685901 | Processing unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.                 |
+| ui-widgets_assets_all       | inlineStyle                   | -8675747941173082291 | Portal unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.                     |
+| ui-widgets_assets_all       | inlineStyle                   | 8251223908227938625  | Portal tab inline style – add new background-image tint rule + color entry.                              |
+| ui-widgets_assets_all       | navigation-tab-portal-default | -3526698279923353279 | Portal tab layout – move icon next to text, set `row-direction-normal`, assign icon tint rule index.     |
+| ui-panelids-uxml_assets_all | inlineStyle                   | 4528579247820316033  | SpeakToSidePanel - Border, Change colour[0]                                                              |
 
 ---
 
