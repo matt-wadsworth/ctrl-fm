@@ -2060,9 +2060,9 @@
      0 float a = 0
    [3]
     0 ColorRGBA data
-     0 float r = 0.369
-     0 float g = 0.42
-     0 float b = 0.463
+     0 float r = 0.165
+     0 float g = 0.361
+     0 float b = 1
      0 float a = 1
    [4]
     0 ColorRGBA data
