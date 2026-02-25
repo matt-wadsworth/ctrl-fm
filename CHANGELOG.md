@@ -2,7 +2,7 @@
 
 All notable changes to the CTRL skin are documented here.
 
-## [1.1] – In progress
+## [1.1] – 25-02-2026
 
 ### Added
 
@@ -17,7 +17,7 @@ All notable changes to the CTRL skin are documented here.
 - **Match View** - Re-arranged tiles and updated Commentary Bar styling.
 - **Switches** - Updated styling.
 - **Font** - Removed replacement of language fonts.
-- **Club Site** - Added more relevant info - based on MrTini/WTS work.
+- **Club Site** - Added more relevant info - based on MrTini/WTS layouts.
 - **Checkboxes** - Updated styling.
 
 ### Fixed
