@@ -19,6 +19,7 @@ All notable changes to the CTRL skin are documented here.
 - **Font** - Removed replacement of language fonts.
 - **Club Site** - Added more relevant info - based on MrTini/WTS layouts.
 - **Checkboxes** - Updated styling.
+- **Messages Unread Indicator** - Increased contrast.
 
 ### Fixed
 
