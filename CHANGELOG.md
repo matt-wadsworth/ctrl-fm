@@ -2,7 +2,7 @@
 
 All notable changes to the CTRL skin are documented here.
 
-## [1.1.1] – 25-02-2026
+## [1.1.1] – 26-02-2026
 
 ### Fixed
 
