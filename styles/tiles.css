@@ -202,11 +202,11 @@
 .carousel-indicator-current,
 .carousel-indicator-current:hover {
   border-radius: 3px;
-  width: 24px;
+  width: 12px;
   height: 6px;
-  min-width: 24px;
+  min-width: 12px;
   min-height: 6px;
-  max-width: 24px;
+  max-width: 12px;
   max-height: 6px;
   background-color: #fbc500;
 }

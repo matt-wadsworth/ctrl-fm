@@ -2,11 +2,28 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.2] – In Progress
+
+### Added
+
+- **Job Market** - Changed the screen layout to show more of the main table.
+
+### Changed
+
+- **Star Icons** - Reduced saturation of Gold icons.
+- **Tile Indicators** - Changed styling of current/active tile.
+
+### Fixed
+
+---
+
 ## [1.1.1] – 26-02-2026
 
 ### Fixed
 
 - **Individual Training** - Fixed a bug preventing Praise/Criticise actions from showing.
+
+---
 
 ## [1.1] – 25-02-2026
 
