@@ -360,7 +360,7 @@
    0 int size = 1
    [0]
     0 PPtr<$Object> data
-     0 int m_FileID = 9
+     0 int m_FileID = 7
      0 SInt64 m_PathID = 8137064045433166896
  0 ImportStruct imports
   0 Array Array (0 items)

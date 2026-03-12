@@ -88,7 +88,7 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1032349671
+     0 int m_Id = -1624173630
      0 int m_OrderInDocument = 0
      0 int m_ParentId = 0
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
@@ -119,9 +119,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -671106992
+     0 int m_Id = 967337003
      0 int m_OrderInDocument = 1
-     0 int m_ParentId = 1032349671
+     0 int m_ParentId = -1624173630
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -152,9 +152,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 399269346
+     0 int m_Id = 2037713341
      0 int m_OrderInDocument = 2
-     0 int m_ParentId = -671106992
+     0 int m_ParentId = 967337003
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -183,9 +183,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -51488611
+     0 int m_Id = 1586955384
      0 int m_OrderInDocument = 3
-     0 int m_ParentId = 399269346
+     0 int m_ParentId = 2037713341
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -216,9 +216,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -2023380863
+     0 int m_Id = -384936868
      0 int m_OrderInDocument = 4
-     0 int m_ParentId = -51488611
+     0 int m_ParentId = 1586955384
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -249,9 +249,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1221440114
+     0 int m_Id = 417003881
      0 int m_OrderInDocument = 5
-     0 int m_ParentId = -2023380863
+     0 int m_ParentId = -384936868
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -282,9 +282,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1283957298
+     0 int m_Id = -1372566003
      0 int m_OrderInDocument = 6
-     0 int m_ParentId = -2023380863
+     0 int m_ParentId = -384936868
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -319,9 +319,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1224806132
+     0 int m_Id = 413637863
      0 int m_OrderInDocument = 7
-     0 int m_ParentId = 1283957298
+     0 int m_ParentId = -1372566003
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -350,9 +350,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1575988924
+     0 int m_Id = 62455071
      0 int m_OrderInDocument = 6
-     0 int m_ParentId = -51488611
+     0 int m_ParentId = 1586955384
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -383,9 +383,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -326656236
+     0 int m_Id = 1311787759
      0 int m_OrderInDocument = 7
-     0 int m_ParentId = -1575988924
+     0 int m_ParentId = 62455071
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -418,9 +418,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -598457843
+     0 int m_Id = 1039986152
      0 int m_OrderInDocument = 8
-     0 int m_ParentId = -326656236
+     0 int m_ParentId = 1311787759
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -449,9 +449,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1903573551
+     0 int m_Id = -752949750
      0 int m_OrderInDocument = 9
-     0 int m_ParentId = -598457843
+     0 int m_ParentId = 1039986152
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -484,9 +484,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1410496646
+     0 int m_Id = 227947349
      0 int m_OrderInDocument = 10
-     0 int m_ParentId = 1903573551
+     0 int m_ParentId = -752949750
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -517,9 +517,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1950733842
+     0 int m_Id = -312289847
      0 int m_OrderInDocument = 11
-     0 int m_ParentId = -1410496646
+     0 int m_ParentId = 227947349
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -531,10 +531,12 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (1 items)
-       0 int size = 1
+      1 Array Array (2 items)
+       0 int size = 2
        [0]
         1 string data = "navigation-tab-small-default-text"
+       [1]
+        1 string data = "sitext-hover-cursor"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -550,9 +552,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -157797940
+     0 int m_Id = 1480646055
      0 int m_OrderInDocument = 11
-     0 int m_ParentId = 1903573551
+     0 int m_ParentId = -752949750
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -581,9 +583,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 554663570
+     0 int m_Id = -2101859731
      0 int m_OrderInDocument = 12
-     0 int m_ParentId = -157797940
+     0 int m_ParentId = 1480646055
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -614,9 +616,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -254009215
+     0 int m_Id = 1384434780
      0 int m_OrderInDocument = 13
-     0 int m_ParentId = 554663570
+     0 int m_ParentId = -2101859731
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -628,10 +630,12 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (1 items)
-       0 int size = 1
+      1 Array Array (2 items)
+       0 int size = 2
        [0]
         1 string data = "navigation-tab-small-default-text"
+       [1]
+        1 string data = "sitext-hover-cursor"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -647,9 +651,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1366702373
+     0 int m_Id = -1289820928
      0 int m_OrderInDocument = 10
-     0 int m_ParentId = -598457843
+     0 int m_ParentId = 1039986152
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -678,9 +682,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1810728294
+     0 int m_Id = -845795007
      0 int m_OrderInDocument = 11
-     0 int m_ParentId = 1366702373
+     0 int m_ParentId = -1289820928
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -709,9 +713,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 733619920
+     0 int m_Id = -1922903381
      0 int m_OrderInDocument = 12
-     0 int m_ParentId = 1810728294
+     0 int m_ParentId = -845795007
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -746,9 +750,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1864622749
+     0 int m_Id = -226178754
      0 int m_OrderInDocument = 13
-     0 int m_ParentId = 733619920
+     0 int m_ParentId = -1922903381
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -777,9 +781,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1689032417
+     0 int m_Id = -50588422
      0 int m_OrderInDocument = 14
-     0 int m_ParentId = -1864622749
+     0 int m_ParentId = -226178754
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -810,9 +814,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1260390916
+     0 int m_Id = -1396132385
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = -1689032417
+     0 int m_ParentId = -50588422
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -824,8 +828,10 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (0 items)
-       0 int size = 0
+      1 Array Array (1 items)
+       0 int size = 1
+       [0]
+        1 string data = "sitext-hover-cursor"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -841,9 +847,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -2133058338
+     0 int m_Id = -494614343
      0 int m_OrderInDocument = 14
-     0 int m_ParentId = 733619920
+     0 int m_ParentId = -1922903381
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -874,9 +880,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 2069063701
+     0 int m_Id = -587459600
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = -2133058338
+     0 int m_ParentId = -494614343
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -888,8 +894,10 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (0 items)
-       0 int size = 0
+      1 Array Array (1 items)
+       0 int size = 1
+       [0]
+        1 string data = "sitext-hover-cursor"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -905,9 +913,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -880359632
+     0 int m_Id = 758084363
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = 733619920
+     0 int m_ParentId = -1922903381
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -938,9 +946,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 279493817
+     0 int m_Id = 1917937812
      0 int m_OrderInDocument = 16
-     0 int m_ParentId = -880359632
+     0 int m_ParentId = 758084363
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -952,8 +960,10 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (0 items)
-       0 int size = 0
+      1 Array Array (1 items)
+       0 int size = 1
+       [0]
+        1 string data = "sitext-hover-cursor"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -969,9 +979,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 372339074
+     0 int m_Id = 2010783069
      0 int m_OrderInDocument = 16
-     0 int m_ParentId = 733619920
+     0 int m_ParentId = -1922903381
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1002,9 +1012,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1510076067
+     0 int m_Id = 128367928
      0 int m_OrderInDocument = 17
-     0 int m_ParentId = 372339074
+     0 int m_ParentId = 2010783069
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1016,8 +1026,10 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (0 items)
-       0 int size = 0
+      1 Array Array (1 items)
+       0 int size = 1
+       [0]
+        1 string data = "sitext-hover-cursor"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -1033,9 +1045,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -684571064
+     0 int m_Id = 953872931
      0 int m_OrderInDocument = 8
-     0 int m_ParentId = -1575988924
+     0 int m_ParentId = 62455071
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1070,9 +1082,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1314287499
+     0 int m_Id = 324156496
      0 int m_OrderInDocument = 9
-     0 int m_ParentId = -684571064
+     0 int m_ParentId = 953872931
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1101,9 +1113,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 829829067
+     0 int m_Id = -1826694234
      0 int m_OrderInDocument = 10
-     0 int m_ParentId = -1314287499
+     0 int m_ParentId = 324156496
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1134,9 +1146,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1452811338
+     0 int m_Id = -1203711963
      0 int m_OrderInDocument = 11
-     0 int m_ParentId = 829829067
+     0 int m_ParentId = -1826694234
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1169,9 +1181,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 554659314
+     0 int m_Id = -2101863987
      0 int m_OrderInDocument = 12
-     0 int m_ParentId = 1452811338
+     0 int m_ParentId = -1203711963
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1202,9 +1214,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1864627005
+     0 int m_Id = -226183010
      0 int m_OrderInDocument = 13
-     0 int m_ParentId = 554659314
+     0 int m_ParentId = -2101863987
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1237,9 +1249,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1510080323
+     0 int m_Id = 128363672
      0 int m_OrderInDocument = 14
-     0 int m_ParentId = -1864627005
+     0 int m_ParentId = -226183010
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1272,9 +1284,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1263752678
+     0 int m_Id = -1392770623
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = -1864627005
+     0 int m_ParentId = -226183010
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1307,9 +1319,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1857892841
+     0 int m_Id = -219448846
      0 int m_OrderInDocument = 12
-     0 int m_ParentId = 829829067
+     0 int m_ParentId = -1826694234
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1344,9 +1356,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1771781748
+     0 int m_Id = -133337753
      0 int m_OrderInDocument = 13
-     0 int m_ParentId = -1857892841
+     0 int m_ParentId = -219448846
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1379,9 +1391,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1088162346
+     0 int m_Id = -1568360955
      0 int m_OrderInDocument = 14
-     0 int m_ParentId = -1771781748
+     0 int m_ParentId = -133337753
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1414,9 +1426,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1867995151
+     0 int m_Id = -229551156
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = 1088162346
+     0 int m_ParentId = -1568360955
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1449,9 +1461,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -2050319647
+     0 int m_Id = -411875652
      0 int m_OrderInDocument = 16
-     0 int m_ParentId = -1867995151
+     0 int m_ParentId = -229551156
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1484,9 +1496,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 723513354
+     0 int m_Id = -1933009947
      0 int m_OrderInDocument = 17
-     0 int m_ParentId = -1867995151
+     0 int m_ParentId = -229551156
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1498,14 +1510,16 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (3 items)
-       0 int size = 3
+      1 Array Array (4 items)
+       0 int size = 4
        [0]
         1 string data = "body-small-12px-regular"
        [1]
         1 string data = "content-no-wrap"
        [2]
         1 string data = "content-ellipsis"
+       [3]
+        1 string data = "sitext-hover-cursor"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -1521,9 +1535,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -701407538
+     0 int m_Id = 937036457
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = -1771781748
+     0 int m_ParentId = -133337753
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1556,9 +1570,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1152167623
+     0 int m_Id = 486276372
      0 int m_OrderInDocument = 16
-     0 int m_ParentId = -701407538
+     0 int m_ParentId = 937036457
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1591,9 +1605,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1170905293
+     0 int m_Id = -1485618008
      0 int m_OrderInDocument = 17
-     0 int m_ParentId = -1152167623
+     0 int m_ParentId = 486276372
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1626,9 +1640,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -350229002
+     0 int m_Id = 1288214993
      0 int m_OrderInDocument = 18
-     0 int m_ParentId = -1152167623
+     0 int m_ParentId = 486276372
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1640,14 +1654,16 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (3 items)
-       0 int size = 3
+      1 Array Array (4 items)
+       0 int size = 4
        [0]
         1 string data = "body-small-12px-regular"
        [1]
         1 string data = "content-no-wrap"
        [2]
         1 string data = "content-ellipsis"
+       [3]
+        1 string data = "sitext-hover-cursor"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -1663,9 +1679,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1803989874
+     0 int m_Id = -852533427
      0 int m_OrderInDocument = 16
-     0 int m_ParentId = -1771781748
+     0 int m_ParentId = -133337753
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1698,9 +1714,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -436340095
+     0 int m_Id = 1202103900
      0 int m_OrderInDocument = 17
-     0 int m_ParentId = 1803989874
+     0 int m_ParentId = -852533427
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1733,9 +1749,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 97162937
+     0 int m_Id = 1735606932
      0 int m_OrderInDocument = 18
-     0 int m_ParentId = -436340095
+     0 int m_ParentId = 1202103900
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1768,9 +1784,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1423971358
+     0 int m_Id = 214472637
      0 int m_OrderInDocument = 19
-     0 int m_ParentId = -436340095
+     0 int m_ParentId = 1202103900
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1782,14 +1798,16 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (3 items)
-       0 int size = 3
+      1 Array Array (4 items)
+       0 int size = 4
        [0]
         1 string data = "body-small-12px-regular"
        [1]
         1 string data = "content-no-wrap"
        [2]
         1 string data = "content-ellipsis"
+       [3]
+        1 string data = "sitext-hover-cursor"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -1805,9 +1823,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1101630674
+     0 int m_Id = -1554892627
      0 int m_OrderInDocument = 10
-     0 int m_ParentId = -684571064
+     0 int m_ParentId = 953872931
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1836,9 +1854,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1366698117
+     0 int m_Id = -1289825184
      0 int m_OrderInDocument = 11
-     0 int m_ParentId = 1101630674
+     0 int m_ParentId = -1554892627
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1871,9 +1889,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 110631265
+     0 int m_Id = 1749075260
      0 int m_OrderInDocument = 12
-     0 int m_ParentId = 1366698117
+     0 int m_ParentId = -1289825184
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1906,9 +1924,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1628397414
+     0 int m_Id = -1028125887
      0 int m_OrderInDocument = 13
-     0 int m_ParentId = 110631265
+     0 int m_ParentId = 1749075260
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1943,9 +1961,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 107263119
+     0 int m_Id = 1745707114
      0 int m_OrderInDocument = 14
-     0 int m_ParentId = 110631265
+     0 int m_ParentId = 1749075260
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -1974,9 +1992,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1417239322
+     0 int m_Id = 221204673
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = 107263119
+     0 int m_ParentId = 1745707114
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2009,9 +2027,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -167908762
+     0 int m_Id = 1470535233
      0 int m_OrderInDocument = 16
-     0 int m_ParentId = -1417239322
+     0 int m_ParentId = 221204673
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2050,9 +2068,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1689043057
+     0 int m_Id = -50599062
      0 int m_OrderInDocument = 17
-     0 int m_ParentId = -1417239322
+     0 int m_ParentId = 221204673
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2085,9 +2103,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1084789944
+     0 int m_Id = -1571733357
      0 int m_OrderInDocument = 18
-     0 int m_ParentId = -1417239322
+     0 int m_ParentId = 221204673
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2118,9 +2136,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 2065684915
+     0 int m_Id = -590838386
      0 int m_OrderInDocument = 19
-     0 int m_ParentId = 1084789944
+     0 int m_ParentId = -1571733357
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2151,9 +2169,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -429608059
+     0 int m_Id = 1208835936
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = 110631265
+     0 int m_ParentId = 1749075260
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2182,9 +2200,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1803985618
+     0 int m_Id = -852537683
      0 int m_OrderInDocument = 16
-     0 int m_ParentId = -429608059
+     0 int m_ParentId = 1208835936
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2217,9 +2235,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1778522296
+     0 int m_Id = -140078301
      0 int m_OrderInDocument = 17
-     0 int m_ParentId = 1803985618
+     0 int m_ParentId = -852537683
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2258,9 +2276,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 995310705
+     0 int m_Id = -1661212596
      0 int m_OrderInDocument = 18
-     0 int m_ParentId = 1803985618
+     0 int m_ParentId = -852537683
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2291,9 +2309,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1334498503
+     0 int m_Id = 303945492
      0 int m_OrderInDocument = 19
-     0 int m_ParentId = 995310705
+     0 int m_ParentId = -1661212596
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2324,9 +2342,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -2046957885
+     0 int m_Id = -408513890
      0 int m_OrderInDocument = 19
-     0 int m_ParentId = 1803985618
+     0 int m_ParentId = -852537683
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2359,9 +2377,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1761681566
+     0 int m_Id = -123237571
      0 int m_OrderInDocument = 11
-     0 int m_ParentId = -684571064
+     0 int m_ParentId = 953872931
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2392,9 +2410,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1586093362
+     0 int m_Id = 52350633
      0 int m_OrderInDocument = 13
-     0 int m_ParentId = -1761681566
+     0 int m_ParentId = -123237571
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2425,9 +2443,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1363327843
+     0 int m_Id = -1293195458
      0 int m_OrderInDocument = 14
-     0 int m_ParentId = -1586093362
+     0 int m_ParentId = 52350633
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2456,9 +2474,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1503352543
+     0 int m_Id = 135091452
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = 1363327843
+     0 int m_ParentId = -1293195458
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2487,9 +2505,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -601830245
+     0 int m_Id = 1036613750
      0 int m_OrderInDocument = 14
-     0 int m_ParentId = -1761681566
+     0 int m_ParentId = -123237571
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2520,9 +2538,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -963113219
+     0 int m_Id = 675330776
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = -601830245
+     0 int m_ParentId = 1036613750
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2551,9 +2569,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1449436808
+     0 int m_Id = -1207086493
      0 int m_OrderInDocument = 16
-     0 int m_ParentId = -963113219
+     0 int m_ParentId = 675330776
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2584,9 +2602,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1954114756
+     0 int m_Id = -315670761
      0 int m_OrderInDocument = 17
-     0 int m_ParentId = 1449436808
+     0 int m_ParentId = -1207086493
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2598,10 +2616,12 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (1 items)
-       0 int size = 1
+      1 Array Array (2 items)
+       0 int size = 2
        [0]
         1 string data = "body-small-14px-regular"
+       [1]
+        1 string data = "sitext-hover-cursor"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -2617,9 +2637,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1592831782
+     0 int m_Id = 45612213
      0 int m_OrderInDocument = 17
-     0 int m_ParentId = -963113219
+     0 int m_ParentId = 675330776
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2652,9 +2672,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 551282656
+     0 int m_Id = -2105240645
      0 int m_OrderInDocument = 18
-     0 int m_ParentId = -1592831782
+     0 int m_ParentId = 45612213
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2685,9 +2705,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1138701423
+     0 int m_Id = 499742572
      0 int m_OrderInDocument = 15
-     0 int m_ParentId = -1761681566
+     0 int m_ParentId = -123237571
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2718,9 +2738,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -2036855575
+     0 int m_Id = -398411580
      0 int m_OrderInDocument = 16
-     0 int m_ParentId = -1138701423
+     0 int m_ParentId = 499742572
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2749,9 +2769,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 753813900
+     0 int m_Id = -1902709401
      0 int m_OrderInDocument = 4
-     0 int m_ParentId = 399269346
+     0 int m_ParentId = 2037713341
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2782,9 +2802,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -412775841
+     0 int m_Id = 1225668154
      0 int m_OrderInDocument = 5
-     0 int m_ParentId = 753813900
+     0 int m_ParentId = -1902709401
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2820,9 +2840,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1940633660
+     0 int m_Id = -302189665
      0 int m_OrderInDocument = 6
-     0 int m_ParentId = -1221440114
+     0 int m_ParentId = 417003881
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2865,9 +2885,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 833199341
+     0 int m_Id = -1823323960
      0 int m_OrderInDocument = 7
-     0 int m_ParentId = -1221440114
+     0 int m_ParentId = 417003881
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -2901,52 +2921,52 @@
        0 int size = 6
        [0]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -911575169
+         0 int m_ElementId = 669780911
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -911575169
+            0 int data = 669780911
          0 managedReference m_SerializedData
           0 SInt64 rid = 1082
        [1]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = 158801169
+         0 int m_ElementId = 1740157249
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = 158801169
+            0 int data = 1740157249
          0 managedReference m_SerializedData
           0 SInt64 rid = 1083
        [2]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -291956788
+         0 int m_ElementId = 1289399292
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -291956788
+            0 int data = 1289399292
          0 managedReference m_SerializedData
           0 SInt64 rid = 1084
        [3]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = 2031118256
+         0 int m_ElementId = -682492960
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = 2031118256
+            0 int data = -682492960
          0 managedReference m_SerializedData
           0 SInt64 rid = 1085
        [4]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -209209585
+         0 int m_ElementId = 1372146495
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -209209585
+            0 int data = 1372146495
          0 managedReference m_SerializedData
           0 SInt64 rid = 1086
        [5]
@@ -2956,7 +2976,7 @@
           1 Array Array (2 items)
            0 int size = 2
            [0]
-            0 int data = -828827966
+            0 int data = 752528114
            [1]
             0 int data = -965245344
          0 managedReference m_SerializedData
@@ -2970,9 +2990,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -687934954
+     0 int m_Id = 950509041
      0 int m_OrderInDocument = 8
-     0 int m_ParentId = -1221440114
+     0 int m_ParentId = 417003881
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -3006,42 +3026,42 @@
        0 int size = 5
        [0]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -911575169
+         0 int m_ElementId = 669780911
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -911575169
+            0 int data = 669780911
          0 managedReference m_SerializedData
           0 SInt64 rid = 1089
        [1]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -291956788
+         0 int m_ElementId = 1289399292
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -291956788
+            0 int data = 1289399292
          0 managedReference m_SerializedData
           0 SInt64 rid = 1090
        [2]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = 2031118256
+         0 int m_ElementId = -682492960
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = 2031118256
+            0 int data = -682492960
          0 managedReference m_SerializedData
           0 SInt64 rid = 1091
        [3]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -209209585
+         0 int m_ElementId = 1372146495
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -209209585
+            0 int data = 1372146495
          0 managedReference m_SerializedData
           0 SInt64 rid = 1092
        [4]
@@ -3051,7 +3071,7 @@
           1 Array Array (2 items)
            0 int size = 2
            [0]
-            0 int data = -828827966
+            0 int data = 752528114
            [1]
             0 int data = -965245344
          0 managedReference m_SerializedData
@@ -3065,9 +3085,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -959736561
+     0 int m_Id = 678707434
      0 int m_OrderInDocument = 8
-     0 int m_ParentId = -1224806132
+     0 int m_ParentId = 413637863
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -3099,42 +3119,42 @@
        0 int size = 4
        [0]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -253275102
+         0 int m_ElementId = -467263050
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -253275102
+            0 int data = -467263050
          0 managedReference m_SerializedData
           0 SInt64 rid = 1095
        [1]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -803608224
+         0 int m_ElementId = -1017596172
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -803608224
+            0 int data = -1017596172
          0 managedReference m_SerializedData
           0 SInt64 rid = 1096
        [2]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = 1970224777
+         0 int m_ElementId = 1756236829
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = 1970224777
+            0 int data = 1756236829
          0 managedReference m_SerializedData
           0 SInt64 rid = 1097
        [3]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = 899848439
+         0 int m_ElementId = 685860491
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = 899848439
+            0 int data = 685860491
          0 managedReference m_SerializedData
           0 SInt64 rid = 1098
      0 SlotUsageEntry m_SlotUsages
@@ -3146,9 +3166,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1814096440
+     0 int m_Id = -842426861
      0 int m_OrderInDocument = 9
-     0 int m_ParentId = -1224806132
+     0 int m_ParentId = 413637863
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -3180,12 +3200,12 @@
        0 int size = 2
        [0]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -1474664739
+         0 int m_ElementId = -697694516
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -1474664739
+            0 int data = -697694516
          0 managedReference m_SerializedData
           0 SInt64 rid = 1100
        [1]
@@ -3195,7 +3215,7 @@
           1 Array Array (2 items)
            0 int size = 2
            [0]
-            0 int data = 1733098257
+            0 int data = -1784898816
            [1]
             0 int data = 1705435291
          0 managedReference m_SerializedData
@@ -3209,9 +3229,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1493241721
+     0 int m_Id = 145202274
      0 int m_OrderInDocument = 8
-     0 int m_ParentId = 1283957298
+     0 int m_ParentId = -1372566003
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -3243,52 +3263,52 @@
        0 int size = 5
        [0]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -253275102
+         0 int m_ElementId = -467263050
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -253275102
+            0 int data = -467263050
          0 managedReference m_SerializedData
           0 SInt64 rid = 1103
        [1]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = 366343279
+         0 int m_ElementId = 152355331
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = 366343279
+            0 int data = 152355331
          0 managedReference m_SerializedData
           0 SInt64 rid = 1104
        [2]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = -803608224
+         0 int m_ElementId = -1017596172
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = -803608224
+            0 int data = -1017596172
          0 managedReference m_SerializedData
           0 SInt64 rid = 1105
        [3]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = 1970224777
+         0 int m_ElementId = 1756236829
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = 1970224777
+            0 int data = 1756236829
          0 managedReference m_SerializedData
           0 SInt64 rid = 1106
        [4]
         0 UxmlSerializedDataOverride data
-         0 int m_ElementId = 899848439
+         0 int m_ElementId = 685860491
          0 vector m_ElementIdsPath
           1 Array Array (1 items)
            0 int size = 1
            [0]
-            0 int data = 899848439
+            0 int data = 685860491
          0 managedReference m_SerializedData
           0 SInt64 rid = 1107
      0 SlotUsageEntry m_SlotUsages
@@ -3300,9 +3320,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -54854629
+     0 int m_Id = 1583589366
      0 int m_OrderInDocument = 5
-     0 int m_ParentId = -51488611
+     0 int m_ParentId = 1586955384
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -3341,9 +3361,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -64959067
+     0 int m_Id = 1573484928
      0 int m_OrderInDocument = 12
-     0 int m_ParentId = -1761681566
+     0 int m_ParentId = -123237571
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -3384,9 +3404,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -1596199928
+     0 int m_Id = 42244067
      0 int m_OrderInDocument = 16
-     0 int m_ParentId = -1503352543
+     0 int m_ParentId = 135091452
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -3467,9 +3487,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = 1177633073
+     0 int m_Id = -1478890228
      0 int m_OrderInDocument = 17
-     0 int m_ParentId = -1503352543
+     0 int m_ParentId = 135091452
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -3538,9 +3558,9 @@
      0 UxmlNamespaceDefinition m_XmlNamespace
       1 string prefix = ""
       1 string resolvedNamespace = ""
-     0 int m_Id = -161176726
+     0 int m_Id = 1477267269
      0 int m_OrderInDocument = 17
-     0 int m_ParentId = -2036855575
+     0 int m_ParentId = -398411580
      0 UxmlNamespaceDefinition m_NamespaceDefinitions
       0 Array Array (0 items)
        0 int size = 0
@@ -3579,7 +3599,7 @@
           1 Array Array (2 items)
            0 int size = 2
            [0]
-            0 int data = 1758571471
+            0 int data = 12363389
            [1]
             0 int data = -965245344
          0 managedReference m_SerializedData
@@ -3600,7 +3620,7 @@
   0 Array Array (0 items)
    0 int size = 0
  0 int m_ContentContainerId = 0
- 0 int m_ContentHash = 1214672039
+ 0 int m_ContentHash = -1441851262
  0 ManagedReferencesRegistry references
   0 int version = 2
   0 vector RefIds
@@ -3620,7 +3640,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -671106992
+      0 int uxmlAssetId = 967337003
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -3713,7 +3733,7 @@
       1 string ns = "FM.UI"
       1 string asm = "FM.UI"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 399269346
+      0 int uxmlAssetId = 2037713341
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -3753,7 +3773,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -51488611
+      0 int uxmlAssetId = 1586955384
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4028,7 +4048,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -2023380863
+      0 int uxmlAssetId = -384936868
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4066,7 +4086,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1221440114
+      0 int uxmlAssetId = 417003881
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4104,7 +4124,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1283957298
+      0 int uxmlAssetId = -1372566003
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4142,7 +4162,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1224806132
+      0 int uxmlAssetId = 413637863
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4235,7 +4255,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1575988924
+      0 int uxmlAssetId = 62455071
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4273,7 +4293,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -326656236
+      0 int uxmlAssetId = 1311787759
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4311,7 +4331,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -598457843
+      0 int uxmlAssetId = 1039986152
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4401,7 +4421,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1903573551
+      0 int uxmlAssetId = -752949750
       1 string name = "FMShapeAndInstructionsButtons"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4444,6 +4464,7 @@
       1 UInt8 HideIfOnlyOneTab = 0
       1 UInt8 NotifyOptionOnBindingChange = 0
       1 UInt8 UsePersistantSelection = 0
+      0 int PersistenceLifetimeKind = 0
       1 UInt8 NotifyDefaultSelection = 0
       0 int IgnoredIndex = 0
       1 UInt8 SelectionBinding_UxmlAttributeFlags = 1
@@ -4456,6 +4477,7 @@
       1 UInt8 HideIfOnlyOneTab_UxmlAttributeFlags = 0
       1 UInt8 NotifyOptionOnBindingChange_UxmlAttributeFlags = 0
       1 UInt8 UsePersistantSelection_UxmlAttributeFlags = 0
+      1 UInt8 PersistenceLifetimeKind_UxmlAttributeFlags = 0
       1 UInt8 NotifyDefaultSelection_UxmlAttributeFlags = 0
       1 UInt8 IgnoredIndex_UxmlAttributeFlags = 0
     0 ReferencedObject data
@@ -4465,7 +4487,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1410496646
+      0 int uxmlAssetId = 227947349
       1 string name = "team-shape"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4584,7 +4606,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1950733842
+      0 int uxmlAssetId = -312289847
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4850,7 +4872,7 @@
       1 string ns = "FM.UI"
       1 string asm = "FM.UI"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -157797940
+      0 int uxmlAssetId = 1480646055
       1 string name = "TutorialActionElement"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -4924,7 +4946,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 554663570
+      0 int uxmlAssetId = -2101859731
       1 string name = "team-instructions"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -5043,7 +5065,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -254009215
+      0 int uxmlAssetId = 1384434780
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -5309,7 +5331,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1366702373
+      0 int uxmlAssetId = -1289820928
       1 string name = "FMCPossessionButtons"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -6387,7 +6409,7 @@
       1 string ns = "FM.UI"
       1 string asm = "FM.UI"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1810728294
+      0 int uxmlAssetId = -845795007
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -6421,8 +6443,8 @@
       0 EventList ShortcutEvent
        1 string m_serializedEvents = ""
        1 vector m_bytes
-        1 Array Array (13 items)
-         0 int size = 13
+        1 Array Array (12 items)
+         0 int size = 12
          [0]
           0 UInt8 data = 0
          [1]
@@ -6444,10 +6466,8 @@
          [9]
           0 UInt8 data = 24
          [10]
-          0 UInt8 data = 1
+          0 UInt8 data = 2
          [11]
-          0 UInt8 data = 1
-         [12]
           0 UInt8 data = 188
       0 SIInputActionReference InputActionRef
        0 AssetReferenceT`1 m_inputActionAsset
@@ -6470,7 +6490,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 733619920
+      0 int uxmlAssetId = -1922903381
       1 string name = "FMCButtonGroup"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -6513,6 +6533,7 @@
       1 UInt8 HideIfOnlyOneTab = 0
       1 UInt8 NotifyOptionOnBindingChange = 0
       1 UInt8 UsePersistantSelection = 0
+      0 int PersistenceLifetimeKind = 0
       1 UInt8 NotifyDefaultSelection = 0
       0 int IgnoredIndex = 0
       1 UInt8 SelectionBinding_UxmlAttributeFlags = 0
@@ -6525,6 +6546,7 @@
       1 UInt8 HideIfOnlyOneTab_UxmlAttributeFlags = 0
       1 UInt8 NotifyOptionOnBindingChange_UxmlAttributeFlags = 0
       1 UInt8 UsePersistantSelection_UxmlAttributeFlags = 0
+      1 UInt8 PersistenceLifetimeKind_UxmlAttributeFlags = 0
       1 UInt8 NotifyDefaultSelection_UxmlAttributeFlags = 0
       1 UInt8 IgnoredIndex_UxmlAttributeFlags = 0
     0 ReferencedObject data
@@ -6534,7 +6556,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1864622749
+      0 int uxmlAssetId = -226178754
       1 string name = "ShowOverviewIfFM"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -6627,7 +6649,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1689032417
+      0 int uxmlAssetId = -50588422
       1 string name = "overview"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -6746,7 +6768,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1260390916
+      0 int uxmlAssetId = -1396132385
       1 string name = "text"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -7012,7 +7034,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -2133058338
+      0 int uxmlAssetId = -494614343
       1 string name = "both"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -7209,7 +7231,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 2069063701
+      0 int uxmlAssetId = -587459600
       1 string name = "text"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -7483,7 +7505,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -880359632
+      0 int uxmlAssetId = 758084363
       1 string name = "IP"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -7676,7 +7698,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 279493817
+      0 int uxmlAssetId = 1917937812
       1 string name = "text"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -8598,7 +8620,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 372339074
+      0 int uxmlAssetId = 2010783069
       1 string name = "OOP"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -8791,7 +8813,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1510076067
+      0 int uxmlAssetId = 128367928
       1 string name = "text"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -9713,7 +9735,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -684571064
+      0 int uxmlAssetId = 953872931
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -9751,7 +9773,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1314287499
+      0 int uxmlAssetId = 324156496
       1 string name = "MatchNavigationVisible"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -10254,7 +10276,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 829829067
+      0 int uxmlAssetId = -1826694234
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -10344,7 +10366,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1452811338
+      0 int uxmlAssetId = -1203711963
       1 string name = "SmallNavigation"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -10382,7 +10404,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 554659314
+      0 int uxmlAssetId = -2101863987
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -10432,7 +10454,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1864627005
+      0 int uxmlAssetId = -226183010
       1 string name = "SIDropdown"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -10465,6 +10487,20 @@
       1 UInt8 bindings_UxmlAttributeFlags = 0
       1 UInt8 HasInitialFocus = 0
       1 UInt8 HasInitialFocus_UxmlAttributeFlags = 0
+      0 EventList RightClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 EventList LeftClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 AssetReferenceT`1 RowTemplate
+       1 string m_AssetGUID = "abea8a4710718f043b0ba3711e7184e2"
+       1 string m_SubObjectName = ""
+       1 string m_SubObjectType = ""
       0 DataDrivenVisualRunnerConfig`2 BindChoicesFunction
        1 UInt8 m_isAssigned = 1
        0 AssetReferenceT`1 m_target
@@ -10747,21 +10783,6 @@
          1 vector m_argumentBytes
           1 Array Array (0 items)
            0 int size = 0
-      0 SIInputActionReference InputActionRef
-       0 AssetReferenceT`1 m_inputActionAsset
-        1 string m_AssetGUID = ""
-        1 string m_SubObjectName = ""
-        1 string m_SubObjectType = ""
-       1 string m_actionID = ""
-      0 EventList LeftClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 AssetReferenceT`1 RowTemplate
-       1 string m_AssetGUID = "abea8a4710718f043b0ba3711e7184e2"
-       1 string m_SubObjectName = ""
-       1 string m_SubObjectType = ""
       0 EventList SelectionEvents
        1 string m_serializedEvents = ""
        1 vector m_bytes
@@ -10879,87 +10900,91 @@
           0 UInt8 data = 188
          [55]
           0 UInt8 data = 188
-      0 EventList RightClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 BindingPath SelectedHistoryGroupNameBinding
-       1 string m_path = ""
-      1 UInt8 ScrollToSelection = 0
-      1 UInt8 AlternateRows = 0
-      1 UInt8 AlwaysUpdateInternalSelection = 1
-      1 UInt8 PreviewVisibilityToggle = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      0 SIInputActionReference InputActionRef
+       0 AssetReferenceT`1 m_inputActionAsset
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       1 string m_actionID = ""
       1 UInt8 ForceRefreshOnNewChoices = 0
       1 UInt8 ShowSearchResults = 0
+      1 UInt8 PreviewVisibilityToggle = 0
       1 UInt8 ShouldHideIfNoItems = 0
-      1 UInt8 AllowsQuickChangeShortcut = 0
+      1 UInt8 AlwaysUpdateInternalSelection = 1
       1 UInt8 UseRowTemplateToShowSelectedValue = 0
       1 UInt8 TriggerSelectionEventOnInit = 0
+      1 UInt8 AlternateRows = 0
       1 UInt8 HideOnSelectionChange = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange = 0
       1 UInt8 DynamicElements = 0
-      1 UInt8 SelectingSameItemDeselects = 0
       1 UInt8 HideOnFocusLoss = 0
+      0 int ShortcutIconPlacement = 0
+      1 UInt8 ScrollToSelection = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      1 UInt8 AllowsQuickChangeShortcut = 0
+      0 int ChildDropdownArrowDirection = 0
+      0 int DropdownControl = 0
+      0 BindingPath ScrollToSelectionBinding
+       1 string m_path = ""
       0 BindingPath SearchValueBinding
        1 string m_path = ""
       0 BindingPath CanSelectNextBinding
        1 string m_path = ""
-      0 int ChildDropdownArrowDirection = 0
-      0 SInt64 HoverDelayMs = 0
-      0 int DropdownControl = 0
-      1 string DropdownArrowUSSClass = ""
-      1 string PopupClass = ""
-      1 string RowParamName = ""
       0 BindingPath CanSelectPreviousBinding
        1 string m_path = ""
-      1 string AnchorParentName = ""
-      0 int AnchorStyle = 0
-      0 int Anchor = 0
-      1 string MigrateSelectionEvent = ""
       1 UInt8 SetSelectedValueToSearch = 0
-      0 int ShortcutIconPlacement = 0
+      1 UInt8 SelectingSameItemDeselects = 0
+      0 SInt64 HoverDelayMs = 0
+      0 BindingPath SelectedHistoryGroupNameBinding
+       1 string m_path = ""
+      0 int Anchor = 0
+      0 int AnchorStyle = 0
+      1 string AnchorParentName = ""
+      1 string RowParamName = ""
+      1 string PopupClass = ""
+      1 string DropdownArrowUSSClass = ""
+      1 string MigrateSelectionEvent = ""
       0 BindingPath SelectionValueBinding
        1 string m_path = "selection"
-      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
-      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
+      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
       1 UInt8 LeftClickEvents_UxmlAttributeFlags = 0
       1 UInt8 RowTemplate_UxmlAttributeFlags = 1
+      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
       1 UInt8 SelectionEvents_UxmlAttributeFlags = 1
-      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
-      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
-      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
-      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
-      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 1
-      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
       1 UInt8 ForceRefreshOnNewChoices_UxmlAttributeFlags = 0
       1 UInt8 ShowSearchResults_UxmlAttributeFlags = 0
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
       1 UInt8 ShouldHideIfNoItems_UxmlAttributeFlags = 0
-      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 1
       1 UInt8 UseRowTemplateToShowSelectedValue_UxmlAttributeFlags = 0
       1 UInt8 TriggerSelectionEventOnInit_UxmlAttributeFlags = 0
+      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
       1 UInt8 HideOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 DynamicElements_UxmlAttributeFlags = 0
-      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
       1 UInt8 HideOnFocusLoss_UxmlAttributeFlags = 0
+      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 0
+      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
+      1 UInt8 DropdownControl_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelectionBinding_UxmlAttributeFlags = 0
       1 UInt8 SearchValueBinding_UxmlAttributeFlags = 0
       1 UInt8 CanSelectNextBinding_UxmlAttributeFlags = 0
-      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
-      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
-      1 UInt8 DropdownControl_UxmlAttributeFlags = 0
-      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 0
-      1 UInt8 PopupClass_UxmlAttributeFlags = 0
-      1 UInt8 RowParamName_UxmlAttributeFlags = 0
       1 UInt8 CanSelectPreviousBinding_UxmlAttributeFlags = 0
-      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
-      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
-      1 UInt8 Anchor_UxmlAttributeFlags = 0
-      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SetSelectedValueToSearch_UxmlAttributeFlags = 0
-      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
+      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
+      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
+      1 UInt8 Anchor_UxmlAttributeFlags = 0
+      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
+      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
+      1 UInt8 RowParamName_UxmlAttributeFlags = 0
+      1 UInt8 PopupClass_UxmlAttributeFlags = 0
+      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 0
+      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SelectionValueBinding_UxmlAttributeFlags = 1
     0 ReferencedObject data
      0 SInt64 rid = 1034
@@ -10968,7 +10993,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1510080323
+      0 int uxmlAssetId = 128363672
       1 string name = "SIText"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -11244,7 +11269,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1263752678
+      0 int uxmlAssetId = -1392770623
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -11282,7 +11307,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1857892841
+      0 int uxmlAssetId = -219448846
       1 string name = "LargeNavigation"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -11320,7 +11345,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1771781748
+      0 int uxmlAssetId = -133337753
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -11783,7 +11808,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1088162346
+      0 int uxmlAssetId = -1568360955
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -12186,7 +12211,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1867995151
+      0 int uxmlAssetId = -229551156
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -12224,7 +12249,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -2050319647
+      0 int uxmlAssetId = -411875652
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -12262,7 +12287,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 723513354
+      0 int uxmlAssetId = -1933009947
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -12528,7 +12553,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -701407538
+      0 int uxmlAssetId = 937036457
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -12879,7 +12904,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1152167623
+      0 int uxmlAssetId = 486276372
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -12917,7 +12942,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1170905293
+      0 int uxmlAssetId = -1485618008
       1 string name = "VisualElement"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -12929,7 +12954,7 @@
        0 int m_FileID = 0
        0 SInt64 m_PathID = 0
       1 string viewDataKey = ""
-      0 int pickingMode = 0
+      0 int pickingMode = 1
       0 int usageHints = 0
       0 int languageDirection = 0
       0 int tabIndex = 0
@@ -12938,7 +12963,7 @@
       1 UInt8 name_UxmlAttributeFlags = 1
       1 UInt8 enabledSelf_UxmlAttributeFlags = 0
       1 UInt8 viewDataKey_UxmlAttributeFlags = 0
-      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
       1 UInt8 tooltip_UxmlAttributeFlags = 0
       1 UInt8 usageHints_UxmlAttributeFlags = 0
       1 UInt8 tabIndex_UxmlAttributeFlags = 0
@@ -12955,7 +12980,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -350229002
+      0 int uxmlAssetId = 1288214993
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -13221,7 +13246,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1803989874
+      0 int uxmlAssetId = -852533427
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -13624,7 +13649,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -436340095
+      0 int uxmlAssetId = 1202103900
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -13662,7 +13687,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 97162937
+      0 int uxmlAssetId = 1735606932
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -13700,7 +13725,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1423971358
+      0 int uxmlAssetId = 214472637
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -13966,7 +13991,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1101630674
+      0 int uxmlAssetId = -1554892627
       1 string name = "setforvisible"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -14059,7 +14084,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1366698117
+      0 int uxmlAssetId = -1289825184
       1 string name = "setforContainer"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -14097,7 +14122,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 110631265
+      0 int uxmlAssetId = 1749075260
       1 string name = "buttons-segmented-button-row-regular-default"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -14135,7 +14160,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1628397414
+      0 int uxmlAssetId = -1028125887
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -14415,7 +14440,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 107263119
+      0 int uxmlAssetId = 1745707114
       1 string name = "leftbuttonstylesetter"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -15260,7 +15285,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1417239322
+      0 int uxmlAssetId = 221204673
       1 string name = "buttons-segmented-button-row-active-regular"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -15465,7 +15490,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -167908762
+      0 int uxmlAssetId = 1470535233
       1 string name = "text"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -15731,7 +15756,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1689043057
+      0 int uxmlAssetId = -50599062
       1 string name = "ui concepts-chevron"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -15769,7 +15794,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1084789944
+      0 int uxmlAssetId = -1571733357
       1 string name = "controllers-keyboard inputs"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -15781,7 +15806,7 @@
        0 int m_FileID = 0
        0 SInt64 m_PathID = 0
       1 string viewDataKey = ""
-      0 int pickingMode = 0
+      0 int pickingMode = 1
       0 int usageHints = 0
       0 int languageDirection = 0
       0 int tabIndex = 0
@@ -15790,7 +15815,7 @@
       1 UInt8 name_UxmlAttributeFlags = 1
       1 UInt8 enabledSelf_UxmlAttributeFlags = 0
       1 UInt8 viewDataKey_UxmlAttributeFlags = 0
-      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
       1 UInt8 tooltip_UxmlAttributeFlags = 0
       1 UInt8 usageHints_UxmlAttributeFlags = 0
       1 UInt8 tabIndex_UxmlAttributeFlags = 0
@@ -15807,7 +15832,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 2065684915
+      0 int uxmlAssetId = -590838386
       1 string name = "controllers-keyboard inputs"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -15819,7 +15844,7 @@
        0 int m_FileID = 0
        0 SInt64 m_PathID = 0
       1 string viewDataKey = ""
-      0 int pickingMode = 0
+      0 int pickingMode = 1
       0 int usageHints = 0
       0 int languageDirection = 0
       0 int tabIndex = 0
@@ -15828,7 +15853,7 @@
       1 UInt8 name_UxmlAttributeFlags = 1
       1 UInt8 enabledSelf_UxmlAttributeFlags = 0
       1 UInt8 viewDataKey_UxmlAttributeFlags = 0
-      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
       1 UInt8 tooltip_UxmlAttributeFlags = 0
       1 UInt8 usageHints_UxmlAttributeFlags = 0
       1 UInt8 tabIndex_UxmlAttributeFlags = 0
@@ -15845,7 +15870,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -429608059
+      0 int uxmlAssetId = 1208835936
       1 string name = "rightbuttonstylesetter"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -16694,7 +16719,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1803985618
+      0 int uxmlAssetId = -852537683
       1 string name = "buttons-segmented-button-row-inactive-regular"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -16897,7 +16922,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1778522296
+      0 int uxmlAssetId = -140078301
       1 string name = "text"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -17175,7 +17200,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 995310705
+      0 int uxmlAssetId = -1661212596
       1 string name = "controllers-keyboard inputs"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -17213,7 +17238,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1334498503
+      0 int uxmlAssetId = 303945492
       1 string name = "controllers-keyboard inputs"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -17225,7 +17250,7 @@
        0 int m_FileID = 0
        0 SInt64 m_PathID = 0
       1 string viewDataKey = ""
-      0 int pickingMode = 0
+      0 int pickingMode = 1
       0 int usageHints = 0
       0 int languageDirection = 0
       0 int tabIndex = 0
@@ -17234,7 +17259,7 @@
       1 UInt8 name_UxmlAttributeFlags = 1
       1 UInt8 enabledSelf_UxmlAttributeFlags = 0
       1 UInt8 viewDataKey_UxmlAttributeFlags = 0
-      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
       1 UInt8 tooltip_UxmlAttributeFlags = 0
       1 UInt8 usageHints_UxmlAttributeFlags = 0
       1 UInt8 tabIndex_UxmlAttributeFlags = 0
@@ -17251,7 +17276,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -2046957885
+      0 int uxmlAssetId = -408513890
       1 string name = "ui concepts-add to list"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -17263,7 +17288,7 @@
        0 int m_FileID = 0
        0 SInt64 m_PathID = 0
       1 string viewDataKey = ""
-      0 int pickingMode = 0
+      0 int pickingMode = 1
       0 int usageHints = 0
       0 int languageDirection = 0
       0 int tabIndex = 0
@@ -17272,7 +17297,7 @@
       1 UInt8 name_UxmlAttributeFlags = 1
       1 UInt8 enabledSelf_UxmlAttributeFlags = 0
       1 UInt8 viewDataKey_UxmlAttributeFlags = 0
-      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
       1 UInt8 tooltip_UxmlAttributeFlags = 0
       1 UInt8 usageHints_UxmlAttributeFlags = 0
       1 UInt8 tabIndex_UxmlAttributeFlags = 0
@@ -17289,7 +17314,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1761681566
+      0 int uxmlAssetId = -123237571
       1 string name = "HideDuringMatch"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -17382,7 +17407,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1586093362
+      0 int uxmlAssetId = 52350633
       1 string name = "AdviceDropdownVisible"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -17475,7 +17500,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1363327843
+      0 int uxmlAssetId = -1293195458
       1 string name = "InPossessionSetter"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -18466,7 +18491,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1503352543
+      0 int uxmlAssetId = 135091452
       1 string name = "SmallBreakpointSwitch"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -18688,7 +18713,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -601830245
+      0 int uxmlAssetId = 1036613750
       1 string name = "undo-enabled"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -18784,7 +18809,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -963113219
+      0 int uxmlAssetId = 675330776
       1 string name = "SmallBreakpointSwitch"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -19006,7 +19031,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1449436808
+      0 int uxmlAssetId = -1207086493
       1 string name = "stringonly"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -19209,7 +19234,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1954114756
+      0 int uxmlAssetId = -315670761
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -19475,7 +19500,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1592831782
+      0 int uxmlAssetId = 45612213
       1 string name = "icononly"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -19678,7 +19703,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 551282656
+      0 int uxmlAssetId = -2105240645
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -19690,7 +19715,7 @@
        0 int m_FileID = 0
        0 SInt64 m_PathID = 0
       1 string viewDataKey = ""
-      0 int pickingMode = 0
+      0 int pickingMode = 1
       0 int usageHints = 0
       0 int languageDirection = 0
       0 int tabIndex = 0
@@ -19699,7 +19724,7 @@
       1 UInt8 name_UxmlAttributeFlags = 0
       1 UInt8 enabledSelf_UxmlAttributeFlags = 0
       1 UInt8 viewDataKey_UxmlAttributeFlags = 0
-      1 UInt8 pickingMode_UxmlAttributeFlags = 0
+      1 UInt8 pickingMode_UxmlAttributeFlags = 1
       1 UInt8 tooltip_UxmlAttributeFlags = 0
       1 UInt8 usageHints_UxmlAttributeFlags = 0
       1 UInt8 tabIndex_UxmlAttributeFlags = 0
@@ -19716,7 +19741,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1138701423
+      0 int uxmlAssetId = 499742572
       1 string name = "SpeakToActionsVisible-QuickPick"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -20521,7 +20546,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -2036855575
+      0 int uxmlAssetId = -398411580
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -20573,7 +20598,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 753813900
+      0 int uxmlAssetId = -1902709401
       1 string name = "is-controller-swap"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -20666,7 +20691,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -412775841
+      0 int uxmlAssetId = 1225668154
       1 string name = "controller-swap-mode-cover"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -20704,7 +20729,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1940633660
+      0 int uxmlAssetId = -302189665
       1 string name = "tactics-picker"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -20750,7 +20775,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 833199341
+      0 int uxmlAssetId = -1823323960
       1 string name = "style-split-button"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -20796,7 +20821,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -911575169
+      0 int uxmlAssetId = 669780911
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -20847,7 +20872,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 158801169
+      0 int uxmlAssetId = 1740157249
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -20899,7 +20924,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -291956788
+      0 int uxmlAssetId = 1289399292
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -21344,7 +21369,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 2031118256
+      0 int uxmlAssetId = -682492960
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -21452,7 +21477,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -209209585
+      0 int uxmlAssetId = 1372146495
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -21761,6 +21786,20 @@
       1 UInt8 bindings_UxmlAttributeFlags = 0
       1 UInt8 HasInitialFocus = 0
       1 UInt8 HasInitialFocus_UxmlAttributeFlags = 0
+      0 EventList RightClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 EventList LeftClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 AssetReferenceT`1 RowTemplate
+       1 string m_AssetGUID = "bc6b9fc730e9431488ec9a0f76587bf1"
+       1 string m_SubObjectName = ""
+       1 string m_SubObjectType = ""
       0 DataDrivenVisualRunnerConfig`2 BindChoicesFunction
        1 UInt8 m_isAssigned = 1
        0 AssetReferenceT`1 m_target
@@ -22061,107 +22100,96 @@
          1 vector m_argumentBytes
           1 Array Array (0 items)
            0 int size = 0
+      0 EventList SelectionEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
       0 SIInputActionReference InputActionRef
        0 AssetReferenceT`1 m_inputActionAsset
         1 string m_AssetGUID = ""
         1 string m_SubObjectName = ""
         1 string m_SubObjectType = ""
        1 string m_actionID = ""
-      0 EventList LeftClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 AssetReferenceT`1 RowTemplate
-       1 string m_AssetGUID = "bc6b9fc730e9431488ec9a0f76587bf1"
-       1 string m_SubObjectName = ""
-       1 string m_SubObjectType = ""
-      0 EventList SelectionEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 EventList RightClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 BindingPath SelectedHistoryGroupNameBinding
-       1 string m_path = ""
-      1 UInt8 ScrollToSelection = 0
-      1 UInt8 AlternateRows = 0
-      1 UInt8 AlwaysUpdateInternalSelection = 1
-      1 UInt8 PreviewVisibilityToggle = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
       1 UInt8 ForceRefreshOnNewChoices = 0
       1 UInt8 ShowSearchResults = 0
+      1 UInt8 PreviewVisibilityToggle = 0
       1 UInt8 ShouldHideIfNoItems = 0
-      1 UInt8 AllowsQuickChangeShortcut = 0
+      1 UInt8 AlwaysUpdateInternalSelection = 1
       1 UInt8 UseRowTemplateToShowSelectedValue = 0
       1 UInt8 TriggerSelectionEventOnInit = 0
+      1 UInt8 AlternateRows = 0
       1 UInt8 HideOnSelectionChange = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange = 0
       1 UInt8 DynamicElements = 0
-      1 UInt8 SelectingSameItemDeselects = 0
       1 UInt8 HideOnFocusLoss = 0
+      0 int ShortcutIconPlacement = 0
+      1 UInt8 ScrollToSelection = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      1 UInt8 AllowsQuickChangeShortcut = 0
+      0 int ChildDropdownArrowDirection = 0
+      0 int DropdownControl = 1
+      0 BindingPath ScrollToSelectionBinding
+       1 string m_path = ""
       0 BindingPath SearchValueBinding
        1 string m_path = ""
       0 BindingPath CanSelectNextBinding
        1 string m_path = ""
-      0 int ChildDropdownArrowDirection = 0
-      0 SInt64 HoverDelayMs = 0
-      0 int DropdownControl = 1
-      1 string DropdownArrowUSSClass = "ui-concepts-chevron-down_medium"
-      1 string PopupClass = ""
-      1 string RowParamName = ""
       0 BindingPath CanSelectPreviousBinding
        1 string m_path = ""
-      1 string AnchorParentName = ""
-      0 int AnchorStyle = 0
-      0 int Anchor = 0
-      1 string MigrateSelectionEvent = ""
       1 UInt8 SetSelectedValueToSearch = 0
-      0 int ShortcutIconPlacement = 0
+      1 UInt8 SelectingSameItemDeselects = 0
+      0 SInt64 HoverDelayMs = 0
+      0 BindingPath SelectedHistoryGroupNameBinding
+       1 string m_path = ""
+      0 int Anchor = 0
+      0 int AnchorStyle = 0
+      1 string AnchorParentName = ""
+      1 string RowParamName = ""
+      1 string PopupClass = ""
+      1 string DropdownArrowUSSClass = "ui-concepts-chevron-down_medium"
+      1 string MigrateSelectionEvent = ""
       0 BindingPath SelectionValueBinding
        1 string m_path = "tactic.TacticalStyleDropdown"
-      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
-      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
+      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
       1 UInt8 LeftClickEvents_UxmlAttributeFlags = 0
       1 UInt8 RowTemplate_UxmlAttributeFlags = 1
+      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
       1 UInt8 SelectionEvents_UxmlAttributeFlags = 0
-      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
-      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
-      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
-      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
-      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 1
-      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
       1 UInt8 ForceRefreshOnNewChoices_UxmlAttributeFlags = 0
       1 UInt8 ShowSearchResults_UxmlAttributeFlags = 0
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
       1 UInt8 ShouldHideIfNoItems_UxmlAttributeFlags = 0
-      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 1
+      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 1
       1 UInt8 UseRowTemplateToShowSelectedValue_UxmlAttributeFlags = 0
       1 UInt8 TriggerSelectionEventOnInit_UxmlAttributeFlags = 0
+      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
       1 UInt8 HideOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 DynamicElements_UxmlAttributeFlags = 0
-      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
       1 UInt8 HideOnFocusLoss_UxmlAttributeFlags = 0
+      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 1
+      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
+      1 UInt8 DropdownControl_UxmlAttributeFlags = 1
+      1 UInt8 ScrollToSelectionBinding_UxmlAttributeFlags = 0
       1 UInt8 SearchValueBinding_UxmlAttributeFlags = 0
       1 UInt8 CanSelectNextBinding_UxmlAttributeFlags = 0
-      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
-      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
-      1 UInt8 DropdownControl_UxmlAttributeFlags = 1
-      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 1
-      1 UInt8 PopupClass_UxmlAttributeFlags = 0
-      1 UInt8 RowParamName_UxmlAttributeFlags = 0
       1 UInt8 CanSelectPreviousBinding_UxmlAttributeFlags = 0
-      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
-      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
-      1 UInt8 Anchor_UxmlAttributeFlags = 0
-      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SetSelectedValueToSearch_UxmlAttributeFlags = 0
-      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
+      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
+      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
+      1 UInt8 Anchor_UxmlAttributeFlags = 0
+      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
+      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
+      1 UInt8 RowParamName_UxmlAttributeFlags = 0
+      1 UInt8 PopupClass_UxmlAttributeFlags = 0
+      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 1
+      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SelectionValueBinding_UxmlAttributeFlags = 1
     0 ReferencedObject data
      0 SInt64 rid = 1088
@@ -22170,7 +22198,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -687934954
+      0 int uxmlAssetId = 950509041
       1 string name = "mentality-split-button"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -22216,7 +22244,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -911575169
+      0 int uxmlAssetId = 669780911
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -22267,7 +22295,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -291956788
+      0 int uxmlAssetId = 1289399292
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -22580,7 +22608,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 2031118256
+      0 int uxmlAssetId = -682492960
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -22688,7 +22716,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -209209585
+      0 int uxmlAssetId = 1372146495
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -22987,6 +23015,20 @@
       1 UInt8 bindings_UxmlAttributeFlags = 0
       1 UInt8 HasInitialFocus = 0
       1 UInt8 HasInitialFocus_UxmlAttributeFlags = 0
+      0 EventList RightClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 EventList LeftClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 AssetReferenceT`1 RowTemplate
+       1 string m_AssetGUID = "bc6b9fc730e9431488ec9a0f76587bf1"
+       1 string m_SubObjectName = ""
+       1 string m_SubObjectType = ""
       0 DataDrivenVisualRunnerConfig`2 BindChoicesFunction
        1 UInt8 m_isAssigned = 1
        0 AssetReferenceT`1 m_target
@@ -23279,107 +23321,96 @@
          1 vector m_argumentBytes
           1 Array Array (0 items)
            0 int size = 0
+      0 EventList SelectionEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
       0 SIInputActionReference InputActionRef
        0 AssetReferenceT`1 m_inputActionAsset
         1 string m_AssetGUID = ""
         1 string m_SubObjectName = ""
         1 string m_SubObjectType = ""
        1 string m_actionID = ""
-      0 EventList LeftClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 AssetReferenceT`1 RowTemplate
-       1 string m_AssetGUID = "bc6b9fc730e9431488ec9a0f76587bf1"
-       1 string m_SubObjectName = ""
-       1 string m_SubObjectType = ""
-      0 EventList SelectionEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 EventList RightClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 BindingPath SelectedHistoryGroupNameBinding
-       1 string m_path = ""
-      1 UInt8 ScrollToSelection = 0
-      1 UInt8 AlternateRows = 0
-      1 UInt8 AlwaysUpdateInternalSelection = 1
-      1 UInt8 PreviewVisibilityToggle = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
       1 UInt8 ForceRefreshOnNewChoices = 0
       1 UInt8 ShowSearchResults = 0
+      1 UInt8 PreviewVisibilityToggle = 0
       1 UInt8 ShouldHideIfNoItems = 0
-      1 UInt8 AllowsQuickChangeShortcut = 0
+      1 UInt8 AlwaysUpdateInternalSelection = 1
       1 UInt8 UseRowTemplateToShowSelectedValue = 0
       1 UInt8 TriggerSelectionEventOnInit = 0
+      1 UInt8 AlternateRows = 0
       1 UInt8 HideOnSelectionChange = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange = 0
       1 UInt8 DynamicElements = 0
-      1 UInt8 SelectingSameItemDeselects = 0
       1 UInt8 HideOnFocusLoss = 0
+      0 int ShortcutIconPlacement = 0
+      1 UInt8 ScrollToSelection = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      1 UInt8 AllowsQuickChangeShortcut = 0
+      0 int ChildDropdownArrowDirection = 0
+      0 int DropdownControl = 1
+      0 BindingPath ScrollToSelectionBinding
+       1 string m_path = ""
       0 BindingPath SearchValueBinding
        1 string m_path = ""
       0 BindingPath CanSelectNextBinding
        1 string m_path = ""
-      0 int ChildDropdownArrowDirection = 0
-      0 SInt64 HoverDelayMs = 0
-      0 int DropdownControl = 1
-      1 string DropdownArrowUSSClass = "ui-concepts-chevron-down_medium"
-      1 string PopupClass = ""
-      1 string RowParamName = ""
       0 BindingPath CanSelectPreviousBinding
        1 string m_path = ""
-      1 string AnchorParentName = ""
-      0 int AnchorStyle = 0
-      0 int Anchor = 0
-      1 string MigrateSelectionEvent = ""
       1 UInt8 SetSelectedValueToSearch = 0
-      0 int ShortcutIconPlacement = 0
+      1 UInt8 SelectingSameItemDeselects = 0
+      0 SInt64 HoverDelayMs = 0
+      0 BindingPath SelectedHistoryGroupNameBinding
+       1 string m_path = ""
+      0 int Anchor = 0
+      0 int AnchorStyle = 0
+      1 string AnchorParentName = ""
+      1 string RowParamName = ""
+      1 string PopupClass = ""
+      1 string DropdownArrowUSSClass = "ui-concepts-chevron-down_medium"
+      1 string MigrateSelectionEvent = ""
       0 BindingPath SelectionValueBinding
        1 string m_path = "tactic.MentalityDropdown"
-      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
-      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
+      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
       1 UInt8 LeftClickEvents_UxmlAttributeFlags = 0
       1 UInt8 RowTemplate_UxmlAttributeFlags = 1
+      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
       1 UInt8 SelectionEvents_UxmlAttributeFlags = 0
-      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
-      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
-      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
-      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
-      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 1
-      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
       1 UInt8 ForceRefreshOnNewChoices_UxmlAttributeFlags = 0
       1 UInt8 ShowSearchResults_UxmlAttributeFlags = 0
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
       1 UInt8 ShouldHideIfNoItems_UxmlAttributeFlags = 0
-      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 1
+      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 1
       1 UInt8 UseRowTemplateToShowSelectedValue_UxmlAttributeFlags = 0
       1 UInt8 TriggerSelectionEventOnInit_UxmlAttributeFlags = 0
+      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
       1 UInt8 HideOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 DynamicElements_UxmlAttributeFlags = 0
-      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
       1 UInt8 HideOnFocusLoss_UxmlAttributeFlags = 0
+      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 1
+      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
+      1 UInt8 DropdownControl_UxmlAttributeFlags = 1
+      1 UInt8 ScrollToSelectionBinding_UxmlAttributeFlags = 0
       1 UInt8 SearchValueBinding_UxmlAttributeFlags = 0
       1 UInt8 CanSelectNextBinding_UxmlAttributeFlags = 0
-      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
-      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
-      1 UInt8 DropdownControl_UxmlAttributeFlags = 1
-      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 1
-      1 UInt8 PopupClass_UxmlAttributeFlags = 0
-      1 UInt8 RowParamName_UxmlAttributeFlags = 0
       1 UInt8 CanSelectPreviousBinding_UxmlAttributeFlags = 0
-      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
-      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
-      1 UInt8 Anchor_UxmlAttributeFlags = 0
-      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SetSelectedValueToSearch_UxmlAttributeFlags = 0
-      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
+      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
+      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
+      1 UInt8 Anchor_UxmlAttributeFlags = 0
+      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
+      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
+      1 UInt8 RowParamName_UxmlAttributeFlags = 0
+      1 UInt8 PopupClass_UxmlAttributeFlags = 0
+      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 1
+      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SelectionValueBinding_UxmlAttributeFlags = 1
     0 ReferencedObject data
      0 SInt64 rid = 1094
@@ -23388,7 +23419,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -959736561
+      0 int uxmlAssetId = 678707434
       1 string name = "familiarity"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -23434,7 +23465,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -253275102
+      0 int uxmlAssetId = -467263050
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -23485,7 +23516,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -803608224
+      0 int uxmlAssetId = -1017596172
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -23751,7 +23782,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1970224777
+      0 int uxmlAssetId = 1756236829
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -23844,7 +23875,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 899848439
+      0 int uxmlAssetId = 685860491
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -24677,7 +24708,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1814096440
+      0 int uxmlAssetId = -842426861
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -24723,7 +24754,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1474664739
+      0 int uxmlAssetId = -697694516
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -25638,7 +25669,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1493241721
+      0 int uxmlAssetId = 145202274
       1 string name = "intensity"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -25684,7 +25715,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -253275102
+      0 int uxmlAssetId = -467263050
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -25735,7 +25766,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 366343279
+      0 int uxmlAssetId = 152355331
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -26048,7 +26079,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -803608224
+      0 int uxmlAssetId = -1017596172
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -26314,7 +26345,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1970224777
+      0 int uxmlAssetId = 1756236829
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -26961,7 +26992,7 @@
       1 string ns = "SI.Bindable"
       1 string asm = "SI.Bindable"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 899848439
+      0 int uxmlAssetId = 685860491
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -27774,7 +27805,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -54854629
+      0 int uxmlAssetId = 1583589366
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -27820,7 +27851,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -64959067
+      0 int uxmlAssetId = 1573484928
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -27866,7 +27897,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -1596199928
+      0 int uxmlAssetId = 42244067
       1 string name = "TemplateContainer"
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -27945,6 +27976,20 @@
       1 UInt8 bindings_UxmlAttributeFlags = 0
       1 UInt8 HasInitialFocus = 0
       1 UInt8 HasInitialFocus_UxmlAttributeFlags = 0
+      0 EventList RightClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 EventList LeftClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 AssetReferenceT`1 RowTemplate
+       1 string m_AssetGUID = "213c4674ba0020549b2ed7c20b9c754f"
+       1 string m_SubObjectName = ""
+       1 string m_SubObjectType = ""
       0 DataDrivenVisualRunnerConfig`2 BindChoicesFunction
        1 UInt8 m_isAssigned = 1
        0 AssetReferenceT`1 m_target
@@ -28225,21 +28270,6 @@
          1 vector m_argumentBytes
           1 Array Array (0 items)
            0 int size = 0
-      0 SIInputActionReference InputActionRef
-       0 AssetReferenceT`1 m_inputActionAsset
-        1 string m_AssetGUID = ""
-        1 string m_SubObjectName = ""
-        1 string m_SubObjectType = ""
-       1 string m_actionID = ""
-      0 EventList LeftClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 AssetReferenceT`1 RowTemplate
-       1 string m_AssetGUID = "213c4674ba0020549b2ed7c20b9c754f"
-       1 string m_SubObjectName = ""
-       1 string m_SubObjectType = ""
       0 EventList SelectionEvents
        1 string m_serializedEvents = ""
        1 vector m_bytes
@@ -28495,87 +28525,91 @@
           0 UInt8 data = 188
          [124]
           0 UInt8 data = 188
-      0 EventList RightClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 BindingPath SelectedHistoryGroupNameBinding
-       1 string m_path = ""
-      1 UInt8 ScrollToSelection = 0
-      1 UInt8 AlternateRows = 0
-      1 UInt8 AlwaysUpdateInternalSelection = 0
-      1 UInt8 PreviewVisibilityToggle = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      0 SIInputActionReference InputActionRef
+       0 AssetReferenceT`1 m_inputActionAsset
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       1 string m_actionID = ""
       1 UInt8 ForceRefreshOnNewChoices = 0
       1 UInt8 ShowSearchResults = 0
+      1 UInt8 PreviewVisibilityToggle = 0
       1 UInt8 ShouldHideIfNoItems = 0
-      1 UInt8 AllowsQuickChangeShortcut = 0
+      1 UInt8 AlwaysUpdateInternalSelection = 0
       1 UInt8 UseRowTemplateToShowSelectedValue = 0
       1 UInt8 TriggerSelectionEventOnInit = 0
+      1 UInt8 AlternateRows = 0
       1 UInt8 HideOnSelectionChange = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange = 0
       1 UInt8 DynamicElements = 0
-      1 UInt8 SelectingSameItemDeselects = 0
       1 UInt8 HideOnFocusLoss = 0
+      0 int ShortcutIconPlacement = 0
+      1 UInt8 ScrollToSelection = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      1 UInt8 AllowsQuickChangeShortcut = 0
+      0 int ChildDropdownArrowDirection = 0
+      0 int DropdownControl = 0
+      0 BindingPath ScrollToSelectionBinding
+       1 string m_path = ""
       0 BindingPath SearchValueBinding
        1 string m_path = ""
       0 BindingPath CanSelectNextBinding
        1 string m_path = ""
-      0 int ChildDropdownArrowDirection = 0
-      0 SInt64 HoverDelayMs = 0
-      0 int DropdownControl = 0
-      1 string DropdownArrowUSSClass = ""
-      1 string PopupClass = "tactics-advice-dropdown-item"
-      1 string RowParamName = "adviceoption"
       0 BindingPath CanSelectPreviousBinding
        1 string m_path = ""
-      1 string AnchorParentName = ""
-      0 int AnchorStyle = 0
-      0 int Anchor = 4
-      1 string MigrateSelectionEvent = ""
       1 UInt8 SetSelectedValueToSearch = 0
-      0 int ShortcutIconPlacement = 0
+      1 UInt8 SelectingSameItemDeselects = 0
+      0 SInt64 HoverDelayMs = 0
+      0 BindingPath SelectedHistoryGroupNameBinding
+       1 string m_path = ""
+      0 int Anchor = 4
+      0 int AnchorStyle = 0
+      1 string AnchorParentName = ""
+      1 string RowParamName = "adviceoption"
+      1 string PopupClass = "tactics-advice-dropdown-item"
+      1 string DropdownArrowUSSClass = ""
+      1 string MigrateSelectionEvent = ""
       0 BindingPath SelectionValueBinding
        1 string m_path = "selectedoption"
-      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
-      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
+      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
       1 UInt8 LeftClickEvents_UxmlAttributeFlags = 0
       1 UInt8 RowTemplate_UxmlAttributeFlags = 1
+      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
       1 UInt8 SelectionEvents_UxmlAttributeFlags = 1
-      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
-      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
-      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
-      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
-      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 0
-      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
       1 UInt8 ForceRefreshOnNewChoices_UxmlAttributeFlags = 0
       1 UInt8 ShowSearchResults_UxmlAttributeFlags = 0
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
       1 UInt8 ShouldHideIfNoItems_UxmlAttributeFlags = 0
-      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 1
+      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 0
       1 UInt8 UseRowTemplateToShowSelectedValue_UxmlAttributeFlags = 0
       1 UInt8 TriggerSelectionEventOnInit_UxmlAttributeFlags = 0
+      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
       1 UInt8 HideOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 DynamicElements_UxmlAttributeFlags = 0
-      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
       1 UInt8 HideOnFocusLoss_UxmlAttributeFlags = 0
+      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 1
+      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
+      1 UInt8 DropdownControl_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelectionBinding_UxmlAttributeFlags = 0
       1 UInt8 SearchValueBinding_UxmlAttributeFlags = 0
       1 UInt8 CanSelectNextBinding_UxmlAttributeFlags = 0
-      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
-      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
-      1 UInt8 DropdownControl_UxmlAttributeFlags = 0
-      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 0
-      1 UInt8 PopupClass_UxmlAttributeFlags = 1
-      1 UInt8 RowParamName_UxmlAttributeFlags = 1
       1 UInt8 CanSelectPreviousBinding_UxmlAttributeFlags = 0
-      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
-      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
-      1 UInt8 Anchor_UxmlAttributeFlags = 1
-      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SetSelectedValueToSearch_UxmlAttributeFlags = 0
-      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
+      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
+      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
+      1 UInt8 Anchor_UxmlAttributeFlags = 1
+      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
+      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
+      1 UInt8 RowParamName_UxmlAttributeFlags = 1
+      1 UInt8 PopupClass_UxmlAttributeFlags = 1
+      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 0
+      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SelectionValueBinding_UxmlAttributeFlags = 1
     0 ReferencedObject data
      0 SInt64 rid = 1112
@@ -29300,7 +29334,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = 1177633073
+      0 int uxmlAssetId = -1478890228
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -29379,6 +29413,20 @@
       1 UInt8 bindings_UxmlAttributeFlags = 0
       1 UInt8 HasInitialFocus = 0
       1 UInt8 HasInitialFocus_UxmlAttributeFlags = 0
+      0 EventList RightClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 EventList LeftClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 AssetReferenceT`1 RowTemplate
+       1 string m_AssetGUID = "213c4674ba0020549b2ed7c20b9c754f"
+       1 string m_SubObjectName = ""
+       1 string m_SubObjectType = ""
       0 DataDrivenVisualRunnerConfig`2 BindChoicesFunction
        1 UInt8 m_isAssigned = 1
        0 AssetReferenceT`1 m_target
@@ -29659,21 +29707,6 @@
          1 vector m_argumentBytes
           1 Array Array (0 items)
            0 int size = 0
-      0 SIInputActionReference InputActionRef
-       0 AssetReferenceT`1 m_inputActionAsset
-        1 string m_AssetGUID = ""
-        1 string m_SubObjectName = ""
-        1 string m_SubObjectType = ""
-       1 string m_actionID = ""
-      0 EventList LeftClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 AssetReferenceT`1 RowTemplate
-       1 string m_AssetGUID = "213c4674ba0020549b2ed7c20b9c754f"
-       1 string m_SubObjectName = ""
-       1 string m_SubObjectType = ""
       0 EventList SelectionEvents
        1 string m_serializedEvents = ""
        1 vector m_bytes
@@ -29929,87 +29962,91 @@
           0 UInt8 data = 188
          [124]
           0 UInt8 data = 188
-      0 EventList RightClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 BindingPath SelectedHistoryGroupNameBinding
-       1 string m_path = ""
-      1 UInt8 ScrollToSelection = 0
-      1 UInt8 AlternateRows = 0
-      1 UInt8 AlwaysUpdateInternalSelection = 0
-      1 UInt8 PreviewVisibilityToggle = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      0 SIInputActionReference InputActionRef
+       0 AssetReferenceT`1 m_inputActionAsset
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       1 string m_actionID = ""
       1 UInt8 ForceRefreshOnNewChoices = 0
       1 UInt8 ShowSearchResults = 0
+      1 UInt8 PreviewVisibilityToggle = 0
       1 UInt8 ShouldHideIfNoItems = 0
-      1 UInt8 AllowsQuickChangeShortcut = 0
+      1 UInt8 AlwaysUpdateInternalSelection = 0
       1 UInt8 UseRowTemplateToShowSelectedValue = 0
       1 UInt8 TriggerSelectionEventOnInit = 0
+      1 UInt8 AlternateRows = 0
       1 UInt8 HideOnSelectionChange = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange = 0
       1 UInt8 DynamicElements = 0
-      1 UInt8 SelectingSameItemDeselects = 0
       1 UInt8 HideOnFocusLoss = 0
+      0 int ShortcutIconPlacement = 0
+      1 UInt8 ScrollToSelection = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      1 UInt8 AllowsQuickChangeShortcut = 0
+      0 int ChildDropdownArrowDirection = 0
+      0 int DropdownControl = 0
+      0 BindingPath ScrollToSelectionBinding
+       1 string m_path = ""
       0 BindingPath SearchValueBinding
        1 string m_path = ""
       0 BindingPath CanSelectNextBinding
        1 string m_path = ""
-      0 int ChildDropdownArrowDirection = 0
-      0 SInt64 HoverDelayMs = 0
-      0 int DropdownControl = 0
-      1 string DropdownArrowUSSClass = ""
-      1 string PopupClass = "tactics-advice-dropdown-item"
-      1 string RowParamName = "adviceoption"
       0 BindingPath CanSelectPreviousBinding
        1 string m_path = ""
-      1 string AnchorParentName = ""
-      0 int AnchorStyle = 0
-      0 int Anchor = 4
-      1 string MigrateSelectionEvent = ""
       1 UInt8 SetSelectedValueToSearch = 0
-      0 int ShortcutIconPlacement = 0
+      1 UInt8 SelectingSameItemDeselects = 0
+      0 SInt64 HoverDelayMs = 0
+      0 BindingPath SelectedHistoryGroupNameBinding
+       1 string m_path = ""
+      0 int Anchor = 4
+      0 int AnchorStyle = 0
+      1 string AnchorParentName = ""
+      1 string RowParamName = "adviceoption"
+      1 string PopupClass = "tactics-advice-dropdown-item"
+      1 string DropdownArrowUSSClass = ""
+      1 string MigrateSelectionEvent = ""
       0 BindingPath SelectionValueBinding
        1 string m_path = "selectedoption"
-      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
-      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
+      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
       1 UInt8 LeftClickEvents_UxmlAttributeFlags = 0
       1 UInt8 RowTemplate_UxmlAttributeFlags = 1
+      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
       1 UInt8 SelectionEvents_UxmlAttributeFlags = 1
-      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
-      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
-      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
-      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
-      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 0
-      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
       1 UInt8 ForceRefreshOnNewChoices_UxmlAttributeFlags = 0
       1 UInt8 ShowSearchResults_UxmlAttributeFlags = 0
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
       1 UInt8 ShouldHideIfNoItems_UxmlAttributeFlags = 0
-      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 1
+      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 0
       1 UInt8 UseRowTemplateToShowSelectedValue_UxmlAttributeFlags = 0
       1 UInt8 TriggerSelectionEventOnInit_UxmlAttributeFlags = 0
+      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
       1 UInt8 HideOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 DynamicElements_UxmlAttributeFlags = 0
-      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
       1 UInt8 HideOnFocusLoss_UxmlAttributeFlags = 0
+      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 1
+      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
+      1 UInt8 DropdownControl_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelectionBinding_UxmlAttributeFlags = 0
       1 UInt8 SearchValueBinding_UxmlAttributeFlags = 0
       1 UInt8 CanSelectNextBinding_UxmlAttributeFlags = 0
-      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
-      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
-      1 UInt8 DropdownControl_UxmlAttributeFlags = 0
-      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 0
-      1 UInt8 PopupClass_UxmlAttributeFlags = 1
-      1 UInt8 RowParamName_UxmlAttributeFlags = 1
       1 UInt8 CanSelectPreviousBinding_UxmlAttributeFlags = 0
-      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
-      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
-      1 UInt8 Anchor_UxmlAttributeFlags = 1
-      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SetSelectedValueToSearch_UxmlAttributeFlags = 0
-      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
+      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
+      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
+      1 UInt8 Anchor_UxmlAttributeFlags = 1
+      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
+      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
+      1 UInt8 RowParamName_UxmlAttributeFlags = 1
+      1 UInt8 PopupClass_UxmlAttributeFlags = 1
+      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 0
+      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SelectionValueBinding_UxmlAttributeFlags = 1
     0 ReferencedObject data
      0 SInt64 rid = 1117
@@ -30468,7 +30505,7 @@
       1 string ns = "UnityEngine.UIElements"
       1 string asm = "UnityEngine.UIElementsModule"
      0 ReferencedObjectData data
-      0 int uxmlAssetId = -161176726
+      0 int uxmlAssetId = 1477267269
       1 string name = ""
       0 UxmlSerializedData bindings
        0 Array Array (0 items)
@@ -30547,6 +30584,20 @@
       1 UInt8 bindings_UxmlAttributeFlags = 0
       1 UInt8 HasInitialFocus = 0
       1 UInt8 HasInitialFocus_UxmlAttributeFlags = 0
+      0 EventList RightClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 EventList LeftClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 AssetReferenceT`1 RowTemplate
+       1 string m_AssetGUID = "e91817d60ab356b49ba23c38ed67f75b"
+       1 string m_SubObjectName = ""
+       1 string m_SubObjectType = ""
       0 DataDrivenVisualRunnerConfig`2 BindChoicesFunction
        1 UInt8 m_isAssigned = 1
        0 AssetReferenceT`1 m_target
@@ -30845,21 +30896,6 @@
          1 vector m_argumentBytes
           1 Array Array (0 items)
            0 int size = 0
-      0 SIInputActionReference InputActionRef
-       0 AssetReferenceT`1 m_inputActionAsset
-        1 string m_AssetGUID = ""
-        1 string m_SubObjectName = ""
-        1 string m_SubObjectType = ""
-       1 string m_actionID = ""
-      0 EventList LeftClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 AssetReferenceT`1 RowTemplate
-       1 string m_AssetGUID = "e91817d60ab356b49ba23c38ed67f75b"
-       1 string m_SubObjectName = ""
-       1 string m_SubObjectType = ""
       0 EventList SelectionEvents
        1 string m_serializedEvents = ""
        1 vector m_bytes
@@ -31903,85 +31939,89 @@
           0 UInt8 data = 188
          [518]
           0 UInt8 data = 188
-      0 EventList RightClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 BindingPath SelectedHistoryGroupNameBinding
-       1 string m_path = ""
-      1 UInt8 ScrollToSelection = 0
-      1 UInt8 AlternateRows = 0
-      1 UInt8 AlwaysUpdateInternalSelection = 1
-      1 UInt8 PreviewVisibilityToggle = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      0 SIInputActionReference InputActionRef
+       0 AssetReferenceT`1 m_inputActionAsset
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       1 string m_actionID = ""
       1 UInt8 ForceRefreshOnNewChoices = 0
       1 UInt8 ShowSearchResults = 0
+      1 UInt8 PreviewVisibilityToggle = 0
       1 UInt8 ShouldHideIfNoItems = 0
-      1 UInt8 AllowsQuickChangeShortcut = 0
+      1 UInt8 AlwaysUpdateInternalSelection = 1
       1 UInt8 UseRowTemplateToShowSelectedValue = 0
       1 UInt8 TriggerSelectionEventOnInit = 0
+      1 UInt8 AlternateRows = 0
       1 UInt8 HideOnSelectionChange = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange = 0
       1 UInt8 DynamicElements = 0
-      1 UInt8 SelectingSameItemDeselects = 0
       1 UInt8 HideOnFocusLoss = 0
+      0 int ShortcutIconPlacement = 0
+      1 UInt8 ScrollToSelection = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      1 UInt8 AllowsQuickChangeShortcut = 0
+      0 int ChildDropdownArrowDirection = 0
+      0 int DropdownControl = 0
+      0 BindingPath ScrollToSelectionBinding
+       1 string m_path = ""
       0 BindingPath SearchValueBinding
        1 string m_path = ""
       0 BindingPath CanSelectNextBinding
        1 string m_path = ""
-      0 int ChildDropdownArrowDirection = 0
-      0 SInt64 HoverDelayMs = 0
-      0 int DropdownControl = 0
-      1 string DropdownArrowUSSClass = "ui-concepts-chevron-down_small"
-      1 string PopupClass = ""
-      1 string RowParamName = "action"
       0 BindingPath CanSelectPreviousBinding
        1 string m_path = ""
-      1 string AnchorParentName = ""
-      0 int AnchorStyle = 0
-      0 int Anchor = 3
-      1 string MigrateSelectionEvent = ""
       1 UInt8 SetSelectedValueToSearch = 0
-      0 int ShortcutIconPlacement = 0
+      1 UInt8 SelectingSameItemDeselects = 0
+      0 SInt64 HoverDelayMs = 0
+      0 BindingPath SelectedHistoryGroupNameBinding
+       1 string m_path = ""
+      0 int Anchor = 3
+      0 int AnchorStyle = 0
+      1 string AnchorParentName = ""
+      1 string RowParamName = "action"
+      1 string PopupClass = ""
+      1 string DropdownArrowUSSClass = "ui-concepts-chevron-down_small"
+      1 string MigrateSelectionEvent = ""
       0 BindingPath SelectionValueBinding
        1 string m_path = "selectedaction"
-      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
-      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
+      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
       1 UInt8 LeftClickEvents_UxmlAttributeFlags = 0
       1 UInt8 RowTemplate_UxmlAttributeFlags = 1
+      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
       1 UInt8 SelectionEvents_UxmlAttributeFlags = 1
-      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
-      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
-      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
-      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
-      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 1
-      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
       1 UInt8 ForceRefreshOnNewChoices_UxmlAttributeFlags = 0
       1 UInt8 ShowSearchResults_UxmlAttributeFlags = 0
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
       1 UInt8 ShouldHideIfNoItems_UxmlAttributeFlags = 0
-      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 1
       1 UInt8 UseRowTemplateToShowSelectedValue_UxmlAttributeFlags = 0
       1 UInt8 TriggerSelectionEventOnInit_UxmlAttributeFlags = 0
+      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
       1 UInt8 HideOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 DynamicElements_UxmlAttributeFlags = 0
-      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
       1 UInt8 HideOnFocusLoss_UxmlAttributeFlags = 0
+      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 0
+      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
+      1 UInt8 DropdownControl_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelectionBinding_UxmlAttributeFlags = 0
       1 UInt8 SearchValueBinding_UxmlAttributeFlags = 0
       1 UInt8 CanSelectNextBinding_UxmlAttributeFlags = 0
-      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 0
-      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
-      1 UInt8 DropdownControl_UxmlAttributeFlags = 0
-      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 1
-      1 UInt8 PopupClass_UxmlAttributeFlags = 0
-      1 UInt8 RowParamName_UxmlAttributeFlags = 1
       1 UInt8 CanSelectPreviousBinding_UxmlAttributeFlags = 0
-      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
-      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
-      1 UInt8 Anchor_UxmlAttributeFlags = 1
-      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SetSelectedValueToSearch_UxmlAttributeFlags = 0
-      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
+      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
+      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
+      1 UInt8 Anchor_UxmlAttributeFlags = 1
+      1 UInt8 AnchorStyle_UxmlAttributeFlags = 0
+      1 UInt8 AnchorParentName_UxmlAttributeFlags = 0
+      1 UInt8 RowParamName_UxmlAttributeFlags = 1
+      1 UInt8 PopupClass_UxmlAttributeFlags = 0
+      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 1
+      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SelectionValueBinding_UxmlAttributeFlags = 1
