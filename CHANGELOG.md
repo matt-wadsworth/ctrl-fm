@@ -6,6 +6,7 @@ All notable changes to the CTRL skin are documented here.
 
 ### Added
 
+- **Support for update 26.2** - Updated and fixed any related issues.
 - **Job Market** - Changed the screen layout to show more of the main table.
 
 ### Changed
