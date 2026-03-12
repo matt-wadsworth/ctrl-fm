@@ -32,6 +32,10 @@ If you downloaded a **Bundles (WIN)** or **Bundles (MAC)** release:
 
 Known bugs, planned changes and improvement ideas are tracked on the public **[Trello board](https://trello.com/b/5BB8Gpe3/ctrl-26)**. You can check it for current issues, see what’s in the pipeline, or get an idea of what might be fixed in future updates.
 
+### 💖 Support FM Skin Builder
+
+If you’d like to support ongoing development of **FM Skin Builder** and help cover hosting, tooling and research time, you can do so via **[Ko‑fi](https://ko-fi.com/lotsgon)**. The builder will remain free to use — contributions simply help keep the project online, stable and improving over time.
+
 ### 🙏 Thanks to...
 
 **lotsgon**, **Darkside**, **(sic)**, **MrTini23** and everyone else working to improve the FM skinning experience.
