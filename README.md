@@ -1,5 +1,3 @@
-<p align="center"><strong>🚧 Work in progress – expect bugs or visual issues in game. 🚧</strong></p>
-
 <p align="center">
   <img src="_assets/hero.jpg" alt="CTRL" height="480" />
 </p>
@@ -26,11 +24,11 @@ If you downloaded a **Bundles (WIN)** or **Bundles (MAC)** release:
 1. **Extract** the bundle files into your game installation folder (replace the existing files when prompted).
 2. **Windows (Steam):** Default folder is
    `C:\Program Files (x86)\Steam\steamapps\common\Football Manager 26\fm_Data\StreamingAssets\aa\StandaloneWindows64`
-3. **macOS:** Right-click the **Football Manager** app → **Show Package Contents**, then navigate to the bundles folder using a similar path structure as above (`Content` → `Resources` → `Data` → `StreamingAssets` → `aa` → `StandaloneOSX`). -->
+3. **macOS:** Right-click the **Football Manager** app → **Show Package Contents**, then navigate to the bundles folder using a similar path structure as above (`Content` → `Resources` → `Data` → `StreamingAssets` → `aa` → `StandaloneOSX`).
 
 ### 🔧 Bugs & improvements
 
-Known bugs, planned changes and improvement ideas are tracked on the public **[Trello board](https://trello.com/b/5BB8Gpe3/ctrl-26)**. You can check it for current issues, see what’s in the pipeline, or get an idea of what might be fixed in future updates.
+Known bugs, planned changes and improvement ideas are tracked on the public **[Trello board](https://trello.com/b/5BB8Gpe3/ctrl-26)**. You can check it for current issues, see what’s in the pipeline, or get an idea of what might be fixed in future updates. -->
 
 ### 💖 Support FM Skin Builder
 
