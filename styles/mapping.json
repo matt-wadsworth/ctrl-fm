@@ -1,11 +1,11 @@
 {
-  "variables.css": "FigmaStyleVariables",
-  "misc.css": ["FigmaGeneratedStyles", "StreamedObjectListStyles", "FMStyles", "FMColours", "SIStyles"],
-  "tiles.css": ["FigmaGeneratedStyles", "FMStyles"],
-  "inputs.css": ["FigmaGeneratedStyles", "TabStyles"],
-  "header.css": "FigmaGeneratedStyles",
-  "text.css": ["FigmaGeneratedTextStyles", "FigmaGeneratedStyles", "FMStyles"],
-  "match.css": "MatchUIStyles",
-  "fixes.css": "FMColours",
-  "_testing.css": ["FigmaGeneratedStyles", "FMStyles", "FMColours", "StreamedObjectListStyles", "TabStyles", "FigmaGeneratedTextStyles", "MatchUIStyles", "SIStyles"]
+  "variables.css": "AlwaysAppliedStyleSheet",
+  "misc.css": "AlwaysAppliedStyleSheet",
+  "tiles.css": "AlwaysAppliedStyleSheet",
+  "inputs.css": "AlwaysAppliedStyleSheet",
+  "header.css": "AlwaysAppliedStyleSheet",
+  "text.css": "AlwaysAppliedStyleSheet",
+  "match.css": "AlwaysAppliedStyleSheet",
+  "fixes.css": "AlwaysAppliedStyleSheet",
+  "_testing.css": "AlwaysAppliedStyleSheet"
 }
