@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+  <!-- dashboard-hud-search-button -->
+  <Template name="StandardTextTooltip" src="guid:c21ee7f2de573ca439f6d96122eb4ef5" />
+  <si:SIVisible invert-direct-binding="false" binding="kind=1; path=config.ShowLargeMainHeaderClubBadge" visibility-type="1" faded-opacity-value="4.90454462513686e-44" always-bind-children="true" style-class-on-visible="config.ShowLargeMainHeaderClubBadge">
+    <si:SIButton class="row-direction-normal searchButtonStandard" style="background-color: #10161d; align-items: center; height: 40px; margin: 0px; padding: 12px;" bindings="7237492" usage-hints="1" tab-index="1" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" trigger-hover-binding-when-focused="false" allows-inside-elements-navigation="false" has-initial-focus="false" stops-event-propagation="false" only-accepts-submit-events="false" only-accepts-click-events="false" ignore-multi-select-events="false">
+      <ui:VisualElement class="game-concepts-scouting-magnifying-glass_small" usage-hints="1" focusable="false" enabled-self="false" />
+      <si:SIVisible invert-direct-binding="false" binding="kind=1; path=config.ShowLargeMainHeaderClubBadge" visibility-type="1" faded-opacity-value="4.90454462513686e-44" always-bind-children="true" style-class-on-visible="config.ShowLargeMainHeaderClubBadge">
+        <si:SIText class="lo-res-version margin-left-global-gap-small sitext-hover-cursor" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="32277" />
+      </si:SIVisible>
+    </si:SIButton>
+  </si:SIVisible>
+  <si:SIVisible invert-direct-binding="false" binding="kind=1; path=config.ShowMainTabsIcon" visibility-type="1" faded-opacity-value="3.2229864679470793e-44" always-bind-children="true" style-class-on-visible="config.ShowMainTabsIcon">
+    <si:SIButton class="row-direction-normal searchButtonMin-res" bindings="7237492" usage-hints="1" tab-index="1" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" trigger-hover-binding-when-focused="false" allows-inside-elements-navigation="false" has-initial-focus="false" stops-event-propagation="false" only-accepts-submit-events="false" only-accepts-click-events="false" ignore-multi-select-events="false">
+      <ui:Instance template="StandardTextTooltip" />
+      <ui:VisualElement class="game-concepts-scouting-magnifying-glass_small" usage-hints="1" focusable="false" enabled-self="false" />
+    </si:SIButton>
+  </si:SIVisible>
+</ui:UXML>

@@ -61,7 +61,7 @@
 .navigation-global-diagetic-button:hover .sibutton {
   background-color: #1c252f;
 }
-/* Search Button - BG change and alignment fixes */
+/* Search Button - BG change and alignment fixes
 .searchButtonStandard {
   background-color: #10161d;
   align-items: center;
@@ -72,7 +72,7 @@
 .searchButtonStandard:hover {
   background-color: #1c252f;
 }
-
+ */
 /* ---- Calendar Button ---- */
 /* Base */
 .navigation-main-calendar-button-default {
