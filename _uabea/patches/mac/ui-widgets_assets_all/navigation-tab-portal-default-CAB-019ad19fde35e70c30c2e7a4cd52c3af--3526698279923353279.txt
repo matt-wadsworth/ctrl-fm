@@ -334,12 +334,10 @@
      1 string m_Text = ""
      0 int m_PickingMode = 0
      0 vector m_Classes
-      1 Array Array (2 items)
-       0 int size = 2
+      1 Array Array (1 items)
+       0 int size = 1
        [0]
         1 string data = "portal-image"
-       [1]
-        1 string data = "margin-right-global-gap-small"
      0 vector m_StylesheetPaths
       1 Array Array (0 items)
        0 int size = 0
@@ -3342,6 +3340,20 @@
       1 UInt8 bindings_UxmlAttributeFlags = 0
       1 UInt8 HasInitialFocus = 0
       1 UInt8 HasInitialFocus_UxmlAttributeFlags = 0
+      0 EventList RightClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 EventList LeftClickEvents
+       1 string m_serializedEvents = ""
+       1 vector m_bytes
+        1 Array Array (0 items)
+         0 int size = 0
+      0 AssetReferenceT`1 RowTemplate
+       1 string m_AssetGUID = "b21e2c4e16ed17b4fb294c1466bea37d"
+       1 string m_SubObjectName = ""
+       1 string m_SubObjectType = ""
       0 DataDrivenVisualRunnerConfig`2 BindChoicesFunction
        1 UInt8 m_isAssigned = 1
        0 AssetReferenceT`1 m_target
@@ -3674,21 +3686,6 @@
          1 vector m_argumentBytes
           1 Array Array (0 items)
            0 int size = 0
-      0 SIInputActionReference InputActionRef
-       0 AssetReferenceT`1 m_inputActionAsset
-        1 string m_AssetGUID = ""
-        1 string m_SubObjectName = ""
-        1 string m_SubObjectType = ""
-       1 string m_actionID = ""
-      0 EventList LeftClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 AssetReferenceT`1 RowTemplate
-       1 string m_AssetGUID = "b21e2c4e16ed17b4fb294c1466bea37d"
-       1 string m_SubObjectName = ""
-       1 string m_SubObjectType = ""
       0 EventList SelectionEvents
        1 string m_serializedEvents = ""
        1 vector m_bytes
@@ -3914,87 +3911,91 @@
           0 UInt8 data = 188
          [109]
           0 UInt8 data = 188
-      0 EventList RightClickEvents
-       1 string m_serializedEvents = ""
-       1 vector m_bytes
-        1 Array Array (0 items)
-         0 int size = 0
-      0 BindingPath SelectedHistoryGroupNameBinding
-       1 string m_path = ""
-      1 UInt8 ScrollToSelection = 0
-      1 UInt8 AlternateRows = 0
-      1 UInt8 AlwaysUpdateInternalSelection = 0
-      1 UInt8 PreviewVisibilityToggle = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      0 SIInputActionReference InputActionRef
+       0 AssetReferenceT`1 m_inputActionAsset
+        1 string m_AssetGUID = ""
+        1 string m_SubObjectName = ""
+        1 string m_SubObjectType = ""
+       1 string m_actionID = ""
       1 UInt8 ForceRefreshOnNewChoices = 0
       1 UInt8 ShowSearchResults = 0
+      1 UInt8 PreviewVisibilityToggle = 0
       1 UInt8 ShouldHideIfNoItems = 0
-      1 UInt8 AllowsQuickChangeShortcut = 0
+      1 UInt8 AlwaysUpdateInternalSelection = 0
       1 UInt8 UseRowTemplateToShowSelectedValue = 0
       1 UInt8 TriggerSelectionEventOnInit = 0
+      1 UInt8 AlternateRows = 0
       1 UInt8 HideOnSelectionChange = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange = 0
       1 UInt8 DynamicElements = 0
-      1 UInt8 SelectingSameItemDeselects = 0
       1 UInt8 HideOnFocusLoss = 0
+      0 int ShortcutIconPlacement = 0
+      1 UInt8 ScrollToSelection = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged = 0
+      1 UInt8 AllowsQuickChangeShortcut = 0
+      0 int ChildDropdownArrowDirection = 1
+      0 int DropdownControl = 2
+      0 BindingPath ScrollToSelectionBinding
+       1 string m_path = ""
       0 BindingPath SearchValueBinding
        1 string m_path = ""
       0 BindingPath CanSelectNextBinding
        1 string m_path = ""
-      0 int ChildDropdownArrowDirection = 1
-      0 SInt64 HoverDelayMs = 0
-      0 int DropdownControl = 2
-      1 string DropdownArrowUSSClass = ""
-      1 string PopupClass = ""
-      1 string RowParamName = "row"
       0 BindingPath CanSelectPreviousBinding
        1 string m_path = ""
-      1 string AnchorParentName = "MainFrame"
-      0 int AnchorStyle = 1
-      0 int Anchor = 3
-      1 string MigrateSelectionEvent = ""
       1 UInt8 SetSelectedValueToSearch = 0
-      0 int ShortcutIconPlacement = 0
+      1 UInt8 SelectingSameItemDeselects = 0
+      0 SInt64 HoverDelayMs = 0
+      0 BindingPath SelectedHistoryGroupNameBinding
+       1 string m_path = ""
+      0 int Anchor = 3
+      0 int AnchorStyle = 1
+      1 string AnchorParentName = "MainFrame"
+      1 string RowParamName = "row"
+      1 string PopupClass = ""
+      1 string DropdownArrowUSSClass = ""
+      1 string MigrateSelectionEvent = ""
       0 BindingPath SelectionValueBinding
        1 string m_path = "selectedSubtabElement"
-      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
-      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
+      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
       1 UInt8 LeftClickEvents_UxmlAttributeFlags = 0
       1 UInt8 RowTemplate_UxmlAttributeFlags = 1
+      1 UInt8 BindChoicesFunction_UxmlAttributeFlags = 1
       1 UInt8 SelectionEvents_UxmlAttributeFlags = 1
-      1 UInt8 RightClickEvents_UxmlAttributeFlags = 0
-      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
-      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
-      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
-      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 0
-      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
-      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 InputActionRef_UxmlAttributeFlags = 0
       1 UInt8 ForceRefreshOnNewChoices_UxmlAttributeFlags = 0
       1 UInt8 ShowSearchResults_UxmlAttributeFlags = 0
+      1 UInt8 PreviewVisibilityToggle_UxmlAttributeFlags = 0
       1 UInt8 ShouldHideIfNoItems_UxmlAttributeFlags = 0
-      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 0
+      1 UInt8 AlwaysUpdateInternalSelection_UxmlAttributeFlags = 0
       1 UInt8 UseRowTemplateToShowSelectedValue_UxmlAttributeFlags = 0
       1 UInt8 TriggerSelectionEventOnInit_UxmlAttributeFlags = 0
+      1 UInt8 AlternateRows_UxmlAttributeFlags = 0
       1 UInt8 HideOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 AddSelectedHistoryOnSelectionChange_UxmlAttributeFlags = 0
       1 UInt8 DynamicElements_UxmlAttributeFlags = 0
-      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
       1 UInt8 HideOnFocusLoss_UxmlAttributeFlags = 0
+      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 ScrollToSelection_UxmlAttributeFlags = 0
+      1 UInt8 ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags = 0
+      1 UInt8 AllowsQuickChangeShortcut_UxmlAttributeFlags = 0
+      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 1
+      1 UInt8 DropdownControl_UxmlAttributeFlags = 1
+      1 UInt8 ScrollToSelectionBinding_UxmlAttributeFlags = 0
       1 UInt8 SearchValueBinding_UxmlAttributeFlags = 0
       1 UInt8 CanSelectNextBinding_UxmlAttributeFlags = 0
-      1 UInt8 ChildDropdownArrowDirection_UxmlAttributeFlags = 1
-      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
-      1 UInt8 DropdownControl_UxmlAttributeFlags = 1
-      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 0
-      1 UInt8 PopupClass_UxmlAttributeFlags = 0
-      1 UInt8 RowParamName_UxmlAttributeFlags = 1
       1 UInt8 CanSelectPreviousBinding_UxmlAttributeFlags = 0
-      1 UInt8 AnchorParentName_UxmlAttributeFlags = 1
-      1 UInt8 AnchorStyle_UxmlAttributeFlags = 1
-      1 UInt8 Anchor_UxmlAttributeFlags = 1
-      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SetSelectedValueToSearch_UxmlAttributeFlags = 0
-      1 UInt8 ShortcutIconPlacement_UxmlAttributeFlags = 0
+      1 UInt8 SelectingSameItemDeselects_UxmlAttributeFlags = 0
+      1 UInt8 HoverDelayMs_UxmlAttributeFlags = 0
+      1 UInt8 SelectedHistoryGroupNameBinding_UxmlAttributeFlags = 0
+      1 UInt8 Anchor_UxmlAttributeFlags = 1
+      1 UInt8 AnchorStyle_UxmlAttributeFlags = 1
+      1 UInt8 AnchorParentName_UxmlAttributeFlags = 1
+      1 UInt8 RowParamName_UxmlAttributeFlags = 1
+      1 UInt8 PopupClass_UxmlAttributeFlags = 0
+      1 UInt8 DropdownArrowUSSClass_UxmlAttributeFlags = 0
+      1 UInt8 MigrateSelectionEvent_UxmlAttributeFlags = 0
       1 UInt8 SelectionValueBinding_UxmlAttributeFlags = 1
     0 ReferencedObject data
      0 SInt64 rid = 1015
