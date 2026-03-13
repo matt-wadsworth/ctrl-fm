@@ -2,19 +2,17 @@
 
 All notable changes to the CTRL skin are documented here.
 
-## [1.2] – In Progress
+## [1.2] – 13-03-2026
 
 ### Added
 
-- **Support for update 26.2** - Updated and fixed any related issues.
+- **Support for update 26.2 (March 11th)** - Updated and fixed any related issues.
 - **Job Market** - Changed the screen layout to show more of the main table.
 
 ### Changed
 
 - **Star Icons** - Reduced saturation of Gold icons.
 - **Tile Indicators** - Changed styling of current/active tile.
-
-### Fixed
 
 ---
 
