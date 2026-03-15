@@ -93,6 +93,56 @@ Use the **index of that new rule** as the SIImage's **m_RuleIndex** in navigatio
 
 ---
 
+## Scoreboard – Left Aligned
+
+### 1. In‑match scoreboard (`OverviewHeader.uxml`)
+
+**File:** ui-match_assets_all  
+**Assets:**
+
+- `OverviewHeader.uxml` – path ID **-7819803725380563227**
+- `inlineStyle`       – path ID **-2719487159082004763**
+
+#### a. inlineStyle – move scoreboard container to the left
+
+In the `inlineStyle` asset, locate **style index `[8]`** (notation `7-1` = `m_ValueType = 7`, `valueIndex = 1`):
+
+- **Rule [0]:** set `m_ValueType = 7`, `valueIndex = 1`
+- **Rule [1]:** set `m_ValueType = 7`, `valueIndex = 1`
+- **Rule [3]:**
+  - Change the property name from **`width`** to **`left`**.  
+  - Set `m_ValueType = 2`, `valueIndex = 0`
+
+These shifts move the scoreboard block towards the left edge.
+
+#### b. OverviewHeader.uxml – re‑order controls
+
+In `OverviewHeader.uxml`, update the **m_OrderInDocument** for two elements (using their existing IDs):
+
+- Element at index **[7]** → set `m_OrderInDocument` to **9**.  
+- Element at index **[19]** → set `m_OrderInDocument` to **7**.
+
+This swaps the relative order of the main scoreboard and its neighbouring control, so the scoreboard sits further left.
+
+Also on element **[7]**, in **m_Classes**, **append** the class:
+
+- `margin-right-global-gap-regular`
+
+This keeps a consistent gap between the controls and the stats/playback that follow.
+
+### 2. Pre‑match “Kick Off” scoreboard alignment (`ContinuePanel.uxml`)
+
+**File:** ui-match_assets_all  
+**Asset:** `ContinuePanel.uxml` – `inlineStyle` path ID **4016413755955533566**
+
+In the `inlineStyle` for `ContinuePanel.uxml`, find **rule `[2]`**:
+
+- Change `align-items` to `m_ValueType = 7`, `valueIndex = 5`.
+
+This aligns the “Kick Off” pre‑match scoreboard consistently with the in‑match scoreboard layout.
+
+---
+
 ## Tactics – TacticalPlannerHeader Gradient
 
 **File:** ui-tactics_assets_all.bundle  
