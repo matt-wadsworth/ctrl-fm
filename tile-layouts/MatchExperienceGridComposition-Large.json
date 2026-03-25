@@ -7,8 +7,8 @@
   "tiles": [
     {
       "tile": "MatchStatsTile_4x4",
-      "x": 8,
-      "y": 0,
+      "x": 0,
+      "y": 4,
       "w": 4,
       "h": 4,
       "isDynamic": false,
@@ -17,8 +17,8 @@
     },
     {
       "tile": "MatchEventsTile_4x4",
-      "x": 8,
-      "y": 4,
+      "x": 0,
+      "y": 0,
       "w": 4,
       "h": 4,
       "isDynamic": false,
@@ -44,7 +44,7 @@
     },
     {
       "tile": "LatestScoresTile_4x4",
-      "x": 0,
+      "x": 12,
       "y": 0,
       "w": 4,
       "h": 6,
@@ -61,7 +61,7 @@
     },
     {
       "tile": "AwayTeamFormationIPTile_4x6",
-      "x": 12,
+      "x": 8,
       "y": 0,
       "w": 4,
       "h": 6,
@@ -105,7 +105,7 @@
     },
     {
       "tile": "MatchMomentumTile_4x2",
-      "x": 12,
+      "x": 8,
       "y": 6,
       "w": 4,
       "h": 2,
@@ -115,7 +115,7 @@
     },
     {
       "tile": "DugoutTile_4x2",
-      "x": 0,
+      "x": 12,
       "y": 6,
       "w": 4,
       "h": 2,

@@ -6,5 +6,6 @@
   "header.css": "AlwaysAppliedStyleSheet",
   "text.css": "AlwaysAppliedStyleSheet",
   "fixes.css": "AlwaysAppliedStyleSheet",
-  "_testing.css": "AlwaysAppliedStyleSheet"
+  "_testing.css": "AlwaysAppliedStyleSheet",
+  "match.css": "AlwaysAppliedStyleSheet"
 }
