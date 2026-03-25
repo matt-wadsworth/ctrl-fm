@@ -2,6 +2,24 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.3] – In Progress
+
+### Changed
+
+- **Portal - Messages Tile** - Moved UABEA changes to UXML. Cleaned up tile and buttons.
+- **Match - Scoreboard** - Moved to the left of the screen. Re-aligned items affected by this.
+- **Match - Layout** - Adjusted to fit better with the left scoreboard.
+
+### Added
+
+-
+
+### Fixed
+
+- **Squad Screen** - Tidy up of the IP/OOP tabs.
+
+---
+
 ## [1.2] – 13-03-2026
 
 ### Added
