@@ -532,3 +532,9 @@
 .sitext-tooltip {
   border-color: var(--colours-alpha-light-alpha-8);
 }
+
+/* ---- Line Charts ---- */
+.silinechart {
+  --axis-colour: var(--colours-alpha-light-alpha-35);
+  --axis-width: 2px;
+}
