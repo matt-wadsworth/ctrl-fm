@@ -21,6 +21,7 @@
 .tactics-collapsable-pitch-header-button-group .buttongroup__button {
   border-width: 0px;
   background-color: var(--colours-alpha-light-alpha-14);
+  margin: 0px;
 }
 /* Picked Position Button */
 .buttons-button-tactics-picked-position {
