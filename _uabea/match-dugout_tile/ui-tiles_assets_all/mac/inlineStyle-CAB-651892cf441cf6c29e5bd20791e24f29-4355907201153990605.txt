@@ -228,7 +228,7 @@
      0 float r = 0.023529412
      0 float g = 0.050980393
      0 float b = 0.09019608
-     0 float a = 0.95
+     0 float a = 0.98039216
    [1]
     0 ColorRGBA data
      0 float r = 0.8509804
