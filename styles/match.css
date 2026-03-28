@@ -88,3 +88,20 @@
   border-width: 0px;
   background-color: #060d17f2;
 }
+
+/* ---- Squad Overview ---- */
+.squad-overview-block {
+  border-width: 1px;
+  border-color: var(--colours-alpha-light-alpha-8);
+  border-radius: 8px;
+  background-color: #060d17fa;
+}
+.squad-overview-item {
+  border-right-width: 0px;
+  border-left-width: 1px;
+  border-color: var(--colours-alpha-light-alpha-8);
+  background-color: var(--none);
+}
+.squad-overview-player-block .si-dropdown__selection-field:active {
+  background-color: var(--none);
+}
