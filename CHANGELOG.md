@@ -12,7 +12,8 @@ All notable changes to the CTRL skin are documented here.
 
 ### Added
 
--
+- **Match - Squad Panel** - Replaced Kits with Player Portraits.
+- **Tactics** - Added Player Portraits to Tactic pitch view. (thanks to TangFu)
 
 ### Fixed
 
