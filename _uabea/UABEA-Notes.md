@@ -22,16 +22,16 @@ For each item:
 
 Use these to find assets quickly in UABEA (View → Go To Asset, or search by path ID).
 
-| Bundle                      | Filename (patch)              | Path ID              | Change                                                                                                   |
-| --------------------------- | ----------------------------- | -------------------- | -------------------------------------------------------------------------------------------------------- |
-| ui-tactics_assets_all       | TacticalPlannerHeader         | -966834888143150418  | Tactics header gradient – change rid (1002 → 1001) or update gradient colours.                           |
-| ui-tiles_assets_all         | Dugout_4x8_with_collapse      | -389085435411529779  | Dugout 4x8 tile – set `base-template-grow` element `m_RuleIndex` to `6`.                                 |
-| ui-tiles_assets_all         | inlineStyle                   | 4355907201153990605  | Dugout 4x8 inline style – add background + border rule at index `6`.                                     |
-| ui-widgets_assets_all       | inlineStyle                   | -4684259242089685901 | Processing unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.                 |
-| ui-widgets_assets_all       | inlineStyle                   | -8675747941173082291 | Portal unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.                     |
-| ui-widgets_assets_all       | inlineStyle                   | 8251223908227938625  | Portal tab inline style – add new background-image tint rule + color entry.                              |
-| ui-widgets_assets_all       | navigation-tab-portal-default | -3526698279923353279 | Portal tab layout – move icon next to text, set `row-direction-normal`, assign icon tint rule index.     |
-| ui-panelids-uxml_assets_all | inlineStyle                   | 4528579247820316033  | SpeakToSidePanel - Border, Change colour[0]                                                              |
+| Bundle                      | Filename (patch)              | Path ID              | Change                                                                                               |
+| --------------------------- | ----------------------------- | -------------------- | ---------------------------------------------------------------------------------------------------- |
+| ui-tactics_assets_all       | TacticalPlannerHeader         | -966834888143150418  | Tactics header gradient – change rid (1002 → 1001) or update gradient colours.                       |
+| ui-tiles_assets_all         | Dugout_4x8_with_collapse      | -389085435411529779  | Dugout 4x8 tile – set `base-template-grow` element `m_RuleIndex` to `6`.                             |
+| ui-tiles_assets_all         | inlineStyle                   | 4355907201153990605  | Dugout 4x8 inline style – add background + border rule at index `6`.                                 |
+| ui-widgets_assets_all       | inlineStyle                   | -4684259242089685901 | Processing unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.             |
+| ui-widgets_assets_all       | inlineStyle                   | -8675747941173082291 | Portal unread indicator – tweak `Color[3]` (dot BG) and `Color[4]` (icon) as needed.                 |
+| ui-widgets_assets_all       | inlineStyle                   | 8251223908227938625  | Portal tab inline style – add new background-image tint rule + color entry.                          |
+| ui-widgets_assets_all       | navigation-tab-portal-default | -3526698279923353279 | Portal tab layout – move icon next to text, set `row-direction-normal`, assign icon tint rule index. |
+| ui-panelids-uxml_assets_all | inlineStyle                   | 4528579247820316033  | SpeakToSidePanel - Border, Change colour[0]                                                          |
 
 ---
 
@@ -115,6 +115,21 @@ This swaps the relative order of the MatchUITacticalOptions and an empty flex-gr
 Also on element **[7]**, in **m_Classes**, **add** the class - `margin-right-global-gap-regular`
 
 This adds a gap between the MatchUITacticalOptions and the stats/playback that follow.
+
+#### c. inlineStyle – Match Stats & Replay Bug positioning (SISafeAreaElement)
+
+The stats/replay block sits under a **SISafeAreaElement** whose authored style is equivalent to:
+
+`<SISafeAreaElement style="position: absolute; align-self: flex-end; top: 56px; right: 16px">`
+
+In the same **`inlineStyle`** asset (**-2719487159082004763**), open the **Dimensions** array and set:
+
+| Index   | Original (matches `top` / `right` above) | Set to | Note                                     |
+| ------- | ---------------------------------------- | ------ | ---------------------------------------- |
+| **[4]** | 56 (`top`)                               | **72** | Vertical offset for Match Stats / Replay |
+| **[5]** | 16 (`right`)                             | **26** | Inset from the right edge                |
+
+This corrects positioning when the scoreboard layout has been changed (left-aligned header / tactical options reorder).
 
 ### 2. Pre‑match “Kick Off” / Half Time / Full Time scoreboard alignment (`ContinuePanel.uxml`)
 

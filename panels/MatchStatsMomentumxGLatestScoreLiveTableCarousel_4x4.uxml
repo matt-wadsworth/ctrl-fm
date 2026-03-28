@@ -6,7 +6,7 @@
   <Template name="MatchStats_4x4" src="guid:2d544919fb4423542bab0c8fe1588f64" />
   <Template name="xGStoryTile_4x4" src="guid:50b6faeac267c6a45909cd2ed5ab384a" />
   <si:BindingExpect usage-hints="1" focusable="true" enabled-self="false">
-    <ui:VisualElement class="layout-tile-large_4x4-default--background-false height-100-percent ios-tile-background-colour" style="flex-direction: column; margin-top: 16px;margin-right: 8px;" bindings="500035838310" focusable="true" enabled-self="false">
+    <ui:VisualElement class="layout-tile-large_4x4-default--background-false height-100-percent ios-tile-background-colour" style="flex-direction: column;" bindings="500035838310" focusable="true" enabled-self="false">
       <si:BindableCarouselTileRoot style="flex-grow: 1; width: 312px; height: 312px; overflow: hidden; background-color: #060D17FA; border-radius: 12px; border-width: 1px; border-color: #D9E8ED0D;" focusable="false" enabled-self="false">
         <ui:Instance template="MatchStats_4x4" class="carousel-page" />
         <ui:Instance template="MatchMomentumTile_4x4" class="carousel-page" />
