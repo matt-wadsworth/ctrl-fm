@@ -1,0 +1,71 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+  <!-- TacticsPositionDetailed -->
+  <Template name="PlayerUnavailableStatusFlagItem" src="guid:da83e0ce29101b14b8963e209a112e6b" />
+  <Template name="PositionIndicatorDetails" src="guid:ee36959e948443b4e9c0108cfcbff5f1" />
+  <Template name="PositionIndicatorDetailsTouch" src="guid:ebe276f5fcfca1749927b4a267ffd609" />
+  <Template name="TacticsPlayerRoleMovementIcon" src="guid:310cf2258d443a944961548b9b0ab72c" />
+  <Template name="PersonPicture" src="guid:a3126e03e5bea6348ba86f23b5c5d7de" />
+  <si:BindingRoot class="tactics-position-layout" focusable="false" enabled-self="false">
+    <si:BindingRemapper focusable="false" enabled-self="false">
+      <si:BindingSetter focusable="false" enabled-self="false">
+        <si:BindingVariables focusable="false" enabled-self="false">
+          <fm:ContextShortcutsElement picking-mode="1" focusable="false" enabled-self="false" input-phase="1126" shortcut-icon-placement="16843008">
+            <fm:ContextShortcutsElement language-direction="1" focusable="false" enabled-self="false">
+              <fm:FMDraggableObject class="tactics-position__draggable" usage-hints="1" focusable="false" enabled-self="false" has-initial-focus="false" droppable="false" can-handle-drag-drop-binding="inpossession" drag-drop-data-binding="inpossession" drag-drop-key-binding="inpossession" plugin-target-binding="position.Index" draggable="true" payload-binding="position.Index">
+                <ui:VisualElement class="row-direction-normal tactics-position__shirt-and-icons" style="align-items: stretch; justify-content: flex-start; top: -50px; height: 50px" picking-mode="1" focusable="false" enabled-self="false">
+                  <si:SIVisible style="position: absolute; align-self: flex-end" invert-direct-binding="false" binding="kind=1; path=Position.IsSuggestedSub" always-bind-children="false" style-class-to-apply-on-visible="Position.IsSuggestedSub" style-class-on-visible="Position.IsSuggestedSub">
+                    <ui:VisualElement class="game-concepts-sub-on_small" focusable="false" enabled-self="false" />
+                  </si:SIVisible>
+                  <ui:VisualElement class="row-direction-normal flex-grow-class" style="justify-content: center" language-direction="1" focusable="false" enabled-self="false">
+                    <si:BindingRemapper style="align-self: flex-end; position: absolute; left: 0px; bottom: 4px" picking-mode="1" focusable="false" enabled-self="false">
+                      <ui:Instance template="TacticsPlayerRoleMovementIcon" />
+                    </si:BindingRemapper>
+                    <!-- Player Shirt -->
+                    <fm:FMTacticsShirt style="min-height: 40px; max-height: 40px; max-width: 40px; min-width: 40px; top: 16px; left: 12px;" picking-mode="1" focusable="false" enabled-self="false" outfield-kit-data-binding="tactic.CurrentKit" is-goalkeeper="tactic.CurrentKit" goalkeeper-kit-data-binding="tactic.CurrentKit" shirt-number-binding="tactic.CurrentKit" shirt-name-binding="tactic.CurrentKit" player-index-binding="tactic.UseGoalkeeperShirttactic.CurrentKitGKghostsquadnumberposition.PlayerIndexposition" has-sub-bib-binding="tactic.UseGoalkeeperShirt" is-unavailable="tactic.UseGoalkeeperShirt" shirt-number-usstype="1919250533" shirt-name-usstype="1919510611" enable-invalid-player-style="true">
+                      <si:SIVisible class="flex-grow-class" style="position: absolute; top: 0; right: 0; bottom: 0; left: 0" invert-direct-binding="false" binding="kind=1; path=config.UseFMCTactics" faded-opacity-value="1.401298464324817e-45" always-bind-children="true" style-class-on-visible="config.UseFMCTactics">
+                        <si:SIButton class="fm-tactics-shirt-button" bindings="31084793398911533" focusable="true" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" trigger-hover-binding-when-focused="false" allows-inside-elements-navigation="false" has-initial-focus="false" stops-event-propagation="false" only-accepts-submit-events="false" only-accepts-click-events="false" ignore-multi-select-events="false" bind-text-function="77c339d15a6eb4e40b75e2ce77ace433" />
+                      </si:SIVisible>
+                    </fm:FMTacticsShirt>
+                    <!-- Player Picture -->
+                    <ui:VisualElement style="width: 40px; height: 40px; position: absolute; left: 50%; margin-left: -28px; margin-top: 11px; justify-content: center; align-items: center;">
+                      <si:BindingRemapper style="width: 40px;" focusable="false" enabled-self="false" binding-mappings="person=position.Player">
+                        <ui:Instance template="PersonPicture" />
+                      </si:BindingRemapper>
+                    </ui:VisualElement>
+                    <si:SIVisible invert-direct-binding="false" binding="kind=1; path=position.matchplayer" visibility-type="1" faded-opacity-value="2.802596928649634e-44" always-bind-children="true" style-class-on-visible="position.matchplayer">
+                      <si:SIVisible invert-direct-binding="false" binding="kind=1; path=position.matchplayer.YellowCardedInMatch" always-bind-children="false" style-class-on-visible="position.matchplayer.YellowCardedInMatch">
+                        <ui:VisualElement class="game-concepts-yellow-card_small" style="align-self: center; position: absolute" focusable="false" enabled-self="false" />
+                      </si:SIVisible>
+                    </si:SIVisible>
+                    <ui:VisualElement class="tactics-statusicon_container" language-direction="1" focusable="false" enabled-self="false">
+                      <si:BindableSwitchElement class="flex-grow-class" bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=position.MatchPlayer">
+                        <si:SIVisible class="flex-grow-class flex-no-shrink-class" invert-direct-binding="false" binding="kind=1; path=bcf70dc2705d6de43a88694f2487c9f9; is_visualscript=True" visibility-type="1714698550" faded-opacity-value="1.0979407306876965e-05" always-bind-children="true">
+                          <si:BindingRemapper class="flex-grow-class" style="justify-content: center" focusable="false" enabled-self="false" binding-mappings="player=position.Player">
+                            <ui:Instance template="PlayerUnavailableStatusFlagItem" class="tactics-statusicon" />
+                          </si:BindingRemapper>
+                        </si:SIVisible>
+                        <si:SIVisible invert-direct-binding="false" binding="kind=1; path=d52cf0b2ba55c764b9ecda52092aa257; is_visualscript=True" visibility-type="2" always-bind-children="true">
+                          <si:SIImage class="margin-horizontal-global-gap-small" style="width: 16px; height: 16px; align-self: center; margin-top: 0; margin-bottom: 0" picking-mode="1" tab-index="1" focusable="false" enabled-self="false" binding="kind=1; path=a37b7d00db3ecdb4dbf4c3b70aa09c92; is_visualscript=True" />
+                        </si:SIVisible>
+                      </si:BindableSwitchElement>
+                    </ui:VisualElement>
+                    <si:BindingRemapper style="align-self: flex-end; position: absolute; right: 0px; bottom: 4px" picking-mode="1" focusable="false" enabled-self="false">
+                      <ui:Instance template="TacticsPlayerRoleMovementIcon" />
+                    </si:BindingRemapper>
+                  </ui:VisualElement>
+                </ui:VisualElement>
+
+                <si:SIStyleSetter usage-hints="1" focusable="false" enabled-self="false">
+                  <si:BindableSwitchElement style="left: 1px" bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=config.UseTouchCompatibleTacticsPositionIndicators">
+                    <ui:Instance template="PositionIndicatorDetails" />
+                    <ui:Instance template="PositionIndicatorDetailsTouch" />
+                  </si:BindableSwitchElement>
+                </si:SIStyleSetter>
+              </fm:FMDraggableObject>
+            </fm:ContextShortcutsElement>
+          </fm:ContextShortcutsElement>
+        </si:BindingVariables>
+      </si:BindingSetter>
+    </si:BindingRemapper>
+  </si:BindingRoot>
+</ui:UXML>
