@@ -21,10 +21,6 @@
 }
 
 /* ---- MenuBar ---- */
-/* Dropdown Icon Colour */
-.navigation-tab-portal-default-active-false .portal-image {
-  -unity-background-image-tint-color: rgba(217, 232, 237, 0.65);
-}
 /* Portal Icon Colour */
 .navigation-tab-portal-default-active-false .portal-image {
   -unity-background-image-tint-color: var(--colours-base-neutral-white);
