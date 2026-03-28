@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+  <!-- OverviewPrototype -->
+  <Template name="Dugout_4x8_with_collapse" src="guid:60efce4b0086ead48a2656755ee024b4" />
+  <Template name="MatchCommentary" src="guid:648fea954f7640b488a165b5b2569003" />
+  <si:BindingRoot class="base-template-grow width-100-percent" style="flex-shrink: 0; align-items: center; overflow: visible; max-height: 100%" focusable="false" enabled-self="false" value-properties="[1 items]">
+    <si:BindingSetter class="base-template-grow width-100-percent" picking-mode="1" tab-index="1" focusable="false" enabled-self="false">
+      <si:BindingRemapper class="base-template-grow width-100-percent" picking-mode="1" tab-index="1" focusable="false" enabled-self="false">
+        <si:BindableSwitchElement style="flex-grow: 1" bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=match.IsInOverview">
+          <ui:VisualElement style="flex-grow: 1" usage-hints="1" focusable="false" enabled-self="false" />
+          <si:ScalableBindableGridLayoutElement class="margin-bottom-global-gap-extra-large" style="flex-grow: 1; flex-shrink: 0; align-items: center; justify-content: center" ignore-outer-padding="false" />
+        </si:BindableSwitchElement>
+        <si:SIVisible class="height-100-percent width-100-percent" style="position: absolute" invert-direct-binding="false" binding="kind=1; path=match.IsInOverview" always-bind-children="false">
+          <si:BindingSetter style="flex-grow: 1" tab-index="1" focusable="false" enabled-self="false">
+            <si:BindingRemapper picking-mode="1" tab-index="1" focusable="false" enabled-self="false">
+              <si:SIVisible invert-direct-binding="false" binding="kind=1; path=hasDugoutEventToShow" always-bind-children="false">
+                <si:EventTrigger focusable="false" enabled-self="false" />
+                <fm:SIDelayEvent focusable="false" enabled-self="false" m_duration="7.707141553786494e-44" />
+                <ui:Instance template="Dugout_4x8_with_collapse" style="flex-grow: 0; align-self: flex-start; margin-left: 40px;" />
+              </si:SIVisible>
+            </si:BindingRemapper>
+          </si:BindingSetter>
+          <si:SIVisible style="position: absolute; top: 0; right: 0; bottom: 0; left: 0; justify-content: center" invert-direct-binding="false" binding="kind=1; path=shouldHideCenterVAR" always-bind-children="false" style-class-on-visible="shouldHideCenterVAR">
+            <si:SIVisible style="align-self: center; justify-content: center; align-items: center; translate: 0 -26px" invert-direct-binding="false" binding="kind=1; path=d3eeb50ead51b944dbc3777e94fb9af3; is_visualscript=True" always-bind-children="false">
+              <si:DynamicItem style="align-self: center; justify-content: center; align-items: center; translate: 0 -28px" usage-hints="1" focusable="true" enabled-self="false" />
+            </si:SIVisible>
+          </si:SIVisible>
+        </si:SIVisible>
+        <ui:VisualElement style="justify-content: flex-end" picking-mode="1" tab-index="1" focusable="false" enabled-self="false">
+          <ui:Instance template="MatchCommentary" />
+        </ui:VisualElement>
+      </si:BindingRemapper>
+    </si:BindingSetter>
+  </si:BindingRoot>
+</ui:UXML>
