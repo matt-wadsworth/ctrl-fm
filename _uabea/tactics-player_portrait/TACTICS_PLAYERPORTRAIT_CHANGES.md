@@ -3,14 +3,9 @@
 - **Patch folder:** `tactics-player_portrait`
 - **Bundle:** `ui-tactics_assets_all`
 - **Dump format:** `.json` (UABEA Next) — Win exports in this repo
-- **Dumps in repo:** `win/ui-tactics_assets_all/` (`TacticsPositionCombined` + `inlineStyle` JSON)
+- **Dumps in repo:** `ui-tactics_assets_all/win` + `ui-tactics_assets_all/mac` (`TacticsPositionCombined` + `inlineStyle` JSON)
 
 This note describes edits made to the **Windows** `ui-tactics_assets_all` dumps so you can repeat the **same behaviour** on **Mac** bundles. Mac assets will have different **`m_Id`**, **`rid`**, **`m_PathID`**, and possibly different **`inlineSheet`** linkage — only the **logical** steps and **rule/value intent** are portable.
-
-**Source files (Win, this repo):**
-
-- `win/ui-tactics_assets_all/TacticsPositionCombined-CAB-3334bbe2d7ac7af32e86413e81ff46ff-3127595210179668386.json`
-- `win/ui-tactics_assets_all/inlineStyle-CAB-3334bbe2d7ac7af32e86413e81ff46ff-1320523011556632994.json` (referenced by combined asset `inlineSheet.m_PathID`)
 
 ---
 
