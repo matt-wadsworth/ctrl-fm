@@ -6,7 +6,7 @@ All notable changes to the CTRL skin are documented here.
 
 ### Fixed
 
-- **Squad Screen** - Reverted change to IP/OPP tabs that caused crashes on non-First Team squads.
+- **Squad Screen** - Reverted change to IP/OOP tabs that caused crashes on non-First Team squads.
 
 ---
 
