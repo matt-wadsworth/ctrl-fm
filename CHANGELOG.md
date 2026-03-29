@@ -2,6 +2,14 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.3.1] – 29/03/2026
+
+### Fixed
+
+- **Squad Screen** - Reverted change to IP/OPP tabs that caused crashes on non-First Team squads.
+
+---
+
 ## [1.3] – 28/03/2026
 
 ### Changed
