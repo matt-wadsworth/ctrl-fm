@@ -1,54 +1,103 @@
-# Squad overview player block UABEA changes
+# Squad overview player block (UABEA)
 
 - **Patch folder:** `match-squad_portraits`
-- **Bundles:** `ui-widgets_assets_all` (squad overview layout + portrait) and **`ui-match_assets_all`** (match squad list — shared `inlineStyle` for player row chrome)
-- **Dump format:** `.json` (UABEA Next) — Win exports in this repo
-- **Dumps in repo:** `ui-widgets_assets_all/win/` (`SquadOverviewPlayerBlock` + `inlineStyle` JSON); **`ui-match_assets_all/win/`** — `inlineStyle` only where noted below
+- **Bundles:** `ui-widgets_assets_all`, `ui-match_assets_all`
+- **Dump format:** serialized asset dump (`.json`)
 
-Notes to repeat the **same layout and portrait overlay** on a **vanilla** dump (another game version, **Mac**, or a clean export). Compare against vanilla when unsure; **this repo’s Win patches** are one concrete instance.
+## Implementation notes
 
-## Platform and file identity (read this first)
+Work from **stock bundle exports** (your **`orig`** folder or platform dump) into the patched copies. If a new game version shifts indices, pool sizes, or rule order, adjust the steps below to match the new dump, then update this document so it stays accurate.
 
-**Do not treat Win numbers as universal.**
+**Guardrails (stylesheet):**
 
-Between **Windows and Mac** (and often between FM builds), these commonly **differ** and must **not** be copied blindly:
+- **`m_Properties.Array` order matters.** Unity UI serializes each rule as an ordered list; re-ordering or dropping unrelated properties changes cascade and can break layout.
+- **Prefer additive edits:** when adding one property (e.g. `padding-top`), insert it in the correct position relative to siblings—do not replace an entire rule with a shortened list unless you intend to remove those properties.
+- **Rule 12:** insert `padding-top` **after** `padding` and **before** `border-radius`. Keep `height`, `padding`, `border-radius`, `align-self`, `justify-content`, and `flex-shrink` as in the table.
+- **Rule 14:** the block has **seven** properties in a fixed order (see table); partial replacements that omit `justify-content`, `align-self`, or `position` will look wrong.
 
-- **`m_Id`**, **`m_ParentId`**, **`m_OrderInDocument`**, **`rid`**, **`m_PathID`**, **`uxmlAssetId`** on tree nodes and `MonoBehaviour` script references
-- **`inlineSheet.m_PathID`** may still **name** the same logical asset (`inlineStyle-…-3625496258969266647`) but the **numeric PathID** can differ per platform or export
-- **`m_Rules.Array` index** may match vanilla **only if** your vanilla rule count matches ours before edits (see below)
-- **`dimensions.Array` / `colors.Array` / `strings.Array` indices** are a **pool**: vanilla may use **fewer** entries and different **ordering** after edits. Always **append** new lengths or **rewire `valueIndex`**, never assume index **18** on Mac is the same semantic slot as on Win unless you verify
+## Assets
 
-**Portable:** logical USS (what property, what pixel/% value), tree **structure** (sibling order, parent), template **GUID** for `PersonPicture`, and binding **paths** (`person`, etc.).
+| Bundle | Filename | Path ID | Role |
+| ------ | -------- | ------- | ---- |
+| `ui-widgets_assets_all` | `SquadOverviewPlayerBlock` | `8153607655464179241` | UXML tree for the squad overview player block |
+| `ui-widgets_assets_all` | `inlineStyle` | `-3625496258969266647` | USS rules and pools for the squad overview player block |
+| `ui-match_assets_all` | `inlineStyle` | `8667680411542024723` | Match squad row background colours |
 
-**Patched Win copies in this repo:**
+## `ui-widgets_assets_all` `inlineStyle` target
 
-- `match-squad_portraits/ui-widgets_assets_all/win/inlineStyle-CAB-019ad19fde35e70c30c2e7a4cd52c3af--3625496258969266647.json`
-- `match-squad_portraits/ui-widgets_assets_all/win/SquadOverviewPlayerBlock-CAB-019ad19fde35e70c30c2e7a4cd52c3af-8153607655464179241.json`
-- **`ui-match_assets_all` `inlineStyle`:** `match-squad_portraits/ui-match_assets_all/win/inlineStyle-CAB-3fc72348d513e9a6f415bedde9fc935e-8667680411542024723.json` — **`m_PathID` `8667680411542024723`** (CAB hash in filename). **Vanilla** keeps **non-zero** **`a`** on the four pooled row colours; the patch sets **`colors.Array[0]`**, **`[2]`**, **`[3]`** **`a` = `0.0`**, and **`colors.Array[1]`** **`a` = `0.06`** (subtle tint on one slot). The copy in this repo is **already patched** — re-applying from a **fresh vanilla** export means editing those four alphas again.
+Final sheet shape:
 
----
+- `m_Rules.Array` count: `34`
+- `dimensions.Array` count: `24`
+- `strings.Array` values:
+  - `[0] = stretch`
+  - `[1] = center`
+  - `[2] = bold`
+  - `[3] = middle-center`
+  - `[4] = flex-end`
+  - `[5] = column`
+  - `[6] = space-between`
+  - `[7] = flex-start`
+  - `[8] = absolute`
+  - `[9] = relative`
+- `colors.Array` values:
+  - `[0] = { r: 0.039215688, g: 0.05882353, b: 0.11764706, a: 0 }`
+  - `[1] = { r: 0.851, g: 0.91, b: 0.929, a: 0.05 }`
 
-## 1. Vanilla → patched summary (Win, this CAB)
+Final `dimensions.Array` values:
 
-| Asset                                 | Vanilla                | Patched (Win)                                                                |
-| ------------------------------------- | ---------------------- | ---------------------------------------------------------------------------- |
-| `inlineStyle` `m_Rules` count         | **31** (indices 0–30)  | **34** (0–33): **3 new rules** at end                                        |
-| `inlineStyle` `dimensions` count      | **11** (0–10)          | **24** (0–23): **13 new** + changed **`[5]`**                                |
-| `inlineStyle` `strings`               | ends at **`absolute`** | add **`relative`** (USS `position: relative` on kit row)                     |
-| `SquadOverviewPlayerBlock` `m_Usings` | **1** entry            | **2** (+ `PersonPicture`)                                                    |
-| Tree nodes                            | —                      | **+2** `m_Id` (wrapper + template instance); **Win-only IDs** in table below |
+| Index | Value |
+| ----- | ----- |
+| `0`  | `100%` |
+| `1`  | `110px` |
+| `2`  | `32px` |
+| `3`  | `8px` |
+| `4`  | `20%` |
+| `5`  | `130px` |
+| `6`  | `12px` |
+| `7`  | `64px` |
+| `8`  | `6px` |
+| `9`  | `17px` |
+| `10` | `16px` |
+| `11` | `62px` |
+| `12` | `50%` |
+| `13` | `-31px` |
+| `14` | `70px` |
+| `15` | `60px` |
+| `16` | `-30px` |
+| `17` | `32px` |
+| `18` | `128px` |
+| `19` | `-2px` |
+| `20` | `80px` |
+| `21` | `14px` |
+| `22` | `18px` |
+| `23` | `42px` |
 
-**Rules that change on Win (same index as vanilla, content differs):** **12, 13, 14, 15, 19, 20, 21, 27**
+### Canonical `m_Rules` (widgets `inlineStyle`)
 
-**New rules on Win (append):** **31, 32, 33**
+Apply **exact property order** as listed. String pool indices: `stretch=0`, `center=1`, `bold=2`, `middle-center=3`, `flex-end=4`, `column=5`, `space-between=6`, `flex-start=7`, `absolute=8`, `relative=9`.
 
----
+| Rule | Role | Properties (in order) |
+| ---- | ---- | ----------------------- |
+| `12` | Kit column | `height` → `130px` (dim `5`); `padding` → `100% 8px 8px 8px` (string `0` + dims `3`); **`padding-top` → `18px` (dim `22`)** — insert **after** `padding`, **before** `border-radius`; `border-radius` → `100% 100% 12px 12px`; `align-self` → `stretch`; `justify-content` → `flex-end`; `flex-shrink` → `0` |
+| `13` | Kit / shirt stack | `height` → `128px` (dim `18`); `flex-direction` → `column`; `justify-content` → `flex-start`; `align-items` → `center`; `flex-shrink` → `0`; `align-self` → `stretch`; `padding-bottom` → `6px` (dim `8`) |
+| `14` | Middle column (numbers) | `justify-content` → `space-between`; `align-items` → `center`; `align-self` → `stretch`; `position` → `relative`; `padding-top` → `8px` (dim `3`); `min-height` → `80px` (dim `20`); `padding-bottom` → `32px` (dim `17`) |
+| `15` | Name column | `flex-grow` → `0`; `width` → `20%` (dim `4`); `margin-top` → `42px` (dim `23`) |
+| `19` | Shirt / crest box | `align-items` → `center`; `width` → `70px`; `height` → `70px` (dim `14`) |
+| `20` | Hidden / spacer layer | `width` → `100%` (dim `0`); `height` → `100%` (dim `0`); `opacity` → `0` |
+| `21` | Name column (duplicate row slot) | Same as rule `15`: `flex-grow` → `0`; `width` → `20%`; `margin-top` → `42px` |
+| `27` | Row chrome | `margin-bottom` → `6px` (dim `8`); `opacity` → `0`; `align-self` → `stretch` |
+| `31` | Portrait wrapper `SquadPlayerPictureWrap` | `width` / `height` → `60px` (dim `15`); `position` → `absolute`; **`left` → `50%` and `top` → `50%`** (both dim `12`); `margin-left` → `-30px` (dim `16`); `margin-top` → `-2px` (dim `19`); `justify-content` / `align-items` → `center` |
+| `32` | Inner `PersonPicture` | `width` / `height` → `100%` (dim `0`) |
+| `33` | Name wrapper spacing | `margin-top` → `14px` (dim `21`) |
 
-## 2. `SquadOverviewPlayerBlock` (UXML tree)
+**Note on rule `31`:** positioning uses **`left` + `top` at `50%`** plus negative `margin-left` / `margin-top` for centering—not only `left: 50%` with `margin-left` alone. Omitting `top` or swapping property order relative to the table can misplace the portrait.
+
+## `SquadOverviewPlayerBlock` target
 
 ### `m_Usings`
 
-Add (same FM template as tactics portrait work):
+Add:
 
 ```json
 {
@@ -58,174 +107,53 @@ Add (same FM template as tactics portrait work):
 }
 ```
 
-### Tree insertion (logical)
+### Tree insertion
 
-Under the **horizontal kit row** (`row-direction-normal` containing goals \| `SIAspectRatioFitter`+`FMTacticsShirt` \| assists), **after** `FMTacticsShirt`’s parent fitter chain, **before** the next sibling in that row:
+Inside the kit row (`row-direction-normal`), insert:
 
-1. **`VisualElement`** — outer wrapper for the overlay (Win name `SquadPlayerPictureWrap`).
-2. Child: **`PersonPicture`** template instance (`templateId` / alias `PersonPicture`).
+1. Outer portrait wrapper `VisualElement`
+2. Child template instance `PersonPicture`
 
-**Bindings:** The block already exposes `person` on the data context; **no extra `BindingRemapper`** was required on Win for the instance (same as tactics note — verify on your dump).
+#### Which array each node lives in
 
-### `m_RuleIndex` (Win example only)
+| Node | `m_VisualElementAssets.Array` | `m_TemplateAssets.Array` |
+| ---- | ----------------------------- | ------------------------ |
+| Portrait wrapper (`VisualElement`) | yes | no |
+| `PersonPicture` template (`m_TemplateAlias` / `TemplateContainer`) | **no** | **yes** |
 
-| Role                                    | Win `m_Id` (example) | `m_RuleIndex` |
-| --------------------------------------- | -------------------- | ------------- |
-| Picture wrapper                         | `2019847551`         | **31**        |
-| `PersonPicture` inner                   | `2019847552`         | **32**        |
-| Name wrapper (`ShirtName` parent chain) | `1251298332`         | **33**        |
+On Win exports, insert the wrapper **after** the last direct child of the kit row that already exists before the name column (the sibling block whose parent is the `row-direction-normal` row); then append the template row to **`m_TemplateAssets`**, not to `m_VisualElementAssets`.
 
-On another platform, find the same **elements by hierarchy / name / type**, then set **`m_RuleIndex`** to the **matching rule indices** in **your** edited `inlineStyle`.
+#### `m_OrderInDocument`
 
-### Serialized `rid` / `m_SerializedData`
+Renumber so each value is **globally unique** across **`m_VisualElementAssets` and `m_TemplateAssets` together**, typically contiguous `0 … N-1` after a depth-first walk from parent `0`.
 
-Regenerate consistent **`rid`** values and `MonoBehaviour` blob references when cloning; **do not** paste Win `rid` **1047** / **1048** into Mac without UABEA/Unity resolving references.
+Reference IDs for the inserted nodes:
 
----
+| Node | `m_Id` | `m_RuleIndex` | `rid` |
+| ---- | ------ | ------------- | ----- |
+| portrait wrapper | `2019847551` | `31` | `1047` |
+| `PersonPicture` template | `2019847552` | `32` | `1048` |
 
-## 3. `inlineStyle` — rule-by-rule intent
+Also set the existing name wrapper `m_Id 1251298332` to `m_RuleIndex = 33`.
 
-Assume **vanilla** has **31** rules. After edits, **34** rules. If your file already differs, locate rules by **property names** and **element** (via `m_RuleIndex` on the block).
+### Added `references.RefIds`
 
-### Rules **12** — Main area frame (`height: 120px` strip under position header)
+Append the matching serialized-data blocks:
 
-| Change                 | Unpatched (typical)                                            | Target intent                                                |
-| ---------------------- | -------------------------------------------------------------- | ------------------------------------------------------------ |
-| `height` pooled length | `120` (`valueIndex` **5**)                                     | **`130`** — slightly shorter than earlier 138px experiment   |
-| `padding-top`          | _(absent)_                                                     | **`18px`** — dedicated pool entry (Win **`dimensions[22]`**) |
-| Other props            | padding, radius, `justify-content: flex-end`, `flex-shrink: 0` | unchanged                                                    |
+- `rid 1047` -> `VisualElement/UxmlSerializedData`, `uxmlAssetId 2019847551`, name `SquadPlayerPictureWrap`
+- `rid 1048` -> `TemplateContainer/UxmlSerializedData`, `uxmlAssetId 2019847552`, name `PersonPicture`, `templateId PersonPicture`
 
-### Rule **13** — Info column (kit row + name; vanilla `height: 64px`)
+## `ui-match_assets_all` `inlineStyle` target
 
-| Change            | Unpatched (typical)         | Target intent                                                                              |
-| ----------------- | --------------------------- | ------------------------------------------------------------------------------------------ |
-| `height`          | `valueIndex` **7** → **64** | Point at **new** length **128px** (Win **`dimensions[18]`**) — room for portrait + spacing |
-| `justify-content` | `space-between`             | **`flex-start`** — stop pinning name to bottom of fixed height                             |
+Only the pooled row colours change.
 
-### Rule **14** — Kit row (goals \| shirt \| assists)
+Set `colors.Array` to:
 
-| Change           | Unpatched (typical) | Target intent                                                                                          |
-| ---------------- | ------------------- | ------------------------------------------------------------------------------------------------------ |
-| `align-items`    | `flex-start`        | **`center`** — vertically centre row content in tall row                                               |
-| `position`       | _(absent)_          | **`relative`** — positioning context for absolute photo; **append `relative` to `strings`** if missing |
-| `padding-top`    | _(absent)_          | **`8px`** (often shared **`valueIndex`** for `8px`, Win **`dimensions[3]`**)                           |
-| `min-height`     | _(absent)_          | **`80px`** (Win **`dimensions[20]`**)                                                                  |
-| `padding-bottom` | _(absent)_          | **`32px`** (Win **`dimensions[17]`**)                                                                  |
+| Index | Target RGBA |
+| ----- | ----------- |
+| `0` | `r 1`, `g 0.95686275`, `b 0.95686275`, `a 0` |
+| `1` | `r 0.9019608`, `g 0.9019608`, `b 0.98039216`, `a 0.06` |
+| `2` | `r 0.9019608`, `g 0.9019608`, `b 0.98039216`, `a 0` |
+| `3` | `r 0.039215688`, `g 0.05882353`, `b 0.11764706`, `a 0` |
 
-### Rules **15** and **21** — goal and assist columns (`flex-grow: 0`, `width: 20%`)
-
-| Change       | Vanilla    | Target intent                                                                                                                                               |
-| ------------ | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `margin-top` | _(absent)_ | **`42px`** on Win via **dedicated** pool slot (**`dimensions[23]`**) — **do not** reuse **`dimensions[10]`** if it is already **16×16** icon size elsewhere |
-
-### Rule **19** — `SIAspectRatioFitter` (shirt box)
-
-| Change             | Unpatched (typical)         | Target intent                     |
-| ------------------ | --------------------------- | --------------------------------- |
-| `width` / `height` | **32** (`valueIndex` **2**) | **70** (Win **`dimensions[14]`**) |
-
-### Rule **20** — `FMTacticsShirt`
-
-| Change    | Vanilla    | Target intent                                                     |
-| --------- | ---------- | ----------------------------------------------------------------- |
-| `opacity` | _(absent)_ | **0** (`floats[0]`) — hide shirt; face shows from `PersonPicture` |
-
-### Rule **27** — `layout-divider-solid-horizontal` instance
-
-| Change    | Unpatched (typical) | Target intent                                 |
-| --------- | ------------------- | --------------------------------------------- |
-| `opacity` | _(absent)_          | **0** — hide divider line (margin may remain) |
-
-### New rule **31** — `SquadPlayerPictureWrap` (Win)
-
-Typical USS:
-
-- `width` / `height`, `position: absolute`, `left` / `top`, `margin-left`, `margin-top`, `justify-content` / `align-items: center`
-- Win uses pooled **`dimensions[15]`** = **60** (face box), **`[16]`** = **-30** (`margin-left`), **`[19]`** = **-2** (`margin-top` nudge)
-- **`left` / `top`** often **0** via floats pool
-
-Tune **`margin-top`** / **`margin-left`** for alignment with shirt column.
-
-### New rule **32** — inner `PersonPicture` / binding child (Win)
-
-- Often **`width` / `height`** = **100%** (`valueIndex` **0** → percent pool)
-
-### New rule **33** — name wrapper (`1251298332` on Win)
-
-- **`margin-top`**: **14px** (Win **`dimensions[21]`**) — spacing below portrait row
-
----
-
-## 4. `dimensions` pool (Win reference only)
-
-Vanilla had **11** entries. Patched Win **extends** the array; **`[5]`** changes from **120 → 130**.
-
-| Win index | Role (patched)                                                 |
-| --------- | -------------------------------------------------------------- |
-| **5**     | Main area **height** **130**                                   |
-| **14**    | Shirt fitter / photo box **70** (and paired height on rule 19) |
-| **16**    | Photo **`margin-left`** **-30**                                |
-| **17**    | Kit row **`padding-bottom`** **32**                            |
-| **18**    | Info column **height** **128**                                 |
-| **19**    | Picture wrap **`margin-top`** **-2** (nudge)                   |
-| **20**    | Kit row **`min-height`** **80**                                |
-| **21**    | Name **`margin-top`** **14**                                   |
-| **22**    | Main area **`padding-top`** **18**                             |
-| **23**    | Goals / assists **`margin-top`** **42**                        |
-
-Other indices **11–13**, **15** etc. participate in rule **31** geometry; **reconstruct on your dump** by reading the patched Win JSON or by applying USS and letting Unity/UABEA serialize.
-
----
-
-## 5. `colors`
-
-### `ui-widgets_assets_all` `inlineStyle` (squad overview block)
-
-| Index | Unpatched (typical)                             | Patched intent                                                                |
-| ----- | ----------------------------------------------- | ----------------------------------------------------------------------------- |
-| **0** | `a ≈ 0.39`                                      | **`a = 0`** — card tint fully transparent                                     |
-| **1** | light lavender `~0.9 / 0.9 / 0.98`, `a ≈ 0.082` | **`r 0.851, g 0.91, b 0.929, a 0.05`** — position header bar, slightly softer |
-
-### `ui-match_assets_all` `inlineStyle` (`8667680411542024723`)
-
-Match squad player rows use **four** pooled colours for **`background-color`** (`valueIndex` **0–3**). **Vanilla** uses **non-zero** alpha on those entries (visible default tints; exact **`r`/`g`/`b`/`a`** depend on build). A fresh dump will **not** match the patched alphas below until you edit **`colors`** (including **`[1]`** at **`0.06`**, not fully transparent).
-
-| Index | Unpatched (vanilla)                     | Patched intent                                                                                            |
-| ----- | --------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| **0** | Non-zero **`a`** (row/card backgrounds) | **`a = 0.0`** — transparent                                                                               |
-| **1** | Non-zero **`a`**                          | **`a = 0.06`** — light tint (same **`r`/`g`/`b`** as vanilla pool entry unless you change them)           |
-| **2** | Non-zero **`a`**                          | **`a = 0.0`** — transparent                                                                               |
-| **3** | Non-zero **`a`**                          | **`a = 0.0`** — transparent                                                                               |
-
----
-
-## 6. `strings`
-
-- Append **`"relative"`** if rule **14** uses **`position: relative`** and your vanilla sheet has no keyword yet.
-- **`valueIndex` for `relative`** on Win is **9** only because it is the **tenth** string; if your `strings.Array` order differs, point `position` at the correct index.
-
----
-
-## 7. Applying on a new vanilla file
-
-**`ui-widgets_assets_all` (squad overview portrait layout):**
-
-1. Export **vanilla** `SquadOverviewPlayerBlock` + its **`inlineStyle`** (same logical CAB names as above, or locate by `m_Name` / content).
-2. Edit **`inlineStyle`** first: append **`strings`** / **`dimensions`** / **`colors`** as needed, then **mutate rules 12–15, 19–20, 21, 27**, then **append rules 31–33**.
-3. Edit **`SquadOverviewPlayerBlock`**: **`m_Usings`**, tree nodes, **`m_RuleIndex`** on the three elements.
-4. Reimport into the bundle; fix **broken references** (`rid`, `PathID`) with your tool’s workflow.
-
-**`ui-match_assets_all` (match squad player row backgrounds):**
-
-1. Export **vanilla** `inlineStyle` for this bundle (locate by **`m_PathID`** / filename pattern on your platform).  
-2. Set **`colors.Array[0]`**, **`[2]`**, **`[3]`** **`a`** to **`0.0`**, and **`colors.Array[1]`** **`a`** to **`0.06`** (vanilla values will differ).  
-3. Reimport; fix references per your tool.
-
-If JSON has **trailing garbage** after the root `}`, parse with **`JSONDecoder().raw_decode`** or trim before merge.
-
----
-
-## 8. Related
-
-- Same `PersonPicture` template GUID as tactics: `_uabea/TACTICS_PLAYERPORTRAIT_CHANGES.md`
-- Original UXML shape (pre-patch): `row-direction-normal` header; main area `120px` + `flex-end`; inner `64px` column `space-between`; kit row `space-between` + `align-items: flex-start`
+That preserves the intended subtle highlight on colour slot `1` and makes the other row background slots fully transparent.

@@ -2,49 +2,50 @@
 
 - **Patch folder:** `nav-menu_icons`
 - **Bundle:** `ui-widgets_assets_all`
-- **Dump format:** `.txt`
-- **Dumps in repo:** `ui-widgets_assets_all/win/`, `ui-widgets_assets_all/mac/`
+- **Dump format:** serialized asset dump (`.json`)
+- **Working copies:** `ui-widgets_assets_all/win/` (copy from `win/orig` or `mac/orig` before editing)
+- **Stock only:** `win/orig/`, `mac/orig/` — do not modify; keep as the unpatched baseline.
 
-Structural changes in **navigation-tab-portal-default** plus a new style rule in the shared **inlineStyle** so **SIImage** can be tinted. Both assets are in **ui-widgets_assets_all.bundle**.
+## Implementation notes
 
-**Summary:** Move the **SIImage** into the same parent as the tab text (**SIText**), set that parent to flex row, and apply an inline style to the icon for colour (background-image tint).
+- Copy both JSON assets from **`orig`** into **`win/`** or **`mac/`**, then apply the sections below.
+- The tint **`m_RuleIndex`** on the `SIImage` must match the **index of the appended rule** in `inlineStyle` (0-based). On the current **`orig`** dump there are **nine** existing rules (**0–8**), so the new tint is **rule `9`**. If the stock sheet gains or loses rules, renumber the image’s **`m_RuleIndex`** accordingly.
 
-**Do not rely on `m_Id` or array indices** — they can differ per platform. Locate elements by **type** and **class names** (or hierarchy in your dump).
+## Assets
 
----
+| Filename | Path ID | Role |
+| -------- | ------- | ---- |
+| `inlineStyle-CAB-019ad19fde35e70c30c2e7a4cd52c3af-8251223908227938625.json` | `8251223908227938625` | Add icon tint rule |
+| `navigation-tab-portal-default-CAB-019ad19fde35e70c30c2e7a4cd52c3af--3526698279923353279.json` | `-3526698279923353279` | Move icon next to text and assign the tint rule |
 
-## Path IDs
+## `inlineStyle` target
 
-| Bundle                | Filename                        | Path ID              | Change                                                                                               |
-| --------------------- | ------------------------------- | -------------------- | ---------------------------------------------------------------------------------------------------- |
-| ui-widgets_assets_all | `inlineStyle`                   | 8251223908227938625  | Portal tab inline style — add new background-image tint rule + colour entry.                       |
-| ui-widgets_assets_all | `navigation-tab-portal-default` | -3526698279923353279 | Portal tab layout — move icon next to text, `row-direction-normal`, assign icon tint rule index.   |
+Append one new rule at the end of `m_Rules.Array` for the portal icon tint.
 
----
+- Property name: `-unity-background-image-tint-color`
+- `m_ValueType = 4`
+- `valueIndex = 0`
 
-## 1. `navigation-tab-portal-default` (Path ID: -3526698279923353279)
+Append one pooled colour:
 
-In **m_VisualElementAssets**:
+- `colors[0] = { r: 0.851, g: 0.91, b: 0.929, a: 1 }`
 
-| Find by type + class                                                               | Change                                                                                                                                                                                                                                                                                                                                                                        |
-| ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **SIImage** with class `portal-image`                                              | **m_ParentId:** same as **SIText**’s parent (the **SIVisible** that contains the tab text). **m_RuleIndex:** index of the new tint rule in `inlineStyle` (below). **m_Classes:** add `margin-right-global-gap-small` (keep `portal-image`). **m_OrderInDocument:** icon before **SIText** in that parent.                                                                      |
-| **SIVisible** that is the direct parent of **SIText** with class `portal-text`     | **m_Classes:** add `row-direction-normal` (flex row). Container then has both **SIImage** and **SIText** as children.                                                                                                                                                                                                                                                         |
+On the current stock **`orig`** dump this becomes rule index **`9`**; the important part is that the **`SIImage`** **`m_RuleIndex`** matches that appended rule.
 
-Result: the text container **SIVisible** has two children — **SIImage** first, then **SIText** — with `row-direction-normal`; **SIImage** **m_RuleIndex** points at the new tint rule in `inlineStyle`.
+## `navigation-tab-portal-default` target structure
 
----
+Find the tab text and icon by hierarchy, not by `m_Id`:
 
-## 2. `inlineStyle` (Path ID: 8251223908227938625)
+1. Find the `SIText` with class `portal-text`.
+2. Find its direct parent `SIVisible`.
+3. Find the `SIImage` with class `portal-image`.
 
-Referenced by **navigation-tab-portal-default** (`inlineSheet`). Add one new rule and one new colour for portal icon tint.
+Apply these changes:
 
-| What to change    | Detail                                                                                                                                                                                                 |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **m_Rules**       | **Append a rule** at the next index (e.g. if you have 9 rules, add index 9). One property: `m_Name` = `-unity-background-image-tint-color`, `m_ValueType` = 4 (colour), `valueIndex` = 0.               |
-| **vector colours** | **Add one ColorRGBA** (e.g. r=0.851, g=0.91, b=0.929, a=1). The new rule’s `valueIndex` 0 refers to the first entry in vector colours.                                                                  |
+- Move the `SIImage` so its `m_ParentId` matches the `SIText` parent.
+- Add `row-direction-normal` to that shared parent `SIVisible`.
+- Add `margin-right-global-gap-small` to the `SIImage` classes and keep `portal-image`.
+- Set the `SIImage` `m_RuleIndex` to the new tint rule index from `inlineStyle`.
+- Ensure the `SIImage` comes before the `SIText` in document order.
 
-- **Original (typical):** 9 rules, 0 vector colour entries.
-- **Patched:** 10 rules (one new at end), 1 vector colour entry.
-
-Use the **index of that new rule** as **SIImage** **m_RuleIndex** in **navigation-tab-portal-default**. Tune **ColorRGBA** for your skin.
+Result: the portal tab label becomes a single horizontal row with the icon tinted to the target colour above.

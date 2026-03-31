@@ -16,6 +16,16 @@
       "path_id": "4113553140105478280"
     },
     {
+      "tile": "RecruitmentPlayerSearchTile_4x4",
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "30b5231d15f8f9c46b5dc1e8a5c61343",
+      "path_id": "-4147941277941003106"
+    },
+    {
       "tile": "RecruitmentObjectivesTile_4x2",
       "x": 0,
       "y": 8,
@@ -34,6 +44,26 @@
       "isDynamic": false,
       "guid": "cf710034ddaa98e4ba7b15af8477993a",
       "path_id": "-931024737397827502"
+    },
+    {
+      "tile": "RecruitmentTransferActivityTile_4x4",
+      "x": 0,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "e27181e64eae8524d9cb5b987cba7ca1",
+      "path_id": "4043348802319238206"
+    },
+    {
+      "tile": "RecruitmentContractsTile_4x4",
+      "x": 12,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "3d5eb3d3defb232458e9b9e96f053379",
+      "path_id": "-7828179310886089936"
     },
     {
       "tile": "RecruitmentClausesTile_4x2",
@@ -76,26 +106,6 @@
       "path_id": "-3036632160559805805"
     },
     {
-      "tile": "RecruitmentTransferActivityTile_4x4",
-      "x": 0,
-      "y": 4,
-      "w": 4,
-      "h": 4,
-      "isDynamic": false,
-      "guid": "e27181e64eae8524d9cb5b987cba7ca1",
-      "path_id": "4043348802319238206"
-    },
-    {
-      "tile": "RecruitmentPlayerSearchTile_4x4",
-      "x": 0,
-      "y": 0,
-      "w": 4,
-      "h": 4,
-      "isDynamic": false,
-      "guid": "30b5231d15f8f9c46b5dc1e8a5c61343",
-      "path_id": "-4147941277941003106"
-    },
-    {
       "tile": "StaffSearchTile_4x4",
       "x": 4,
       "y": 0,
@@ -104,26 +114,6 @@
       "isDynamic": false,
       "guid": "ee82fda951ee1054f853531c982cae62",
       "path_id": "8934601083579029294"
-    },
-    {
-      "tile": "RecruitmentTransferHistoryTile_4x4",
-      "x": 4,
-      "y": 4,
-      "w": 4,
-      "h": 4,
-      "isDynamic": false,
-      "guid": "2bfcc56d5cddd0744859a4277449a7dc",
-      "path_id": "8610079230574414452"
-    },
-    {
-      "tile": "RecruitmentContractsTile_4x4",
-      "x": 12,
-      "y": 4,
-      "w": 4,
-      "h": 4,
-      "isDynamic": false,
-      "guid": "3d5eb3d3defb232458e9b9e96f053379",
-      "path_id": "-7828179310886089936"
     },
     {
       "tile": "RecruitmentPlayerRecommendationsTile_4x2",
@@ -136,14 +126,14 @@
       "path_id": "2405199802162858068"
     },
     {
-      "tile": "RecruitmentFeedbackTile_4x2",
+      "tile": "RecruitmentTransferHistoryTile_4x4",
       "x": 4,
-      "y": 8,
+      "y": 4,
       "w": 4,
-      "h": 2,
-      "isDynamic": false,
-      "guid": "434f8960d3c3b1948ba84dde46263ecd",
-      "path_id": "-4654666575199159812"
+      "h": 4,
+      "isDynamic": true,
+      "guid": "2bfcc56d5cddd0744859a4277449a7dc",
+      "path_id": "8610079230574414452"
     },
     {
       "tile": "RecruitmentFocusesTile_4x4",
@@ -154,6 +144,16 @@
       "isDynamic": false,
       "guid": "0b10eff5eb49b3f4aa8e60c51a571b31",
       "path_id": "-6951194001430326217"
+    },
+    {
+      "tile": "RecruitmentFeedbackTile_4x2",
+      "x": 4,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "434f8960d3c3b1948ba84dde46263ecd",
+      "path_id": "-4654666575199159812"
     }
   ]
 }

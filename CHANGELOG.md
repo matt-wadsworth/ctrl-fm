@@ -2,6 +2,18 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.4] – 31/03/2026
+
+### Fixed
+
+- **FM26.3** - Support for 26.3 update.
+
+### Changed
+
+- **Tile Layouts** - Adjusted some layouts around the Stages/League tile to make better use of the available space.
+
+---
+
 ## [1.3.1] – 29/03/2026
 
 ### Fixed

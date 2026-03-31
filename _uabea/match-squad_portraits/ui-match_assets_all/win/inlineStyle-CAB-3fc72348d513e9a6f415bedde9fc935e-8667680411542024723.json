@@ -2177,7 +2177,10 @@
     "Array": []
   },
   "floats": {
-    "Array": [1.0, 0.0]
+    "Array": [
+      1.0,
+      0.0
+    ]
   },
   "dimensions": {
     "Array": [

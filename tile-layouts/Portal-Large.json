@@ -17,8 +17,8 @@
     },
     {
       "tile": "SquadFixtureScheduleTile_6x4",
-      "x": 6,
-      "y": 4,
+      "x": 10,
+      "y": 6,
       "w": 6,
       "h": 4,
       "isDynamic": false,
@@ -37,9 +37,9 @@
     {
       "tile": "CompetitionLeagueTableStagesTile_4x8",
       "x": 16,
-      "y": 0,
+      "y": 2,
       "w": 4,
-      "h": 10,
+      "h": 8,
       "isDynamic": false,
       "guid": "f668d3996f545a846bc789840c7b94d2",
       "path_id": "-8192312741035252680"
@@ -56,8 +56,8 @@
     },
     {
       "tile": "TeamOrOppositionReportTile_4x2",
-      "x": 12,
-      "y": 4,
+      "x": 16,
+      "y": 0,
       "w": 4,
       "h": 2,
       "isDynamic": false,
@@ -66,7 +66,7 @@
     },
     {
       "tile": "IndividualTrainingTile_4x2",
-      "x": 10,
+      "x": 6,
       "y": 8,
       "w": 4,
       "h": 2,
@@ -76,8 +76,8 @@
     },
     {
       "tile": "SquadFirstTeamSecondaryTile_4x2",
-      "x": 12,
-      "y": 6,
+      "x": 6,
+      "y": 4,
       "w": 4,
       "h": 2,
       "isDynamic": false,
@@ -87,7 +87,7 @@
     {
       "tile": "SquadTrainingTile_4x2",
       "x": 6,
-      "y": 8,
+      "y": 6,
       "w": 4,
       "h": 2,
       "isDynamic": true,
@@ -117,12 +117,22 @@
     {
       "tile": "SquadMedicalCentreTile_2x2",
       "x": 14,
-      "y": 8,
+      "y": 4,
       "w": 2,
       "h": 2,
       "isDynamic": true,
       "guid": "76609fa4e8f7ebc4182174e383bd08f2",
       "path_id": "3395238359748706489"
+    },
+    {
+      "tile": "OnThePitchTacticsTile_4x2",
+      "x": 10,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d035b770037af39449ee943e520b8e60",
+      "path_id": "-549059308546553030"
     }
   ]
 }

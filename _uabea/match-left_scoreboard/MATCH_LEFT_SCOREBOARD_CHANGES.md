@@ -2,12 +2,17 @@
 
 - **Patch folder:** `match-left_scoreboard`
 - **Bundle:** `ui-match_assets_all`
-- **Dump format:** `.txt`
-- **Dumps in repo:** `ui-match_assets_all/win/`, `ui-match_assets_all/mac/` (same path IDs; re-export per platform as needed)
+- **Dump format:** serialized asset dump (`.json`)
+- **Working copies:** `ui-match_assets_all/win/` (copy from `win/orig` or `mac/orig` before editing)
+- **Stock only:** `win/orig/`, `mac/orig/` — do not modify; keep as the unpatched baseline.
 
 Edits in **ui-match_assets_all** for in-match **OverviewHeader** and pre-match / interval **ContinuePanel** alignment.
 
-**Platform note:** `OverviewHeader` / `ContinuePanel` dumps differ between Win and Mac on **`m_Id`**, **`m_ParentId`**, and other instance handles. Apply the **same logical edits** (indices below) to each export; only **`inlineStyle`** blobs can be byte-identical across platforms if handles are aligned (see §1d).
+## Implementation notes
+
+- Copy the four JSON assets from **`orig`** into **`win/`** or **`mac/`**, then apply the sections below. Rule indices and `m_VisualElementAssets` positions are for the **current** **`orig`** shape; after a title update, re-export, diff against **`orig`**, and adjust indices if the tree changes.
+- **`m_Rules` indices are 0-based.** “Rule `[8]`” is the ninth entry in `m_Rules.Array`.
+- **`m_ValueType = 7`** = keyword (`strings` pool), **`3`** = dimension (`dimensions` pool).
 
 ---
 
@@ -28,16 +33,23 @@ Edits in **ui-match_assets_all** for in-match **OverviewHeader** and pre-match /
 
 Locate **style rule `[8]`** in **`m_Rules`**.
 
-String enum properties use **`m_ValueType = 7`** (keyword); **`valueIndex`** points into **`vector strings`**.
+String enum properties use **`m_ValueType = 7`** (keyword); **`valueIndex`** points into **`strings.Array`**.
 
-- **Property [0]** (`align-self`): `m_ValueType = 7`, `valueIndex = 1` (`flex-start` in typical dumps — was often `4` / `center` in vanilla).
+For the current dump shape in this repo:
+
+- `strings[1] = flex-start`
+- `strings[3] = absolute`
+- `strings[5] = flex-end`
+
+- **Property [0]** (`align-self`): set to **`flex-start`**.
+  - Current JSON handle: **`m_ValueType = 7`**, **`valueIndex = 1`**
 - **Property [1]** (`align-content`): `m_ValueType = 7`, `valueIndex = 1`.
 - **Property [3]:** rename **`width`** → **`left`**. In serialized USS this is a **length**, not a float literal:
   - **`m_ValueType = 3`** (Dimension), **`valueIndex = 5`**
-  - **§1c** must set **`dimensions[5] = 26`** (px) so `left` resolves correctly.
-- **Property [4]** (`top`): if vanilla uses **`m_ValueType = 2`**, **`valueIndex = 0`** (auto), switch to a **Dimension** handle so layout stays consistent with the patched sheet:
+  - **Section 1c** must set **`dimensions[5] = 26px`** so `left` resolves correctly (same slot as the updated **`right`** on rule `[12]`).
+- **Property [4]** (`top`): if vanilla uses **`auto`** (`m_ValueType = 2`), switch it to a **Dimension** handle so layout stays consistent with the patched sheet:
   - **`m_ValueType = 3`**, **`valueIndex = 13`**
-  - Grow **`dimensions`** to **14** entries and set **`dimensions[13]`** (e.g. **value = 0**, unit **px**) — see **§1c** / **§1d** for the full array.
+  - Grow **`dimensions`** to **14** entries and set **`dimensions[13] = 0px`**
 
 ### b. `OverviewHeader.uxml` — reorder controls
 
@@ -54,25 +66,23 @@ On element **[7]**, in **`m_Classes`**, **add** `margin-right-global-gap-regular
 
 Authored style is like: `position: absolute; align-self: flex-end; top: 56px; right: 16px`.
 
-In **`Dimension dimensions`** (used by the absolute-position rule for the safe-area / stats block — **rule `[12]`** in typical dumps):
+In **`dimensions.Array`** (used by the absolute-position rule for the safe-area / stats block — **rule `[12]`** in the current JSON):
 
 | Index   | Original (matches top / right) | Set to | Note                                     |
 | ------- | ------------------------------ | ------ | ---------------------------------------- |
 | **[4]** | 56 (`top`)                     | **72** | Vertical offset for Match Stats / Replay |
 | **[5]** | 16 (`right`)                   | **26** | Inset from the right edge                |
 
-**Also** (for **§1a** and a consistent **`dimensions`** table):
+**Also** (for **section 1a** and a consistent **`dimensions`** table):
 
-- Increase **`dimensions`** **size** from **12 → 14** if it was 12 in vanilla.
+- Increase **`dimensions`** from **12 → 14** entries if it is still 12 in the source dump.
 - Append:
-  - **`[12]`:** value **24**, unit **px** (used by **`margin-top`** on **rule `[2]`** when matching Windows — **§1d**)
-  - **`[13]`:** value **0**, unit **px** (**`top`** on **rule `[8]`** property **[4]**)
+  - **`[12] = 24px`** (used by **`margin-top`** on **rule `[2]`**)
+  - **`[13] = 0px`** (**`top`** on **rule `[8]`** property **[4]**)
 
 Adjusts layout after the header / tactical options changes above.
 
-### d. Optional — align `inlineStyle` with Windows after resizing **`dimensions`**
-
-Vanilla **Mac** may keep **`margin-top`** on **rule `[2]`** at **`valueIndex = 1`** (older slot) while **Windows** uses **`valueIndex = 12`** (24px via **`dimensions[12]`**). After you add **`[12]`** / **`[13]`**, set **rule `[2]` → `margin-top` → `valueIndex = 12`** so the Mac txt matches the Win txt and imports stay predictable.
+After adding **`dimensions[12]`**, update **rule `[2]` → `margin-top`** to point at **`valueIndex = 12`** so it resolves to **24px** instead of the old **12px** slot.
 
 ---
 
@@ -82,12 +92,13 @@ Vanilla **Mac** may keep **`margin-top`** on **rule `[2]`** at **`valueIndex = 1
 
 - **Element [8]** — add **`align-items-end`** and **`margin-right-global-gap-regular`** to **`m_Classes`** (keep existing classes, e.g. `flex-grow-class`).
 
-**inlineStyle** (4016413755955533566):
+**inlineStyle** (4016413755955533566) — **`flex-start` applies only here** (rule **[2]**), not to the UXML class above:
 
-- **Rule [2]** — set **`align-items`** to **`m_ValueType = 7`**, **`valueIndex = 5`** (`flex-end`).
+- **Rule [2]** — set **`align-items`** to **`flex-start`**.
+  - JSON handle: **`m_ValueType = 7`**, **`valueIndex = 5`** (`strings[5] = flex-start`)
 - **Rule [4]** — **`margin-top` = 4px:**
-  - Append a **`Dimension`** entry (**value = 4**, unit **px**).
-  - Point **`margin-top`** at the new slot (**`valueIndex = 4`** if the new entry is index **4** and the array was length **4** before).
+  - Append a **Dimension** entry **`[4] = 4px`**
+  - Point **`margin-top`** at **`valueIndex = 4`**
 
 ---
 
@@ -95,7 +106,7 @@ Vanilla **Mac** may keep **`margin-top`** on **rule `[2]`** at **`valueIndex = 1
 
 | Asset / path ID              | Action |
 | ---------------------------- | ------ |
-| inlineStyle `-2719487159082004763` | Rule **[8]** align + `width`→`left` + `top` handles; **`dimensions`** **14** slots; **[4]/[5]** 72/26; **[12]/[13]** as above; optional rule **[2]** `margin-top` → **12** |
+| inlineStyle `-2719487159082004763` | Rule **[8]** align + `width`→`left` + `top` handle; **`dimensions`** **14** slots; **[4]/[5]** 72/26; append **[12]/[13] = 24/0**; rule **[2]** `margin-top` **`valueIndex` → 12** (24px) |
 | OverviewHeader `-7819803725380563227` | Elements **[7]** / **[19]** order; element **[7]** class |
 | ContinuePanel `-398932524086274306` | Element **[8]** classes |
-| inlineStyle `4016413755955533566` | Rule **[2]** `align-items`; rule **[4]** `margin-top` + **Dimension** |
+| inlineStyle `4016413755955533566` | Rule **[2]** `align-items = flex-start` (**`valueIndex` 5**); append **`dimensions[4] = 4px`**; rule **[4]** `margin-top` → **4** |

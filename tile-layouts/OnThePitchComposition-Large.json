@@ -6,13 +6,13 @@
   },
   "tiles": [
     {
-      "tile": "OnThePitchMatchSquadTile_4x8",
+      "tile": "OnThePitchMatchSquadTile_4x6",
       "x": 0,
       "y": 0,
       "w": 4,
-      "h": 8,
+      "h": 6,
       "isDynamic": false,
-      "guid": "62978b0167a20d54caa423b2251ae6f9",
+      "guid": "9769ad303dfabe94bb9b1c031232b80b",
       "path_id": "1144291766346510870"
     },
     {
@@ -40,7 +40,7 @@
       "x": 16,
       "y": 0,
       "w": 4,
-      "h": 10,
+      "h": 8,
       "isDynamic": false,
       "guid": "f668d3996f545a846bc789840c7b94d2",
       "path_id": "-8192312741035252680",
@@ -74,19 +74,19 @@
       "path_id": "6497940642311826740"
     },
     {
-      "tile": "TeamOrOppositionReportTile_4x2",
+      "tile": "TeamOrOppositionReportTile_4x4",
       "x": 12,
-      "y": 4,
+      "y": 0,
       "w": 4,
-      "h": 2,
+      "h": 4,
       "isDynamic": false,
-      "guid": "d177033bd2926a440972ad50eefca137",
+      "guid": "cabd8a5f7c66332428bf9b52c843ef2a",
       "path_id": "-4859405567768119315"
     },
     {
       "tile": "DataHubTile_4x2",
       "x": 12,
-      "y": 6,
+      "y": 8,
       "w": 4,
       "h": 2,
       "isDynamic": false,
@@ -96,7 +96,7 @@
     {
       "tile": "SquadFixtureScheduleTile_4x4",
       "x": 12,
-      "y": 0,
+      "y": 4,
       "w": 4,
       "h": 4,
       "isDynamic": false,
@@ -105,11 +105,11 @@
     },
     {
       "tile": "CompetitionsTile_4x2",
-      "x": 12,
+      "x": 16,
       "y": 8,
       "w": 4,
       "h": 2,
-      "isDynamic": false,
+      "isDynamic": true,
       "guid": "a8b8d2678a4e61744b3caae692a7be19",
       "path_id": "-5925175220937073605"
     },
@@ -142,6 +142,16 @@
       "isDynamic": false,
       "guid": "9b8b51cdd59a440059d9690a102debe9",
       "path_id": "1384800690337876646"
+    },
+    {
+      "tile": "SquadMedicalCentreTile_4x2",
+      "x": 0,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": true,
+      "guid": "b9662a62c6db429459d04c73abfe4d49",
+      "path_id": "3395238359748706489"
     }
   ]
 }

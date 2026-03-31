@@ -1,104 +1,87 @@
-# Tactics Player Portrait UABEA changes
+# Tactics player portrait (UABEA)
 
 - **Patch folder:** `tactics-player_portrait`
 - **Bundle:** `ui-tactics_assets_all`
-- **Dump format:** `.json` (UABEA Next) — Win exports in this repo
-- **Dumps in repo:** `ui-tactics_assets_all/win` + `ui-tactics_assets_all/mac` (`TacticsPositionCombined` + `inlineStyle` JSON)
+- **Dump format:** serialized asset dump (`.json`)
 
-This note describes edits made to the **Windows** `ui-tactics_assets_all` dumps so you can repeat the **same behaviour** on **Mac** bundles. Mac assets will have different **`m_Id`**, **`rid`**, **`m_PathID`**, and possibly different **`inlineSheet`** linkage — only the **logical** steps and **rule/value intent** are portable.
+## Assets
 
----
+| Filename                  | Path ID               | Role |
+| ------------------------- | --------------------- | ---- |
+| `TacticsPositionCombined` | `3127595210179668386` | UXML tree |
+| `inlineStyle`             | `1320523011556632994` | USS rules and pooled values |
 
-## 1. `inlineStyle` (USS serialized sheet)
+## `inlineStyle` target
 
-Assume vanilla has **28** rules (`m_Rules.Array` indices **0–27**). After all edits below, the sheet should have **30** rules (indices **0–29**). If your Mac dump already differs, locate rules by **property sets** / **purpose**, not only by index.
+Final sheet shape:
 
-### Rule `0` — row `tactics-position__shirt-and-icons`
+- `m_Rules.Array` count: `30`
+- `dimensions.Array` count: `17`
+- `strings.Array` values:
+  - `[0] = stretch`
+  - `[1] = flex-start`
+  - `[2] = center`
+  - `[3] = flex-end`
+  - `[4] = absolute`
+  - `[5] = middle-center`
+  - `[6] = ellipsis`
+  - `[7] = hidden`
 
-Target UXML-style result:
+Final `dimensions.Array` values:
 
-- `align-items: stretch` → `strings` index **0**
-- `justify-content: flex-start` → `strings` index **1**
-- `height: 50px` → `dimensions` index **0** = `50` (px, `unit` 1)
-- `top: -50px` → `dimensions` index **1** = `-50` (px)
+| Index | Value | Meaning |
+| ----- | ----- | ------- |
+| `0`  | `50px`  | shirt row height |
+| `1`  | `-50px` | shirt row top |
+| `2`  | `4px`   | movement icon bottom |
+| `3`  | `40px`  | shirt size |
+| `4`  | `16px`  | shirt top |
+| `5`  | `16px`  | existing pooled 16px slot |
+| `6`  | `50%`   | portrait left |
+| `7`  | `8px`   | existing pooled 8px slot |
+| `8`  | `2px`   | existing pooled 2px slot |
+| `9`  | `6px`   | existing pooled 6px slot |
+| `10` | `44px`  | existing pooled 44px slot |
+| `11` | `80px`  | existing pooled 80px slot |
+| `12` | `40px`  | portrait width and height |
+| `13` | `-28px` | portrait margin-left |
+| `14` | `11px`  | portrait margin-top |
+| `15` | `12px`  | shirt left |
+| `16` | `0px`   | left and right movement icon horizontal offset |
 
-### Rule `2` — left `BindingRemapper` + `TacticsPlayerRoleMovementIcon`
+Edit these rules to the target layout:
 
-Target:
+- Rule `2`
+  - `align-self = flex-end`
+  - `position = absolute`
+  - `left = 0px` via `dimensions[16]`
+  - `bottom = 4px` via `dimensions[2]`
+- Rule `3`
+  - `min-height = 40px`
+  - `max-height = 40px`
+  - `min-width = 40px`
+  - `max-width = 40px`
+  - `top = 16px`
+  - add `left = 12px` via `dimensions[15]`
+- Rule `7`
+  - same shape as rule `2`, but `right = 0px` via `dimensions[16]`
+- Append rule `28` for the outer portrait wrapper:
+  - `width = 40px`
+  - `height = 40px`
+  - `position = absolute`
+  - `left = 50%`
+  - `margin-left = -28px`
+  - `margin-top = 11px`
+  - `justify-content = center`
+  - `align-items = center`
+- Append rule `29` for the inner remapper:
+  - `width = 40px`
 
-- `align-self: flex-end` → `strings` index **3**
-- `position: absolute` → `strings` index **4**
-- `left: 0px` → use a **dedicated** pooled length **0** (do **not** share the same index as `bottom: 4px`)
-- `bottom: 4px` → `dimensions` index **2** = `4` (px)
-
-**Implementation (Win):** `left` uses `valueIndex` **16** → `dimensions[16]` = `0`; `bottom` still `valueIndex` **2** → `dimensions[2]` = `4`.
-
-### Rule `3` — `FMTacticsShirt`
-
-Target:
-
-- `min-height` / `max-height` / `min-width` / `max-width`: **40px** → pooled index **3** = `40` (all four properties point at same `valueIndex`)
-- `top: 16px` → pooled index **4** = `16`
-- `left: 12px` → add property; pooled index **15** = `12` (Win)
-
-### Rule `7` — right `BindingRemapper` + `TacticsPlayerRoleMovementIcon`
-
-Target:
-
-- Same as rule **2** pattern but `right: 0px` instead of `left`
-- `right: 0px` → same **0px** pool entry as left icon (`valueIndex` **16** on Win)
-- `bottom: 4px` → still `valueIndex` **2**
-
-### Rules `28` and `29` — player photo (PersonPicture)
-
-Do **not** overload rule **3** for the photo; shirt stays on **3**, photo uses **new** rules at the end of `m_Rules.Array`.
-
-**Rule `28` — outer `VisualElement` wrapping the photo**
-
-- `width` / `height`: **40px** → `dimensions` index **12** = `40`
-- `position: absolute` → `strings` index **4**
-- `left: 50%` → `dimensions` index **6** = `{ unit: 2, value: 50 }` (percent)
-- `margin-left: -28px` → `dimensions` index **13** = `-28`
-- `margin-top: 11px` → `dimensions` index **14** = `11`
-- `justify-content` / `align-items`: **center** → `strings` index **2**
-
-**Rule `29` — inner `BindingRemapper` (`width: 40px` only)**
-
-- `width` → same **40px** pool as above (`valueIndex` **12** on Win)
-
-### `dimensions` pool (append / set as needed)
-
-Win final pool includes at least:
-
-| Index | Meaning (Win)                                      |
-| ----- | -------------------------------------------------- |
-| 0     | 50 (row height)                                    |
-| 1     | -50 (row top)                                      |
-| 2     | 4 (movement icon bottom; shared where appropriate) |
-| 3     | 40 (shirt box)                                     |
-| 4     | 16 (shirt `top`)                                   |
-| 6     | 50% (`left` for photo)                             |
-| 12    | 40 (photo width/height)                            |
-| 13    | -28 (photo `margin-left`)                          |
-| 14    | 11 (photo `margin-top`)                            |
-| 15    | 12 (shirt `left`)                                  |
-| 16    | 0 (movement icon `left`/`right` = 0)               |
-
-If Mac’s `dimensions.Array` order differs, **preserve values** and **rewire `valueIndex`** on each property so it points at the correct pooled entry — do not assume indices are identical across platforms.
-
-### `strings` pool
-
-Uses shared keyword indices (stretch, flex-start, center, flex-end, absolute, …). If your Mac sheet’s `strings.Array` order differs, **adjust `valueIndex`** on enum properties to match the same keywords.
-
----
-
-## 2. `TacticsPositionCombined` (UXML tree)
-
-**Do not copy** Win `m_Id` / `rid` / `uxmlAssetId` into Mac wholesale.
+## `TacticsPositionCombined` target
 
 ### `m_Usings`
 
-Add template import (same GUID as FM):
+Add this template import:
 
 ```json
 {
@@ -108,49 +91,47 @@ Add template import (same GUID as FM):
 }
 ```
 
-### Tree insertion (logical)
+### Tree insertion
 
-Under the flex row that contains the shirt (`m_ParentId` = same parent as `FMTacticsShirt` on your platform):
+Under the row that already contains `FMTacticsShirt`, insert:
 
-1. After **`FMTacticsShirt`** and its children, **before** the next sibling (e.g. match-player `SIVisible`), insert:
-   - `UnityEngine.UIElements.VisualElement` — outer photo wrapper
-   - child: `SI.Bindable.BindingRemapper` — `person` → `position.Player`
-   - child: template instance **`PersonPicture`**
+1. Outer `VisualElement`
+2. Child `SI.Bindable.BindingRemapper`
+3. Child template instance `PersonPicture`
 
-### `m_RuleIndex` wiring (must match `inlineStyle` after edits)
+#### Which array each node lives in (critical)
 
-| Element                                 | Purpose | `m_RuleIndex` |
-| --------------------------------------- | ------- | ------------- |
-| Row `tactics-position__shirt-and-icons` | rule 0  | **0**         |
-| Left movement `BindingRemapper`         | rule 2  | **2**         |
-| `FMTacticsShirt`                        | rule 3  | **3**         |
-| Right movement `BindingRemapper`        | rule 7  | **7**         |
-| Outer photo `VisualElement`             | rule 28 | **28**        |
-| Photo `BindingRemapper`                 | rule 29 | **29**        |
+Unity splits the serialized tree into two lists. **Do not put the template instance in the wrong one** or the portrait may not appear in-game.
 
-### Serialized `references` / `RefIds`
+| Node | `m_VisualElementAssets.Array` | `m_TemplateAssets.Array` |
+| ---- | ----------------------------- | ------------------------ |
+| Outer portrait wrapper (`VisualElement`) | yes | no |
+| Portrait `BindingRemapper` | yes | no |
+| `PersonPicture` template instance (`m_TemplateAlias` / `TemplateContainer`) | **no** | **yes** |
 
-Win added three new blocks (VisualElement + BindingRemapper + TemplateContainer serialized data) with new **`rid`** values and matching **`uxmlAssetId`** = the new elements’ **`m_Id`**. On Mac:
+The template row has `m_FullTypeName` empty and `m_TemplateAlias: "PersonPicture"`; it belongs in **`m_TemplateAssets`**, not appended to `m_VisualElementAssets`.
 
-- Generate **new** unique `m_Id` values for the three nodes.
-- Add matching **`references.RefIds`** entries; **`uxmlAssetId`** in each `data` block must equal that element’s **`m_Id`**.
-- **`m_SerializedData.rid`** on each visual/template row must match the corresponding `RefIds` entry.
+#### `m_OrderInDocument`
 
-### `m_OrderInDocument`
+- Treat **`m_OrderInDocument` as global** across **`m_VisualElementAssets` and `m_TemplateAssets` together**: each value must appear at most once in the combined set of nodes.
+- After edits, renumber so orders are **unique and contiguous** from `0` through `N-1` (depth-first walk from parent `0` is a reliable way). **Per-parent-only** uniqueness is not enough if the same order number is reused in the other array.
 
-After structural edits, renumber **all** `m_VisualElementAssets` + `m_TemplateAssets` so **`m_OrderInDocument`** is **globally unique** and **contiguous** (Win ended with **78** nodes, **0–77**). A depth-first walk from parent **`0`** is one reliable way to assign order.
+Reference IDs for the inserted subtree:
 
----
+| Node | `m_Id` | `m_RuleIndex` | `rid` |
+| ---- | ------ | ------------- | ----- |
+| outer portrait wrapper | `1928374651` | `28` | `1084` |
+| portrait remapper | `1928374652` | `29` | `1085` |
+| `PersonPicture` template | `1928374653` | `-1` | `1086` |
 
-## 3. Reapply checklist (Mac)
+The remapper maps `person` to `position.Player`.
 
-1. Export Mac **`TacticsPositionCombined`** + its **`inlineStyle`** from the Mac CAB (paths/PathIDs will differ).
-2. Apply **`inlineStyle`** edits: rules **0, 2, 3, 7**, append **28–29**, dimension/string pool updates, movement-icon **0px** horizontal via a **separate** 0-length pool slot.
-3. Apply **combined** edits: **`m_Usings`**, insert **photo** subtree, set **`m_RuleIndex`** as in the table, append **`references`**, fix **`m_OrderInDocument`**.
-4. Reimport; verify in-game.
+### Added `references.RefIds`
 
----
+Append the matching serialized-data blocks for:
 
-## 4. Optional skin parity
+- `rid 1084` -> `VisualElement/UxmlSerializedData`, `uxmlAssetId 1928374651`, name `PlayerPictureWrap`
+- `rid 1085` -> `BindingRemapper/UxmlSerializedData`, `uxmlAssetId 1928374652`, name `PlayerPictureRemapper`
+- `rid 1086` -> `TemplateContainer/UxmlSerializedData`, `uxmlAssetId 1928374653`, name `PersonPicture`, `templateId PersonPicture`
 
-`panels/TacticsPositionDetailed.uxml` in this skin mirrors the same layout for non-bundled overrides; keep UXML in sync if you maintain both skin and CAB patches.
+Those `uxmlAssetId` values must match the inserted node `m_Id` values.

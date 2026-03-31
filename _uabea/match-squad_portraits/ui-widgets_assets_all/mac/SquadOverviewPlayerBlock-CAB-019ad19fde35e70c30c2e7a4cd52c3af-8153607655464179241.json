@@ -423,7 +423,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1481581455,
-        "m_OrderInDocument": 10,
+        "m_OrderInDocument": 11,
         "m_ParentId": 1216511884,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -456,7 +456,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 225516731,
-        "m_OrderInDocument": 11,
+        "m_OrderInDocument": 12,
         "m_ParentId": 1481581455,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -493,7 +493,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1295617564,
-        "m_OrderInDocument": 12,
+        "m_OrderInDocument": 13,
         "m_ParentId": 1481581455,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -530,7 +530,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1213145866,
-        "m_OrderInDocument": 11,
+        "m_OrderInDocument": 14,
         "m_ParentId": 1216511884,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -565,7 +565,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -311354447,
-        "m_OrderInDocument": 12,
+        "m_OrderInDocument": 15,
         "m_ParentId": 1213145866,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -598,7 +598,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 937978241,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 16,
         "m_ParentId": -311354447,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -633,7 +633,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 941344259,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 17,
         "m_ParentId": 1213145866,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -666,7 +666,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -851591643,
-        "m_OrderInDocument": 14,
+        "m_OrderInDocument": 18,
         "m_ParentId": 941344259,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -701,7 +701,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -390735632,
-        "m_OrderInDocument": 8,
+        "m_OrderInDocument": 19,
         "m_ParentId": -1371632731,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -736,7 +736,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -930972828,
-        "m_OrderInDocument": 9,
+        "m_OrderInDocument": 20,
         "m_ParentId": -390735632,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -769,7 +769,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1302622977,
-        "m_OrderInDocument": 10,
+        "m_OrderInDocument": 21,
         "m_ParentId": -930972828,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -804,7 +804,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 2015084487,
-        "m_OrderInDocument": 11,
+        "m_OrderInDocument": 22,
         "m_ParentId": 1302622977,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -837,7 +837,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1206411702,
-        "m_OrderInDocument": 12,
+        "m_OrderInDocument": 23,
         "m_ParentId": 2015084487,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -870,7 +870,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1123395378,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 24,
         "m_ParentId": 1206411702,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -903,7 +903,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -679369457,
-        "m_OrderInDocument": 14,
+        "m_OrderInDocument": 25,
         "m_ParentId": -1123395378,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -938,7 +938,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 2094463544,
-        "m_OrderInDocument": 15,
+        "m_OrderInDocument": 26,
         "m_ParentId": -1123395378,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -974,7 +974,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1295619692,
-        "m_OrderInDocument": 12,
+        "m_OrderInDocument": 27,
         "m_ParentId": 1302622977,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1007,7 +1007,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1120029360,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 28,
         "m_ParentId": -1295619692,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1039,41 +1039,8 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 2033141592,
-        "m_OrderInDocument": 14,
-        "m_ParentId": 1302622977,
-        "m_NamespaceDefinitions": {
-          "Array": []
-        },
-        "m_Properties": {
-          "Array": []
-        },
-        "m_Name": "",
-        "m_RuleIndex": 31,
-        "m_Text": "",
-        "m_PickingMode": 0,
-        "m_Classes": {
-          "Array": []
-        },
-        "m_StylesheetPaths": {
-          "Array": []
-        },
-        "m_Stylesheets": {
-          "Array": []
-        },
-        "m_SerializedData": {
-          "rid": 1047
-        },
-        "m_SkipClone": 0
-      },
-      {
-        "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
-        "m_XmlNamespace": {
-          "prefix": "",
-          "resolvedNamespace": ""
-        },
         "m_Id": -42920986,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 29,
         "m_ParentId": 1302622977,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1100,13 +1067,46 @@
         "m_SkipClone": 0
       },
       {
+        "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": 2019847551,
+        "m_OrderInDocument": 34,
+        "m_ParentId": 1302622977,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 31,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1047
+        },
+        "m_SkipClone": 0
+      },
+      {
         "m_FullTypeName": "SI.Bindable.SIVisible",
         "m_XmlNamespace": {
           "prefix": "",
           "resolvedNamespace": ""
         },
         "m_Id": 1385368052,
-        "m_OrderInDocument": 14,
+        "m_OrderInDocument": 30,
         "m_ParentId": -42920986,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1139,7 +1139,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1292522795,
-        "m_OrderInDocument": 15,
+        "m_OrderInDocument": 31,
         "m_ParentId": 1385368052,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1172,7 +1172,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -321456757,
-        "m_OrderInDocument": 16,
+        "m_OrderInDocument": 32,
         "m_ParentId": 1292522795,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1207,7 +1207,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1842591052,
-        "m_OrderInDocument": 17,
+        "m_OrderInDocument": 33,
         "m_ParentId": 1292522795,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1243,7 +1243,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1292253674,
-        "m_OrderInDocument": 11,
+        "m_OrderInDocument": 36,
         "m_ParentId": -930972828,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1276,7 +1276,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1120298481,
-        "m_OrderInDocument": 12,
+        "m_OrderInDocument": 37,
         "m_ParentId": -1292253674,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1309,7 +1309,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 2011716341,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 38,
         "m_ParentId": 1120298481,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1347,7 +1347,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1020452067,
-        "m_OrderInDocument": 10,
+        "m_OrderInDocument": 39,
         "m_ParentId": -390735632,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1380,7 +1380,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -397469796,
-        "m_OrderInDocument": 12,
+        "m_OrderInDocument": 41,
         "m_ParentId": -1020452067,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1415,7 +1415,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1295621820,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 42,
         "m_ParentId": -397469796,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1448,7 +1448,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 580059157,
-        "m_OrderInDocument": 14,
+        "m_OrderInDocument": 43,
         "m_ParentId": -1295621820,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1483,7 +1483,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -941075138,
-        "m_OrderInDocument": 15,
+        "m_OrderInDocument": 44,
         "m_ParentId": -1295621820,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1518,7 +1518,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1564057409,
-        "m_OrderInDocument": 14,
+        "m_OrderInDocument": 45,
         "m_ParentId": -397469796,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1551,7 +1551,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 43187979,
-        "m_OrderInDocument": 15,
+        "m_OrderInDocument": 46,
         "m_ParentId": -1564057409,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1587,7 +1587,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -311358703,
-        "m_OrderInDocument": 15,
+        "m_OrderInDocument": 47,
         "m_ParentId": -397469796,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1620,7 +1620,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1746381905,
-        "m_OrderInDocument": 16,
+        "m_OrderInDocument": 48,
         "m_ParentId": -311358703,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1653,7 +1653,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 686370614,
-        "m_OrderInDocument": 7,
+        "m_OrderInDocument": 49,
         "m_ParentId": -652439185,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1692,7 +1692,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1123664499,
-        "m_OrderInDocument": 11,
+        "m_OrderInDocument": 40,
         "m_ParentId": -1020452067,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1734,9 +1734,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 2033141593,
-        "m_OrderInDocument": 15,
-        "m_ParentId": 2033141592,
+        "m_Id": 2019847552,
+        "m_OrderInDocument": 35,
+        "m_ParentId": 2019847551,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1786,7 +1786,7 @@
     "Array": []
   },
   "m_ContentContainerId": 0,
-  "m_ContentHash": 1783672968,
+  "m_ContentHash": 32257678,
   "references": {
     "version": 2,
     "RefIds": [
@@ -5920,15 +5920,16 @@
           "dataSourcePathString_UxmlAttributeFlags": 0,
           "dataSourceTypeString_UxmlAttributeFlags": 0,
           "bindings_UxmlAttributeFlags": 0,
-          "StyleRecolourMode": 0,
-          "ScaleMode": 0,
-          "StyleRecolourMode_UxmlAttributeFlags": 0,
-          "ScaleMode_UxmlAttributeFlags": 0,
           "StaticImage": {
             "m_AssetGUID": "",
             "m_SubObjectName": "",
             "m_SubObjectType": ""
           },
+          "ScaleMode": 0,
+          "StyleRecolourMode": 0,
+          "StaticImage_UxmlAttributeFlags": 0,
+          "ScaleMode_UxmlAttributeFlags": 0,
+          "StyleRecolourMode_UxmlAttributeFlags": 0,
           "BindFunction": {
             "m_isAssigned": 0,
             "m_target": {
@@ -6243,7 +6244,6 @@
             }
           },
           "PlaceholderImagePath": "Assets/UIAssets/TifoComponents/Icons/scaling icons/icons/condition/2x/level=3, size=large 32px_2x.png",
-          "StaticImage_UxmlAttributeFlags": 0,
           "BindFunction_UxmlAttributeFlags": 0,
           "ImageKind_UxmlAttributeFlags": 1,
           "Binding_UxmlAttributeFlags": 1,
@@ -6290,15 +6290,16 @@
           "dataSourcePathString_UxmlAttributeFlags": 0,
           "dataSourceTypeString_UxmlAttributeFlags": 0,
           "bindings_UxmlAttributeFlags": 0,
-          "StyleRecolourMode": 0,
-          "ScaleMode": 2,
-          "StyleRecolourMode_UxmlAttributeFlags": 0,
-          "ScaleMode_UxmlAttributeFlags": 1,
           "StaticImage": {
             "m_AssetGUID": "",
             "m_SubObjectName": "",
             "m_SubObjectType": ""
           },
+          "ScaleMode": 2,
+          "StyleRecolourMode": 0,
+          "StaticImage_UxmlAttributeFlags": 0,
+          "ScaleMode_UxmlAttributeFlags": 1,
+          "StyleRecolourMode_UxmlAttributeFlags": 0,
           "BindFunction": {
             "m_isAssigned": 0,
             "m_target": {
@@ -6622,7 +6623,6 @@
             }
           },
           "PlaceholderImagePath": "Assets/UIAssets/TifoComponents/Icons/game concepts/goal_large_1x.png",
-          "StaticImage_UxmlAttributeFlags": 0,
           "BindFunction_UxmlAttributeFlags": 0,
           "ImageKind_UxmlAttributeFlags": 1,
           "Binding_UxmlAttributeFlags": 1,
@@ -7459,15 +7459,16 @@
           "dataSourcePathString_UxmlAttributeFlags": 0,
           "dataSourceTypeString_UxmlAttributeFlags": 0,
           "bindings_UxmlAttributeFlags": 0,
-          "StyleRecolourMode": 0,
-          "ScaleMode": 0,
-          "StyleRecolourMode_UxmlAttributeFlags": 0,
-          "ScaleMode_UxmlAttributeFlags": 0,
           "StaticImage": {
             "m_AssetGUID": "",
             "m_SubObjectName": "",
             "m_SubObjectType": ""
           },
+          "ScaleMode": 0,
+          "StyleRecolourMode": 0,
+          "StaticImage_UxmlAttributeFlags": 0,
+          "ScaleMode_UxmlAttributeFlags": 0,
+          "StyleRecolourMode_UxmlAttributeFlags": 0,
           "BindFunction": {
             "m_isAssigned": 0,
             "m_target": {
@@ -7814,7 +7815,6 @@
             }
           },
           "PlaceholderImagePath": "",
-          "StaticImage_UxmlAttributeFlags": 0,
           "BindFunction_UxmlAttributeFlags": 0,
           "ImageKind_UxmlAttributeFlags": 1,
           "Binding_UxmlAttributeFlags": 1,
@@ -7863,16 +7863,146 @@
           "bindings_UxmlAttributeFlags": 0,
           "HasInitialFocus": 0,
           "HasInitialFocus_UxmlAttributeFlags": 0,
+          "InputActionRef": {
+            "m_inputActionAsset": {
+              "m_AssetGUID": "",
+              "m_SubObjectName": "",
+              "m_SubObjectType": ""
+            },
+            "m_actionID": ""
+          },
+          "LeftClickEvents": {
+            "m_serializedEvents": "",
+            "m_bytes": {
+              "Array": []
+            }
+          },
           "RightClickEvents": {
             "m_serializedEvents": "",
             "m_bytes": {
               "Array": []
             }
           },
-          "LeftClickEvents": {
+          "SelectionEvents": {
             "m_serializedEvents": "",
             "m_bytes": {
-              "Array": []
+              "Array": [
+                0,
+                1,
+                1,
+                1,
+                1,
+                207,
+                57,
+                63,
+                138,
+                61,
+                1,
+                207,
+                1,
+                1,
+                6,
+                84,
+                97,
+                99,
+                116,
+                105,
+                99,
+                188,
+                207,
+                1,
+                1,
+                11,
+                109,
+                111,
+                100,
+                105,
+                102,
+                121,
+                45,
+                100,
+                97,
+                116,
+                97,
+                188,
+                1,
+                1,
+                1,
+                32,
+                56,
+                57,
+                97,
+                102,
+                51,
+                55,
+                97,
+                98,
+                97,
+                57,
+                55,
+                54,
+                52,
+                56,
+                50,
+                52,
+                102,
+                57,
+                55,
+                52,
+                56,
+                48,
+                57,
+                102,
+                102,
+                53,
+                53,
+                54,
+                98,
+                98,
+                98,
+                56,
+                1,
+                0,
+                1,
+                1,
+                1,
+                32,
+                55,
+                55,
+                99,
+                51,
+                51,
+                57,
+                100,
+                49,
+                53,
+                97,
+                54,
+                101,
+                98,
+                52,
+                101,
+                52,
+                48,
+                98,
+                55,
+                53,
+                101,
+                50,
+                99,
+                101,
+                55,
+                55,
+                97,
+                99,
+                101,
+                52,
+                51,
+                51,
+                1,
+                0,
+                188
+              ]
             }
           },
           "RowTemplate": {
@@ -8039,152 +8169,24 @@
               }
             }
           },
-          "SelectionEvents": {
-            "m_serializedEvents": "",
-            "m_bytes": {
-              "Array": [
-                0,
-                1,
-                1,
-                1,
-                1,
-                207,
-                57,
-                63,
-                138,
-                61,
-                1,
-                207,
-                1,
-                1,
-                6,
-                84,
-                97,
-                99,
-                116,
-                105,
-                99,
-                188,
-                207,
-                1,
-                1,
-                11,
-                109,
-                111,
-                100,
-                105,
-                102,
-                121,
-                45,
-                100,
-                97,
-                116,
-                97,
-                188,
-                1,
-                1,
-                1,
-                32,
-                56,
-                57,
-                97,
-                102,
-                51,
-                55,
-                97,
-                98,
-                97,
-                57,
-                55,
-                54,
-                52,
-                56,
-                50,
-                52,
-                102,
-                57,
-                55,
-                52,
-                56,
-                48,
-                57,
-                102,
-                102,
-                53,
-                53,
-                54,
-                98,
-                98,
-                98,
-                56,
-                1,
-                0,
-                1,
-                1,
-                1,
-                32,
-                55,
-                55,
-                99,
-                51,
-                51,
-                57,
-                100,
-                49,
-                53,
-                97,
-                54,
-                101,
-                98,
-                52,
-                101,
-                52,
-                48,
-                98,
-                55,
-                53,
-                101,
-                50,
-                99,
-                101,
-                55,
-                55,
-                97,
-                99,
-                101,
-                52,
-                51,
-                51,
-                1,
-                0,
-                188
-              ]
-            }
-          },
-          "InputActionRef": {
-            "m_inputActionAsset": {
-              "m_AssetGUID": "",
-              "m_SubObjectName": "",
-              "m_SubObjectType": ""
-            },
-            "m_actionID": ""
-          },
-          "ForceRefreshOnNewChoices": 0,
-          "ShowSearchResults": 0,
-          "PreviewVisibilityToggle": 0,
-          "ShouldHideIfNoItems": 0,
-          "AlwaysUpdateInternalSelection": 0,
-          "UseRowTemplateToShowSelectedValue": 0,
-          "TriggerSelectionEventOnInit": 0,
-          "AlternateRows": 0,
-          "HideOnSelectionChange": 0,
-          "AddSelectedHistoryOnSelectionChange": 0,
-          "DynamicElements": 0,
-          "HideOnFocusLoss": 0,
           "ShortcutIconPlacement": 0,
-          "ScrollToSelection": 0,
-          "ForceUsePrevSelectedIndexOnDataChanged": 0,
+          "HideOnFocusLoss": 0,
+          "DynamicElements": 0,
+          "AddSelectedHistoryOnSelectionChange": 0,
+          "HideOnSelectionChange": 0,
+          "TriggerSelectionEventOnInit": 0,
           "AllowsQuickChangeShortcut": 0,
+          "ShouldHideIfNoItems": 0,
+          "ShowSearchResults": 0,
+          "ForceRefreshOnNewChoices": 0,
+          "PreviewVisibilityToggle": 0,
+          "AlwaysUpdateInternalSelection": 0,
+          "AlternateRows": 0,
+          "ScrollToSelection": 0,
+          "UseRowTemplateToShowSelectedValue": 0,
+          "SelectionValueBinding": {
+            "m_path": "modify-data"
+          },
           "ChildDropdownArrowDirection": 0,
           "DropdownControl": 0,
           "ScrollToSelectionBinding": {
@@ -8212,31 +8214,29 @@
           "PopupClass": "",
           "DropdownArrowUSSClass": "",
           "MigrateSelectionEvent": "",
-          "SelectionValueBinding": {
-            "m_path": "modify-data"
-          },
-          "RightClickEvents_UxmlAttributeFlags": 0,
+          "UsePersistentSelection": 0,
+          "InputActionRef_UxmlAttributeFlags": 0,
           "LeftClickEvents_UxmlAttributeFlags": 0,
+          "RightClickEvents_UxmlAttributeFlags": 0,
+          "SelectionEvents_UxmlAttributeFlags": 1,
           "RowTemplate_UxmlAttributeFlags": 1,
           "BindChoicesFunction_UxmlAttributeFlags": 1,
-          "SelectionEvents_UxmlAttributeFlags": 1,
-          "InputActionRef_UxmlAttributeFlags": 0,
-          "ForceRefreshOnNewChoices_UxmlAttributeFlags": 0,
-          "ShowSearchResults_UxmlAttributeFlags": 0,
-          "PreviewVisibilityToggle_UxmlAttributeFlags": 0,
-          "ShouldHideIfNoItems_UxmlAttributeFlags": 0,
-          "AlwaysUpdateInternalSelection_UxmlAttributeFlags": 0,
-          "UseRowTemplateToShowSelectedValue_UxmlAttributeFlags": 0,
-          "TriggerSelectionEventOnInit_UxmlAttributeFlags": 0,
-          "AlternateRows_UxmlAttributeFlags": 0,
-          "HideOnSelectionChange_UxmlAttributeFlags": 0,
-          "AddSelectedHistoryOnSelectionChange_UxmlAttributeFlags": 0,
-          "DynamicElements_UxmlAttributeFlags": 0,
-          "HideOnFocusLoss_UxmlAttributeFlags": 0,
           "ShortcutIconPlacement_UxmlAttributeFlags": 0,
-          "ScrollToSelection_UxmlAttributeFlags": 0,
-          "ForceUsePrevSelectedIndexOnDataChanged_UxmlAttributeFlags": 0,
+          "HideOnFocusLoss_UxmlAttributeFlags": 0,
+          "DynamicElements_UxmlAttributeFlags": 0,
+          "AddSelectedHistoryOnSelectionChange_UxmlAttributeFlags": 0,
+          "HideOnSelectionChange_UxmlAttributeFlags": 0,
+          "TriggerSelectionEventOnInit_UxmlAttributeFlags": 0,
           "AllowsQuickChangeShortcut_UxmlAttributeFlags": 0,
+          "ShouldHideIfNoItems_UxmlAttributeFlags": 0,
+          "ShowSearchResults_UxmlAttributeFlags": 0,
+          "ForceRefreshOnNewChoices_UxmlAttributeFlags": 0,
+          "PreviewVisibilityToggle_UxmlAttributeFlags": 0,
+          "AlwaysUpdateInternalSelection_UxmlAttributeFlags": 0,
+          "AlternateRows_UxmlAttributeFlags": 0,
+          "ScrollToSelection_UxmlAttributeFlags": 0,
+          "UseRowTemplateToShowSelectedValue_UxmlAttributeFlags": 0,
+          "SelectionValueBinding_UxmlAttributeFlags": 1,
           "ChildDropdownArrowDirection_UxmlAttributeFlags": 0,
           "DropdownControl_UxmlAttributeFlags": 0,
           "ScrollToSelectionBinding_UxmlAttributeFlags": 0,
@@ -8254,7 +8254,7 @@
           "PopupClass_UxmlAttributeFlags": 0,
           "DropdownArrowUSSClass_UxmlAttributeFlags": 0,
           "MigrateSelectionEvent_UxmlAttributeFlags": 0,
-          "SelectionValueBinding_UxmlAttributeFlags": 1
+          "UsePersistentSelection_UxmlAttributeFlags": 0
         }
       },
       {
@@ -8316,7 +8316,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 2033141592,
+          "uxmlAssetId": 2019847551,
           "name": "SquadPlayerPictureWrap",
           "bindings": {
             "Array": []
@@ -8358,7 +8358,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 2033141593,
+          "uxmlAssetId": 2019847552,
           "name": "PersonPicture",
           "bindings": {
             "Array": []
