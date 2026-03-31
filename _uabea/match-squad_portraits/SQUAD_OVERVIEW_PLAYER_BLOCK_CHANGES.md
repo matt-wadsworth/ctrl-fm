@@ -6,14 +6,16 @@
 
 ## Implementation notes
 
+Notation **`[n]`** = 0-based index into the named array in the dump (pools, **`m_Rules`**, etc.) — see **[Bracket notation and the `references` object](../UABEA-NOTES.md#bracket-notation-and-the-references-object)** in **`UABEA-NOTES.md`**.
+
 Work from **stock bundle exports** (your **`orig`** folder or platform dump) into the patched copies. If a new game version shifts indices, pool sizes, or rule order, adjust the steps below to match the new dump, then update this document so it stays accurate.
 
 **Guardrails (stylesheet):**
 
 - **`m_Properties.Array` order matters.** Unity UI serializes each rule as an ordered list; re-ordering or dropping unrelated properties changes cascade and can break layout.
 - **Prefer additive edits:** when adding one property (e.g. `padding-top`), insert it in the correct position relative to siblings—do not replace an entire rule with a shortened list unless you intend to remove those properties.
-- **Rule 12:** insert `padding-top` **after** `padding` and **before** `border-radius`. Keep `height`, `padding`, `border-radius`, `align-self`, `justify-content`, and `flex-shrink` as in the table.
-- **Rule 14:** the block has **seven** properties in a fixed order (see table); partial replacements that omit `justify-content`, `align-self`, or `position` will look wrong.
+- **Rule `[12]`** (`m_Rules.Array[12]`): insert `padding-top` **after** `padding` and **before** `border-radius`. Keep `height`, `padding`, `border-radius`, `align-self`, `justify-content`, and `flex-shrink` as in the table.
+- **Rule `[14]`** (`m_Rules.Array[14]`): the block has **seven** properties in a fixed order (see table); partial replacements that omit `justify-content`, `align-self`, or `position` will look wrong.
 
 ## Assets
 

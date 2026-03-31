@@ -13,6 +13,7 @@ Each patch folder under `_uabea/` has its own instruction note. Those patch note
 - For colours, sizes, pooled dimensions, pooled strings, and similar style values, record the intended target values directly in the patch note unless a patch note explicitly says otherwise.
 - Windows and Mac dumps should be treated as the same logical patch with different IDs and serialized references. Ignore platform-specific IDs in the docs unless the structure truly diverges.
 - Docs should stay instruction-first: what to edit, how to find it, and what the target value should be.
+- **`[n]` in patch notes** = **0-based index** into the named JSON array (rules, elements, pools, **`references.RefIds`**, etc.); not line numbers — see [Bracket notation and the `references` object](#bracket-notation-and-the-references-object).
 
 ## Dump format
 
@@ -20,6 +21,12 @@ The repo is documented around UABEA Next JSON dumps.
 
 - Patch notes should describe the edit in bundle/asset terms, not around a temporary export format.
 - When a patch uses serialized USS or UXML trees heavily, JSON is the easiest shape to inspect and compare.
+
+### Bracket notation and the `references` object
+
+- **Square brackets `[n]` in patch notes always mean a 0-based index into a named JSON array**, unless the note explicitly says otherwise. Examples: **`rule [2]`** → `m_Rules.Array[2]`; **`element [8]`** → `m_VisualElementAssets.Array[8]`; **`dimensions[4]`** → `dimensions.Array[4]`; **`strings[5]`** → `strings.Array[5]`. This is **not** a source line number, **not** a file offset, and **not** the same thing as a Unity **`rid`** (unless the text explicitly maps an index to an `rid`).
+- The asset root field **`references`** (with **`references.RefIds`**) is Unity’s serialized **reference table** for that asset. When a note says to leave **`references`** unchanged, it means that **object** (and its nested serialized blocks), not “indexed references” in the abstract.
+- **`references.RefIds[n]`** is the **n-th** object in the **`RefIds`** array (still 0-based). Each entry has its own **`rid`** field; **do not** confuse **`n`** with **`rid`**.
 
 ## AI-assisted workflow
 
@@ -57,6 +64,8 @@ Rules for using AI here:
 - After AI-assisted edits, validate the final dump by parsing it again and checking the intended asset counts or rule counts.
 
 ## Patch documentation
+
+The `*CHANGES*.md` notes linked below all follow the same conventions: **`[n]`** = 0-based index into the named JSON array (pools, **`m_Rules`**, **`m_VisualElementAssets`**, etc.); the root **`references`** object is only meant when written as **`references`** / **`references.RefIds`** — see [Bracket notation and the `references` object](#bracket-notation-and-the-references-object).
 
 | Patch folder | Document |
 | ------------ | -------- |
