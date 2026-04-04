@@ -1,3 +1,5 @@
 /packages
 /_releases
+/dist
+/media
 .prettierrc
