@@ -4,7 +4,11 @@
 
 # CTRL 26
 
-### 🚀 Build with FM Skin Builder
+### 📦 Install via FM Skin Builder
+
+Use **FM Skin Builder** to download CTRL, apply it to your game, and keep backups, all without juggling files by hand. When a new release is available, you’re notified in the app so you can update and apply it to your game from the same place. Download the skin in the skins gallery, or grab it directly from the website: **[CTRL 26 on FM Skin Builder](https://fmskinbuilder.com/skins/ctrl-26)**.
+
+### 🚀 Build source with FM Skin Builder
 
 **Install FM Skin Builder first** - Get the latest beta from **[fmskinbuilder.com/downloads](https://fmskinbuilder.com/downloads)**, this is required before you can build and apply CTRL.
 
@@ -32,7 +36,7 @@ Known bugs, planned changes and improvement ideas are tracked on the public **[T
 
 ### 💖 Support FM Skin Builder
 
-If you’d like to support ongoing development of **FM Skin Builder** and help cover hosting, tooling and research time, you can do so via **[Ko‑fi](https://ko-fi.com/lotsgon)**. The builder will remain free to use — contributions simply help keep the project online, stable and improving over time.
+If you’d like to support ongoing development of **FM Skin Builder** and help cover hosting, tooling and research time, you can do so via **[Ko‑fi](https://ko-fi.com/lotsgon)**. The builder will remain free to use; contributions simply help keep the project online, stable and improving over time.
 
 ### 🙏 Thanks to...
 
