@@ -2,6 +2,14 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.5] – Ongoing
+
+### Changed
+
+- **Message Indicators** - Refactor to remove UABEA requirement.
+
+---
+
 ## [1.4] – 31/03/2026
 
 ### Fixed
