@@ -1,0 +1,29 @@
+{
+  "name": "MyHistoryCardGridComposition",
+  "grid": {
+    "width": 14,
+    "height": 8
+  },
+  "tiles": [
+    {
+      "tile": "MyHistoryJobHistoyTileDescriptor_8x4",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 8,
+      "isDynamic": false,
+      "guid": "4ce1c4e868dee264298f2ae38b7d1a7d",
+      "path_id": "-2410458675689425930"
+    },
+    {
+      "tile": "MyHistoryBiographyTileDescriptor_8x4",
+      "x": 8,
+      "y": 0,
+      "w": 6,
+      "h": 8,
+      "isDynamic": false,
+      "guid": "6c6df8ffab06ba84aa2805fc40c4a646",
+      "path_id": "-7526185702970078189"
+    }
+  ]
+}
