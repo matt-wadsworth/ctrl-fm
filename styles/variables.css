@@ -54,9 +54,9 @@
   --continue-button-default-border: #1c252f00;
   --continue-button-default-background-secondary: #1c252f;
 
-  /* Tables - Remove alternating rows */
-  --data-tables-background-hover: #ffffff04;
-  --data-tables-background-odd: #ff000000;
+  /* Tables - Rows */
+  --data-tables-background-hover: #ffffff0a;
+  --data-tables-background-odd: #ffffff04;
 
   /* Tactics - Active Tactic, Active Tab and Collapse */
   --colours-tactics-base-00: rgba(217, 232, 237, 0.35);
