@@ -1,0 +1,69 @@
+{
+  "name": "ClubProfileInMatchCardGridComposition",
+  "grid": {
+    "width": 16,
+    "height": 8
+  },
+  "tiles": [
+    {
+      "tile": "AboutClubTile_4x4",
+      "x": 0,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "0767d4d7f547c6541bede9346da76285",
+      "path_id": "7841290357383347596"
+    },
+    {
+      "tile": "FixtureTeamBodyElement_4x4",
+      "x": 12,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "4e72fa84ff9abf142b8bcc03df8c9aae",
+      "path_id": "-6721009456156715952"
+    },
+    {
+      "tile": "LeagueHistory_8x3",
+      "x": 8,
+      "y": 4,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "9dc1186be61d4b242a4857942a6da7fc",
+      "path_id": "5080048528912811898"
+    },
+    {
+      "tile": "NotablePlayersBlock_8x2",
+      "x": 4,
+      "y": 0,
+      "w": 8,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "3c80175257ab02a44be155be715efe22",
+      "path_id": "-1220584739020313109"
+    },
+    {
+      "tile": "TeamReportManagerInformationBlock_8x2",
+      "x": 4,
+      "y": 2,
+      "w": 8,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "70bd6de9e438b0f458b36ab26599a469",
+      "path_id": "-5020987963006672450"
+    },
+    {
+      "tile": "CalendarFixturesBlock_8x4",
+      "x": 0,
+      "y": 4,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "b31b38f53c8e08c4ba12172e02f59226",
+      "path_id": "-475239271667640653"
+    }
+  ]
+}
