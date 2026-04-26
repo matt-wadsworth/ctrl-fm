@@ -4,9 +4,27 @@ All notable changes to the CTRL skin are documented here.
 
 ## [1.5] – Ongoing
 
+### TODO
+
+- [] **Player Photos** - Remove background and radius on photos in Player Report tiles.
+- [] **Icons - Union** - Improve. Currently they look asymmetrical when rotated.
+- [] **Player Popups** - Fix Key/Pref row highlighting if possible?
+
+### Fixed
+
+-
+
+### Added
+
+- **Match - Club Profile** - Added more info to the tile layout.
+
 ### Changed
 
 - **Message Indicators** - Refactor to remove UABEA requirement.
+- **Table Rows** - Added subtle background to alternate rows.
+- **My History** - Refactored the layout of the My History card to reduce scrolling.
+- **Icons - Stars** - Increased clarity and sharpness on the star icons.
+- **Buttons - Secondary** - Re-added border to give some visual definition to them.
 
 ---
 
