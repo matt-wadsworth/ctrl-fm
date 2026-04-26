@@ -71,6 +71,11 @@
     --colours-alpha-light-alpha-8
   );
 
+  /* Buttons - Secondary */
+  --buttons-secondary-border-default: var(--colours-alpha-light-alpha-8);
+  --buttons-secondary-border-hover: var(--colours-alpha-light-alpha-14);
+  --buttons-secondary-border-disabled: rgba(217, 232, 237, 0.02);
+
   /* Communication Feedback
   --communication-feedback-negative: #f22c2c;
   --communication-feedback-positive: #4cab43; */

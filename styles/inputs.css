@@ -4,6 +4,12 @@
   border-width: 0px;
 }
 
+/* Buttons - Secondary */
+.buttons-button-secondary-default,
+.buttons-dropdown-secondary-default .si-dropdown__selection-field {
+  border-width: 2px;
+}
+
 /* ---- Tactics ---- */
 /* Undo Button */
 .buttons-combo-button-base-regular {
