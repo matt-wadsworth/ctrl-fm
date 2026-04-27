@@ -8,12 +8,12 @@ All notable changes to the CTRL skin are documented here.
 
 - [ ] **Player Photos** - Remove background and radius on photos in Player Report tiles.
 - [ ] **Icons - Union** - Improve. Currently they look asymmetrical when rotated.
-- [ ] **Player Popups** - Fix Key/Pref row highlighting if possible?
 - [ ] **Radio Group** - Change button styling, eg. Squad Registration rules/sections.
+- [ ] **Pre-Match GFX** - Change default (sitv) match assets and styles.
 
 ### Fixed
 
--
+- **Player Tooltip** - Fixed Key/Pref row highlighting plus added more info tiles.
 
 ### Added
 
