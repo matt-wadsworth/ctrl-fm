@@ -18,6 +18,7 @@
     "fonts",
     "graphics/pitch",
     "panels",
-    "tile-layouts"
+    "tile-layouts",
+    "table-views"
   ]
 }

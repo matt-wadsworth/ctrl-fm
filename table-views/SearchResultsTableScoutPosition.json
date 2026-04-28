@@ -1,0 +1,167 @@
+{
+  "name": "SearchResultsTableScoutPosition",
+  "columns": [
+    {
+      "columnID": "recommendation-grade-only",
+      "widthOverride": 0,
+      "minWidthOverride": 0,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "knowledge",
+      "widthOverride": 90,
+      "minWidthOverride": 90,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "inf",
+      "widthOverride": 0,
+      "minWidthOverride": 0,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "transfer-value",
+      "widthOverride": 120,
+      "minWidthOverride": 120,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "portrait-name",
+      "widthOverride": 170,
+      "minWidthOverride": 170,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "nation",
+      "widthOverride": 100,
+      "minWidthOverride": 100,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "second-nationality",
+      "widthOverride": 90,
+      "minWidthOverride": 90,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "international-caps",
+      "widthOverride": 50,
+      "minWidthOverride": 50,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "international-youth-caps",
+      "widthOverride": 50,
+      "minWidthOverride": 50,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "club",
+      "widthOverride": 100,
+      "minWidthOverride": 100,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "age",
+      "widthOverride": 40,
+      "minWidthOverride": 40,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "position",
+      "widthOverride": 100,
+      "minWidthOverride": 100,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "current-ability-stars",
+      "widthOverride": 85,
+      "minWidthOverride": 85,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "potential-ability-stars",
+      "widthOverride": 85,
+      "minWidthOverride": 85,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "world-reputation",
+      "widthOverride": 85,
+      "minWidthOverride": 85,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "attribute-determination",
+      "widthOverride": 40,
+      "minWidthOverride": 40,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "attribute-acceleration",
+      "widthOverride": 40,
+      "minWidthOverride": 40,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "attribute-pace",
+      "widthOverride": 40,
+      "minWidthOverride": 40,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "attribute-jumping-reach",
+      "widthOverride": 40,
+      "minWidthOverride": 40,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "attribute-aggression",
+      "widthOverride": 40,
+      "minWidthOverride": 40,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "attribute-bravery",
+      "widthOverride": 40,
+      "minWidthOverride": 40,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "attribute-teamwork",
+      "widthOverride": 40,
+      "minWidthOverride": 40,
+      "required": 0,
+      "sortingDisabled": 0
+    },
+    {
+      "columnID": "attribute-work-rate",
+      "widthOverride": 40,
+      "minWidthOverride": 40,
+      "required": 0,
+      "sortingDisabled": 0
+    }
+  ],
+  "_columnCount": 23
+}
