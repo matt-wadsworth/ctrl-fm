@@ -7,7 +7,6 @@ All notable changes to the CTRL skin are documented here.
 ### TODO
 
 - [ ] **Player Photos** - Remove background and radius on photos in Player Report tiles.
-- [ ] **Icons - Union** - Improve. Currently they look asymmetrical when rotated.
 - [ ] **Radio Group** - Change button styling, eg. Squad Registration rules/sections.
 - [ ] **Pre-Match GFX** - Change default (sitv) match assets and styles.
 
@@ -18,6 +17,7 @@ All notable changes to the CTRL skin are documented here.
 ### Added
 
 - **Match - Club Profile** - Added more info to the tile layout.
+- **Scouting - Table Views** - Added new table views for Recommended players and TransferRoom in results. Based on sas/SYC tables. ("Scout - Position" views)
 
 ### Changed
 
@@ -26,6 +26,7 @@ All notable changes to the CTRL skin are documented here.
 - **My History** - Refactored the layout of the My History card to reduce scrolling.
 - **Icons - Stars** - Increased clarity and sharpness on the star icons.
 - **Buttons - Secondary** - Re-added border to give some visual definition to them.
+- **Icons - Union** - Changed attribute change icons to be more visible/solid.
 
 ---
 
