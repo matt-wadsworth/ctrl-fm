@@ -6,13 +6,13 @@ All notable changes to the CTRL skin are documented here.
 
 ### TODO
 
-- [ ] **Player Photos** - Remove background and radius on photos in Player Report tiles.
 - [ ] **Radio Group** - Change button styling, eg. Squad Registration rules/sections.
 - [ ] **Pre-Match GFX** - Change default (sitv) match assets and styles.
 
 ### Fixed
 
-- **Player Tooltip** - Fixed Key/Pref row highlighting plus added more info tiles.
+- **Player Tooltip** - Fixed Key/Pref row highlighting plus added more info.
+- **Player Photos** - Fixed/removed some styling on Player Photos on Report tiles.
 
 ### Added
 
@@ -24,8 +24,8 @@ All notable changes to the CTRL skin are documented here.
 - **Message Indicators** - Refactor to remove UABEA requirement.
 - **Table Rows** - Added subtle background to alternate rows.
 - **My History** - Refactored the layout of the My History card to reduce scrolling.
+- **Buttons - Secondary** - Re-added border to give some visual definition.
 - **Icons - Stars** - Increased clarity and sharpness on the star icons.
-- **Buttons - Secondary** - Re-added border to give some visual definition to them.
 - **Icons - Union** - Changed attribute change icons to be more visible/solid.
 
 ---

@@ -67,16 +67,17 @@ Rules for using AI here:
 
 The `*CHANGES*.md` notes linked below all follow the same conventions: **`[n]`** = 0-based index into the named JSON array (pools, **`m_Rules`**, **`m_VisualElementAssets`**, etc.); the root **`references`** object is only meant when written as **`references`** / **`references.RefIds`** — see [Bracket notation and the `references` object](#bracket-notation-and-the-references-object).
 
-| Patch folder | Document |
-| ------------ | -------- |
-| `match-dugout_tile` | [MATCH_DUGOUT_TILE_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/match-dugout_tile/MATCH_DUGOUT_TILE_CHANGES.md) |
-| `match-left_scoreboard` | [MATCH_LEFT_SCOREBOARD_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/match-left_scoreboard/MATCH_LEFT_SCOREBOARD_CHANGES.md) |
-| `match-squad_portraits` | [SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/match-squad_portraits/SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md) |
-| `messages-unread_indicators` | [MESSAGES_UNREAD_INDICATORS_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/messages-unread_indicators/MESSAGES_UNREAD_INDICATORS_CHANGES.md) |
-| `nav-menu_icons` | [NAV_PORTAL_TAB_ICONS_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/nav-menu_icons/NAV_PORTAL_TAB_ICONS_CHANGES.md) |
-| `tactics-player_portrait` | [TACTICS_PLAYERPORTRAIT_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/tactics-player_portrait/TACTICS_PLAYERPORTRAIT_CHANGES.md) |
+| Patch folder                    | Document                                                                                                                                                                              |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `match-dugout_tile`             | [MATCH_DUGOUT_TILE_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/match-dugout_tile/MATCH_DUGOUT_TILE_CHANGES.md)                                         |
+| `match-left_scoreboard`         | [MATCH_LEFT_SCOREBOARD_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/match-left_scoreboard/MATCH_LEFT_SCOREBOARD_CHANGES.md)                             |
+| `match-squad_portraits`         | [SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/match-squad_portraits/SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md)                 |
+| `messages-unread_indicators`    | [MESSAGES_UNREAD_INDICATORS_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/messages-unread_indicators/MESSAGES_UNREAD_INDICATORS_CHANGES.md)              |
+| `nav-menu_icons`                | [NAV_PORTAL_TAB_ICONS_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/nav-menu_icons/NAV_PORTAL_TAB_ICONS_CHANGES.md)                                      |
+| `tactics-player_portrait`       | [TACTICS_PLAYERPORTRAIT_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/tactics-player_portrait/TACTICS_PLAYERPORTRAIT_CHANGES.md)                         |
 | `tactics-remove_planner_header` | [TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/tactics-remove_planner_header/TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md) |
-| `tiles-speaktosidepanel_border` | [SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/tiles-speaktosidepanel_border/SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md) |
+| `tiles-player_report_photos`    | [PLAYER_REPORT_PHOTOS_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/tiles-player_report_photos/PLAYER_REPORT_PHOTOS_CHANGES.md)                          |
+| `tiles-speaktosidepanel_border` | [SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/tiles-speaktosidepanel_border/SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md)             |
 
 Reference-only notes:
 
@@ -94,25 +95,28 @@ Current patch folders touch these bundles:
 
 Use these filename and Path ID pairs to find the assets quickly in UABEA.
 
-| Bundle | Filename | Path ID | Used by |
-| ------ | -------- | ------- | ------- |
-| `ui-tiles_assets_all` | `Dugout_4x8_with_collapse` | `-389085435411529779` | `match-dugout_tile` |
-| `ui-tiles_assets_all` | `inlineStyle` | `4355907201153990605` | `match-dugout_tile` |
-| `ui-match_assets_all` | `OverviewHeader` | `-7819803725380563227` | `match-left_scoreboard` |
-| `ui-match_assets_all` | `inlineStyle` | `-2719487159082004763` | `match-left_scoreboard` |
-| `ui-match_assets_all` | `ContinuePanel` | `-398932524086274306` | `match-left_scoreboard` |
-| `ui-match_assets_all` | `inlineStyle` | `4016413755955533566` | `match-left_scoreboard` |
-| `ui-match_assets_all` | `inlineStyle` | `8667680411542024723` | `match-squad_portraits` |
-| `ui-widgets_assets_all` | `inlineStyle` | `-8675747941173082291` | `messages-unread_indicators` |
-| `ui-widgets_assets_all` | `inlineStyle` | `-4684259242089685901` | `messages-unread_indicators` |
-| `ui-widgets_assets_all` | `inlineStyle` | `8251223908227938625` | `nav-menu_icons` |
-| `ui-widgets_assets_all` | `navigation-tab-portal-default` | `-3526698279923353279` | `nav-menu_icons` |
-| `ui-widgets_assets_all` | `SquadOverviewPlayerBlock` | `8153607655464179241` | `match-squad_portraits` |
-| `ui-widgets_assets_all` | `inlineStyle` | `-3625496258969266647` | `match-squad_portraits` |
-| `ui-panelids-uxml_assets_all` | `inlineStyle` | `4528579247820316033` | `tiles-speaktosidepanel_border` |
-| `ui-tactics_assets_all` | `TacticalPlannerHeader` | `-966834888143150418` | `tactics-remove_planner_header` |
-| `ui-tactics_assets_all` | `TacticsPositionCombined` | `3127595210179668386` | `tactics-player_portrait` |
-| `ui-tactics_assets_all` | `inlineStyle` | `1320523011556632994` | `tactics-player_portrait` |
+| Bundle                        | Filename                        | Path ID                | Used by                         |
+| ----------------------------- | ------------------------------- | ---------------------- | ------------------------------- |
+| `ui-tiles_assets_all`         | `Dugout_4x8_with_collapse`      | `-389085435411529779`  | `match-dugout_tile`             |
+| `ui-tiles_assets_all`         | `inlineStyle`                   | `4355907201153990605`  | `match-dugout_tile`             |
+| `ui-tiles_assets_all`         | `inlineStyle`                   | `-812894235568295708`  | `tiles-player_report_photos`    |
+| `ui-tiles_assets_all`         | `inlineStyle`                   | `-3307895459461465053` | `tiles-player_report_photos`    |
+| `ui-tiles_assets_all`         | `inlineStyle`                   | `-1253022491152235485` | `tiles-player_report_photos`    |
+| `ui-match_assets_all`         | `OverviewHeader`                | `-7819803725380563227` | `match-left_scoreboard`         |
+| `ui-match_assets_all`         | `inlineStyle`                   | `-2719487159082004763` | `match-left_scoreboard`         |
+| `ui-match_assets_all`         | `ContinuePanel`                 | `-398932524086274306`  | `match-left_scoreboard`         |
+| `ui-match_assets_all`         | `inlineStyle`                   | `4016413755955533566`  | `match-left_scoreboard`         |
+| `ui-match_assets_all`         | `inlineStyle`                   | `8667680411542024723`  | `match-squad_portraits`         |
+| `ui-widgets_assets_all`       | `inlineStyle`                   | `-8675747941173082291` | `messages-unread_indicators`    |
+| `ui-widgets_assets_all`       | `inlineStyle`                   | `-4684259242089685901` | `messages-unread_indicators`    |
+| `ui-widgets_assets_all`       | `inlineStyle`                   | `8251223908227938625`  | `nav-menu_icons`                |
+| `ui-widgets_assets_all`       | `navigation-tab-portal-default` | `-3526698279923353279` | `nav-menu_icons`                |
+| `ui-widgets_assets_all`       | `SquadOverviewPlayerBlock`      | `8153607655464179241`  | `match-squad_portraits`         |
+| `ui-widgets_assets_all`       | `inlineStyle`                   | `-3625496258969266647` | `match-squad_portraits`         |
+| `ui-panelids-uxml_assets_all` | `inlineStyle`                   | `4528579247820316033`  | `tiles-speaktosidepanel_border` |
+| `ui-tactics_assets_all`       | `TacticalPlannerHeader`         | `-966834888143150418`  | `tactics-remove_planner_header` |
+| `ui-tactics_assets_all`       | `TacticsPositionCombined`       | `3127595210179668386`  | `tactics-player_portrait`       |
+| `ui-tactics_assets_all`       | `inlineStyle`                   | `1320523011556632994`  | `tactics-player_portrait`       |
 
 ## Note template
 
@@ -134,12 +138,12 @@ These are not part of the active maintained patch set, but are worth keeping as 
 
 These are simple serialized-data reference swaps.
 
-| Bundle | Filename | Path ID | Change |
-| ------ | -------- | ------- | ------ |
-| `ui-tiles_assets_all` | `PlayerReportHeader` | unknown | change `m_SerializedData` `rid` from `1002` to `1001` |
-| `ui-tiles_assets_all` | `NonPlayerReportHeader` | unknown | change `m_SerializedData` `rid` from `1004` to `1002` |
-| `ui-tiles_assets_all` | `RetiredPlayerReportHeader` | unknown | change `m_SerializedData` `rid` from `1002` to `1001` |
-| `ui-widgets_assets_all` | `PlayerReportPreviewTooltip` | unknown | change `m_SerializedData` `rid` from `1007` to `1006` |
+| Bundle                  | Filename                        | Path ID | Change                                                |
+| ----------------------- | ------------------------------- | ------- | ----------------------------------------------------- |
+| `ui-tiles_assets_all`   | `PlayerReportHeader`            | unknown | change `m_SerializedData` `rid` from `1002` to `1001` |
+| `ui-tiles_assets_all`   | `NonPlayerReportHeader`         | unknown | change `m_SerializedData` `rid` from `1004` to `1002` |
+| `ui-tiles_assets_all`   | `RetiredPlayerReportHeader`     | unknown | change `m_SerializedData` `rid` from `1002` to `1001` |
+| `ui-widgets_assets_all` | `PlayerReportPreviewTooltip`    | unknown | change `m_SerializedData` `rid` from `1007` to `1006` |
 | `ui-widgets_assets_all` | `NonPlayerReportPreviewTooltip` | unknown | change `m_SerializedData` `rid` from `1008` to `1002` |
 
 If any of these become real maintained patches, add the dumped filename Path ID and move them into dedicated patch notes.
@@ -152,16 +156,16 @@ This is a pooled-style edit rather than a maintained patch note.
 
 | Reference | Pool type | Original | Target |
 | --------- | --------- | -------- | ------ |
-| `5139` | Dimension | `-8` | `-26` |
-| `6755` | Float | `1.2` | `1` |
-| `6756` | Float | `1.2` | `1` |
+| `5139`    | Dimension | `-8`     | `-26`  |
+| `6755`    | Float     | `1.2`    | `1`    |
+| `6756`    | Float     | `1.2`    | `1`    |
 
 There may be more than one `5139`-like numeric label in a raw dump. Confirm you are editing the intended dimension entry before importing.
 
 #### `ui-tiles_assets_all` portrait tile dimensions
 
-| Bundle | Filename | Path ID | Target edits |
-| ------ | -------- | ------- | ------------ |
+| Bundle                | Filename                    | Path ID                | Target edits                                               |
+| --------------------- | --------------------------- | ---------------------- | ---------------------------------------------------------- |
 | `ui-tiles_assets_all` | unknown portrait tile asset | `-1940069326759809061` | `dimensions[0]` `148 -> 170`, `dimensions[2]` `116 -> 140` |
 
 This reference is kept because the Path ID is known, but the dumped filename should be added if this becomes an active maintained patch.
