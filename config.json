@@ -19,6 +19,7 @@
     "graphics/pitch",
     "panels",
     "tile-layouts",
-    "table-views"
+    "table-views",
+    "graphics/icons/fatigue"
   ]
 }
