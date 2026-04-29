@@ -220,6 +220,14 @@
 .speakto-frame-sender-message-response {
   border-color: var(--colours-alpha-light-alpha-8);
 }
+/* Advice Gradient */
+.speakto-advice-gradient {
+  --start-colour: var(--none);
+}
+/* Advice Label */
+.speakto-message-frame-suggested-action-label-type-advice {
+  background-color: #4c5a67;
+}
 
 /* ---- Individual Training Block ---- */
 .individual-training-block {

@@ -4,15 +4,11 @@ All notable changes to the CTRL skin are documented here.
 
 ## [1.5] – Ongoing
 
-### TODO
-
-- [ ] **Radio Group** - Change button styling, eg. Squad Registration rules/sections.
-- [ ] **Pre-Match GFX** - Change default (sitv) match assets and styles.
-
 ### Fixed
 
 - **Player Tooltip** - Fixed Key/Pref row highlighting plus added more info.
 - **Player Photos** - Fixed/removed some styling on Player Photos on Report tiles.
+- **SpeakTo - Advice** - Removed purple gradient and label.
 
 ### Added
 
