@@ -14,6 +14,7 @@ All notable changes to the CTRL skin are documented here.
 
 - **Match - Club Profile** - Added more info to the tile layout.
 - **Scouting - Table Views** - Added new table views for Recommended players and TransferRoom in results. Based on sas/SYC tables. ("Scout - Position" views)
+- **Icons - Fatigue** - Added new icons for fatigue levels.
 
 ### Changed
 
