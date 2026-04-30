@@ -18,7 +18,7 @@ All notable changes to the CTRL skin are documented here.
 
 ### Changed
 
-- **Message Indicators** - Refactor to remove UABEA requirement.
+- **Message Indicators** - Restored UABEA patches (reverted UXML-only refactor from [this upstream commit](https://github.com/matt-wadsworth/ctrl-fm/commit/19d4f6cbe9049f5c958f36cc410ce6cdf3591c0f)).
 - **Table Rows** - Added subtle background to alternate rows.
 - **My History** - Refactored the layout of the My History card to reduce scrolling.
 - **Buttons - Secondary** - Re-added border to give some visual definition.
