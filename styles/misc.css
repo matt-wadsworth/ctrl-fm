@@ -199,6 +199,10 @@
   border-color: #121a24;
   border-width: 1px;
 }
+/* Message Item - Hover */
+.portal-messages-item-default-style-unread-property-1-message-property-2-default:hover:enabled {
+  border-color: var(--none);
+}
 /* Message Gradient - Optional */
 .messages-optional-gradient {
   --end-colour: rgba(94, 107, 118, 0);
