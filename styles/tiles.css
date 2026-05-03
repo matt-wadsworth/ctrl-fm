@@ -121,6 +121,11 @@
   border-color: var(--colours-alpha-light-alpha-8);
   border-radius: 8px;
 }
+/* Adjust Budget Modal */
+.notifications--notifications-modal-large-default-default {
+  border-width: 1px;
+  border-color: var(--colours-alpha-light-alpha-8);
+}
 
 /* ---- Other Tiles ---- */
 .figma-base-tool-fullscreen-template-inner-frame {
