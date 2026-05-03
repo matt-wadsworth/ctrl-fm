@@ -2,82 +2,84 @@
 
 Manual changes to apply in UABEA during skin development after building the skin.
 
-Each patch folder under `_uabea/` has its own instruction note. Those patch notes are the source of truth for exact edits.
+**Treat this file as the process reference:** folder layout (**`win/orig`**, **`mac/orig`** baselines beside working imports per patch slug, plus any **optional local-only** scratch such as **`PATCHED_TEMP`** that must **never** substitute for **`CHANGES.md`**), branching rules, **`[n]`** semantics, **`references`**, AI workflow, registry tables, and the note template. Individual **`_uabea/<patch-slug>/…_CHANGES.md`** notes stay the source of truth for **exact edits** inside each bundle subset.
+
+---
+
+## Creating new patch folders
+
+Use whenever you introduce **`_uabea/<patch-slug>/`**:
+
+1. **Baselines:** Export stock bundles from UABEA into **`win/orig`** / **`mac/orig`** next to patched **`win/`** / **`mac/`** dumps (exact tree mirrors each **`…_CHANGES.md`** — **never edit** baseline files after they represent stock).
+2. **Working dumps:** Copy those JSON assets into **`win/`** / **`mac/`** (siblings of the baseline folder) and edit **only** the copies intended for import.
+3. **`PATCHED_TEMP/` (optional, local scratch only):** Ephemeral exports while iterating—they should **never** become the authoritative doc input. Fold results into **`CHANGES*.md`** and checked-in **`win`** / **`mac`** JSON, then discard the scratch folder unless you explicitly keep it offline.
+4. **Document:** Add **`_uabea/<patch-slug>/<DESCRIPTIVE_NAME>_CHANGES.md`** using the **[Note template](#note-template)**. Prefer instruction-first wording; record concrete pool values whenever they matter.
+5. **Register:** Add a row under **[patch documentation](#patch-documentation)**, extend **[patched bundles](#patched-bundles)** if the bundle is new to the list, append **[Asset index](#asset-index)** rows (**logical filename + Path ID + patch slug**).
+6. **Platforms:** Repeat the **same logical** patch Mac-side from that platform’s baseline. IDs and CAB suffixes **differ**; do not blindly paste Windows **`references` / `rid`** blocks into Mac dumps. For **`nav-next_match`**, per-OS **`rebuild-data/win.json`** / **`mac.json`** (see **`NAV_NEXT_MATCH_CHANGES.md` §3**) hold the heavy **`references`** / VE merge blobs—avoid treating a Windows-remapped dump as canonical for Mac rebuilds.
+7. **Validate:** JSON parses; smoke test covers the surfaced UI path.
+
+Structural patches (broken **`references`**, large **`m_VisualElementAssets`** diffs, **BindingRemapper** inserts) belong in **[AI-assisted workflow](#ai-assisted-workflow)**—final notes must still list **measurable targets** (`m_Rules` shapes, pooled numbers, checklist of tree goals) even when wholesale JSON diff is simpler than hand-steps.
+
+---
 
 ## Working rules
 
-- Stock exports stay in **`orig/`** per platform (`win/orig`, `mac/orig`). Patched JSON you re-import lives in **`win/`** and **`mac/`** next to it (same filenames). Apply the same patch note on each platform from that platform’s **`orig`**; compare **`win`** vs **`mac`** only after the doc targets are met.
-- Patch docs should describe the logical change, not the current state of one platform dump.
-- Use the asset filename and Path ID together so the file is easy to find again in a bundle.
-- The Path ID used in docs is the last `-...` segment in the dumped filename and may itself start with `-`.
-- For colours, sizes, pooled dimensions, pooled strings, and similar style values, record the intended target values directly in the patch note unless a patch note explicitly says otherwise.
-- Windows and Mac dumps should be treated as the same logical patch with different IDs and serialized references. Ignore platform-specific IDs in the docs unless the structure truly diverges.
-- Docs should stay instruction-first: what to edit, how to find it, and what the target value should be.
-- **`[n]` in patch notes** = **0-based index** into the named JSON array (rules, elements, pools, **`references.RefIds`**, etc.); not line numbers — see [Bracket notation and the `references` object](#bracket-notation-and-the-references-object).
+- Stock exports stay under **`win/orig`** / **`mac/orig`** (layout per **`_uabea/<patch-slug>/…`** patch note — typically **`orig/` as a subdirectory of each OS folder** beside working JSON). Patched JSON you re-import lives in **`win/`** and **`mac/`** (**same filenames** as baselines where applicable). Apply the patch note starting from **that platform’s baseline** export; compare **`win`** vs **`mac`** once both match the documented intent.
+- Patch docs describe the logical change and target values—not only the incidental shape of one platform dump.
+- Use the dumped **filename suffix (Path ID)** together with the logical asset **name** to find the asset again inside a bundle.
+- The Path ID is the **`…-PATHID`** tail of UABEA export filenames (it may begin with **`–`**).
+- For colours, sizes, pooled dimensions, pooled strings, and similar values, spell out **target literals** in the patch note unless the note explicitly delegates to diff-only workflow.
+- Windows and Mac are one logical patch with different identifiers; ignore platform IDs in prose unless divergence is real.
+- Docs stay instruction-first.
+- **`[n]`** in patch notes = **0-based index** into the named JSON array (rules, **`m_VisualElementAssets`**, pools, **`references.RefIds`**, …) — never “source line”; see **[Bracket notation and the `references` object](#bracket-notation-and-the-references-object)**.
 
 ## Dump format
 
 The repo is documented around UABEA Next JSON dumps.
 
-- Patch notes should describe the edit in bundle/asset terms, not around a temporary export format.
-- When a patch uses serialized USS or UXML trees heavily, JSON is the easiest shape to inspect and compare.
+- Patch notes describe the edit in bundle / asset terms, not around disposable export quirks.
+- Serialized USS / UXML trees remain easiest as JSON for diff tools.
 
 ### Bracket notation and the `references` object
 
-- **Square brackets `[n]` in patch notes always mean a 0-based index into a named JSON array**, unless the note explicitly says otherwise. Examples: **`rule [2]`** → `m_Rules.Array[2]`; **`element [8]`** → `m_VisualElementAssets.Array[8]`; **`dimensions[4]`** → `dimensions.Array[4]`; **`strings[5]`** → `strings.Array[5]`. This is **not** a source line number, **not** a file offset, and **not** the same thing as a Unity **`rid`** (unless the text explicitly maps an index to an `rid`).
-- The asset root field **`references`** (with **`references.RefIds`**) is Unity’s serialized **reference table** for that asset. When a note says to leave **`references`** unchanged, it means that **object** (and its nested serialized blocks), not “indexed references” in the abstract.
-- **`references.RefIds[n]`** is the **n-th** object in the **`RefIds`** array (still 0-based). Each entry has its own **`rid`** field; **do not** confuse **`n`** with **`rid`**.
+- **`[n]`** always means **0-based index into that array** unless explicitly stated otherwise. Examples: **`rule [2]`** → `m_Rules.Array[2]`; **`element [8]`** → `m_VisualElementAssets.Array[8]`; **`dimensions[4]`** → `dimensions.Array[4]`; **`strings[5]`** → `strings.Array[5]`. Not a Unity **`rid`** unless the text maps index → **`rid`**.
+- Root **`references`** (plus **`references.RefIds`**) is the serialized **reference table** for **that asset**. “Leave **`references`** alone” refers to maintaining that table’s coherence; do not casually orphan **`rid`** handlers.
+- **`references.RefIds[n]`** selects the nth entry (**0-based**); each carries its own **`rid`**. **`n`** ≠ **`rid`**.
 
 ## AI-assisted workflow
 
-AI is useful for the more complex patches, especially when the edit involves one or more of:
+Recommended when patching involves USS rule math, pooled remaps, UXML rewires, **`references.RefIds`** growth, or recovering intent from **`orig` ↔ known-good**.
 
-- serialized USS rule comparisons
-- pooled `dimensions`, `strings`, `colors`, `floats`, or `assets` remapping
-- inserted UXML subtrees
-- `references.RefIds` additions
-- comparing a current dump against the known target layout to recover the intended patch
+1. Export (or load **`win/orig`** / **`mac/orig`** baselines) alongside whatever deltas you legally have (**committed patched JSON**, your working **`win`** / **`mac`** tree, authoring UXML, prior FM cycle notes—never treat an undocumented lone export folder as canonical).
 
-Recommended workflow:
+2. Derive **logical diff** first (**`m_Rules`**, pools, inserted or moved nodes, **`rid`** rewires)—AI works well summarizing—but **carry literal targets forward** manually.
 
-1. Export the current asset dump and gather the known target values or comparison material you have available.
-2. Give AI the current file and the relevant target sections, values, or comparison snippets.
-3. Ask for the logical diff first:
-   - which rules changed
-   - which pooled values changed
-   - which tree nodes were inserted, removed, or rewired
-   - which `rid` / serialized-data blocks were added or reassigned
-4. Convert that into a patch note with:
-   - bundle
-   - filename
-   - Path ID
-   - exact target values
-   - enough structure detail to recreate the patch on another dump
-5. Only then apply the edit to the working dump and verify the final JSON parses cleanly.
+3. Refresh **`CHANGES.md`** with bundles, filenames, Path IDs, **literal pool values**, and structural checklists so the next exporter does not rely on orphaned scratch dumps.
 
-Rules for using AI here:
+4. Apply edits to working JSON; parse; smoke test in-engine.
 
-- Use AI to compare, summarize, and draft instructions, not to invent values.
-- For colours, dimensions, and other pooled values, the target should come from the recorded patch note values unless the note says otherwise.
-- Treat Windows and Mac as the same logical patch; do not let AI hardcode Win-only `m_Id`, `rid`, or other serialized IDs into the documentation unless the note is explicitly using them as an example.
-- For structural patches, verify that any inserted node IDs, `rid` values, and `uxmlAssetId` links remain internally consistent before reimporting.
-- After AI-assisted edits, validate the final dump by parsing it again and checking the intended asset counts or rule counts.
+Guardrails:
+
+- Do not invent pool values—instructions carry the canonical numbers.
+- Do not bake Win-only IDs into generalized instructions unless illustrative.
+- After structural edits, verify **`references`**, **`m_Id`** parenting, binds, **`uxmlAssetId`**, **`inlineSheet`** path IDs remain mutually consistent **before import**.
 
 ## Patch documentation
 
-The `*CHANGES*.md` notes linked below all follow the same conventions: **`[n]`** = 0-based index into the named JSON array (pools, **`m_Rules`**, **`m_VisualElementAssets`**, etc.); the root **`references`** object is only meant when written as **`references`** / **`references.RefIds`** — see [Bracket notation and the `references` object](#bracket-notation-and-the-references-object).
+Conventions mirror **[Bracket notation and the `references` object](#bracket-notation-and-the-references-object)**.
 
-| Patch folder                    | Document                                                                                                                                                                              |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `match-dugout_tile`             | [MATCH_DUGOUT_TILE_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/match-dugout_tile/MATCH_DUGOUT_TILE_CHANGES.md)                                         |
-| `match-left_scoreboard`         | [MATCH_LEFT_SCOREBOARD_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/match-left_scoreboard/MATCH_LEFT_SCOREBOARD_CHANGES.md)                             |
-| `match-squad_portraits`         | [SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/match-squad_portraits/SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md)                 |
-| `messages-unread_indicators`    | [MESSAGES_UNREAD_INDICATORS_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/messages-unread_indicators/MESSAGES_UNREAD_INDICATORS_CHANGES.md)              |
-| `nav-menu_icons`                | [NAV_PORTAL_TAB_ICONS_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/nav-menu_icons/NAV_PORTAL_TAB_ICONS_CHANGES.md)                                      |
-| `tactics-player_portrait`       | [TACTICS_PLAYERPORTRAIT_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/tactics-player_portrait/TACTICS_PLAYERPORTRAIT_CHANGES.md)                         |
-| `tactics-remove_planner_header` | [TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/tactics-remove_planner_header/TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md) |
-| `tiles-player_report_photos`    | [PLAYER_REPORT_PHOTOS_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/tiles-player_report_photos/PLAYER_REPORT_PHOTOS_CHANGES.md)                          |
-| `tiles-speaktosidepanel_border` | [SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md](C:/Users/ix_ma/Documents/FM%20Skin%20Builder/skins/CTRL/_uabea/tiles-speaktosidepanel_border/SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md)             |
+| Patch folder                    | Document                                                                                                                    |
+| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| `match-dugout_tile`             | [MATCH_DUGOUT_TILE_CHANGES.md](./match-dugout_tile/MATCH_DUGOUT_TILE_CHANGES.md)                                             |
+| `match-left_scoreboard`         | [MATCH_LEFT_SCOREBOARD_CHANGES.md](./match-left_scoreboard/MATCH_LEFT_SCOREBOARD_CHANGES.md)                                 |
+| `match-squad_portraits`         | [SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md](./match-squad_portraits/SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md)                       |
+| `messages-unread_indicators`    | [MESSAGES_UNREAD_INDICATORS_CHANGES.md](./messages-unread_indicators/MESSAGES_UNREAD_INDICATORS_CHANGES.md)                     |
+| `nav-menu_icons`                | [NAV_PORTAL_TAB_ICONS_CHANGES.md](./nav-menu_icons/NAV_PORTAL_TAB_ICONS_CHANGES.md)                                          |
+| `nav-next_match`                | [NAV_NEXT_MATCH_CHANGES.md](./nav-next_match/NAV_NEXT_MATCH_CHANGES.md)                                                     |
+| `tactics-player_portrait`       | [TACTICS_PLAYERPORTRAIT_CHANGES.md](./tactics-player_portrait/TACTICS_PLAYERPORTRAIT_CHANGES.md)                               |
+| `tactics-remove_planner_header` | [TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md](./tactics-remove_planner_header/TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md)       |
+| `tiles-player_report_photos`    | [PLAYER_REPORT_PHOTOS_CHANGES.md](./tiles-player_report_photos/PLAYER_REPORT_PHOTOS_CHANGES.md)                              |
+| `tiles-speaktosidepanel_border` | [SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md](./tiles-speaktosidepanel_border/SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md)                  |
 
 Reference-only notes:
 
@@ -90,13 +92,16 @@ Current patch folders touch these bundles:
 - `ui-widgets_assets_all`
 - `ui-panelids-uxml_assets_all`
 - `ui-tactics_assets_all`
+- `ui-calendar_assets_all`
 
 ## Asset index
 
-Use these filename and Path ID pairs to find the assets quickly in UABEA.
+Use **logical filename + Path ID** suffix to reopen quickly in UABEA.
 
 | Bundle                        | Filename                        | Path ID                | Used by                         |
 | ----------------------------- | ------------------------------- | ---------------------- | ------------------------------- |
+| `ui-calendar_assets_all`      | `inlineStyle`                   | `7705980741400097515`   | `nav-next_match`                |
+| `ui-calendar_assets_all`      | `CurrentDayWidget`              | `-2536531161352205035`  | `nav-next_match`                |
 | `ui-tiles_assets_all`         | `Dugout_4x8_with_collapse`      | `-389085435411529779`  | `match-dugout_tile`             |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `4355907201153990605`  | `match-dugout_tile`             |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `-812894235568295708`  | `tiles-player_report_photos`    |
@@ -120,23 +125,23 @@ Use these filename and Path ID pairs to find the assets quickly in UABEA.
 
 ## Note template
 
-Each patch note should normally include:
+Each patch note normally includes:
 
-- patch folder
-- bundle or bundles
-- filename and Path ID for every edited asset
-- exact target values for colours, dimensions, strings, rule counts, or rid swaps
-- enough tree/rule detail to recreate the patch on a fresh export
+- patch folder slug
+- bundle(s)
+- every edited asset (**dump filename suffix / Path ID**)
+- literals for pooled values or explicit “diff-only” disclaimer with acceptance checks
+- enough structure to rebuild after a Football Manager rebuild (tree goals, **`m_Rules` deltas, key class lists**)
 
-For more complex patches, it is fine to note that AI was used to compare dumps and derive the instruction set, but the note should still record the final targets explicitly so it is usable without rerunning the comparison.
+Recording that AI-assisted diffs seeded the prose is acceptable when **targets remain explicit**.
 
 ## Extras
 
-These are not part of the active maintained patch set, but are worth keeping as reusable references.
+Not part of the tight maintained patch set but kept as lookups.
 
 ### Report gradients
 
-These are simple serialized-data reference swaps.
+Serialized **`m_SerializedData`** **`rid`** swaps.
 
 | Bundle                  | Filename                        | Path ID | Change                                                |
 | ----------------------- | ------------------------------- | ------- | ----------------------------------------------------- |
@@ -146,13 +151,11 @@ These are simple serialized-data reference swaps.
 | `ui-widgets_assets_all` | `PlayerReportPreviewTooltip`    | unknown | change `m_SerializedData` `rid` from `1007` to `1006` |
 | `ui-widgets_assets_all` | `NonPlayerReportPreviewTooltip` | unknown | change `m_SerializedData` `rid` from `1008` to `1002` |
 
-If any of these become real maintained patches, add the dumped filename Path ID and move them into dedicated patch notes.
-
 ### Player portrait scale experiments
 
-#### `ui-styles_assets_default` -> `FigmaGeneratedStyles`
+#### `ui-styles_assets_default` → `FigmaGeneratedStyles`
 
-This is a pooled-style edit rather than a maintained patch note.
+Pooled-style tinkering—not a pinned patch workflow.
 
 | Reference | Pool type | Original | Target |
 | --------- | --------- | -------- | ------ |
@@ -160,7 +163,7 @@ This is a pooled-style edit rather than a maintained patch note.
 | `6755`    | Float     | `1.2`    | `1`    |
 | `6756`    | Float     | `1.2`    | `1`    |
 
-There may be more than one `5139`-like numeric label in a raw dump. Confirm you are editing the intended dimension entry before importing.
+Multiple numeric labels can collide conceptually—confirm pool entry context before committing.
 
 #### `ui-tiles_assets_all` portrait tile dimensions
 
@@ -168,4 +171,4 @@ There may be more than one `5139`-like numeric label in a raw dump. Confirm you 
 | --------------------- | --------------------------- | ---------------------- | ---------------------------------------------------------- |
 | `ui-tiles_assets_all` | unknown portrait tile asset | `-1940069326759809061` | `dimensions[0]` `148 -> 170`, `dimensions[2]` `116 -> 140` |
 
-This reference is kept because the Path ID is known, but the dumped filename should be added if this becomes an active maintained patch.
+Add the authoritative dump filename whenever this graduates to a numbered patch folder.

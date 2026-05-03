@@ -28,20 +28,21 @@
 /* Portal Text Colour */
 .navigation-tab-portal-default-active-true .portal-text,
 .navigation-tab-portal-default-active-true:hover .portal-text {
-  color: var(--colours-base-neutral-white);
+  color: var(--colours-brand-foundation-horizon);
 }
 /* Portal Icon Colour - Hover */
 .navigation-tab-portal-default-active-true:hover,
 .navigation-tab-portal-default-active-true:hover .portal-image,
 .navigation-tab-portal-default-active-true.navigation-tab-portal-default-active-false:hover
   .portal-image {
-  -unity-background-image-tint-color: #fbc500;
+  -unity-background-image-tint-color: var(--colours-brand-foundation-horizon);
 }
 
 /* ---- Nav Items ---- */
 .navigation-global-diagetic-container {
-  border-color: #10161d;
-  border-radius: 20px;
+  border-color: var(--none);
+  border-radius: 0px;
+  margin-right: 0px;
 }
 /* Divider */
 .navigation-global-diagetic-vertical-line {
@@ -49,13 +50,22 @@
 }
 /* Buttons (not Search) */
 .navigation-global-diagetic-button {
-  background-color: #10161d;
+  background-color: var(--none);
+  max-width: 40px;
+  width: 40px;
+  border-radius: 8px;
 }
 .navigation-global-diagetic-button:hover {
-  background-color: #1c252f;
+  background-color: var(--colours-alpha-light-alpha-12);
+}
+.navigation-global-diagetic-button .sibutton {
+  background-color: var(--none);
+  max-width: 40px;
+  width: 40px;
+  border-radius: 8px;
 }
 .navigation-global-diagetic-button:hover .sibutton {
-  background-color: #1c252f;
+  background-color: var(--none);
 }
 /* Search Button - BG change and alignment fixes
 .searchButtonStandard {
@@ -73,16 +83,16 @@
 /* Base */
 .navigation-main-calendar-button-default {
   height: 40px;
-  border-radius: 20px;
-  background-color: #1c252f;
+  border-radius: 8px;
+  background-color: var(--none);
 }
 .navigation-main-calendar-button-default:hover {
-  background-color: #333b44;
+  background-color: var(--colours-alpha-light-alpha-12);
 }
 /* Border */
 .calender-background-custom {
   height: 40px;
-  border-radius: 20px;
+  border-radius: 8px;
   border-color: var(--none); /* #333b44 */
 }
 /* Padding 
@@ -126,4 +136,13 @@
 /* Tutorial BG - fix unreadable text now we've changed it... */
 .tutorial-floating-main-frame {
   background-color: var(--colours-brand-foundation-midnight);
+}
+
+/* ---- Manager Dropdown ---- */
+.dashboard-hud-manager-dropdown .si-dropdown__selection-field {
+  width: 160px;
+  height: 40px;
+  border-width: 0px;
+  border-color: var(--none);
+  background-color: var(--none);
 }
