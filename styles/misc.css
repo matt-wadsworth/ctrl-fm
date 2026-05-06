@@ -631,3 +631,27 @@
 .homegrown-club-or-nation {
   background-color: #0d1d45;
 }
+
+/* ---- SpeakTo ---- */
+/* Additional Actions - Selector/Button */
+.speakto-button-additional-actions-selector-property-1-default {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  background-color: rgba(230, 230, 250, 0.04);
+}
+.speakto-button-additional-actions-selector-property-1-variant2 {
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+  background-color: rgba(230, 230, 250, 0.04);
+}
+/* Response Area - Background */
+.interaction-hub-action-area-default-optional-response {
+  background-color: rgba(230, 230, 250, 0.04);
+}
+/* Transfer - Availability Warning (Future Transfers) */
+.focus-info-property-1-default {
+  border-color: rgba(242, 44, 44, 0.15);
+  background-color: rgba(242, 44, 44, 0.15);
+}
