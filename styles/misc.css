@@ -542,3 +542,92 @@
   --axis-colour: var(--colours-alpha-light-alpha-35);
   --axis-width: 2px;
 }
+
+/* ---- Player Status ----*/
+/* Base */
+.player-status {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+/* Preview - Hidden "below" the player status */
+.player-status-preview {
+  border-color: rgba(255, 255, 255, 0.05);
+}
+/* Text */
+.item-text {
+  color: #ffffff;
+}
+/* Player Status - Status Colours */
+/* Negative - Injured */
+.cannot-play-high {
+  background-color: #58181e;
+}
+/* Negative - Low */
+.cannot-play {
+  background-color: #35131b;
+}
+.sub-off {
+  background-color: #35131b;
+}
+.sub-on-off {
+  background-color: #35131b;
+}
+.two-yellows {
+  background-color: #58181e;
+}
+.red-card {
+  background-color: #58181e;
+}
+.cannot-play-low {
+  background-color: #38232b;
+}
+.restricted {
+  background-color: #38232b;
+}
+/* non-EU */
+.restricted-low {
+  background-color: #1f262f;
+}
+/* Injured - Half */
+.shouldnt-play-high {
+  background-color: #4f311a;
+}
+.shouldnt-play {
+  background-color: #362519;
+}
+.shouldnt-play-low {
+  background-color: #2a1f18;
+}
+.warning {
+  background-color: #5c4d0f;
+}
+/* PR - Promises etc. */
+.advisory-low {
+  background-color: #07282e;
+}
+/* Wanted */
+.advisory {
+  background-color: #183522;
+}
+.sub-on {
+  background-color: #183522;
+}
+.man-of-the-match {
+  background-color: #183522;
+}
+.can-play {
+  background-color: #10251e;
+}
+/* Unhappy / Bid */
+.advisory-high {
+  background-color: #1e4426;
+}
+/* Homegrown */
+.homegrown-club {
+  background-color: #0d1d45;
+}
+.homegrown-nation {
+  background-color: #0d1d45;
+}
+.homegrown-club-or-nation {
+  background-color: #0d1d45;
+}
