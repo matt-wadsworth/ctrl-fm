@@ -177,6 +177,13 @@
   .unity-toggle__checkmark {
   border-color: var(--colours-brand-foundation-horizon);
 }
+/* Vertical Radio Group */
+.sicontainer_horizontal_align {
+  border-top-color: var(--colours-alpha-light-alpha-8);
+  border-right-color: var(--colours-alpha-light-alpha-8);
+  border-bottom-color: var(--colours-alpha-light-alpha-8);
+  border-left-color: var(--colours-alpha-light-alpha-8);
+}
 
 /* ---- Toggle Switches ---- */
 /* Default */
