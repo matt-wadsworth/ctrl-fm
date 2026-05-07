@@ -184,6 +184,21 @@
   border-bottom-color: var(--colours-alpha-light-alpha-8);
   border-left-color: var(--colours-alpha-light-alpha-8);
 }
+/* Radio Button - Tactics - Selected */
+.tactics-radio-buttons .unity-radio-button-group__child-active,
+.tactics-radio-buttons
+  .list-item-radio-button-style.unity-radio-button-group__child-active:hover {
+  border-color: rgba(76, 171, 67, 0.15);
+  background-color: rgba(76, 171, 67, 0.15);
+}
+/* Radio Button - Tactics - Unselected */
+.list-item-radio-button-style {
+  border-color: var(--colours-alpha-light-alpha-8);
+  background-color: var(--none);
+}
+.list-item-radio-button-style:hover {
+  background-color: var(--colours-alpha-light-alpha-12);
+}
 
 /* ---- Toggle Switches ---- */
 /* Default */
@@ -442,7 +457,7 @@
   border-width: 0px;
 }
 
-/* Vertical Radio Group */
+/* Vertical Radio Group - Checkbox Style */
 .vertical-radio-group .unity-radio-button__checkmark {
   border-top-color: var(--colours-alpha-light-alpha-85);
   border-right-color: var(--colours-alpha-light-alpha-85);
@@ -460,11 +475,6 @@
   border-bottom-color: var(--colours-alpha-light-alpha-12);
   border-left-color: var(--colours-alpha-light-alpha-12);
   background-color: var(--colours-alpha-transparent-0);
-}
-.vertical-radio-group .unity-radio-button__input {
-  align-items: flex-start;
-  align-self: center;
-  cursor: var(--cursor-clickable-1x-url);
 }
 .vertical-radio-group:active:enabled
   .unity-radio-button__input:hover:enabled
@@ -484,7 +494,7 @@
   border-left-color: var(--colours-alpha-light-alpha-12);
   background-color: var(--core-controls-surface-pc-hover);
 }
-/* Hybrid Toggle - Inactive */
+/* Hybrid Toggle - Inactive - Preferences Detailed */
 .input-hybrid-toggle-default-active-false--type-inactive {
   border-color: var(--colours-alpha-light-alpha-8);
 }
