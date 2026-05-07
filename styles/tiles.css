@@ -238,3 +238,15 @@
 .individual-training-block {
   border-color: var(--colours-alpha-light-alpha-8);
 }
+
+/* Search Popup - FMPedia Tiles */
+.fmpediatile-placeholder {
+  border-width: 1px;
+  border-color: var(--colours-alpha-light-alpha-8);
+  background-color: var(--none);
+  --end-colour: var(--none);
+  --start-colour: rgba(34, 230, 129, 0.05);
+}
+.tile-title-color.fmpediatile {
+  color: #22e681;
+}
