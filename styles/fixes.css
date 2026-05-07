@@ -3,3 +3,18 @@
 .sisegemntedradialgauge-reputation {
   --line-width: 1px;
 }
+
+/* Remove Bottom Screen Gradient - "Quick Actions" - iPhone Styles */
+.ios-quick-action-background {
+  flex-grow: 0;
+  height: 0px;
+}
+
+/* SICheckbox - Remove Default Border */
+.sicheckbox,
+.sicheckboxgroupparent {
+  border-top-color: var(--none);
+  border-right-color: var(--none);
+  border-bottom-color: var(--none);
+  border-left-color: var(--none);
+}
