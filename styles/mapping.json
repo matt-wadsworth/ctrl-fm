@@ -5,7 +5,7 @@
   "inputs.css": "AlwaysAppliedStyleSheet",
   "header.css": "AlwaysAppliedStyleSheet",
   "text.css": "AlwaysAppliedStyleSheet",
-  "fixes.css": "AlwaysAppliedStyleSheet",
+  "fixes.css": ["AlwaysAppliedStyleSheet", "iPhoneStyles"],
   "_testing.css": "AlwaysAppliedStyleSheet",
   "match.css": "AlwaysAppliedStyleSheet"
 }
