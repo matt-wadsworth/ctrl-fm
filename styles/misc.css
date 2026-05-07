@@ -518,6 +518,16 @@
 .tactics-visualiser-player-position-type-striker-colour-bg {
   background-color: var(--none);
 }
+/* Instructions - Details Block */
+.layout-block-tactics {
+  border-color: var(--colours-alpha-light-alpha-8);
+  background-color: var(--none);
+}
+/* Instructions - Visualiser Pitch */
+.tactics-visualiser-pitch {
+  border-color: rgba(76, 171, 67, 0.15);
+  background-color: rgba(76, 171, 67, 0.15);
+}
 
 /* ---- Stepper ---- */
 /* Default */
