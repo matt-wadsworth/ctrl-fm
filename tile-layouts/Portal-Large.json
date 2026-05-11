@@ -18,7 +18,7 @@
     {
       "tile": "SquadFixtureScheduleTile_6x4",
       "x": 10,
-      "y": 6,
+      "y": 4,
       "w": 6,
       "h": 4,
       "isDynamic": false,
@@ -37,7 +37,7 @@
     {
       "tile": "CompetitionLeagueTableStagesTile_4x8",
       "x": 16,
-      "y": 2,
+      "y": 0,
       "w": 4,
       "h": 8,
       "isDynamic": false,
@@ -55,18 +55,8 @@
       "path_id": "4204875269942216327"
     },
     {
-      "tile": "TeamOrOppositionReportTile_4x2",
-      "x": 16,
-      "y": 0,
-      "w": 4,
-      "h": 2,
-      "isDynamic": false,
-      "guid": "d177033bd2926a440972ad50eefca137",
-      "path_id": "-4859405567768119315"
-    },
-    {
       "tile": "IndividualTrainingTile_4x2",
-      "x": 6,
+      "x": 10,
       "y": 8,
       "w": 4,
       "h": 2,
@@ -87,7 +77,7 @@
     {
       "tile": "SquadTrainingTile_4x2",
       "x": 6,
-      "y": 6,
+      "y": 8,
       "w": 4,
       "h": 2,
       "isDynamic": true,
@@ -95,19 +85,19 @@
       "path_id": "-3231225156489882398"
     },
     {
-      "tile": "DataHubTile_2x2",
+      "tile": "CompetitionsTile_2x2",
       "x": 14,
       "y": 0,
       "w": 2,
       "h": 2,
-      "isDynamic": false,
-      "guid": "ad19bd27d9a10e14a9a8c40c7c278a75",
-      "path_id": "-541733676374805413"
+      "isDynamic": true,
+      "guid": "6293c05bc06425044a5b86ba2aa60834",
+      "path_id": "-5925175220937073605"
     },
     {
       "tile": "RecruitmentPlayerSearchTile_2x2",
-      "x": 14,
-      "y": 2,
+      "x": 18,
+      "y": 8,
       "w": 2,
       "h": 2,
       "isDynamic": false,
@@ -117,7 +107,7 @@
     {
       "tile": "SquadMedicalCentreTile_2x2",
       "x": 14,
-      "y": 4,
+      "y": 8,
       "w": 2,
       "h": 2,
       "isDynamic": true,
@@ -126,13 +116,33 @@
     },
     {
       "tile": "OnThePitchTacticsTile_4x2",
-      "x": 10,
-      "y": 4,
+      "x": 6,
+      "y": 6,
       "w": 4,
       "h": 2,
       "isDynamic": false,
       "guid": "d035b770037af39449ee943e520b8e60",
       "path_id": "-549059308546553030"
+    },
+    {
+      "tile": "DataHubTile_2x2",
+      "x": 16,
+      "y": 8,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "ad19bd27d9a10e14a9a8c40c7c278a75",
+      "path_id": "-541733676374805413"
+    },
+    {
+      "tile": "TeamOrOppositionReportTile_2x2",
+      "x": 14,
+      "y": 2,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "6d4b6dd9034e3194b9f0cadc3c18d84b",
+      "path_id": "-4859405567768119315"
     }
   ]
 }
