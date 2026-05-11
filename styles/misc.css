@@ -665,3 +665,45 @@
   border-color: rgba(242, 44, 44, 0.15);
   background-color: rgba(242, 44, 44, 0.15);
 }
+
+/* ---- Fitness Test Results ---- */
+/* TBC */
+.fitness-test-result-background-colour-tbc {
+  background-color: #1f262f;
+}
+.fitness-test-result-text-colour-tbc {
+  color: rgba(255, 255, 255, 0.5);
+}
+.fitness-test-result-image-colour-tbc {
+  -unity-background-image-tint-color: rgba(255, 255, 255, 0.5);
+}
+/* Fail */
+.fitness-test-result-background-colour-fail {
+  background-color: #35131b;
+}
+.fitness-test-result-text-colour-fail {
+  color: #f22c2c;
+}
+.fitness-test-result-image-colour-fail {
+  -unity-background-image-tint-color: #f22c2c;
+}
+/* Pass */
+.fitness-test-result-background-colour-pass {
+  background-color: #10251e;
+}
+.fitness-test-result-text-colour-pass {
+  color: #4cab43;
+}
+.fitness-test-result-image-colour-pass {
+  -unity-background-image-tint-color: #4cab43;
+}
+/* Partial Pass */
+.fitness-test-result-background-colour-partial-pass {
+  background-color: #362519;
+}
+.fitness-test-result-text-colour-partial-pass {
+  color: #f88320;
+}
+.fitness-test-result-image-colour-partial-pass {
+  -unity-background-image-tint-color: #f88320;
+}
