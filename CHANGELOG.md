@@ -2,6 +2,26 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.6] – Ongoing
+
+### Fixed
+
+- **Average Rating** - Fixed the colour scale so ratings keep consistent hues instead of shifting to mismatched colours.
+- **Budget Adjustment** - Adjusted modal styling for Budget Adjustment and similar modals.
+- **Radio Group** - Made more subtle, consistent with the rest of the skin.
+- **Search Component** - Fixed styling for the search box and results.
+- **SpeakTo - Additional actions** - Styling fixes for the additional-actions UI.
+
+### Added
+
+- **Next Match Widget** - Added to navigation area.
+- **Player Status** - Themed status indicators for consistency with the rest of the skin.
+
+### Changed
+
+- **Removed Nav Icons** - Removed the icons and re-introduced the active section highlight.
+- **Meetings** - Adjusted styling for the various elements used in Meetings and Press Conferences.
+
 ## [1.5] – 30/04/2026
 
 ### Fixed
