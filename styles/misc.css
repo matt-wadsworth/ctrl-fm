@@ -707,3 +707,26 @@
 .fitness-test-result-image-colour-partial-pass {
   -unity-background-image-tint-color: #f88320;
 }
+
+/* ---- Meetings ---- */
+/* Statement Bar */
+.meetings-statement-bar {
+  border-color: var(--colours-alpha-light-alpha-8);
+  background-color: var(--none);
+}
+/* Meeting Tiles Base */
+.meeting-tiles-base {
+  border-color: var(--colours-alpha-light-alpha-8);
+}
+/* Players Meetings - Player Tile */
+.tiles-players-meetings--type-standard {
+  border-width: 0px;
+}
+/* Reply Speech Bubble */
+.speech-background-type-reply {
+  background-color: #0d1d45;
+}
+/* Reply Speech Bubble Tail */
+.speech-tail-reply-colour {
+  -unity-background-image-tint-color: #0d1d45;
+}
