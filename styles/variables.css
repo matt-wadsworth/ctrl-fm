@@ -80,21 +80,9 @@
   --buttons-secondary-border-hover: var(--colours-alpha-light-alpha-14);
   --buttons-secondary-border-disabled: rgba(217, 232, 237, 0.02);
 
-  /* Communication Feedback
-  --communication-feedback-negative: #f22c2c;
-  --communication-feedback-positive: #4cab43; */
-
-  /* Tactics - Positions
-  --colours-tactics-goalkeeper-background: #1e1e3200;
-  --colours-tactics-goalkeeper-foreground: #3c3c5a;
-  --colours-tactics-defender-background: #063e4200;
-  --colours-tactics-defender-foreground: #02796f;
-  --colours-tactics-defensive-midfield-background: #0b3d2d00;
-  --colours-tactics-defensive-midfield-foreground: #0d7741;
-  --colours-tactics-midfield-background: #09214800;
-  --colours-tactics-midfield-foreground: #08397d;
-  --colours-tactics-attacking-midfield-background: #2f0f4b00;
-  --colours-tactics-attacking-midfield-foreground: #5f1084;
-  --colours-tactics-striker-background: #44113c00;
-  --colours-tactics-striker-foreground: #8d1363; */
+  /* Contract Negotiation */
+  --contract-negotiation-fail-background: rgba(242, 44, 44, 0.1);
+  --contract-negotiation-invalid-background: rgba(248, 131, 32, 0.1);
+  --contract-negotiation-neutral-background: rgba(255, 255, 255, 0.05);
+  --contract-negotiation-success-background: rgba(76, 171, 67, 0.1);
 }

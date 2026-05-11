@@ -730,3 +730,37 @@
 .speech-tail-reply-colour {
   -unity-background-image-tint-color: #0d1d45;
 }
+
+/* ---- Speech Bubbles - Contract Negotiation ---- */
+/* Positive */
+.speech-bubble-positive-colour {
+  border-color: #224d29;
+}
+.speech-bubble-positive-gradient {
+  --end-colour: #1b3d24;
+  --start-colour: #1b3d24;
+}
+/* Negative */
+.speech-bubble-negative-colour {
+  border-color: #66191f;
+}
+.speech-bubble-negative-gradient {
+  --end-colour: #4d161d;
+  --start-colour: #4d161d;
+}
+/* Minor Warning */
+.speech-bubble-minor-warning-colour {
+  border-color: #69580e;
+}
+.speech-bubble-minor-warning-gradient {
+  --end-colour: #504510;
+  --start-colour: #504510;
+}
+/* Major Warning */
+.speech-bubble-major-warning-colour {
+  border-color: #683d1b;
+}
+.speech-bubble-major-warning-gradient {
+  --end-colour: #4f311a;
+  --start-colour: #4f311a;
+}
