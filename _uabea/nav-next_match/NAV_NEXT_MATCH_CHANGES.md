@@ -21,7 +21,7 @@ Patch order: **`inlineStyle`** (§1), then **`CurrentDayWidget`** (§2)—always
 | Logical name       | Typical dump tail (Path ID) | Role                                                    |
 | ------------------ | --------------------------- | ------------------------------------------------------- |
 | `inlineStyle`      | `7705980741400097515`       | Linked from **`CurrentDayWidget.inlineSheet.m_PathID`** |
-| `CurrentDayWidget` | `-2536531161352205035`      | Serialized widget asset                                 |
+| `CurrentDayWidget` | `2536531161352205035`       | Serialized widget asset                                 |
 
 Filenames repeat the CAB hash for this install; IDs may change when FM rebuilds bundles.
 
@@ -212,9 +212,9 @@ Apply those edits to **`{platform}/orig`** so native Mac IDs survive without a W
 
 §§**2.4–2.7** (heavy **`references`**, template slots, VE ordering, new subtrees) are kept as **per-OS rebuild payloads**—everything you still need beyond §§2.1–2.3 to match the checked-in **`win/`** / **`mac/`** imports. Each file snapshots **`ve_order_ids`**, **`extra_elements`** (full **`VisualElement`** blobs keyed by stringified **`m_Id`** for nodes whose id is **not** on that platform’s **`orig`**), **`references`**, and **`m_TemplateAssets`**, derived from **`CurrentDayWidget`** patched vs **`orig`** for this lineage.
 
-| File | Platform |
-| ---- | -------- |
-| **`rebuild-data/win.json`** | **Windows** import JSON (never reuse for Mac verbatim). |
+| File                        | Platform                                                  |
+| --------------------------- | --------------------------------------------------------- |
+| **`rebuild-data/win.json`** | **Windows** import JSON (never reuse for Mac verbatim).   |
 | **`rebuild-data/mac.json`** | **macOS** import JSON (**not** remapped from **`win/`**). |
 
 Rebuild outline for **`{platform}`** ∈ **`win`**, **`mac`**:
