@@ -160,6 +160,12 @@
   border-width: 1px;
   border-color: var(--colours-alpha-light-alpha-8);
 }
+/* Match Simulation */
+.tile-states-match-simulation-hero-2d {
+  border-width: 1px;
+  border-color: rgba(76, 171, 67, 0.15);
+  background-color: rgba(76, 171, 67, 0.15);
+}
 
 /* ---- NEWS ---- */
 /* Header - See All News */
