@@ -481,6 +481,42 @@
   border-color: #060d17;
   background-color: #fbc500;
 }
+/* Player - Loaned Out */
+.data_display-cell-standard-regular--type-loaned-out {
+  border-color: var(--none);
+  border-width: 0px;
+}
+.data_display-cell-standard-small--type-loaned-out {
+  border-color: var(--none);
+  border-width: 0px;
+}
+.data_display-cell-standard-small--type-loaned-out:active:enabled {
+  border-color: var(--none);
+  border-width: 0px;
+}
+.data_display-cell-standard-small--type-loaned-out:hover:enabled {
+  border-color: var(--none);
+  border-width: 0px;
+}
+/* Player - Loaned In */
+.data_display-cell-standard-regular--type-loaned-in {
+  border-color: var(--none);
+  border-width: 0px;
+}
+.data_display-cell-standard-small--type-loaned-in {
+  border-color: var(--none);
+  border-width: 0px;
+}
+.data_display-cell-standard-regular--type-loaned-in:active,
+.data_display-cell-standard-small--type-loaned-in:active {
+  border-color: var(--none);
+  border-width: 0px;
+}
+.data_display-cell-standard-regular--type-loaned-in:hover,
+.data_display-cell-standard-small--type-loaned-in:hover {
+  border-color: var(--none);
+  border-width: 0px;
+}
 
 /* ---- Calendar ---- */
 /* Calendar Day Current */
