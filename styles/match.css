@@ -88,6 +88,10 @@
   border-width: 0px;
   background-color: #060d17fa;
 }
+.notifications--notifications-toast-auto {
+  border-width: 0px;
+  background-color: #060d17fa;
+}
 
 /* ---- Squad Overview ---- */
 .squad-overview-block {
