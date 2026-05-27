@@ -6,7 +6,7 @@
 - **Working copies:** `ui-match_assets_all/win/` (copy from `win/orig` or `mac/orig` before editing)
 - **Stock only:** `win/orig/`, `mac/orig/` — do not modify; keep as the unpatched baseline.
 
-Edits in **ui-match_assets_all** for in-match **OverviewHeader** and pre-match / interval **ContinuePanel** alignment.
+Edits in **ui-match_assets_all** for in-match **OverviewHeader** and interval / half-time **ContinuePanel** HUD (scoreboard + Tactics / continue buttons).
 
 ## Implementation notes
 
@@ -24,8 +24,8 @@ Edits in **ui-match_assets_all** for in-match **OverviewHeader** and pre-match /
 | ------------------- | ----------------- | -------------------- | ----------------------------------------- |
 | ui-match_assets_all | `OverviewHeader`  | -7819803725380563227 | In-match header UXML                       |
 | ui-match_assets_all | `inlineStyle`     | -2719487159082004763 | Styles for OverviewHeader + safe area     |
-| ui-match_assets_all | `ContinuePanel`   | -398932524086274306  | Kick off / half time / full time panel    |
-| ui-match_assets_all | `inlineStyle`     | 4016413755955533566  | Styles for ContinuePanel                  |
+| ui-match_assets_all | `ContinuePanel`   | -398932524086274306  | Interval / half-time HUD (scoreboard + buttons) |
+| ui-match_assets_all | `inlineStyle`     | 4016413755955533566  | Styles for ContinuePanel                        |
 
 ---
 
@@ -88,23 +88,80 @@ After adding **`dimensions[12]`**, update **rule `[2]` → `margin-top`** to poi
 
 ---
 
-## 2. Pre-match “Kick off” / half time / full time (`ContinuePanel`)
+## 2. Pre-match / interval / half-time HUD (`ContinuePanel`)
 
-**ContinuePanel** (-398932524086274306) — **`m_VisualElementAssets`**:
+Goal: **scoreboard** left inset matches **OverviewHeader** (§1); **Tactics / Instructions / Shouts** and **Address the Team** stay **right-aligned** on the same row, vertically aligned with each other.
 
-- **Element [8]** (0-based) — the **`UnityEngine.UIElements.VisualElement`** whose **`m_Classes`** in stock are only **`flex-grow-class`** (`m_RuleIndex` **`-1`**; in the current Mac dump, **`m_Id`** `-1942089278`, **`m_ParentId`** `1819372858`). (Another node earlier in the tree also uses **`flex-grow-class`** — pick the **`VisualElement`** at index **[8]**, not **`BindableSwitchElement`**.) **Add** **`align-items-end`** and **`margin-right-global-gap-regular`** (keep **`flex-grow-class`**).
+### Layout (current dump)
 
-**What stays stock:** For the same game build, **`mac/orig`** vs the working **`mac/`** copy should match **everywhere else** when parsed as JSON: the root **`references`** object (**`references.RefIds`** and nested serialized data), **`m_ContentHash`**, **`m_TemplateAssets`**, **`m_SerializedDataOverride`** / **`m_ElementIdsPath`**, **`m_PickingMode`**, and all other **`m_VisualElementAssets`** rows. A structural diff should show **only** **`m_VisualElementAssets.Array[8].m_Classes.Array`** growing from one entry to three. If your editor or UABEA **reformats** the file (e.g. compact **`m_argumentBytes`** vs one number per line), line counts will differ wildly; **semantic** equality to **`orig`** except for **[8]** classes is what matters.
+```
+m_VisualElementAssets [1]  BindingRoot          rule [0]  padding top/left/right
+└─ [2] BindableSwitchElement (flex-grow)
+   └─ [3] row
+      ├─ … → [7] fm-scoreboard                    rule [2]  align-items flex-start
+      └─ [8] flex-grow spacer                     classes   align-items-end, margin-right-global-gap-regular
+         └─ … → match-header                      rule [4]  margin-top 4px
+            ├─ MatchUITacticalOptions (Tactics …)
+            └─ continue button (Address the Team) rule [5]  align-self flex-start
+```
 
-**Do not:** Copy **`ContinuePanel`** from **Windows** into **Mac** (or mix builds). Element **`m_Id`** values and the **`references`** object are platform/build-specific; bad merges look like “fix picking” or **`m_ElementId`** rewrites — **start from your platform’s `orig`**, apply **only** the **[8]** class list above, and leave **`references`** alone unless you know the asset is corrupted.
+- **`padding-top` on rule [0]** lifts the **whole row** (scoreboard + buttons). Tuned to **24px** to match OverviewHeader **`match-header`** **`margin-top`** (§1c).
+- **`padding-left` / `padding-right` on rule [0]** (**42px** / **26px**) replace stock **`padding-horizontal-global-padding-regular`** on element **[1]** so the scoreboard left edge and screen right inset match OverviewHeader (**`left: 26px`**, skin **`match-header { margin-right: 26px }`**).
+- **`align-items-end` on element [8]** right-aligns the button block inside the flex-grow column. **Do not remove** after padding changes — without it, Tactics / Instructions hug the left beside the scoreboard.
+- **`margin-top` on rule [4]** (**4px**) nudges the **`match-header`** button row down slightly. **Do not** set this to **24px** while rule **[0]** already has **`padding-top: 24px`** — that doubled the top inset and misaligned Tactics vs **Address the Team**.
 
-**inlineStyle** (4016413755955533566) — rule **[2]** applies to **`fm-scoreboard`** (**`m_VisualElementAssets` element [7]**, **`m_RuleIndex` 2**), not to element **[8]** above (that row uses **USS classes** only):
+### ContinuePanel UXML (-398932524086274306)
 
-- **Rule [2]** — set **`align-items`** to **`flex-start`**.
-  - JSON handle: **`m_ValueType = 7`**, **`valueIndex = 5`** (`strings[5] = flex-start`)
-- **Rule [4]** — **`margin-top` = 4px** (e.g. **`SISafeAreaElement`** / match header in this sheet’s wiring):
-  - Append a **Dimension** entry **`[4] = 4px`**
-  - Point **`margin-top`** at **`valueIndex = 4`**
+**Element [1]** — drop **`padding-horizontal-global-padding-regular`** from **`m_Classes`** (keep **`row-direction-normal`**). Horizontal inset moves to inlineStyle rule **[0]**.
+
+**Element [8]** (0-based) — the **`UnityEngine.UIElements.VisualElement`** whose stock **`m_Classes`** are only **`flex-grow-class`** (`m_RuleIndex` **`-1`**; Mac **`m_Id`** `-1942089278`, **`m_ParentId`** `1819372858`). Another node also uses **`flex-grow-class`** — pick index **[8]**, not a **`BindableSwitchElement`**.
+
+| Class | Action |
+| ----- | ------ |
+| **`flex-grow-class`** | keep (stock) |
+| **`align-items-end`** | **add** |
+| **`margin-right-global-gap-regular`** | **add** |
+
+**What stays stock:** Parsed JSON should match **`orig`** everywhere except **`m_VisualElementAssets.Array[1].m_Classes`** and **`Array[8].m_Classes`**. Do not rewrite **`references`**, **`m_TemplateAssets`**, or other element rows.
+
+**Do not:** Copy **`ContinuePanel`** from Windows into Mac (or mix builds). Element **`m_Id`** values and **`references`** are platform-specific.
+
+### ContinuePanel `inlineStyle` (4016413755955533566)
+
+**`dimensions` pool (patched)** — append slots beyond stock as needed:
+
+| Index | Value | Used by |
+| ----- | ----- | ------- |
+| **[0]** | **24px** | rule **[0]** **`padding-top`** / **`padding-bottom`** |
+| **[4]** | **4px** | rule **[4]** **`margin-top`** |
+| **[5]** | **42px** | rule **[0]** **`padding-left`** |
+| **[6]** | **26px** | rule **[0]** **`padding-right`** |
+
+Stock **`dimensions[0]`** was **6px**; **`dimensions[4]`** did not exist (rule **[4]** **`margin-top`** pointed at **[2]** = **12px**).
+
+**Rule [2]** — **`fm-scoreboard`** (**element [7]**, **`m_RuleIndex` 2**):
+
+- **`align-items`** → **`flex-start`**
+- JSON: **`m_ValueType = 7`**, **`valueIndex = 5`** (`strings[5] = flex-start`)
+
+**Rule [0]** — root row (**element [1]**, **`m_RuleIndex` 0**):
+
+- **`padding-top`** → **24px** (`dimensions[0]`, **`valueIndex` 0**)
+- **`padding-left`** → **42px** — add property; **`valueIndex` 5**
+- **`padding-right`** → **26px** — add property; **`valueIndex` 6**
+
+**Rule [4]** — continue-side **`match-header`** (**element with class **`match-header`**, **`m_RuleIndex` 4**):
+
+- **`margin-top`** → **4px** — point at **`dimensions[4]`**, **`valueIndex` 4**
+
+### ContinuePanel pitfalls
+
+| Mistake | Symptom |
+| ------- | ------- |
+| **`padding-top` 24** on rule **[0]** **and** **`margin-top` 24** on rule **[4]** | Tactics row ~24px lower than **Address the Team** |
+| Remove **`align-items-end`** from element **[8]** | Button group shifts left, beside scoreboard |
+| Keep **`padding-horizontal-global-padding-regular`** on **[1]** while also setting rule **[0]** **`padding-left`** | Double horizontal inset on the left |
+| Omit rule **[0]** **`padding-right` 26** after dropping horizontal padding class | Continue / tactics UI clips off the right edge |
 
 ---
 
@@ -114,5 +171,5 @@ After adding **`dimensions[12]`**, update **rule `[2]` → `margin-top`** to poi
 | ---------------------------- | ------ |
 | inlineStyle `-2719487159082004763` | Rule **[8]** align + `width`→`left` + `top` handle; **`dimensions`** **14** slots; **[4]/[5]** 72/26; append **[12]/[13] = 24/0**; rule **[2]** `margin-top` **`valueIndex` → 12** (24px) |
 | OverviewHeader `-7819803725380563227` | Elements **[7]** / **[19]** order; element **[7]** class |
-| ContinuePanel `-398932524086274306` | **`m_VisualElementAssets` [8]** — add **`align-items-end`**, **`margin-right-global-gap-regular`**; nothing else (verify: parsed JSON vs `orig` = only this **`m_Classes`** change) |
-| inlineStyle `4016413755955533566` | Rule **[2]** `align-items = flex-start` (**`valueIndex` 5**); append **`dimensions[4] = 4px`**; rule **[4]** `margin-top` → **4** |
+| ContinuePanel `-398932524086274306` | **[1]** drop **`padding-horizontal-global-padding-regular`**; **[8]** add **`align-items-end`**, **`margin-right-global-gap-regular`** |
+| inlineStyle `4016413755955533566` | **[2]** `align-items` flex-start; **[0]** pad **24 / 42 / 26**; **[4]** `margin-top` **4px**; **`dimensions[4/5/6]`** = **4 / 42 / 26** |

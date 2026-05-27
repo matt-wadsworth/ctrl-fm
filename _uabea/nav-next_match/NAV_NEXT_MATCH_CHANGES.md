@@ -12,7 +12,7 @@ Notation **`[n]`** follows **`../UABEA-Notes.md`**: **0-based** indices into **`
 
 Intent mirror **`nextmatch.uxml`** (workspace root): same bind paths/GUIDs/classes where applicable. The dumped asset differs in incidental IDs and still uses **`SIButton`** for the clickable “card” (**`NextMatchInfo`** serialized name), while **`nextmatch.uxml`** nests that under **`SIVisible`** wrappers—match **behaviour/bindings/classes**, not every XML tag.
 
-Patch order: **`inlineStyle`** (§1), then **`CurrentDayWidget`** (§2)—always §1 **before** you rely on **`m_RuleIndex = 0`** for the slim accent stripe.
+Patch order: **`inlineStyle`** (§1), then **`CurrentDayWidget`** (§2)—always §1 **before** you rely on **`m_RuleIndex = 0`** (accent stripe).
 
 ---
 
@@ -45,16 +45,18 @@ Stock ships **two keyword rules**:
 | `height`  | **`m_ValueType = 3`**, **`valueIndex = 1`** | **`dimensions[1]`**: **`unit = 1`**, **`value = 20.0`** |
 
 - **`strings.Array`** must be empty after the rewrite (no keyword lookups).
-- No other pooled entries are required (**`colors`/`assets`/…** stay empty as in vanilla for this sheet).
-- **`m_ValueType = 2`** = float pool, **`m_ValueType = 3`** = dimension pool (**same shorthand as **`match-left_scoreboard`** docs**).
+- **`floats`**: **`[0.5]`** only; **`dimensions`**: **`[1×1, 20×1]`**.
+- **`m_ValueType = 2`** = float pool, **`m_ValueType = 3`** = dimension pool.
 
-This rule becomes **`inlineStyle` rule `[0]`**. Downstream **`m_RuleIndex = 0`** on **`CurrentDayWidget`** targets this stripe.
+This rule becomes **`inlineStyle` rule `[0]`**. Downstream **`m_RuleIndex = 0`** on the accent **`VisualElement`** (§2.4) targets this stripe. **Nation and club opponent icons** both use the stock **`section-button-iphone__image`** class (**26 × 26** square)—no second inline rule.
 
 ---
 
 ## 2. `CurrentDayWidget` (`-2536531161352205035`)
 
-Stock **`m_VisualElementAssets`** has **9** visual nodes (**`[0]`** UXML through **`[8]`** last **`SIText`**). A fully patched tree from the same FM lineage has **30** nodes there, and **`references.RefIds`** grows **12 → 33**—use those counts as coarse regression checks after rebuilding on a newer export.
+Stock **`m_VisualElementAssets`** has **9** visual nodes (**`[0]`** UXML through **`[8]`** last **`SIText`**). A fully patched tree from the same FM lineage has **35** nodes there, and **`references.RefIds`** grows **12 → 38**—use those counts as coarse regression checks after rebuilding on a newer export.
+
+All **`m_direct`** bind fields must use the **Path + Nullable** wrapper documented in **[`../UABEA-Notes.md`](../UABEA-Notes.md#dump-format)** on **both** platforms.
 
 ### 2.1 `BindingVariables` (stock **`m_VisualElementAssets[1]`**, **`m_Id = 1677764210`**)
 
@@ -133,7 +135,7 @@ Implementation tip: compose the node visually, export JSON, transplant only the 
 
 ### 2.5 Add the **`SIVisible` + next-match column** (`m_OrderInDocument = 1`)
 
-Between the calendar column (**`m_OrderInDocument = 0`**) and the accent (**`order = 2`**) insert **`SI.Bindable.SIVisible`** (**`2101001001`** in the lineage used to draft this patch—substitute freshly generated IDs on regeneration):
+Between the calendar column (**`m_OrderInDocument = 0`**) and the accent (**`order = 2`**) insert **`SI.Bindable.SIVisible`** (**`2101001001`** / **`NextMatchContainerWrapper`** in the lineage used to draft this patch—substitute freshly generated IDs on regeneration):
 
 | Field                   | Target                                                                                                                                                                      |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -141,35 +143,116 @@ Between the calendar column (**`m_OrderInDocument = 0`**) and the accent (**`ord
 | **`m_OrderInDocument`** | **`1`**                                                                                                                                                                     |
 | **`m_PickingMode`**     | **`1`**                                                                                                                                                                     |
 | **`m_Classes`**         | **`row-direction-normal`**, **`align-items-center`**                                                                                                                        |
-| Binding                 | **`InvertDirectBinding = 0`**, **`Binding.m_kind = 1`**, **`Binding.m_direct.m_path = human.team.IsClub`** (same logical bind as **`nextmatch.uxml`** root **`SIVisible`**) |
+| Visibility bind         | **`Binding.m_kind = 2`**, empty **`m_direct.Path.m_path`**, visual-script GUID **`4a1becfc0a0d04816b13fd8f330a9207`** (shows the block when a next fixture exists—not club gating) |
+| **`PreviewVisibilityToggle`** | **`1`**                                                                                                                                                              |
+
+**Do not** bind this root **`SIVisible`** to **`team.IsClub`**—nation managers must see the column. Club vs nation **icon** switching lives in §2.8.
 
 Canonical **child outline** (**types + binding intent**) — **`nextmatch.uxml`** parity in parentheses:
 
-1. **`BindingRemapper`** (**`migrate-mappings` / `binding-mappings` → `human.team.NextMatchOpponent`**).
-2. Under remapper **`SIButton`** (`NextMatchInfo` serialized name):
+1. **`BindingRemapper`** (**`2101001013`**) — **`MigrateMappings` / mapping → `human.team.NextMatchOpponent`**.
+2. Inner **`SIVisible`** **`NextMatchReportWrapper`** (**`2101001014`**).
+3. Row **`VisualElement`** / serialized **`NextMatchInfo`** (**`2101001002`**) — clickable card:
 
    **`m_PickingMode`** = **`1`**; **`m_Classes`** include **`navigation-main-calendar-button-default`** with asymmetric **`margin`** / **`padding`** classes matching **`nextmatch.uxml`**
-
    (**`navigation-global-diagetic-container`** + horizontal padding knobs + **`sitext-hover-cursor`** family).
    Preserve **`BindTextFunction` / GUID `70afd3ab18d9fed479f22a064d99f893`** (same **`bind-text-function`** as **`nextmatch.uxml`**).
 
-3. Child **`VisualElement`** `section-button-iphone__image` + **`BindingRemapper` club → `human.team.NextMatchOpponent.ClubForObjectLookupData`**.
-4. Inner stretch wrapper + **`SIImage`** **`binding kind=1`** visual-script GUID **`7a35874b5cb0acb4d846df3f46c3a872`** (matches **`nextmatch.uxml`**).
-5. Content column **`justify-content-flex-start`**, **`align-items-flex-start`** (some stacks use **`align-flex-start`** enums in dumped class strings—mirror **`nextmatch.uxml`** usage-hints equivalents).
-6. Row of three **`SIText`** (**`12px` secondary**):
+4. **§2.8 opponent icon column** — first child **`NextMatchOpponentRemapper`** + **`BindableSwitchElement`** (club **or** nation **`SIImage`**).
+5. Content column **`NextMatchTextStack`** (**`2101001009`**) — **`justify-content-flex-start`**, **`align-flex-start`**.
+6. Row of **`SIText`** (**`12px` secondary**):
    - **`human.team.NextMatchDaysText`**
    - spacer **`SIText`** (empty / debug spacer)
-   - location line (**authoritative dumped bind**): **`human.team.NextMatchLocationString`** (**`nextmatch.uxml`** used **`human.team.NextFixture.MatchVenueShort`**—keep one coherent path across a skin/game cycle)
-
+   - location line: **`human.team.NextMatchLocationString`**
 7. Second **`BindingRemapper`** (**`Team` → `human.team.NextMatchOpponent`**).
-
-8. Opponent **`SIText`**: **`translation-id` `35204`**, **`text-binding`** visual-script asset GUID **`f97abdf5a74842647ba921d183f4a3eb`**.
+8. Opponent **`SIText`**: **`translation-id` `35204`**, **`text-binding`** visual-script GUID **`f97abdf5a74842647ba921d183f4a3eb`**.
 
 Additional authoring labels present in **`references`** (search your export after authoring):
 
-- **`NextMatchContainerWrapper`**, **`NextMatchReportWrapper`**, **`NextMatchTextStack`**, **`NextMatchDateRow`**, **`NextMatchOpponentRow`**, **`NextMatchOpponentLeaguePositionWrapper`**, binds on **`human.team.NextMatchLocationString`** and **`human.team.NextMatchOpponent.LeaguePosition`**.
+- **`NextMatchContainerWrapper`**, **`NextMatchReportWrapper`**, **`NextMatchTextStack`**, **`NextMatchDateRow`**, **`NextMatchOpponentRow`**, **`NextMatchOpponentLeaguePositionWrapper`**, **`NextMatchOpponentRemapper`**, **`BindableSwitchElement_NationOrClub`**, **`NationRemapper`**, **`ClubRemapper`**, **`NextMatchOpponentNationIcon`**, **`NextMatchOpponentClubIcon`**, **`NationImage`**, **`ClubImage`**, binds on **`human.team.NextMatchLocationString`** and **`human.team.NextMatchOpponent.LeaguePosition`**.
 
 Treat those structs as authoritative when recreating binds that expanded beyond **`nextmatch.uxml`** in the FM UI.
+
+---
+
+### 2.8 Nation / club opponent icons (`BindableSwitchElement`)
+
+Insert inside **`NextMatchInfo`** (**`2101001002`**) as **`m_OrderInDocument = 0`** (text stack stays **`1`**).
+
+```
+NextMatchOpponentRemapper (2101001028) — MigrateMappings: human.team.NextMatchOpponent
+└── BindableSwitchElement_NationOrClub (2101001010) — Binding.m_kind = 1, Path: team.IsClub
+    ├── NationRemapper (2101001011) — m_OrderInDocument = 0  [false / nation branch]
+    │   └── NextMatchOpponentNationIcon (2101001029) — m_RuleIndex = -1
+    │       └── NationImage (2101001030) — SIImage
+    └── ClubRemapper (2101001026) — m_OrderInDocument = 1  [true / club branch]
+        └── NextMatchOpponentClubIcon (2101001012)
+            └── ClubImage (2101001027) — SIImage
+```
+
+#### `BindableSwitchElement` (**`2101001010`**)
+
+| Field | Target |
+| ----- | ------ |
+| **`BindDirectAsMask`** | **`0`** |
+| **`Binding.m_kind`** | **`1`** (direct) |
+| **`Binding.m_direct`** | **`Path.m_path = team.IsClub`**, **`Nullable = 0`** |
+| **`Preview.Mask`** | **`2`** |
+| Child **`0`** | Nation branch (**shown when `IsClub` is false**) |
+| Child **`1`** | Club branch (**shown when `IsClub` is true**) |
+
+#### `NationRemapper` (**`2101001011`**)
+
+| `from` | `to.m_path` | type id (this lineage) |
+| ------ | ----------- | ---------------------- |
+| **`nation`** | **`team.Nation`** | **`1145176074`** |
+| **`NTcontainer`** | **`team.NationalTeamContainer`** | **`1145176073`** |
+
+#### `ClubRemapper` (**`2101001026`**)
+
+| `from` | `to.m_path` | type id (this lineage) |
+| ------ | ----------- | ---------------------- |
+| **`club`** | **`team.ClubForObjectLookupData`** | **`1145176067`** |
+
+#### Nation wrapper **`NextMatchOpponentNationIcon`** (**`2101001029`**)
+
+| Field | Target |
+| ----- | ------ |
+| **`m_RuleIndex`** | **`-1`** |
+| **`m_Classes`** | **`section-button-iphone__image`**, **`margin-left-global-gap-small`**, **`margin-right-global-gap-regular`**, **`sitext-hover-cursor`** (same sleeve as club) |
+
+#### Club wrapper **`NextMatchOpponentClubIcon`** (**`2101001012`**)
+
+| Field | Target |
+| ----- | ------ |
+| **`m_RuleIndex`** | **`-1`** |
+| **`m_Classes`** | **`section-button-iphone__image`**, **`margin-left-global-gap-small`**, **`margin-right-global-gap-regular`**, **`sitext-hover-cursor`** |
+
+#### `NationImage` (**`2101001030`**) — **`SIImage`**
+
+| Field | Target |
+| ----- | ------ |
+| **`m_Classes`** | **`margin-right-global-gap-none`**, **`sitext-hover-cursor`** (match club) |
+| **`ScaleMode`** | **`0`** (match club) |
+| **`ScaleMode_UxmlAttributeFlags`** | **`0`** |
+| **`Binding.m_kind`** | **`2`** (visual function) |
+| **`Binding.m_direct`** | empty path + **`Nullable = 0`** |
+| Visual-script GUID | **`7a35874b5cb0acb4d846df3f46c3a872`** (nation lookup inputs in **`m_argumentBytes`**) |
+
+#### `ClubImage` (**`2101001027`**) — **`SIImage`**
+
+| Field | Target |
+| ----- | ------ |
+| **`m_Classes`** | **`margin-right-global-gap-none`**, **`sitext-hover-cursor`** |
+| **`ScaleMode`** | **`0`** |
+| **`Binding.m_kind`** | **`2`** (visual function) |
+| **`Binding.m_direct`** | empty path + **`Nullable = 0`** |
+| Visual-script GUID | **`7a35874b5cb0acb4d846df3f46c3a872`** (club lookup inputs in **`m_argumentBytes`**) |
+
+**Implementation notes:**
+
+- Use plain **`SIImage`** nodes—not **`NationIcon` / `ClubIcon` template assets**.
+- Nation and club wrappers share **`section-button-iphone__image`** (**26 × 26** square). Wide flag source art will letterbox inside the square slot.
 
 ---
 
@@ -181,7 +264,7 @@ Stock keeps one **`StandardTextTooltip`** template sibling. Preserve the **`m_Te
 
 ### 2.7 `references` hygiene
 
-Growing from **12 → 33** **`RefIds`** means **every new `SerializedData.rid`** you introduce must hook into this table (**MonoBehaviour payloads for `BindingRemapper`, `SIButton`, `SIVisible`, nested `VisualElement/UxmlSerializedData`, etc.**).
+Growing from **12 → 38** **`RefIds`** means **every new `SerializedData.rid`** you introduce must hook into this table (**MonoBehaviour payloads for `BindingRemapper`, `BindableSwitchElement`, `SIImage`, `SIVisible`, nested `VisualElement/UxmlSerializedData`, etc.**).
 
 Practical playbook:
 
@@ -200,7 +283,8 @@ Do **not** maintain Mac by patching Windows first and bulk-remapping IDs. Window
 ### 3.1 Baselines & §1 **`inlineStyle`**
 
 - Whenever the CAB changes, refresh **`win/orig`** and **`mac/orig`** from UABEA. **Filename Path ID suffixes** can differ across OS; match **`inlineStyle`** / **`CurrentDayWidget`** by **bundle + logical asset name**.
-- **§1** applies independently to **`win/orig`** and **`mac/orig`**. On this CAB lineage the stock **`inlineStyle`** dumps were byte-identical, so patched outputs should coincide—but still rerun §1 starting from **that** **`orig`** after an FM bump.
+- **§1** applies independently to **`win/orig`** and **`mac/orig`**. On this CAB lineage the stock **`inlineStyle`** dumps were byte-identical; patched outputs should coincide (single accent rule)—still rerun §1 from **that** **`orig`** after an FM bump.
+- Every **`m_direct`** block in working imports must use **`Path` + `Nullable`** (see **[`../UABEA-Notes.md`](../UABEA-Notes.md#dump-format)**). Mac and Windows share the same wrapper syntax in UABEA Next.
 
 ### 3.2 §§2.1–2.3 **`CurrentDayWidget`** (mechanical, ID-agnostic prose)
 
@@ -210,7 +294,9 @@ Apply those edits to **`{platform}/orig`** so native Mac IDs survive without a W
 
 ### 3.3 `rebuild-data/win.json` and `rebuild-data/mac.json`
 
-§§**2.4–2.7** (heavy **`references`**, template slots, VE ordering, new subtrees) are kept as **per-OS rebuild payloads**—everything you still need beyond §§2.1–2.3 to match the checked-in **`win/`** / **`mac/`** imports. Each file snapshots **`ve_order_ids`**, **`extra_elements`** (full **`VisualElement`** blobs keyed by stringified **`m_Id`** for nodes whose id is **not** on that platform’s **`orig`**), **`references`**, and **`m_TemplateAssets`**, derived from **`CurrentDayWidget`** patched vs **`orig`** for this lineage.
+§§**2.4–2.8** (heavy **`references`**, template slots, VE ordering, new subtrees including §2.8 icon switch) are kept as **per-OS rebuild payloads**—everything you still need beyond §§2.1–2.3 to match the checked-in **`win/`** / **`mac/`** imports. Each file snapshots **`ve_order_ids`**, **`extra_elements`** (full **`VisualElement`** blobs keyed by stringified **`m_Id`** for nodes whose id is **not** on that platform’s **`orig`**), **`references`**, and **`m_TemplateAssets`**, derived from **`CurrentDayWidget`** patched vs **`orig`** for this lineage.
+
+**Regression counts (this FM lineage):** **`35`** **`ve_order_ids`**, **`26`** **`extra_elements`**, **`38`** **`RefIds`** — identical on **`win`** and **`mac`**.
 
 | File                        | Platform                                                  |
 | --------------------------- | --------------------------------------------------------- |
@@ -235,6 +321,14 @@ When authored bits change beyond what §§2.1–2.3 list, refresh **`rebuild-dat
 
 `json` parses; **`inlineSheet.m_PathID`** still **`7705980741400097515`** beside the edited **`inlineStyle`**.
 
-Smoke in portal: crest bind, weekday copy, opponent line, **`IsClub` gating**, calendar column still clickable if desired, accent stripe visible (§1 **`opacity`** `0.5` on the 1×20 px sleeve).
+**`inlineStyle`:** one accent rule; **`dimensions`** **`[1, 20]`**; nation and club wrappers both use **`section-button-iphone__image`**.
 
-**In-engine:** Windows path verified for this skin lineage. Re-smoke on **macOS** after importing **`mac/*.json`**; re-smoke both OS after any FM bundle update.
+**`CurrentDayWidget`:** **`35`** VE nodes; **`38`** **`RefIds`**; all **`m_direct`** fields use **`Path` + `Nullable`**.
+
+Smoke in portal:
+
+- **Club manager:** opponent crest loads in **`section-button-iphone__image`** slot; text rows bind.
+- **Nation manager:** next-match column **visible**; nation emblem loads in the **same 26 × 26** square slot as club crests.
+- Weekday copy, opponent line, calendar column still clickable, accent stripe visible (§1 rule **`[0]`** **`opacity`** `0.5` on the 1×20 px sleeve).
+
+**In-engine:** Re-smoke **both** OS after importing **`win/*.json`** or **`mac/*.json`** respectively; re-smoke after any FM bundle update.

@@ -1234,7 +1234,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "Config.ShowPhonePanels"
+              "Path": {
+                "m_path": "Config.ShowPhonePanels"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -1375,7 +1378,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "app.GameStarted"
+              "Path": {
+                "m_path": "app.GameStarted"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -1487,7 +1493,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -2270,7 +2279,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -4146,7 +4158,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "match.IsManaging"
+              "Path": {
+                "m_path": "match.IsManaging"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -4287,7 +4302,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "match.MatchTeamHasPendingChanges"
+              "Path": {
+                "m_path": "match.MatchTeamHasPendingChanges"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -4399,7 +4417,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "canmodifytactics"
+              "Path": {
+                "m_path": "canmodifytactics"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -4553,7 +4574,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "match.MatchTeamHasPendingChanges"
+              "Path": {
+                "m_path": "match.MatchTeamHasPendingChanges"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -4707,7 +4731,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -5316,7 +5343,10 @@
           "TextBinding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -5816,7 +5846,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -6156,7 +6189,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -6567,7 +6603,10 @@
           "TextBinding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,

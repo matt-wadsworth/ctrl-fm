@@ -3,6 +3,16 @@
 - **Patch folder:** `tactics-player_portrait`
 - **Bundle:** `ui-tactics_assets_all`
 - **Dump format:** serialized asset dump (`.json`)
+- **Stock baseline:** `ui-tactics_assets_all/win/orig/` and `ui-tactics_assets_all/mac/orig/`. **Never edit** these exports.
+- **Working imports:** `ui-tactics_assets_all/win/*.json` and `ui-tactics_assets_all/mac/*.json` — same basenames as each platform’s `orig`.
+
+Notation **`[n]`** follows **`../UABEA-Notes.md`**: **0-based** indices into **`m_Rules`**, **`m_VisualElementAssets`**, pools, **`references.RefIds`**, etc.
+
+Patch order: **`inlineStyle`** first, then **`TacticsPositionCombined`**.
+
+**macOS:** Rebuild from **`mac/orig/`** + this note. **Do not** copy **`TacticsPositionCombined`** from Windows — element **`m_Id`** values, **`references`**, and **`m_ParentId`** links are platform-specific. For this CAB lineage, stock **`inlineStyle`** dumps are byte-identical across OS; patched **`inlineStyle`** can match on both platforms after §1.
+
+**Regression counts (this FM lineage):** **`TacticsPositionCombined`** — **`73`** visual nodes, **`6`** template assets, **`79`** **`RefIds`**; **`inlineStyle`** — **`30`** rules, **`17`** dimensions.
 
 ## Assets
 
@@ -135,3 +145,25 @@ Append the matching serialized-data blocks for:
 - `rid 1086` -> `TemplateContainer/UxmlSerializedData`, `uxmlAssetId 1928374653`, name `PersonPicture`, `templateId PersonPicture`
 
 Those `uxmlAssetId` values must match the inserted node `m_Id` values.
+
+---
+
+## Windows vs macOS
+
+| Asset | Windows | macOS |
+| ----- | ------- | ----- |
+| `inlineStyle` | Apply § **`inlineStyle` target** to **`win/orig`** → import **`win/`** | Same steps on **`mac/orig`** (stock dumps match for this CAB) |
+| `TacticsPositionCombined` | Manual edit or Windows working copy | Rebuild from **`mac/orig`** only |
+
+**`TacticsPositionCombined` on macOS**
+
+1. Copy both assets from **`mac/orig/`** into **`mac/`**.
+2. Apply the **`inlineStyle`** section (identical outcome to Windows).
+3. On **`TacticsPositionCombined`**, mirror the Windows topology on native Mac IDs:
+   - Add **`PersonPicture`** to **`m_Usings`** (before **`layout-divider-solid-vertical`**).
+   - Insert the portrait wrapper / remapper / template subtree under the row that already contains **`FMTacticsShirt`** (Mac shirt parent **`m_Id`** **`-1393456546`** on this export; Windows uses **`940792779`**).
+   - Use the same new node IDs **`1928374651`–`1928374653`**, rule indices **`28`/`29`**, and remapper binding (**`person` → `position.Player`**).
+   - Renumber **`m_OrderInDocument`** globally so values are **unique and contiguous** **`0`…`78`** across **`m_VisualElementAssets`** and **`m_TemplateAssets`** together (same final orders as the Windows patch when nodes are matched by tree shape).
+   - Append three **`references.RefIds`** blocks for the new nodes; **`rid`** values must be **new on Mac** (append after the stock max **`rid`**, do not reuse Windows **`1084`–`1086`** verbatim unless your export already matches).
+
+**In-engine:** Re-smoke tactics pitch player tiles on **both** OS after importing **`win/*.json`** or **`mac/*.json`** respectively.

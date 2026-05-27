@@ -60,7 +60,7 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 420110558,
+        "m_Id": 710499059,
         "m_OrderInDocument": 0,
         "m_ParentId": 0,
         "m_NamespaceDefinitions": {
@@ -93,9 +93,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1283346105,
+        "m_Id": -992957604,
         "m_OrderInDocument": 1,
-        "m_ParentId": 420110558,
+        "m_ParentId": 710499059,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -121,14 +121,14 @@
         "m_SkipClone": 0
       },
       {
-        "m_FullTypeName": "SI.Bindable.BindingVariables",
+        "m_FullTypeName": "SI.Bindable.BindingRemapper",
         "m_XmlNamespace": {
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -212969767,
+        "m_Id": 77418734,
         "m_OrderInDocument": 2,
-        "m_ParentId": -1283346105,
+        "m_ParentId": -992957604,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -154,14 +154,47 @@
         "m_SkipClone": 0
       },
       {
+        "m_FullTypeName": "SI.Bindable.BindingVariables",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -373339223,
+        "m_OrderInDocument": 3,
+        "m_ParentId": 77418734,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": -1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1002
+        },
+        "m_SkipClone": 0
+      },
+      {
         "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
         "m_XmlNamespace": {
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -663727724,
-        "m_OrderInDocument": 3,
-        "m_ParentId": -212969767,
+        "m_Id": 1949735821,
+        "m_OrderInDocument": 4,
+        "m_ParentId": -373339223,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -184,7 +217,7 @@
           "Array": []
         },
         "m_SerializedData": {
-          "rid": 1002
+          "rid": 1003
         },
         "m_SkipClone": 0
       },
@@ -194,9 +227,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1659347320,
-        "m_OrderInDocument": 4,
-        "m_ParentId": -663727724,
+        "m_Id": -1543290726,
+        "m_OrderInDocument": 5,
+        "m_ParentId": 1949735821,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -205,39 +238,6 @@
         },
         "m_Name": "",
         "m_RuleIndex": 0,
-        "m_Text": "",
-        "m_PickingMode": 0,
-        "m_Classes": {
-          "Array": []
-        },
-        "m_StylesheetPaths": {
-          "Array": []
-        },
-        "m_Stylesheets": {
-          "Array": []
-        },
-        "m_SerializedData": {
-          "rid": 1003
-        },
-        "m_SkipClone": 0
-      },
-      {
-        "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
-        "m_XmlNamespace": {
-          "prefix": "",
-          "resolvedNamespace": ""
-        },
-        "m_Id": -1833679227,
-        "m_OrderInDocument": 5,
-        "m_ParentId": 1659347320,
-        "m_NamespaceDefinitions": {
-          "Array": []
-        },
-        "m_Properties": {
-          "Array": []
-        },
-        "m_Name": "",
-        "m_RuleIndex": 1,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -260,9 +260,42 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -2102114816,
+        "m_Id": 2032483024,
         "m_OrderInDocument": 6,
-        "m_ParentId": 1659347320,
+        "m_ParentId": -1543290726,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1005
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": 1764047435,
+        "m_OrderInDocument": 7,
+        "m_ParentId": -1543290726,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -283,7 +316,7 @@
           "Array": []
         },
         "m_SerializedData": {
-          "rid": 1005
+          "rid": 1006
         },
         "m_SkipClone": 0
       }
@@ -297,9 +330,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1742094523,
-        "m_OrderInDocument": 6,
-        "m_ParentId": -1833679227,
+        "m_Id": -207844817,
+        "m_OrderInDocument": 7,
+        "m_ParentId": 2032483024,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -320,7 +353,7 @@
           "Array": []
         },
         "m_SerializedData": {
-          "rid": 1006
+          "rid": 1007
         },
         "m_SkipClone": 0,
         "m_TemplateAlias": "Dugout_4x2",
@@ -340,9 +373,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 220960228,
-        "m_OrderInDocument": 7,
-        "m_ParentId": -1833679227,
+        "m_Id": -1728979112,
+        "m_OrderInDocument": 8,
+        "m_ParentId": 2032483024,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -365,7 +398,7 @@
           "Array": []
         },
         "m_SerializedData": {
-          "rid": 1007
+          "rid": 1008
         },
         "m_SkipClone": 0,
         "m_TemplateAlias": "expand-toogle",
@@ -382,7 +415,7 @@
                 ]
               },
               "m_SerializedData": {
-                "rid": 1008
+                "rid": 1009
               }
             }
           ]
@@ -397,9 +430,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1205223345,
-        "m_OrderInDocument": 7,
-        "m_ParentId": -2102114816,
+        "m_Id": -744715995,
+        "m_OrderInDocument": 8,
+        "m_ParentId": 1764047435,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -420,7 +453,7 @@
           "Array": []
         },
         "m_SerializedData": {
-          "rid": 1009
+          "rid": 1010
         },
         "m_SkipClone": 0,
         "m_TemplateAlias": "Dugout_4x8",
@@ -440,9 +473,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -315910950,
-        "m_OrderInDocument": 8,
-        "m_ParentId": -2102114816,
+        "m_Id": 2029117006,
+        "m_OrderInDocument": 9,
+        "m_ParentId": 1764047435,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -465,7 +498,7 @@
           "Array": []
         },
         "m_SerializedData": {
-          "rid": 1010
+          "rid": 1011
         },
         "m_SkipClone": 0,
         "m_TemplateAlias": "collapse-toogle",
@@ -482,7 +515,7 @@
                 ]
               },
               "m_SerializedData": {
-                "rid": 1011
+                "rid": 1012
               }
             }
           ]
@@ -506,7 +539,7 @@
     "Array": []
   },
   "m_ContentContainerId": 0,
-  "m_ContentHash": 602432926,
+  "m_ContentHash": 892821427,
   "references": {
     "version": 2,
     "RefIds": [
@@ -527,7 +560,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -1283346105,
+          "uxmlAssetId": -992957604,
           "name": "TileBindingExpect",
           "bindings": {
             "Array": []
@@ -595,12 +628,71 @@
       {
         "rid": 1001,
         "type": {
+          "class": "BindingRemapper/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": 77418734,
+          "name": "",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 0,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "Mappings": {
+            "Array": [
+              {
+                "m_serialisedType": 0,
+                "from": "team",
+                "to": {
+                  "m_path": "match.MatchHumanTeam"
+                },
+                "type": {
+                  "id": 1145176088
+                }
+              }
+            ]
+          },
+          "MigrateMappings": "",
+          "Mappings_UxmlAttributeFlags": 1,
+          "MigrateMappings_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1002,
+        "type": {
           "class": "BindingVariables/UxmlSerializedData",
           "ns": "SI.Bindable",
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -212969767,
+          "uxmlAssetId": -373339223,
           "name": "",
           "bindings": {
             "Array": []
@@ -648,14 +740,14 @@
         }
       },
       {
-        "rid": 1002,
+        "rid": 1003,
         "type": {
           "class": "VisualElement/UxmlSerializedData",
           "ns": "UnityEngine.UIElements",
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -663727724,
+          "uxmlAssetId": 1949735821,
           "name": "Body",
           "bindings": {
             "Array": []
@@ -690,14 +782,14 @@
         }
       },
       {
-        "rid": 1003,
+        "rid": 1004,
         "type": {
           "class": "BindableSwitchElement/UxmlSerializedData",
           "ns": "SI.Bindable",
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 1659347320,
+          "uxmlAssetId": -1543290726,
           "name": "",
           "bindings": {
             "Array": []
@@ -768,7 +860,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -884,48 +979,6 @@
         }
       },
       {
-        "rid": 1004,
-        "type": {
-          "class": "VisualElement/UxmlSerializedData",
-          "ns": "UnityEngine.UIElements",
-          "asm": "UnityEngine.UIElementsModule"
-        },
-        "data": {
-          "uxmlAssetId": -1833679227,
-          "name": "ContainerCollapsed",
-          "bindings": {
-            "Array": []
-          },
-          "tooltip": "",
-          "dataSourcePathString": "",
-          "dataSourceTypeString": "",
-          "dataSourceUnityObject": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "viewDataKey": "",
-          "pickingMode": 1,
-          "usageHints": 0,
-          "languageDirection": 0,
-          "tabIndex": 0,
-          "focusable": 0,
-          "enabledSelf": 0,
-          "name_UxmlAttributeFlags": 1,
-          "enabledSelf_UxmlAttributeFlags": 0,
-          "viewDataKey_UxmlAttributeFlags": 0,
-          "pickingMode_UxmlAttributeFlags": 1,
-          "tooltip_UxmlAttributeFlags": 0,
-          "usageHints_UxmlAttributeFlags": 0,
-          "tabIndex_UxmlAttributeFlags": 0,
-          "focusable_UxmlAttributeFlags": 0,
-          "languageDirection_UxmlAttributeFlags": 0,
-          "dataSourceUnityObject_UxmlAttributeFlags": 0,
-          "dataSourcePathString_UxmlAttributeFlags": 0,
-          "dataSourceTypeString_UxmlAttributeFlags": 0,
-          "bindings_UxmlAttributeFlags": 0
-        }
-      },
-      {
         "rid": 1005,
         "type": {
           "class": "VisualElement/UxmlSerializedData",
@@ -933,8 +986,8 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -2102114816,
-          "name": "ContainerExpanded",
+          "uxmlAssetId": 2032483024,
+          "name": "ContainerCollapsed",
           "bindings": {
             "Array": []
           },
@@ -970,12 +1023,54 @@
       {
         "rid": 1006,
         "type": {
+          "class": "VisualElement/UxmlSerializedData",
+          "ns": "UnityEngine.UIElements",
+          "asm": "UnityEngine.UIElementsModule"
+        },
+        "data": {
+          "uxmlAssetId": 1764047435,
+          "name": "ContainerExpanded",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 1,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 1,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1007,
+        "type": {
           "class": "TemplateContainer/UxmlSerializedData",
           "ns": "UnityEngine.UIElements",
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 1742094523,
+          "uxmlAssetId": -207844817,
           "name": "",
           "bindings": {
             "Array": []
@@ -1019,14 +1114,14 @@
         }
       },
       {
-        "rid": 1007,
+        "rid": 1008,
         "type": {
           "class": "TemplateContainer/UxmlSerializedData",
           "ns": "UnityEngine.UIElements",
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 220960228,
+          "uxmlAssetId": -1728979112,
           "name": "expand-toogle",
           "bindings": {
             "Array": []
@@ -1070,7 +1165,7 @@
         }
       },
       {
-        "rid": 1008,
+        "rid": 1009,
         "type": {
           "class": "SIText/UxmlSerializedData",
           "ns": "SI.Bindable",
@@ -1154,7 +1249,10 @@
           "TextBinding": {
             "m_kind": 0,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -1196,14 +1294,14 @@
         }
       },
       {
-        "rid": 1009,
+        "rid": 1010,
         "type": {
           "class": "TemplateContainer/UxmlSerializedData",
           "ns": "UnityEngine.UIElements",
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 1205223345,
+          "uxmlAssetId": -744715995,
           "name": "",
           "bindings": {
             "Array": []
@@ -1247,14 +1345,14 @@
         }
       },
       {
-        "rid": 1010,
+        "rid": 1011,
         "type": {
           "class": "TemplateContainer/UxmlSerializedData",
           "ns": "UnityEngine.UIElements",
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -315910950,
+          "uxmlAssetId": 2029117006,
           "name": "collapse-toogle",
           "bindings": {
             "Array": []
@@ -1298,7 +1396,7 @@
         }
       },
       {
-        "rid": 1011,
+        "rid": 1012,
         "type": {
           "class": "SIText/UxmlSerializedData",
           "ns": "SI.Bindable",
@@ -1382,7 +1480,10 @@
           "TextBinding": {
             "m_kind": 0,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,

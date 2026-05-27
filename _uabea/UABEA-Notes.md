@@ -39,6 +39,18 @@ The repo is documented around UABEA Next JSON dumps.
 
 - Patch notes describe the edit in bundle / asset terms, not around disposable export quirks.
 - Serialized USS / UXML trees remain easiest as JSON for diff tools.
+- **`Binding.m_direct` / `TextBinding.m_direct`** (and the same shape on **`SIImage`**, **`SIText`**, **`SIVisible`**, **`BindableSwitchElement`**, etc.) use the **Path + Nullable wrapper** on **both Windows and macOS**:
+
+```json
+"m_direct": {
+  "Path": {
+    "m_path": "human.team.NextMatchOpponent"
+  },
+  "Nullable": 0
+}
+```
+
+  Do **not** leave the legacy flat `"m_direct": { "m_path": "…" }` shape in working imports—UABEA Next expects the wrapper. **`BindingRemapper.Mappings[].to`** and similar mapping structs may still use flat **`m_path`**; only **`m_direct`** on bind fields uses the wrapper.
 
 ### Bracket notation and the `references` object
 
@@ -68,18 +80,18 @@ Guardrails:
 
 Conventions mirror **[Bracket notation and the `references` object](#bracket-notation-and-the-references-object)**.
 
-| Patch folder                    | Document                                                                                                                    |
-| ------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| `match-dugout_tile`             | [MATCH_DUGOUT_TILE_CHANGES.md](./match-dugout_tile/MATCH_DUGOUT_TILE_CHANGES.md)                                             |
-| `match-left_scoreboard`         | [MATCH_LEFT_SCOREBOARD_CHANGES.md](./match-left_scoreboard/MATCH_LEFT_SCOREBOARD_CHANGES.md)                                 |
-| `match-squad_portraits`         | [SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md](./match-squad_portraits/SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md)                       |
-| `messages-unread_indicators`    | [MESSAGES_UNREAD_INDICATORS_CHANGES.md](./messages-unread_indicators/MESSAGES_UNREAD_INDICATORS_CHANGES.md)                     |
-| `nav-menu_icons`                | [NAV_PORTAL_TAB_ICONS_CHANGES.md](./nav-menu_icons/NAV_PORTAL_TAB_ICONS_CHANGES.md)                                          |
-| `nav-next_match`                | [NAV_NEXT_MATCH_CHANGES.md](./nav-next_match/NAV_NEXT_MATCH_CHANGES.md)                                                     |
-| `tactics-player_portrait`       | [TACTICS_PLAYERPORTRAIT_CHANGES.md](./tactics-player_portrait/TACTICS_PLAYERPORTRAIT_CHANGES.md)                               |
-| `tactics-remove_planner_header` | [TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md](./tactics-remove_planner_header/TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md)       |
-| `tiles-player_report_photos`    | [PLAYER_REPORT_PHOTOS_CHANGES.md](./tiles-player_report_photos/PLAYER_REPORT_PHOTOS_CHANGES.md)                              |
-| `tiles-speaktosidepanel_border` | [SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md](./tiles-speaktosidepanel_border/SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md)                  |
+| Patch folder                    | Document                                                                                                                 |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| `match-dugout_tile`             | [MATCH_DUGOUT_TILE_CHANGES.md](./match-dugout_tile/MATCH_DUGOUT_TILE_CHANGES.md)                                         |
+| `match-left_scoreboard`         | [MATCH_LEFT_SCOREBOARD_CHANGES.md](./match-left_scoreboard/MATCH_LEFT_SCOREBOARD_CHANGES.md)                             |
+| `match-squad_portraits`         | [SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md](./match-squad_portraits/SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md)                 |
+| `messages-unread_indicators`    | [MESSAGES_UNREAD_INDICATORS_CHANGES.md](./messages-unread_indicators/MESSAGES_UNREAD_INDICATORS_CHANGES.md)              |
+| `nav-menu_icons`                | [NAV_PORTAL_TAB_ICONS_CHANGES.md](./nav-menu_icons/NAV_PORTAL_TAB_ICONS_CHANGES.md)                                      |
+| `nav-next_match`                | [NAV_NEXT_MATCH_CHANGES.md](./nav-next_match/NAV_NEXT_MATCH_CHANGES.md)                                                  |
+| `tactics-player_portrait`       | [TACTICS_PLAYERPORTRAIT_CHANGES.md](./tactics-player_portrait/TACTICS_PLAYERPORTRAIT_CHANGES.md)                         |
+| `tactics-remove_planner_header` | [TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md](./tactics-remove_planner_header/TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md) |
+| `tiles-player_report_photos`    | [PLAYER_REPORT_PHOTOS_CHANGES.md](./tiles-player_report_photos/PLAYER_REPORT_PHOTOS_CHANGES.md)                          |
+| `tiles-speaktosidepanel_border` | [SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md](./tiles-speaktosidepanel_border/SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md)             |
 
 Reference-only notes:
 
@@ -100,13 +112,14 @@ Use **logical filename + Path ID** suffix to reopen quickly in UABEA.
 
 | Bundle                        | Filename                        | Path ID                | Used by                         |
 | ----------------------------- | ------------------------------- | ---------------------- | ------------------------------- |
-| `ui-calendar_assets_all`      | `inlineStyle`                   | `7705980741400097515`   | `nav-next_match`                |
-| `ui-calendar_assets_all`      | `CurrentDayWidget`              | `-2536531161352205035`  | `nav-next_match`                |
+| `ui-calendar_assets_all`      | `inlineStyle`                   | `7705980741400097515`  | `nav-next_match`                |
+| `ui-calendar_assets_all`      | `CurrentDayWidget`              | `2536531161352205035`  | `nav-next_match`                |
 | `ui-tiles_assets_all`         | `Dugout_4x8_with_collapse`      | `-389085435411529779`  | `match-dugout_tile`             |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `4355907201153990605`  | `match-dugout_tile`             |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `-812894235568295708`  | `tiles-player_report_photos`    |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `-3307895459461465053` | `tiles-player_report_photos`    |
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `-1253022491152235485` | `tiles-player_report_photos`    |
+| `ui-tiles_assets_all`         | `inlineStyle`                   | `-4358236461696845827` | `tiles-player_report_photos`    |
 | `ui-match_assets_all`         | `OverviewHeader`                | `-7819803725380563227` | `match-left_scoreboard`         |
 | `ui-match_assets_all`         | `inlineStyle`                   | `-2719487159082004763` | `match-left_scoreboard`         |
 | `ui-match_assets_all`         | `ContinuePanel`                 | `-398932524086274306`  | `match-left_scoreboard`         |

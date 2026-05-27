@@ -342,8 +342,8 @@
               "m_Values": {
                 "Array": [
                   {
-                    "m_ValueType": 2,
-                    "valueIndex": 0
+                    "m_ValueType": 3,
+                    "valueIndex": 4
                   }
                 ]
               }
@@ -467,7 +467,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 4
+                    "valueIndex": 5
                   }
                 ]
               }
@@ -479,7 +479,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 5
+                    "valueIndex": 6
                   }
                 ]
               }
@@ -608,7 +608,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 6
+                    "valueIndex": 7
                   }
                 ]
               }
@@ -620,7 +620,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 7
+                    "valueIndex": 8
                   }
                 ]
               }
@@ -694,7 +694,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 8
+                    "valueIndex": 9
                   }
                 ]
               }
@@ -718,7 +718,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 9
+                    "valueIndex": 10
                   }
                 ]
               }
@@ -833,7 +833,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 10
+                    "valueIndex": 11
                   }
                 ]
               }
@@ -881,7 +881,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 8
+                    "valueIndex": 9
                   }
                 ]
               }
@@ -924,7 +924,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 11
+                    "valueIndex": 12
                   }
                 ]
               }
@@ -943,7 +943,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 10
+                    "valueIndex": 11
                   }
                 ]
               }
@@ -980,6 +980,10 @@
       {
         "unit": 2,
         "value": 100.0
+      },
+      {
+        "unit": 1,
+        "value": -4.0
       },
       {
         "unit": 1,

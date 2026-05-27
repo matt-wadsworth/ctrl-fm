@@ -2462,7 +2462,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "playerinfo.MatchWasSubbedOn"
+              "Path": {
+                "m_path": "playerinfo.MatchWasSubbedOn"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -2627,7 +2630,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -2830,7 +2836,10 @@
           "TextBinding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -3124,7 +3133,10 @@
           "TextBinding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "playerinfo.DisplayString"
+              "Path": {
+                "m_path": "playerinfo.DisplayString"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -3275,7 +3287,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "playerinfo.YellowCardedInMatch"
+              "Path": {
+                "m_path": "playerinfo.YellowCardedInMatch"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -3429,7 +3444,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "playerinfo.RedCardedInMatch"
+              "Path": {
+                "m_path": "playerinfo.RedCardedInMatch"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -3751,7 +3769,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -4332,7 +4353,10 @@
           "TextBinding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "playerinfo.Goals"
+              "Path": {
+                "m_path": "playerinfo.Goals"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -4609,7 +4633,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -5192,7 +5219,10 @@
           "TextBinding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "playerinfo.Assists"
+              "Path": {
+                "m_path": "playerinfo.Assists"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -5402,7 +5432,10 @@
           "TextBinding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "person.ShirtName"
+              "Path": {
+                "m_path": "person.ShirtName"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -5606,7 +5639,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -5956,7 +5992,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -6326,7 +6365,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -7093,7 +7135,10 @@
           "TextBinding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -7375,7 +7420,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "app.GridBreakpointIsSmall"
+              "Path": {
+                "m_path": "app.GridBreakpointIsSmall"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -7495,7 +7543,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,

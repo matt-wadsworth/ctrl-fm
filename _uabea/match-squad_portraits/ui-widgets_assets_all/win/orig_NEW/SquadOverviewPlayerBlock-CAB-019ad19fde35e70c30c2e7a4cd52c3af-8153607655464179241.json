@@ -15,14 +15,6 @@
   "m_Usings": {
     "Array": [
       {
-        "alias": "PersonPicture",
-        "path": "a3126e03e5bea6348ba86f23b5c5d7de",
-        "asset": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        }
-      },
-      {
         "alias": "layout-divider-solid-horizontal",
         "path": "54ffead3e652b1541aab0ebadd074df1",
         "asset": {
@@ -44,7 +36,7 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1601350600,
+        "m_Id": -150064690,
         "m_OrderInDocument": 0,
         "m_ParentId": 0,
         "m_NamespaceDefinitions": {
@@ -77,9 +69,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -102106063,
+        "m_Id": -1853521353,
         "m_OrderInDocument": 1,
-        "m_ParentId": 1601350600,
+        "m_ParentId": -150064690,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -110,9 +102,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 968270275,
+        "m_Id": -783145015,
         "m_OrderInDocument": 2,
-        "m_ParentId": -102106063,
+        "m_ParentId": -1853521353,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -143,9 +135,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 517512318,
+        "m_Id": -1233902972,
         "m_OrderInDocument": 3,
-        "m_ParentId": 968270275,
+        "m_ParentId": -783145015,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -176,9 +168,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1454379934,
+        "m_Id": 1089172072,
         "m_OrderInDocument": 4,
-        "m_ParentId": 517512318,
+        "m_ParentId": -1233902972,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -211,9 +203,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -652439185,
+        "m_Id": 1891112821,
         "m_OrderInDocument": 5,
-        "m_ParentId": -1454379934,
+        "m_ParentId": 1089172072,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -248,9 +240,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1371632731,
+        "m_Id": 1171919275,
         "m_OrderInDocument": 6,
-        "m_ParentId": -652439185,
+        "m_ParentId": 1891112821,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -283,9 +275,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 683006724,
+        "m_Id": -1068408566,
         "m_OrderInDocument": 7,
-        "m_ParentId": -1371632731,
+        "m_ParentId": 1171919275,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -319,9 +311,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1216511884,
+        "m_Id": -534903406,
         "m_OrderInDocument": 8,
-        "m_ParentId": 683006724,
+        "m_ParentId": -1068408566,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -354,9 +346,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 228882749,
+        "m_Id": -1522532541,
         "m_OrderInDocument": 9,
-        "m_ParentId": 1216511884,
+        "m_ParentId": -534903406,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -387,9 +379,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 2015086615,
+        "m_Id": 263671325,
         "m_OrderInDocument": 10,
-        "m_ParentId": 228882749,
+        "m_ParentId": -1522532541,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -422,9 +414,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1481581455,
-        "m_OrderInDocument": 11,
-        "m_ParentId": 1216511884,
+        "m_Id": -269833835,
+        "m_OrderInDocument": 10,
+        "m_ParentId": -534903406,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -455,9 +447,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 225516731,
-        "m_OrderInDocument": 12,
-        "m_ParentId": 1481581455,
+        "m_Id": -1525898559,
+        "m_OrderInDocument": 11,
+        "m_ParentId": -269833835,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -492,9 +484,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1295617564,
-        "m_OrderInDocument": 13,
-        "m_ParentId": 1481581455,
+        "m_Id": 1247934442,
+        "m_OrderInDocument": 12,
+        "m_ParentId": -269833835,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -529,9 +521,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1213145866,
-        "m_OrderInDocument": 14,
-        "m_ParentId": 1216511884,
+        "m_Id": -538269424,
+        "m_OrderInDocument": 11,
+        "m_ParentId": -534903406,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -564,9 +556,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -311354447,
-        "m_OrderInDocument": 15,
-        "m_ParentId": 1213145866,
+        "m_Id": -2062769737,
+        "m_OrderInDocument": 12,
+        "m_ParentId": -538269424,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -597,9 +589,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 937978241,
-        "m_OrderInDocument": 16,
-        "m_ParentId": -311354447,
+        "m_Id": -813437049,
+        "m_OrderInDocument": 13,
+        "m_ParentId": -2062769737,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -632,9 +624,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 941344259,
-        "m_OrderInDocument": 17,
-        "m_ParentId": 1213145866,
+        "m_Id": -810071031,
+        "m_OrderInDocument": 13,
+        "m_ParentId": -538269424,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -665,9 +657,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -851591643,
-        "m_OrderInDocument": 18,
-        "m_ParentId": 941344259,
+        "m_Id": 1691960363,
+        "m_OrderInDocument": 14,
+        "m_ParentId": -810071031,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -700,9 +692,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -390735632,
-        "m_OrderInDocument": 19,
-        "m_ParentId": -1371632731,
+        "m_Id": -2142150922,
+        "m_OrderInDocument": 8,
+        "m_ParentId": 1171919275,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -735,9 +727,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -930972828,
-        "m_OrderInDocument": 20,
-        "m_ParentId": -390735632,
+        "m_Id": 1612579178,
+        "m_OrderInDocument": 9,
+        "m_ParentId": -2142150922,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -768,9 +760,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1302622977,
-        "m_OrderInDocument": 21,
-        "m_ParentId": -930972828,
+        "m_Id": -448792313,
+        "m_OrderInDocument": 10,
+        "m_ParentId": 1612579178,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -803,9 +795,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 2015084487,
-        "m_OrderInDocument": 22,
-        "m_ParentId": 1302622977,
+        "m_Id": 263669197,
+        "m_OrderInDocument": 11,
+        "m_ParentId": -448792313,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -836,9 +828,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1206411702,
-        "m_OrderInDocument": 23,
-        "m_ParentId": 2015084487,
+        "m_Id": -545003588,
+        "m_OrderInDocument": 12,
+        "m_ParentId": 263669197,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -869,9 +861,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1123395378,
-        "m_OrderInDocument": 24,
-        "m_ParentId": 1206411702,
+        "m_Id": 1420156628,
+        "m_OrderInDocument": 13,
+        "m_ParentId": -545003588,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -902,9 +894,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -679369457,
-        "m_OrderInDocument": 25,
-        "m_ParentId": -1123395378,
+        "m_Id": 1864182549,
+        "m_OrderInDocument": 14,
+        "m_ParentId": 1420156628,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -937,9 +929,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 2094463544,
-        "m_OrderInDocument": 26,
-        "m_ParentId": -1123395378,
+        "m_Id": 343048254,
+        "m_OrderInDocument": 15,
+        "m_ParentId": 1420156628,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -973,9 +965,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1295619692,
-        "m_OrderInDocument": 27,
-        "m_ParentId": 1302622977,
+        "m_Id": 1247932314,
+        "m_OrderInDocument": 12,
+        "m_ParentId": -448792313,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1006,9 +998,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1120029360,
-        "m_OrderInDocument": 28,
-        "m_ParentId": -1295619692,
+        "m_Id": 1423522646,
+        "m_OrderInDocument": 13,
+        "m_ParentId": 1247932314,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1039,9 +1031,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -42920986,
-        "m_OrderInDocument": 29,
-        "m_ParentId": 1302622977,
+        "m_Id": -1794336276,
+        "m_OrderInDocument": 13,
+        "m_ParentId": -448792313,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1067,47 +1059,14 @@
         "m_SkipClone": 0
       },
       {
-        "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
-        "m_XmlNamespace": {
-          "prefix": "",
-          "resolvedNamespace": ""
-        },
-        "m_Id": 2019847551,
-        "m_OrderInDocument": 34,
-        "m_ParentId": 1302622977,
-        "m_NamespaceDefinitions": {
-          "Array": []
-        },
-        "m_Properties": {
-          "Array": []
-        },
-        "m_Name": "",
-        "m_RuleIndex": 31,
-        "m_Text": "",
-        "m_PickingMode": 0,
-        "m_Classes": {
-          "Array": []
-        },
-        "m_StylesheetPaths": {
-          "Array": []
-        },
-        "m_Stylesheets": {
-          "Array": []
-        },
-        "m_SerializedData": {
-          "rid": 1047
-        },
-        "m_SkipClone": 0
-      },
-      {
         "m_FullTypeName": "SI.Bindable.SIVisible",
         "m_XmlNamespace": {
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1385368052,
-        "m_OrderInDocument": 30,
-        "m_ParentId": -42920986,
+        "m_Id": -366047238,
+        "m_OrderInDocument": 14,
+        "m_ParentId": -1794336276,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1138,9 +1097,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1292522795,
-        "m_OrderInDocument": 31,
-        "m_ParentId": 1385368052,
+        "m_Id": -458892495,
+        "m_OrderInDocument": 15,
+        "m_ParentId": -366047238,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1171,9 +1130,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -321456757,
-        "m_OrderInDocument": 32,
-        "m_ParentId": 1292522795,
+        "m_Id": -2072872047,
+        "m_OrderInDocument": 16,
+        "m_ParentId": -458892495,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1206,9 +1165,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1842591052,
-        "m_OrderInDocument": 33,
-        "m_ParentId": 1292522795,
+        "m_Id": 700960954,
+        "m_OrderInDocument": 17,
+        "m_ParentId": -458892495,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1242,9 +1201,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1292253674,
-        "m_OrderInDocument": 36,
-        "m_ParentId": -930972828,
+        "m_Id": 1251298332,
+        "m_OrderInDocument": 11,
+        "m_ParentId": 1612579178,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1252,7 +1211,7 @@
           "Array": []
         },
         "m_Name": "",
-        "m_RuleIndex": 33,
+        "m_RuleIndex": -1,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -1275,9 +1234,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1120298481,
-        "m_OrderInDocument": 37,
-        "m_ParentId": -1292253674,
+        "m_Id": -631116809,
+        "m_OrderInDocument": 12,
+        "m_ParentId": 1251298332,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1308,9 +1267,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 2011716341,
-        "m_OrderInDocument": 38,
-        "m_ParentId": 1120298481,
+        "m_Id": 260301051,
+        "m_OrderInDocument": 13,
+        "m_ParentId": -631116809,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1346,9 +1305,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1020452067,
-        "m_OrderInDocument": 39,
-        "m_ParentId": -390735632,
+        "m_Id": 1523099939,
+        "m_OrderInDocument": 10,
+        "m_ParentId": -2142150922,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1379,9 +1338,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -397469796,
-        "m_OrderInDocument": 41,
-        "m_ParentId": -1020452067,
+        "m_Id": 2146082210,
+        "m_OrderInDocument": 12,
+        "m_ParentId": 1523099939,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1414,9 +1373,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1295621820,
-        "m_OrderInDocument": 42,
-        "m_ParentId": -397469796,
+        "m_Id": 1247930186,
+        "m_OrderInDocument": 13,
+        "m_ParentId": 2146082210,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1447,9 +1406,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 580059157,
-        "m_OrderInDocument": 43,
-        "m_ParentId": -1295621820,
+        "m_Id": -1171356133,
+        "m_OrderInDocument": 14,
+        "m_ParentId": 1247930186,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1482,9 +1441,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -941075138,
-        "m_OrderInDocument": 44,
-        "m_ParentId": -1295621820,
+        "m_Id": 1602476868,
+        "m_OrderInDocument": 15,
+        "m_ParentId": 1247930186,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1517,9 +1476,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1564057409,
-        "m_OrderInDocument": 45,
-        "m_ParentId": -397469796,
+        "m_Id": 979494597,
+        "m_OrderInDocument": 14,
+        "m_ParentId": 2146082210,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1550,9 +1509,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 43187979,
-        "m_OrderInDocument": 46,
-        "m_ParentId": -1564057409,
+        "m_Id": -1708227311,
+        "m_OrderInDocument": 15,
+        "m_ParentId": 979494597,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1586,9 +1545,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -311358703,
-        "m_OrderInDocument": 47,
-        "m_ParentId": -397469796,
+        "m_Id": -2062773993,
+        "m_OrderInDocument": 15,
+        "m_ParentId": 2146082210,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1619,9 +1578,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1746381905,
-        "m_OrderInDocument": 48,
-        "m_ParentId": -311358703,
+        "m_Id": 797170101,
+        "m_OrderInDocument": 16,
+        "m_ParentId": -2062773993,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1652,9 +1611,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 686370614,
-        "m_OrderInDocument": 49,
-        "m_ParentId": -652439185,
+        "m_Id": -1065044676,
+        "m_OrderInDocument": 7,
+        "m_ParentId": 1891112821,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1691,9 +1650,9 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": 1123664499,
-        "m_OrderInDocument": 40,
-        "m_ParentId": -1020452067,
+        "m_Id": -627750791,
+        "m_OrderInDocument": 11,
+        "m_ParentId": 1523099939,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1718,49 +1677,6 @@
         },
         "m_SkipClone": 0,
         "m_TemplateAlias": "layout-divider-solid-horizontal",
-        "m_AttributeOverrides": {
-          "Array": []
-        },
-        "m_SerializedDataOverride": {
-          "Array": []
-        },
-        "m_SlotUsages": {
-          "Array": []
-        }
-      },
-      {
-        "m_FullTypeName": "",
-        "m_XmlNamespace": {
-          "prefix": "",
-          "resolvedNamespace": ""
-        },
-        "m_Id": 2019847552,
-        "m_OrderInDocument": 35,
-        "m_ParentId": 2019847551,
-        "m_NamespaceDefinitions": {
-          "Array": []
-        },
-        "m_Properties": {
-          "Array": []
-        },
-        "m_Name": "",
-        "m_RuleIndex": 32,
-        "m_Text": "",
-        "m_PickingMode": 0,
-        "m_Classes": {
-          "Array": []
-        },
-        "m_StylesheetPaths": {
-          "Array": []
-        },
-        "m_Stylesheets": {
-          "Array": []
-        },
-        "m_SerializedData": {
-          "rid": 1048
-        },
-        "m_SkipClone": 0,
-        "m_TemplateAlias": "PersonPicture",
         "m_AttributeOverrides": {
           "Array": []
         },
@@ -1807,7 +1723,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -102106063,
+          "uxmlAssetId": -1853521353,
           "name": "BindingRoot_SquadOverviewPlayerBlock",
           "bindings": {
             "Array": []
@@ -1883,7 +1799,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 968270275,
+          "uxmlAssetId": -783145015,
           "name": "BindingExpect",
           "bindings": {
             "Array": []
@@ -1956,7 +1872,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 517512318,
+          "uxmlAssetId": -1233902972,
           "name": "BindingRemapper",
           "bindings": {
             "Array": []
@@ -2085,7 +2001,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -1454379934,
+          "uxmlAssetId": 1089172072,
           "name": "Horizontal",
           "bindings": {
             "Array": []
@@ -2127,7 +2043,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -652439185,
+          "uxmlAssetId": 1891112821,
           "name": "SIButton",
           "bindings": {
             "Array": []
@@ -2276,7 +2192,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -1371632731,
+          "uxmlAssetId": 1171919275,
           "name": "Player Info",
           "bindings": {
             "Array": []
@@ -2318,7 +2234,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 683006724,
+          "uxmlAssetId": -1068408566,
           "name": "title area frame",
           "bindings": {
             "Array": []
@@ -2360,7 +2276,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 1216511884,
+          "uxmlAssetId": -534903406,
           "name": "Frame",
           "bindings": {
             "Array": []
@@ -2402,7 +2318,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 228882749,
+          "uxmlAssetId": -1522532541,
           "name": "SubVisible",
           "bindings": {
             "Array": []
@@ -2517,7 +2433,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 2015086615,
+          "uxmlAssetId": 263671325,
           "name": "",
           "bindings": {
             "Array": []
@@ -2559,7 +2475,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 1481581455,
+          "uxmlAssetId": -269833835,
           "name": "PosTitleSwitch",
           "bindings": {
             "Array": []
@@ -2759,7 +2675,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 225516731,
+          "uxmlAssetId": -1525898559,
           "name": "text",
           "bindings": {
             "Array": []
@@ -3056,7 +2972,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -1295617564,
+          "uxmlAssetId": 1247934442,
           "name": "sub_text",
           "bindings": {
             "Array": []
@@ -3185,7 +3101,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 1213145866,
+          "uxmlAssetId": -538269424,
           "name": "VisualElement",
           "bindings": {
             "Array": []
@@ -3227,7 +3143,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -311354447,
+          "uxmlAssetId": -2062769737,
           "name": "YellowCardVisible",
           "bindings": {
             "Array": []
@@ -3342,7 +3258,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 937978241,
+          "uxmlAssetId": -813437049,
           "name": "",
           "bindings": {
             "Array": []
@@ -3384,7 +3300,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 941344259,
+          "uxmlAssetId": -810071031,
           "name": "RedCardVisible",
           "bindings": {
             "Array": []
@@ -3499,7 +3415,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -851591643,
+          "uxmlAssetId": 1691960363,
           "name": "",
           "bindings": {
             "Array": []
@@ -3541,7 +3457,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -390735632,
+          "uxmlAssetId": -2142150922,
           "name": "Main Area frame",
           "bindings": {
             "Array": []
@@ -3583,7 +3499,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -930972828,
+          "uxmlAssetId": 1612579178,
           "name": "Info frame",
           "bindings": {
             "Array": []
@@ -3625,7 +3541,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 1302622977,
+          "uxmlAssetId": -448792313,
           "name": "Kit + Info frame",
           "bindings": {
             "Array": []
@@ -3667,7 +3583,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 2015084487,
+          "uxmlAssetId": 263669197,
           "name": "goalSpacer",
           "bindings": {
             "Array": []
@@ -3709,7 +3625,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 1206411702,
+          "uxmlAssetId": -545003588,
           "name": "",
           "bindings": {
             "Array": []
@@ -4192,7 +4108,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -1123395378,
+          "uxmlAssetId": 1420156628,
           "name": "Left",
           "bindings": {
             "Array": []
@@ -4234,7 +4150,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -679369457,
+          "uxmlAssetId": 1864182549,
           "name": "game-concepts-goal_small",
           "bindings": {
             "Array": []
@@ -4276,7 +4192,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 2094463544,
+          "uxmlAssetId": 343048254,
           "name": "GoalsText",
           "bindings": {
             "Array": []
@@ -4405,7 +4321,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -1295619692,
+          "uxmlAssetId": 1247932314,
           "name": "Shirt",
           "bindings": {
             "Array": []
@@ -4451,7 +4367,7 @@
           "asm": "FM.UI"
         },
         "data": {
-          "uxmlAssetId": -1120029360,
+          "uxmlAssetId": 1423522646,
           "name": "",
           "bindings": {
             "Array": []
@@ -4531,7 +4447,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -42920986,
+          "uxmlAssetId": -1794336276,
           "name": "assistSpacer",
           "bindings": {
             "Array": []
@@ -4573,7 +4489,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 1385368052,
+          "uxmlAssetId": -366047238,
           "name": "",
           "bindings": {
             "Array": []
@@ -5058,7 +4974,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 1292522795,
+          "uxmlAssetId": -458892495,
           "name": "Right",
           "bindings": {
             "Array": []
@@ -5100,7 +5016,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -321456757,
+          "uxmlAssetId": -2072872047,
           "name": "game-concept-assist_small",
           "bindings": {
             "Array": []
@@ -5142,7 +5058,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -1842591052,
+          "uxmlAssetId": 700960954,
           "name": "AssistText",
           "bindings": {
             "Array": []
@@ -5271,7 +5187,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -1292253674,
+          "uxmlAssetId": 1251298332,
           "name": "data_display-cell-standard-small-1",
           "bindings": {
             "Array": []
@@ -5313,7 +5229,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 1120298481,
+          "uxmlAssetId": -631116809,
           "name": "data_display-cell-standard-small",
           "bindings": {
             "Array": []
@@ -5355,7 +5271,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 2011716341,
+          "uxmlAssetId": 260301051,
           "name": "text",
           "bindings": {
             "Array": []
@@ -5484,7 +5400,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -1020452067,
+          "uxmlAssetId": 1523099939,
           "name": "Bottom frame",
           "bindings": {
             "Array": []
@@ -5526,7 +5442,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": -397469796,
+          "uxmlAssetId": 2146082210,
           "name": "Data frame",
           "bindings": {
             "Array": []
@@ -5568,7 +5484,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -1295621820,
+          "uxmlAssetId": 1247930186,
           "name": "ConditioninjurySwitch",
           "bindings": {
             "Array": []
@@ -5924,7 +5840,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 580059157,
+          "uxmlAssetId": -1171356133,
           "name": "Conditionicon",
           "bindings": {
             "Array": []
@@ -6297,7 +6213,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -941075138,
+          "uxmlAssetId": 1602476868,
           "name": "IncidentImage",
           "bindings": {
             "Array": []
@@ -6679,7 +6595,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -1564057409,
+          "uxmlAssetId": 979494597,
           "name": "Background",
           "bindings": {
             "Array": []
@@ -7058,7 +6974,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 43187979,
+          "uxmlAssetId": -1708227311,
           "name": "text",
           "bindings": {
             "Array": []
@@ -7360,7 +7276,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -311358703,
+          "uxmlAssetId": -2062773993,
           "name": "",
           "bindings": {
             "Array": []
@@ -7475,7 +7391,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -1746381905,
+          "uxmlAssetId": 797170101,
           "name": "image",
           "bindings": {
             "Array": []
@@ -7880,7 +7796,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": 686370614,
+          "uxmlAssetId": -1065044676,
           "name": "",
           "bindings": {
             "Array": []
@@ -8316,7 +8232,7 @@
           "asm": "UnityEngine.UIElementsModule"
         },
         "data": {
-          "uxmlAssetId": 1123664499,
+          "uxmlAssetId": -627750791,
           "name": "layout-divider-solid-horizontal-2",
           "bindings": {
             "Array": []
@@ -8356,99 +8272,6 @@
           },
           "template_UxmlAttributeFlags": 0,
           "templateId": "layout-divider-solid-horizontal",
-          "templateId_UxmlAttributeFlags": 1
-        }
-      },
-      {
-        "rid": 1047,
-        "type": {
-          "class": "VisualElement/UxmlSerializedData",
-          "ns": "UnityEngine.UIElements",
-          "asm": "UnityEngine.UIElementsModule"
-        },
-        "data": {
-          "uxmlAssetId": 2019847551,
-          "name": "SquadPlayerPictureWrap",
-          "bindings": {
-            "Array": []
-          },
-          "tooltip": "",
-          "dataSourcePathString": "",
-          "dataSourceTypeString": "",
-          "dataSourceUnityObject": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "viewDataKey": "",
-          "pickingMode": 0,
-          "usageHints": 0,
-          "languageDirection": 0,
-          "tabIndex": 0,
-          "focusable": 0,
-          "enabledSelf": 0,
-          "name_UxmlAttributeFlags": 1,
-          "enabledSelf_UxmlAttributeFlags": 0,
-          "viewDataKey_UxmlAttributeFlags": 0,
-          "pickingMode_UxmlAttributeFlags": 0,
-          "tooltip_UxmlAttributeFlags": 0,
-          "usageHints_UxmlAttributeFlags": 0,
-          "tabIndex_UxmlAttributeFlags": 0,
-          "focusable_UxmlAttributeFlags": 0,
-          "languageDirection_UxmlAttributeFlags": 0,
-          "dataSourceUnityObject_UxmlAttributeFlags": 0,
-          "dataSourcePathString_UxmlAttributeFlags": 0,
-          "dataSourceTypeString_UxmlAttributeFlags": 0,
-          "bindings_UxmlAttributeFlags": 0
-        }
-      },
-      {
-        "rid": 1048,
-        "type": {
-          "class": "TemplateContainer/UxmlSerializedData",
-          "ns": "UnityEngine.UIElements",
-          "asm": "UnityEngine.UIElementsModule"
-        },
-        "data": {
-          "uxmlAssetId": 2019847552,
-          "name": "PersonPicture",
-          "bindings": {
-            "Array": []
-          },
-          "tooltip": "",
-          "dataSourcePathString": "",
-          "dataSourceTypeString": "",
-          "dataSourceUnityObject": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "viewDataKey": "",
-          "pickingMode": 0,
-          "usageHints": 0,
-          "languageDirection": 0,
-          "tabIndex": 0,
-          "focusable": 0,
-          "enabledSelf": 0,
-          "name_UxmlAttributeFlags": 1,
-          "enabledSelf_UxmlAttributeFlags": 0,
-          "viewDataKey_UxmlAttributeFlags": 0,
-          "pickingMode_UxmlAttributeFlags": 0,
-          "tooltip_UxmlAttributeFlags": 0,
-          "usageHints_UxmlAttributeFlags": 0,
-          "tabIndex_UxmlAttributeFlags": 0,
-          "focusable_UxmlAttributeFlags": 0,
-          "languageDirection_UxmlAttributeFlags": 0,
-          "dataSourceUnityObject_UxmlAttributeFlags": 0,
-          "dataSourcePathString_UxmlAttributeFlags": 0,
-          "dataSourceTypeString_UxmlAttributeFlags": 0,
-          "bindings_UxmlAttributeFlags": 0,
-          "bindingPath": "",
-          "bindingPath_UxmlAttributeFlags": 0,
-          "template": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "template_UxmlAttributeFlags": 0,
-          "templateId": "PersonPicture",
           "templateId_UxmlAttributeFlags": 1
         }
       }
