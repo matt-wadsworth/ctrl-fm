@@ -1,0 +1,69 @@
+{
+  "name": "MainMenuHasSaveComposition-Large-IM",
+  "grid": {
+    "width": 8,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "MainMenuLoadMostRecentTile_8x4",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "a4bb8d1982779024aad3fce0f403f0fc",
+      "path_id": "-4634327521742775394"
+    },
+    {
+      "tile": "MainMenuStartNewCareerTile_4x4",
+      "x": 0,
+      "y": 4,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "2a3c0daabcdc82545902a5833f57a03f",
+      "path_id": "2657259570277902013"
+    },
+    {
+      "tile": "MainMenuLoadGameTile_4x2",
+      "x": 0,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "43a866cec73e1b54e9f4e2455851afb0",
+      "path_id": "3909485318098081133"
+    },
+    {
+      "tile": "MainMenuOnlineTile_4x2",
+      "x": 4,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "e7ef1e234affffd4ebc0878304ab7716",
+      "path_id": "6333114678723872717"
+    },
+    {
+      "tile": "MainMenuStartNewCareerFIFAWorldCupTile_4x2",
+      "x": 4,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "b2747a065cf932047a704199cef3f74b",
+      "path_id": "-2608612156743688172"
+    },
+    {
+      "tile": "MainMenuStartNewCareerNationalTeamTile_4x2",
+      "x": 4,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "6965a10b03e6e4f40bf9a8156f6e16cc",
+      "path_id": "5994622854977700284"
+    }
+  ]
+}

@@ -176,7 +176,8 @@
 
 /* ---- Messages ---- */
 /* Change Tile Border + remove Background */
-.messages-tile-background {
+.messages-tile-background,
+.international-tournament-messages-tile-background {
   border-color: var(--colours-alpha-light-alpha-8);
   border-width: 1px;
   background-color: var(--none);
@@ -799,4 +800,25 @@
 .speech-bubble-major-warning-gradient {
   --end-colour: #4f311a;
   --start-colour: #4f311a;
+}
+
+/* ---- Start Screen / Main Menu ---- */
+/* Whats New Panel */
+.whatsnew-panel {
+  border-width: 1px;
+  border-color: var(--colours-alpha-light-alpha-8);
+}
+/* Start Screen Custom BG Tile */
+.startnewcareer_custom_bg_tile {
+  border-radius: 14px;
+}
+/* Quick Start - Card Footer Background */
+.base-purple-80 {
+  background-color: #060d17;
+}
+/* Quick Start - New Badge */
+.new-badge {
+  border-width: 0px;
+  border-radius: 14px;
+  background-color: #f22c2c;
 }

@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+  <!-- AdvanceSetupTile_4x4 -->
+  <Template name="global-footers-tile-bottom-bar-template" src="guid:f46a340966311254a9127b8f79c11dce" />
+  <Template name="tile-square-4x4" src="guid:f677caec43d6c1342b1bba39c5ae2c5f" />
+  <si:BindingExpect class="height-100-percent" usage-hints="1" focusable="true" enabled-self="false">
+    <ui:VisualElement class="startnewcareer_custom_bg_tile" style="background-color: #121a24;" language-direction="1" focusable="false" enabled-self="false">
+      <ui:VisualElement class="absolute-position-fill-container" style="flex-grow: 1" language-direction="1" focusable="false" enabled-self="false">
+        <si:SIImage class="flex-grow-class absolute-position-fill-container" picking-mode="1" tab-index="1" focusable="false" enabled-self="false" binding="kind=1; path=6935e6e69970d9540b63b1f18241e5fc; is_visualscript=True" scale-mode="1" />
+        <si:SIVisible class="flex-no-shrink-class absolute-position-fill-bottom-container" invert-direct-binding="false" binding="kind=1; path=config.AllowInternationalManagement" always-bind-children="false" style-class-to-apply-on-visible="config.AllowInternationalManagement" style-class-on-visible="#">
+          <ui:Instance template="global-footers-tile-bottom-bar-template" class="absolute-position-fill-bottom-container flex-no-shrink-class" style="height: 34px" />
+        </si:SIVisible>
+      </ui:VisualElement>
+      <ui:Instance template="tile-square-4x4" class="height-100-percent" />
+    </ui:VisualElement>
+  </si:BindingExpect>
+</ui:UXML>

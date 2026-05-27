@@ -1,0 +1,18 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+  <!-- MainMenuStartNewCareerFIFAWorldCupTile_4x4 -->
+  <Template name="global-footers-tile-bottom-bar-template" src="guid:f46a340966311254a9127b8f79c11dce" />
+  <Template name="new-badge" src="guid:7272f48033d134349b6cdb62d6c28607" />
+  <Template name="tile-wide-4x2" src="guid:f677caec43d6c1342b1bba39c5ae2c5f" />
+  <si:SIEnabled class="height-100-percent" focusable="false" enabled-self="false" invert-direct-binding="false" binding="kind=1; path=5c0be7130190a7744ba8ba0f3a0f0310; is_visualscript=True" ignore-disabled-opacity="false">
+    <si:BindingExpect class="height-100-percent" usage-hints="1" focusable="true" enabled-self="false">
+      <ui:VisualElement class="startnewcareer_custom_bg_tile" style="background-color: #121a24;" focusable="false" enabled-self="false">
+        <ui:VisualElement class="absolute-position-fill-container" style="flex-grow: 1" focusable="false" enabled-self="false">
+          <si:SIImage class="flex-grow-class" picking-mode="1" tab-index="1" focusable="false" enabled-self="false" binding="kind=1; path=6935e6e69970d9540b63b1f18241e5fc; is_visualscript=True" scale-mode="1" />
+          <ui:Instance template="global-footers-tile-bottom-bar-template" class="flex-no-shrink-class" style="height: 34px" />
+        </ui:VisualElement>
+        <ui:Instance template="tile-wide-4x2" class="height-100-percent" />
+        <ui:Instance template="new-badge" class="margin-top-global-gap-regular align-self-end padding-horizontal-global-padding-regular" style="position: absolute" />
+      </ui:VisualElement>
+    </si:BindingExpect>
+  </si:SIEnabled>
+</ui:UXML>

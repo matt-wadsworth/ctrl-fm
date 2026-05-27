@@ -53,7 +53,9 @@
 .layout-tile-interaction-button.newsTileVar:active,
 .layout-tile-interaction-button.newsTileVar:hover:enabled,
 .layout-tile-tactics .layout-tile-interaction-button:active,
-.layout-tile-tactics .layout-tile-interaction-button:hover:enabled {
+.layout-tile-tactics .layout-tile-interaction-button:hover:enabled,
+.startnewcareer_custom_bg_tile .layout-tile-interaction-button:active,
+.startnewcareer_custom_bg_tile .layout-tile-interaction-button:hover:enabled {
   background-color: rgba(217, 232, 237, 0.02);
 }
 .tactics-pitch-tile-background-colour {

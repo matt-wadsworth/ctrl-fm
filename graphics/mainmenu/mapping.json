@@ -1,7 +1,16 @@
 {
   "bg.png": "start_screen_main_texture",
   "new-game.png": "start_screen_startnewcareer",
-  "new-game-wide.png": ["start_screen_startscreennewcareer_large", "newgame_fresh_4x2_startnewcareer"],
+  "new-game-wide.png": [
+    "start_screen_startscreennewcareer_large",
+    "newgame_fresh_4x2_startnewcareer"
+  ],
   "logo.png": "MainMenuLogo",
-  "MainMenuPen.png": "MainMenuPen"
+  "MainMenuPen.png": "MainMenuPen",
+  "new-game-wc.png": "start_screen_startnewcareer_fifa_worldcup",
+  "new-game-im.png": "start_screen_startnewcareer_national_team",
+  "whatsnew-bg.png": "start_screen_whatsnew_dialog_bg",
+  "whatsnew-pattern.png": "start_screen_whatsnew_dialog_patterns",
+  "nation-manager.png": "start_screen_startnewcareer_national_team_manager",
+  "fwc-start.png": "image_fwc26_start"
 }
