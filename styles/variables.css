@@ -61,6 +61,7 @@
   /* Tables - Rows */
   --data-tables-background-hover: #ffffff0a;
   --data-tables-background-odd: #ffffff04;
+  --data-tables-background-selected: var(--colours-alpha-light-alpha-20);
 
   /* Tactics - Active Tactic, Active Tab and Collapse */
   --colours-tactics-base-00: rgba(217, 232, 237, 0.35);
