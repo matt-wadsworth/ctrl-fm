@@ -1,0 +1,78 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:si="SI.Bindable" xmlns:fm="FM.UI" editor-extension-mode="False">
+  <!-- InternationalFinalsBlock -->
+  <Template name="CompIcon" src="guid:9bc6b09cb6fef3545a166203afbd10eb" />
+  <Template name="layout-divider-solid-vertical" src="guid:e06a1ab43169d1c44bc53c2c069f44e1" />
+  <si:BindingRemapper style="flex-shrink: 0" focusable="false" enabled-self="false" binding-mappings="team=human.team" migrate-mappings="human.team">
+    <si:SIVisible invert-direct-binding="false" binding="kind=1; path=c829483f851514241b3346cd5118791b; is_visualscript=True" faded-opacity-value="1.401298464324817e-45" always-bind-children="true">
+      <si:BindableSwitchElement bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=app.GridBreakpointIsLarge">
+        <ui:VisualElement style="flex-shrink: 0" focusable="false" enabled-self="false">
+          <si:BindableSwitchElement style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;" bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=ae7991d57b61ad645a99ded7fd2695ac; is_visualscript=True">
+            <ui:VisualElement style="position: absolute; top: 5px; left: 4px; right: 5px; bottom: 4px; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; background-color: #0a0f1e" focusable="false" enabled-self="false" />
+            <si:SIImage class="flex-grow-class" style="position: absolute; top: 4px; left: 4px; right: 4px; bottom: 4px; background-color: #00ffdf4d; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; opacity: 0.2; border-width: 1px; border-color: #ffffff33;" focusable="false" enabled-self="false" binding="kind=1; path=481ea2c625435974aaed1377b049b7f3; is_visualscript=True" />
+          </si:BindableSwitchElement>
+          <ui:VisualElement class="padding-horizontal-global-padding-large padding-top-global-padding-large row-direction-normal" bindings="114" tab-index="1" focusable="false" enabled-self="false">
+            <ui:Instance template="CompIcon" style="max-width: 40px; max-height: 62px" />
+            <ui:VisualElement class="margin-left-global-gap-regular" style="flex-grow: 1; justify-content: center" focusable="false" enabled-self="false">
+              <si:SIText class="global-text-primary fm-universe-large-24px" style="margin-bottom: 8px" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=comp.Name" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" />
+              <si:SIVisible invert-direct-binding="false" binding="kind=1; path=config.ShowPhonePanels" always-bind-children="false">
+                <ui:VisualElement class="row-direction-normal margin-top-global-gap-small margin-bottom-global-gap-small" focusable="false" enabled-self="false">
+                  <ui:VisualElement style="flex-grow: 1" focusable="false" enabled-self="false">
+                    <si:SIText class="global-text-secondary margin-bottom-global-gap-small body-small-12px-bold" usage-hints="1" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="36767" />
+                    <ui:VisualElement class="row-direction-normal" focusable="false" enabled-self="false">
+                      <ui:VisualElement class="game-concepts-club-badge_small margin-right-global-gap-small" style="align-self: center" focusable="false" enabled-self="false" />
+                      <si:SIText class="global-text-primary body-regular-14px-regular" usage-hints="1" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=comp.NumberOfTeams" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" />
+                      <si:SIText class="body-regular-14px-regular global-text-primary breakpoint-text margin-left-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="29230" />
+                    </ui:VisualElement>
+                  </ui:VisualElement>
+                  <ui:Instance template="layout-divider-solid-vertical" />
+                  <ui:VisualElement class="margin-left-global-gap-extra-large margin-right-global-gap-extra-extra-large" style="justify-content: center" focusable="false" enabled-self="false">
+                    <si:SIText class="global-text-secondary margin-bottom-global-gap-small body-small-12px-bold" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="36765" />
+                    <ui:VisualElement class="row-direction-normal" style="align-self: stretch; align-items: center" focusable="false" enabled-self="false">
+                      <si:SIVisible invert-direct-binding="false" binding="kind=1; path=currentProgress.PropertyValue" always-bind-children="true" style-class-to-apply-on-visible="currentProgress.PropertyValue" style-class-on-visible="currentProgress.PropertyValue">
+                        <ui:VisualElement class="ui-concepts-cross_red_small margin-right-global-gap-small" style="flex-grow: 1" focusable="false" enabled-self="false" />
+                      </si:SIVisible>
+                      <si:SIStyleSetter class="row-direction-normal" style="align-items: center" focusable="false" enabled-self="false" secondary-color-data-link="d47d9f6bfe419344692270d5af16c5ef">
+                        <si:SIText focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=e26cdc1747d265942aa381f3c67beade; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" />
+                      </si:SIStyleSetter>
+                    </ui:VisualElement>
+                  </ui:VisualElement>
+                </ui:VisualElement>
+              </si:SIVisible>
+            </ui:VisualElement>
+          </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-shrink: 0; height: 92px" focusable="false" enabled-self="false">
+          <si:BindableSwitchElement style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;" bind-direct-as-mask="false" invert-direct-binding="false" binding="kind=1; path=ae7991d57b61ad645a99ded7fd2695ac; is_visualscript=True">
+            <ui:VisualElement style="position: absolute; top: 5px; left: 4px; right: 5px; bottom: 4px; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; background-color: #0a0f1e" focusable="false" enabled-self="false" />
+            <si:SIImage class="flex-grow-class" style="position: absolute; top: 4px; left: 4px; right: 4px; bottom: 4px; background-color: #00ffdf4d; border-top-left-radius: 8px; border-top-right-radius: 8px; border-bottom-right-radius: 8px; border-bottom-left-radius: 8px; opacity: 0.2; border-width: 1px; border-color: #ffffff33;" focusable="false" enabled-self="false" binding="kind=1; path=481ea2c625435974aaed1377b049b7f3; is_visualscript=True" />
+          </si:BindableSwitchElement>
+          <ui:VisualElement class="padding-horizontal-global-padding-large padding-top-global-padding-large row-direction-normal" bindings="114" tab-index="1" focusable="false" enabled-self="false">
+            <ui:Instance template="CompIcon" style="max-width: 64px; max-height: 72px" />
+            <ui:VisualElement class="margin-left-global-gap-regular" style="flex-grow: 1; justify-content: center" focusable="false" enabled-self="false">
+              <si:SIText class="global-text-primary fm-universe-large-24px" style="margin-bottom: 8px" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=comp.Name" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" />
+              <si:SIVisible invert-direct-binding="false" binding="kind=1; path=config.ShowPhonePanels" always-bind-children="false">
+                <ui:VisualElement class="row-direction-normal margin-top-global-gap-small margin-bottom-global-gap-small" focusable="false" enabled-self="false">
+                  <ui:VisualElement class="game-concepts-club-badge_small margin-right-global-gap-small" style="align-self: center" focusable="false" enabled-self="false" />
+                  <si:SIText class="global-text-primary body-regular-14px-regular" usage-hints="1" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=comp.NumberOfTeams" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" />
+                  <si:SIText class="body-regular-14px-regular global-text-primary breakpoint-text margin-left-global-gap-small" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="29230" />
+                </ui:VisualElement>
+              </si:SIVisible>
+            </ui:VisualElement>
+            <ui:Instance template="layout-divider-solid-vertical" style="height: 36px; align-self: center" />
+            <ui:VisualElement class="margin-left-global-gap-extra-large margin-right-global-gap-extra-extra-large" style="justify-content: center" focusable="false" enabled-self="false">
+              <si:SIText class="global-text-secondary margin-bottom-global-gap-small body-small-12px-bold" focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=eae2be944eee9e2449baef416111a087; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" translation-id="36765" />
+              <ui:VisualElement class="row-direction-normal" style="align-self: stretch; align-items: center" focusable="false" enabled-self="false">
+                <si:SIVisible invert-direct-binding="false" binding="kind=1; path=currentProgress.PropertyValue" always-bind-children="true" style-class-to-apply-on-visible="currentProgress.PropertyValue" style-class-on-visible="currentProgress.PropertyValue">
+                  <ui:VisualElement class="ui-concepts-cross_red_small margin-right-global-gap-small" style="flex-grow: 1" focusable="false" enabled-self="false" />
+                </si:SIVisible>
+                <si:SIStyleSetter class="row-direction-normal" style="align-items: center" picking-mode="1" focusable="false" enabled-self="false">
+                  <si:SIText focusable="false" enabled-self="false" enable-rich-text="false" emoji-fallback-support="false" parse-escape-sequences="false" is-selectable="false" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" text-binding="kind=1; path=e26cdc1747d265942aa381f3c67beade; is_visualscript=True" ignore-embedded-data-styling="false" enable-embedded-links="false" disable-link-styling="false" disable-context-menu="false" />
+                </si:SIStyleSetter>
+              </ui:VisualElement>
+            </ui:VisualElement>
+          </ui:VisualElement>
+        </ui:VisualElement>
+      </si:BindableSwitchElement>
+    </si:SIVisible>
+  </si:BindingRemapper>
+</ui:UXML>
