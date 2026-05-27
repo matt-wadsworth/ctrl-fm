@@ -2,13 +2,13 @@
   "name": "PlayerReportTooltipGridComposition",
   "grid": {
     "width": 12,
-    "height": 6
+    "height": 8
   },
   "tiles": [
     {
       "tile": "PlayerAttributesBlockTile_12x4",
       "x": 0,
-      "y": 0,
+      "y": 2,
       "w": 12,
       "h": 4,
       "isDynamic": false,
@@ -16,19 +16,19 @@
       "path_id": "6067656787038004271"
     },
     {
-      "tile": "CoachScoutReportTile_4x2",
-      "x": 4,
-      "y": 4,
-      "w": 4,
+      "tile": "CoachScoutReportTile_2x2",
+      "x": 10,
+      "y": 0,
+      "w": 2,
       "h": 2,
       "isDynamic": false,
-      "guid": "5c9384d20d72ce54ab19c6f32f8fa64e",
+      "guid": "45ea995d1732ee743b999c1205b3a9e4",
       "path_id": "7747060321920899263"
     },
     {
       "tile": "PlayerFitnessTile_2x2",
       "x": 10,
-      "y": 4,
+      "y": 6,
       "w": 2,
       "h": 2,
       "isDynamic": false,
@@ -36,19 +36,29 @@
       "path_id": "1595869164690944144"
     },
     {
-      "tile": "PlayerPositionalAbilityTile_4x2",
-      "x": 0,
-      "y": 4,
-      "w": 4,
+      "tile": "PlayerSeasonStatsTile_8x2",
+      "x": 2,
+      "y": 6,
+      "w": 8,
       "h": 2,
       "isDynamic": false,
-      "guid": "2131d528d084d104ba8786a24d99e98a",
-      "path_id": "8394172455261572655"
+      "guid": "c83093f833e6cfb48bc57d548176a9ce",
+      "path_id": "-1621476867434330705"
+    },
+    {
+      "tile": "PlayerReportHeaderTooltip_10x2",
+      "x": 0,
+      "y": 0,
+      "w": 10,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "ff1d7cbb16b72f946b282c7351e2a441",
+      "path_id": "7581180227717453448"
     },
     {
       "tile": "PlayerFormTile_2x2",
-      "x": 8,
-      "y": 4,
+      "x": 0,
+      "y": 6,
       "w": 2,
       "h": 2,
       "isDynamic": false,
