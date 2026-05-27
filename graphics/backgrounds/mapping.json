@@ -17,7 +17,9 @@
     "efl_vertu_skin_fm26",
     "uefa-conference_league_skin_fm26",
     "uefa-europa_league_skin_fm26",
-    "uefa-super-cup_league_skin_fm26"
+    "uefa-super-cup_league_skin_fm26",
+    "WorldCup",
+    "WorldCupKnockedOut"
   ],
   "startup.jpg": "dynamic-pattern-dark-texture",
   "base-2x1.jpg": [
