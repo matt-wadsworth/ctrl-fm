@@ -109,3 +109,9 @@
 .squad-overview-player-block .si-dropdown__selection-field:active {
   background-color: var(--none);
 }
+
+/* ---- Scoreboard ---- */
+/* Red Card  */
+.red-card-block {
+  border-radius: 1px;
+}
