@@ -90,6 +90,7 @@ Conventions mirror **[Bracket notation and the `references` object](#bracket-not
 | `nav-menu_icons`                | [NAV_PORTAL_TAB_ICONS_CHANGES.md](./nav-menu_icons/NAV_PORTAL_TAB_ICONS_CHANGES.md)                                      |
 | `nav-next_match`                | [NAV_NEXT_MATCH_CHANGES.md](./nav-next_match/NAV_NEXT_MATCH_CHANGES.md)                                                  |
 | `tactics-player_portrait`       | [TACTICS_PLAYERPORTRAIT_CHANGES.md](./tactics-player_portrait/TACTICS_PLAYERPORTRAIT_CHANGES.md)                         |
+| `formations-player_portrait`  | [FORMATIONS_PLAYER_PORTRAIT_CHANGES.md](./formations-player_portrait/FORMATIONS_PLAYER_PORTRAIT_CHANGES.md)             |
 | `tactics-remove_planner_header` | [TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md](./tactics-remove_planner_header/TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md) |
 | `tiles-player_report_photos`    | [PLAYER_REPORT_PHOTOS_CHANGES.md](./tiles-player_report_photos/PLAYER_REPORT_PHOTOS_CHANGES.md)                          |
 | `tiles-speaktosidepanel_border` | [SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md](./tiles-speaktosidepanel_border/SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md)             |
@@ -138,6 +139,10 @@ Use **logical filename + Path ID** suffix to reopen quickly in UABEA.
 | `ui-tactics_assets_all`       | `TacticalPlannerHeader`         | `-966834888143150418`  | `tactics-remove_planner_header` |
 | `ui-tactics_assets_all`       | `TacticsPositionCombined`       | `3127595210179668386`  | `tactics-player_portrait`       |
 | `ui-tactics_assets_all`       | `inlineStyle`                   | `1320523011556632994`  | `tactics-player_portrait`       |
+| `ui-tactics_assets_all`       | `TacticsMatchPositionFilled`    | `2040735658139592085`  | `formations-player_portrait`    |
+| `ui-tactics_assets_all`       | `inlineStyle`                   | `3217575363710297493`  | `formations-player_portrait`    |
+| `ui-widgets_assets_all`       | `TacticsPastMatchPositionFilled`| `919276422481836312`   | `formations-player_portrait`    |
+| `ui-widgets_assets_all`       | `inlineStyle`                   | `3320105331476789528`  | `formations-player_portrait`    |
 
 ## Note template
 
