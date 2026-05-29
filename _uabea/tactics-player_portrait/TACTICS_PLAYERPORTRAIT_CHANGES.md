@@ -165,5 +165,6 @@ Those `uxmlAssetId` values must match the inserted node `m_Id` values.
    - Use the same new node IDs **`1928374651`–`1928374653`**, rule indices **`28`/`29`**, and remapper binding (**`person` → `position.Player`**).
    - Renumber **`m_OrderInDocument`** globally so values are **unique and contiguous** **`0`…`78`** across **`m_VisualElementAssets`** and **`m_TemplateAssets`** together (same final orders as the Windows patch when nodes are matched by tree shape).
    - Append three **`references.RefIds`** blocks for the new nodes; **`rid`** values must be **new on Mac** (append after the stock max **`rid`**, do not reuse Windows **`1084`–`1086`** verbatim unless your export already matches).
+   - **`m_SerializedData.rid` on each inserted node must match the same `rid` in `references.RefIds`** — copying Windows node rows without re-pointing these three links is a common Mac crash (dangling refs).
 
 **In-engine:** Re-smoke tactics pitch player tiles on **both** OS after importing **`win/*.json`** or **`mac/*.json`** respectively.
