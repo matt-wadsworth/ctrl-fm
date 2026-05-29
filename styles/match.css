@@ -115,3 +115,9 @@
 .red-card-block {
   border-radius: 1px;
 }
+
+/* ---- Match Bottom Area ---- */
+/* Reduce bottom margin to give Commentary Bar more space */
+.match-bottom-area {
+  margin-bottom: 8px;
+}
