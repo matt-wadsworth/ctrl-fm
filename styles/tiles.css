@@ -242,7 +242,7 @@
   background-color: #4c5a67;
 }
 
-/* ---- Individual Training Block ---- */
+/* Individual Training Block */
 .individual-training-block {
   border-color: var(--colours-alpha-light-alpha-8);
 }
@@ -257,4 +257,18 @@
 }
 .tile-title-color.fmpediatile {
   color: #22e681;
+}
+
+/* ---- Season Preview ---- */
+/* Dream Eleven */
+.frame-states-property-1-season_preview-property-2-dream-eleven-property-3-max-res {
+  border-color: var(--colours-alpha-light-alpha-8);
+  background-color: var(--none);
+}
+/* Other Tiles */
+.frame-states-property-1-season_preview-property-2-ins-and-outs-property-3-max-res,
+.frames-frame-states-season_preview-key-personnel,
+.frames-frame-states-season_preview-key-players,
+.frames-frame-states-season_preview-transfer-spend {
+  border-color: var(--colours-alpha-light-alpha-8);
 }
