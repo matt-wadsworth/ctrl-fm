@@ -1,0 +1,127 @@
+{
+  "name": "InternationalPortalInMajorCompetitionComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "CalendarTile_4x4",
+      "x": 6,
+      "y": 6,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "68ec21f91f9bf554ea0753c5183d8a52",
+      "path_id": "-4377994045933336882"
+    },
+    {
+      "tile": "PortalNewsTimedTile_8x4",
+      "x": 6,
+      "y": 0,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "de2ab5c8b6b6c754f9bc8345ccd0c9a6",
+      "path_id": "4204875269942216327"
+    },
+    {
+      "tile": "MatchPreparationTile_4x2",
+      "x": 12,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "b4693dd0b70663f458b59e3914843d1c",
+      "path_id": "6497940642311826740"
+    },
+    {
+      "tile": "CompetitionLeagueTableStagesTile_4x8",
+      "x": 16,
+      "y": 0,
+      "w": 4,
+      "h": 8,
+      "isDynamic": false,
+      "guid": "f668d3996f545a846bc789840c7b94d2",
+      "path_id": "-8192312741035252680",
+      "additionalConfigs": [
+        {
+          "guid": "568484be5b471e245af7be1e5da1eaa0",
+          "path_id": "-8804771185934842602",
+          "w": 6,
+          "h": 6
+        }
+      ]
+    },
+    {
+      "tile": "InternationalTournamentPortalMessagesTile_6x10",
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 10,
+      "isDynamic": false,
+      "guid": "ab8dfb1295b678e49b7ae93565fd4452",
+      "path_id": "2847396449702541948"
+    },
+    {
+      "tile": "TeamOrOppositionReportTile_2x2",
+      "x": 10,
+      "y": 4,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "6d4b6dd9034e3194b9f0cadc3c18d84b",
+      "path_id": "-4859405567768119315"
+    },
+    {
+      "tile": "CompetitionStatsTile_6x4",
+      "x": 10,
+      "y": 6,
+      "w": 6,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "596b8f74a2826e44790aeb39bda80b7d",
+      "path_id": "3258116460202296701"
+    },
+    {
+      "tile": "OnThePitchTacticsTile_4x2",
+      "x": 6,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d035b770037af39449ee943e520b8e60",
+      "path_id": "-549059308546553030"
+    },
+    {
+      "tile": "SquadMedicalCentreTile_4x2",
+      "x": 16,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "b9662a62c6db429459d04c73abfe4d49",
+      "path_id": "3395238359748706489"
+    },
+    {
+      "tile": "SquadNumbersTile_2x2",
+      "x": 14,
+      "y": 2,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d469895effdffff4e9d7179465e20532",
+      "path_id": "-4046802246998584124"
+    },
+    {
+      "tile": "CompetitionsTile_2x2",
+      "x": 14,
+      "y": 0,
+      "w": 2,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "6293c05bc06425044a5b86ba2aa60834",
+      "path_id": "-5925175220937073605"
+    }
+  ]
+}

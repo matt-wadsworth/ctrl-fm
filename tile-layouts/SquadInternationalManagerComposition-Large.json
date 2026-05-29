@@ -1,0 +1,99 @@
+{
+  "name": "SquadInternationalManagerComposition-Large",
+  "grid": {
+    "width": 20,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "SquadFirstTeamTile_8x8",
+      "x": 0,
+      "y": 0,
+      "w": 8,
+      "h": 10,
+      "isDynamic": false,
+      "guid": "cb6226a4d0f7d5e45be62dd7003d9c68",
+      "path_id": "4009900239504513551"
+    },
+    {
+      "tile": "SquadDisciplineTile_4x2",
+      "x": 16,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "2f9fbb2bd47e97749bf65693a0e6b205",
+      "path_id": "-8352235025248924377"
+    },
+    {
+      "tile": "SquadMedicalCentreTile_4x2",
+      "x": 8,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "b9662a62c6db429459d04c73abfe4d49",
+      "path_id": "3395238359748706489"
+    },
+    {
+      "tile": "SquadNumbersTile_4x2",
+      "x": 16,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "e7b02fcee1ae1fa43852f11a3bc1d7ee",
+      "path_id": "-4046802246998584124"
+    },
+    {
+      "tile": "InternationalSquadYouthSetupTile_4x4",
+      "x": 8,
+      "y": 0,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "c88555e242cf6e14ebb97402d83b3d59",
+      "path_id": "7321785712042674881"
+    },
+    {
+      "tile": "InternationalSquadRegistrationTile_8x4",
+      "x": 8,
+      "y": 6,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "b61d4b50459e74d4fb5425f97db57650",
+      "path_id": "7167984941157826087"
+    },
+    {
+      "tile": "OnThePitchTacticsTile_8x4",
+      "x": 12,
+      "y": 0,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "bacec0acda299b9458070e63b004a784",
+      "path_id": "-549059308546553030"
+    },
+    {
+      "tile": "SquadCaptainTile_4x2",
+      "x": 16,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "598328d85a6bc42df85022db2db77954",
+      "path_id": "1746906528494015472"
+    },
+    {
+      "tile": "OnThePitchSetPiecesTile_4x2",
+      "x": 12,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "9b8b51cdd59a440059d9690a102debe9",
+      "path_id": "1384800690337876646"
+    }
+  ]
+}

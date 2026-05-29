@@ -1,0 +1,99 @@
+{
+  "name": "InternationalPortalInCamp-Large",
+  "grid": {
+    "width": 20,
+    "height": 10
+  },
+  "tiles": [
+    {
+      "tile": "PortalMessagesTile_6x10",
+      "x": 0,
+      "y": 0,
+      "w": 6,
+      "h": 10,
+      "isDynamic": false,
+      "guid": "12b9123c342cc8c40b31f08f03c7e8a9",
+      "path_id": "-8285224197565872725"
+    },
+    {
+      "tile": "CalendarTile_4x4",
+      "x": 6,
+      "y": 6,
+      "w": 4,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "68ec21f91f9bf554ea0753c5183d8a52",
+      "path_id": "-4377994045933336882"
+    },
+    {
+      "tile": "PortalNewsTimedTile_8x4",
+      "x": 6,
+      "y": 0,
+      "w": 8,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "de2ab5c8b6b6c754f9bc8345ccd0c9a6",
+      "path_id": "4204875269942216327"
+    },
+    {
+      "tile": "MatchPreparationTile_4x2",
+      "x": 10,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "b4693dd0b70663f458b59e3914843d1c",
+      "path_id": "6497940642311826740"
+    },
+    {
+      "tile": "CompetitionLeagueTableStagesTile_6x6",
+      "x": 14,
+      "y": 4,
+      "w": 6,
+      "h": 6,
+      "isDynamic": false,
+      "guid": "e45a2cec9e3ad4042a9e18e8bea86f9f",
+      "path_id": "-8192312741035252680"
+    },
+    {
+      "tile": "SquadFixtureScheduleTile_6x4",
+      "x": 14,
+      "y": 0,
+      "w": 6,
+      "h": 4,
+      "isDynamic": false,
+      "guid": "da75a91b670b41247abe965e44b4028d",
+      "path_id": "-7090924285933375621"
+    },
+    {
+      "tile": "TeamOrOppositionReportTile_4x2",
+      "x": 6,
+      "y": 4,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d177033bd2926a440972ad50eefca137",
+      "path_id": "-4859405567768119315"
+    },
+    {
+      "tile": "OnThePitchTacticsTile_4x2",
+      "x": 10,
+      "y": 6,
+      "w": 4,
+      "h": 2,
+      "isDynamic": false,
+      "guid": "d035b770037af39449ee943e520b8e60",
+      "path_id": "-549059308546553030"
+    },
+    {
+      "tile": "SquadMedicalCentreTile_4x2",
+      "x": 10,
+      "y": 8,
+      "w": 4,
+      "h": 2,
+      "isDynamic": true,
+      "guid": "b9662a62c6db429459d04c73abfe4d49",
+      "path_id": "3395238359748706489"
+    }
+  ]
+}
