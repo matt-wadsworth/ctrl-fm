@@ -2,6 +2,24 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.7] – 29/05/2026
+
+### Fixed
+
+- **26.3.1 Support** - Compatibility with the FM 26.3.1 International Management update.
+- **New Career Tiles** - Fixed styling on the quick start tiles when starting a new career.
+
+### Added
+
+- **Next Match Widget** - Support for Nation matches and when user is a manager of a Club AND Nation.
+- **Main Menu / Startup** - New look for International Management / World Cup.
+- **New Scoreboard** - Custom match scoreboard (CTRL styling and layout); replaces the non-licensed scoreboard only.
+- **Formations** - Added player portraits to ongoing and past Match formation panels.
+
+### Changed
+
+- **Player Tooltip** - Fixed missing header and added season stats.
+
 ## [1.6] – 12/05/2026
 
 ### Fixed
