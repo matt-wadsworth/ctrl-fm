@@ -1241,6 +1241,25 @@
         "m_Properties": {
           "Array": [
             {
+              "m_Name": "flex-grow",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
               "m_Name": "display",
               "m_Line": -1,
               "m_Values": {
@@ -1634,7 +1653,7 @@
         "r": 0.9019608,
         "g": 0.9019608,
         "b": 0.98039216,
-        "a": 0.0
+        "a": 0
       },
       {
         "r": 0.0,

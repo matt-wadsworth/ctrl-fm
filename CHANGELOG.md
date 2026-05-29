@@ -2,6 +2,12 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.7.1] – 29/05/2026
+
+### Fixed
+
+- Crash fix for Player Report tiles.
+
 ## [1.7] – 29/05/2026
 
 ### Fixed

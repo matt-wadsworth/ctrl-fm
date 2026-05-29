@@ -420,18 +420,6 @@
         "m_Properties": {
           "Array": [
             {
-              "m_Name": "flex-grow",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 2,
-                    "valueIndex": 0
-                  }
-                ]
-              }
-            },
-            {
               "m_Name": "justify-content",
               "m_Line": -1,
               "m_Values": {
