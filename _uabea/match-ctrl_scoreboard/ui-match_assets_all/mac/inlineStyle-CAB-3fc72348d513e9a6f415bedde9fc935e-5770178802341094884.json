@@ -997,18 +997,6 @@
               }
             },
             {
-              "m_Name": "height",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 1
-                  }
-                ]
-              }
-            },
-            {
               "m_Name": "background-color",
               "m_Line": -1,
               "m_Values": {
@@ -1075,7 +1063,7 @@
                 "Array": [
                   {
                     "m_ValueType": 7,
-                    "valueIndex": 6
+                    "valueIndex": 0
                   }
                 ]
               }
@@ -1139,6 +1127,54 @@
                   }
                 ]
               }
+            },
+            {
+              "m_Name": "flex-direction",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "height",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "max-height",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "display",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 5
+                  }
+                ]
+              }
             }
           ]
         },
@@ -1196,7 +1232,7 @@
               }
             },
             {
-              "m_Name": "margin-right",
+              "m_Name": "margin-left",
               "m_Line": -1,
               "m_Values": {
                 "Array": [
@@ -1432,7 +1468,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 25
+                    "valueIndex": 29
                   }
                 ]
               }
@@ -1991,37 +2027,13 @@
         "m_Properties": {
           "Array": [
             {
-              "m_Name": "position",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 10
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "height",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 16
-                  }
-                ]
-              }
-            },
-            {
               "m_Name": "margin-top",
               "m_Line": -1,
               "m_Values": {
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 15
+                    "valueIndex": 42
                   }
                 ]
               }
@@ -2064,7 +2076,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 15
+                    "valueIndex": 19
                   }
                 ]
               }
@@ -2076,7 +2088,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 15
+                    "valueIndex": 19
                   }
                 ]
               }
@@ -2885,7 +2897,7 @@
       },
       {
         "unit": 1,
-        "value": 32.0
+        "value": 30.0
       },
       {
         "unit": 1,
@@ -2978,6 +2990,14 @@
       {
         "unit": 1,
         "value": 36.0
+      },
+      {
+        "unit": 1,
+        "value": 52.0
+      },
+      {
+        "unit": 1,
+        "value": -6.0
       }
     ]
   },

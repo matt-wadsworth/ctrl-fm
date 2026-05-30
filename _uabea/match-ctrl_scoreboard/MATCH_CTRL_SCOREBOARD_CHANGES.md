@@ -15,7 +15,7 @@ Works with **`match-left_scoreboard`** (OverviewHeader / ContinuePanel insets) �
 - Notation **`[n]`** = **0-based index** into the named array in the JSON dump — see **[Bracket notation and the `references` object](../UABEA-NOTES.md#bracket-notation-and-the-references-object)** in **`UABEA-NOTES.md`**.
 - **`m_ValueType`:** **`2`** = float, **`3`** = dimension, **`4`** = color, **`7`** = keyword (`strings` pool).
 - **`m_Properties.Array` order matters** on each rule; insert new properties in the correct sibling position rather than replacing whole rules unless intentional.
-- **Regression counts (both OS, this FM lineage):** **`Scoreboard`** — **`44`** `m_VisualElementAssets`, **`3`** `m_TemplateAssets`, **`51`** `references.RefIds`; **`inlineStyle`** — **`33`** rules, **`41`** dimensions, **`12`** colors.
+- **Regression counts (both OS, this FM lineage):** **`Scoreboard`** — **`44`** `m_VisualElementAssets`, **`3`** `m_TemplateAssets`, **`53`** `references.RefIds`; **`inlineStyle`** — **`33`** rules, **`43`** dimensions, **`12`** colors.
 - **UXML:** Stock → patched is a **structural** diff (node count, `m_Id`, templates, `references`). Rebuild Mac from **`mac/orig`** using this note’s **layout targets**; do **not** paste Windows **`Scoreboard`** JSON wholesale into Mac. For Windows, diffing committed **`win/`** against **`win/orig/`** is the fastest way to re-apply the tree after a title update.
 - **Patch order:** **`inlineStyle`** first, then **`Scoreboard`**.
 - **macOS:** Stock **`inlineStyle`** dumps are **byte-identical** across OS; patched **`inlineStyle`** matches on both platforms. **`Scoreboard`** uses the same logical tree as Windows but keeps **shared synthetic `m_Id`s** for new nodes and remaps **stock** IDs through **`mac/orig` ↔ `win/orig`** index alignment. Run **`apply_mac_patch.py`** in this folder to regenerate **`mac/`** from **`win/`** + **`mac/orig`**.
@@ -42,12 +42,16 @@ Left-anchored **420×40** bar. Major slices (absolute unless noted):
 | Rule   | Role (approx.)              | Key layout |
 | ------ | --------------------------- | ---------- |
 | **[1]**  | Root row                    | `width` / `min-width` **420px**, `height` **40px**, `position` **relative** |
-| **[8]**  | Home side capsule           | `position` **absolute**, `left` **6px**, `width` **80px**, leading radii |
-| **[26]** | Centre score stack          | `position` **absolute**, `left` **54px**, `width` **140px** |
+| **[8]**  | Centre score inset          | **140×40**, column flex, fixed height, dark fill; lives in overlay |
+| **[26]** | Centre score stack (away shell) | `position` **absolute**, `left` **54px**, `width` **140px** |
 | **[25]** | Wide centre overlay         | `position` **absolute**, `left` **151px**, `width` **285px** |
 | **[4]**  | Clock frame                 | `position` **absolute**, `left` **180px**, `width` **105px** |
-| **[10]** | Home score text container   | `position` **relative**, `width` **140px**, `padding-right` **32px**, trailing radii on left block |
-| **[14]** | Away score text container   | `position` **relative**, `width` **140px**, `padding-left` **32px**, trailing radii on right block |
+| **[10]** | Home team block             | `position` **relative**, `width` **140px**, `padding-right` **30px**, leading radii |
+| **[14]** | Away team block             | `position` **relative**, `width` **140px**, `padding-left` **30px**, trailing radii |
+| **[9]**  | Home club icon              | **27×27**, `margin-left` **4px** (gap after name) |
+| **[29]** | Away club icon              | **27×27**, `margin-right` **4px** (gap before name) |
+| **[18]** | Aggregate score row         | `margin-top` **-6px** (only when second leg visible) |
+| **[11]** | Main score text             | `margin-top` **4px** |
 
 Stock (for comparison): root **`316px`** wide; clock block used **`justify-content: flex-end`** without fixed `left`; home/away blocks were flex-driven with **`2px`** radii and FM purple **`colors[0]`** / ultra-violet accent **`colors[1]`**.
 
@@ -90,7 +94,7 @@ Stock (for comparison): root **`316px`** wide; clock block used **`justify-conte
 
 Stock had only **`colors[0]`** (FM purple-grey) and **`colors[1]`** (ultra-violet text). Repoint rules that used **`valueIndex = 0`** for backgrounds to **`colors[1]`** where the patched sheet uses the CTRL fill twice.
 
-**`dimensions.Array`** (41 entries):
+**`dimensions.Array`** (43 entries):
 
 | Index | Value |
 | ----- | ----- |
@@ -111,7 +115,7 @@ Stock had only **`colors[0]`** (FM purple-grey) and **`colors[1]`** (ultra-viole
 | `[14]` | `1px` |
 | `[15]` | `12px` |
 | `[16]` | `16px` |
-| `[17]` | `32px` |
+| `[17]` | `30px` |
 | `[18]` | `-18px` |
 | `[19]` | `0px` |
 | `[20]` | `60px` |
@@ -135,8 +139,10 @@ Stock had only **`colors[0]`** (FM purple-grey) and **`colors[1]`** (ultra-viole
 | `[38]` | `-7px` |
 | `[39]` | `44px` |
 | `[40]` | `36px` |
+| `[41]` | `52px` |
+| `[42]` | `-6px` |
 
-Stock highlights: **`dimensions[0] = 316px`**, **`[2] = 2px`** radius, **`[7] = 188px`** min-width on old centre rule, no slots **`[20]`–`[40]`**.
+Stock highlights: **`dimensions[0] = 316px`**, **`[2] = 2px`** radius, **`[7] = 188px`** min-width on old centre rule, no slots **`[20]`–`[42]`**.
 
 ### Rule edits (instruction targets)
 
@@ -147,9 +153,13 @@ Apply after pools match the table above. Resolved values below use patched indic
 - **Rule `[2]`** — compact leading block (competition icon column): `background-color` → **`colors[1]`**; radius **8px** on all corners (`dimensions[2]`); `align-items` **flex-start**; fixed **60×40** (`dimensions[20]`, `[1]`); horizontal padding **8/10** (`[2]`, `[6]`); `margin-right` **0** (`[19]`).
 - **Rule `[3]`** — icon chip: **27×27**, `margin-left` **3px**, `margin-top` **7px**.
 - **Rule `[4]`** — **clock frame**: switch to **`position: absolute`**, `left` **180px** (`dimensions[23]`), `width` **105px** (`[5]`), drop stock **`justify-content: flex-end`** + vertical padding; radius **8px**; CTRL fill **`colors[1]`**.
-- **Rule `[8]`** — **home outer capsule**: `position` **absolute**, `left` **6px** (`[28]`), `width` **80px** (`[11]`), CTRL fill, **8px** radius, `align-items` **flex-start**.
-- **Rule `[10]`** — **home score column**: `width` **140px** (`[10]`), `padding-right` **32px** (`[17]`), leading radii only.
-- **Rule `[14]`** — **away score column**: same width, `padding-left` **32px**, trailing radii only.
+- **Rule `[8]`** — **centre score inset** (inside overlay): column flex, **140×40** fixed, centred content, `overflow` **hidden**; holds live score + optional aggregate row.
+- **Rule `[10]`** — **home team block**: `width` **140px** (`[10]`), `padding-right` **30px** (`[17]`), leading radii only.
+- **Rule `[14]`** — **away team block**: same width, `padding-left` **30px**, trailing radii only.
+- **Rule `[9]`** — home **ClubIcon**: **27×27** (`[32]`), `margin-left` **4px** (`[29]`) after team name.
+- **Rule `[29]`** — away **ClubIcon**: **27×27**, `margin-right` **4px** before team name.
+- **Rule `[11]`** — main score digits: `margin-top` **4px** (`[29]`).
+- **Rule `[18]`** — aggregate row: `margin-top` **-6px** (`[42]`).
 - **Rule `[25]`** — centre overlay: `position` **absolute**, `left` **151px** (`[27]`), `width` **285px** (`[24]`), `height` **40px**.
 - **Rule `[26]`** — centre score stack: `position` **absolute**, `left` **54px** (`[22]`), `width` **140px** (`[10]`).
 - **Rules `[11]` / `[13]` / `[19]`** — score text: `color` → **`colors[2]`** (white); adjust `margin-top` / padding to **`dimensions[25]`** / **`[15]`** as in patched dump.
@@ -176,6 +186,33 @@ Apply after pools match the table above. Resolved values below use patched indic
 | Team blocks | generic `heading-small-16px` / ultra-violet text classes | **`fm-club-primary-color`** / **`fm-club-secondary-color`** wrappers + **`fm-universe-20px`**, **`white`**, **`tile-title-color`** on labels |
 | Steppers | `row-direction-normal` (2×) | **`hidden_unselected_steppers`**, **`row-direction-always-normal`**, **`justify-content-flex-start`** / **`flex-end`** (rules **`[31]`** / **`[32]`**) |
 | Score visibility | progress bar node present | **No** **`SIProgressBar`** — scores use **`SIVisible`** + text only |
+| Second leg (aggregate) | Separate aggregate block + **AGG** label | Aggregate **`SIVisible`** nested in centre score inset; **`(h-a)`** row below live score; no **AGG** text |
+| Home team row order | Logo then name | **Name then logo**; icon gap mirrored (**`margin-left`** on rule **[9]**) |
+
+### Centre score / aggregate (patched)
+
+Inside the dark centre inset (**rule `[8]`**):
+
+```
+1-0          ← main score row (rule [11] text, +4px margin-top)
+(1-1)        ← aggregate row when match.IsSecondLeg (rule [18], -6px margin-top)
+```
+
+- Aggregate text: **`fm-universe-small-center-10px`**, **`tile-title-color`**, static **`(` / `)`** wrappers.
+- Block stays **40px** tall whether or not aggregate is shown (flex-centred stack, `overflow: hidden`).
+
+### Team blocks (patched)
+
+Each **140×40** **`TeamBar`** (**rule `[10]`** home / **`[14]`** away) is a centred horizontal row:
+
+| Side | Order (outer → inner) | Icon gap |
+| ---- | --------------------- | -------- |
+| **Home** | name → logo | **`margin-left: 4px`** on icon (rule **[9]**) |
+| **Away** | logo → name | **`margin-right: 4px`** on icon (rule **[29]**) |
+
+**`padding-right` / `padding-left: 30px`** on the score-facing edge insets name/logo from the centre block.
+
+**Helper scripts (Windows authoring):** **`patch_aggregate_score.py`**, **`refine_aggregate_score.py`** — re-apply aggregate UXML + inlineStyle targets after re-export.
 
 ### Element ↔ rule map (patched, by class)
 
@@ -186,9 +223,9 @@ Use **`m_RuleIndex`** on the element when matching styles in UABEA:
 | Root row under `BindingRemapper` | **1** | 420px bar |
 | `border-radius-leading-small` + `fm-club-primary-color` (comp) | **2** | Competition icon leading capsule (dynamic fill) |
 | `scorebug-broadcast-graphics-sitv-scorebar-clock-frame` | **4** | Match clock |
-| `border-radius-global-border-small` + `justify-content-center` (home) | **8** | Home score shell |
-| `fm-club-primary-color` (home) | **10** | Home primary bind block |
-| `fm-club-primary-color` (away) | **14** | Away primary bind block |
+| Centre score inset (column stack) | **8** | Live + aggregate scores |
+| `fm-club-primary-color` (home `TeamBar`) | **10** | Home team block |
+| `fm-club-primary-color` (away `TeamBar`) | **14** | Away team block |
 | Centre overlay `VisualElement` under rule **25** parent | **25** | Wide middle overlay |
 | `SIStepper` (start / end) | **31** / **32** | Added-time markers |
 
@@ -196,9 +233,7 @@ Because **`m_Id` / `m_ParentId`** change when nodes are inserted or removed, pre
 
 ### `references`
 
-Patched **`references.RefIds`** count is **53** (stock **49**; +2 for **`CompIconBg`** `SIStyleSetter` / VE metadata). Any UXML edit must keep **`m_SerializedData.rid`**, template **`rid`**, and **`RefIds`** consistent — validate JSON parses before import.
-
-**Win-only test (2026-05):** Re-import **`win/Scoreboard`** + **`win/inlineStyle`**; competition leading block should tint from **`match.Competition.SecondaryColor`**. Re-run **`patch_comp_icon_color.py`** if re-exported from UABEA. Mac: not updated until win verified.
+Patched **`references.RefIds`** count is **53** (stock **49**; +2 aggregate paren **`SIText`** nodes, +2 **`CompIconBg`** / related metadata from earlier patch). Any UXML edit must keep **`m_SerializedData.rid`**, template **`rid`**, and **`RefIds`** consistent — validate JSON parses before import.
 
 ---
 
@@ -218,8 +253,8 @@ Patched **`references.RefIds`** count is **53** (stock **49**; +2 for **`CompIco
 
 | Asset / path ID | Action |
 | --------------- | ------ |
-| `inlineStyle` `5770178802341094884` | Pools: **41** dims, **12** colors, **12** strings; root **420×40**; absolute slices **6 / 54 / 151 / 180** px; **8px** radius; CTRL fill **#141D22** |
-| `Scoreboard` `-6243489578598291996` | Add **`ClubIcon`** using; remove progress bar; club-colour classes; steppers; **3** templates; diff tree vs **`orig`** |
+| `inlineStyle` `5770178802341094884` | Pools: **43** dims, **12** colors, **12** strings; root **420×40**; team inset **30px**; aggregate **-6px** row offset |
+| `Scoreboard` `-6243489578598291996` | Aggregate in centre inset; home **name→logo**; **53** refs; diff tree vs **`orig`** |
 
 ---
 
@@ -237,6 +272,6 @@ Patched **`references.RefIds`** count is **53** (stock **49**; +2 for **`CompIco
 
 ## Validation
 
-- In-match: scorebug sits **left**, clock and scores readable, added-time ticks visible, no horizontal clip at **420px** width.
+- In-match: scorebug sits **left**, clock and scores readable, added-time ticks visible, no horizontal clip at **420px** width; second-leg aggregate stacks under live score; home block shows **name then crest**.
 - JSON: both files parse; **`inlineSheet.m_PathID`** on **`Scoreboard`** still **`5770178802341094884`**.
 - Re-smoke on **both** OS after importing **`win/*.json`** or **`mac/*.json`** respectively.
