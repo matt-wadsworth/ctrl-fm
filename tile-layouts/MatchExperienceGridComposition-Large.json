@@ -73,9 +73,9 @@
           "path_id": "-7283601885498801864"
         },
         {
-          "tile": "AllPlayerStatsAwayTeamTile_4x6",
-          "guid": "1fc967d3d41ed9146a8e383f9849c6ea",
-          "path_id": "-4364492723797385922"
+          "tile": "PlayerStatsAwayTeamTile_4x6",
+          "guid": "6a4b032b28fee7b47941ca946d06eafb",
+          "path_id": "-2842495133054264931"
         }
       ]
     },
@@ -100,9 +100,9 @@
           "path_id": "8615856199638608629"
         },
         {
-          "tile": "AllPlayerStatsHomeTeamTile_4x6",
-          "guid": "1fc967d3d41ed9146a8e383f9849c6ea",
-          "path_id": "-2396292803891594087"
+          "tile": "PlayerStatsHomeTeamTile_4x6",
+          "guid": "6a4b032b28fee7b47941ca946d06eafb",
+          "path_id": "1730867061287688386"
         }
       ]
     },
