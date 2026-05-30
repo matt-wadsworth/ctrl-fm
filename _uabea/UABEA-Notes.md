@@ -84,6 +84,7 @@ Conventions mirror **[Bracket notation and the `references` object](#bracket-not
 | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | `match-dugout_tile`             | [MATCH_DUGOUT_TILE_CHANGES.md](./match-dugout_tile/MATCH_DUGOUT_TILE_CHANGES.md)                                         |
 | `match-ctrl_scoreboard`         | [MATCH_CTRL_SCOREBOARD_CHANGES.md](./match-ctrl_scoreboard/MATCH_CTRL_SCOREBOARD_CHANGES.md)                             |
+| `match-controller`              | [MATCH_CONTROLLER_CHANGES.md](./match-controller/MATCH_CONTROLLER_CHANGES.md)                                           |
 | `match-left_scoreboard`         | [MATCH_LEFT_SCOREBOARD_CHANGES.md](./match-left_scoreboard/MATCH_LEFT_SCOREBOARD_CHANGES.md)                             |
 | `match-squad_portraits`         | [SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md](./match-squad_portraits/SQUAD_OVERVIEW_PLAYER_BLOCK_CHANGES.md)                 |
 | `messages-unread_indicators`    | [MESSAGES_UNREAD_INDICATORS_CHANGES.md](./messages-unread_indicators/MESSAGES_UNREAD_INDICATORS_CHANGES.md)              |
@@ -124,6 +125,7 @@ Use **logical filename + Path ID** suffix to reopen quickly in UABEA.
 | `ui-tiles_assets_all`         | `inlineStyle`                   | `-4358236461696845827` | `tiles-player_report_photos`    |
 | `ui-match_assets_all`         | `Scoreboard`                    | `-6243489578598291996` | `match-ctrl_scoreboard`         |
 | `ui-match_assets_all`         | `inlineStyle`                   | `5770178802341094884`  | `match-ctrl_scoreboard`         |
+| `ui-match_assets_all`         | `inlineStyle`                   | `2691751170888438562`  | `match-controller`              |
 | `ui-match_assets_all`         | `OverviewHeader`                | `-7819803725380563227` | `match-left_scoreboard`         |
 | `ui-match_assets_all`         | `inlineStyle`                   | `-2719487159082004763` | `match-left_scoreboard`         |
 | `ui-match_assets_all`         | `ContinuePanel`                 | `-398932524086274306`  | `match-left_scoreboard`         |
