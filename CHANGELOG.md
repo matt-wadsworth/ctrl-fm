@@ -2,6 +2,16 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.7.2] – 31/05/2025
+
+### Fixed
+
+- **Match - Controls** - Fixed crash with playback controls button/menu.
+- **Match - Team Stats** - Replaced the team stats tile with a working version.
+- **Scoreboard** - Fixed aggregate score display.
+- **Scoreboard** - Fixed Nation flags/logos loading on unlicensed fixtures.
+- **Player Report - Performance** - Tidied up the Performance tile layout to avoid overlapping elements.
+
 ## [1.7.1] – 29/05/2026
 
 ### Fixed
