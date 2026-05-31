@@ -7,7 +7,7 @@
   "tiles": [
     {
       "tile": "PlayerFitnessTile_4x2",
-      "x": 0,
+      "x": 4,
       "y": 6,
       "w": 4,
       "h": 2,
@@ -24,8 +24,8 @@
     },
     {
       "tile": "PlayerTrainingOverviewTile_4x2",
-      "x": 0,
-      "y": 1,
+      "x": 4,
+      "y": 0,
       "w": 4,
       "h": 2,
       "isDynamic": false,
@@ -33,18 +33,18 @@
       "path_id": "1707707894050824105"
     },
     {
-      "tile": "CoachScoutReportTile_4x4",
+      "tile": "CoachScoutReportTile_4x2",
       "x": 4,
-      "y": 1,
+      "y": 2,
       "w": 4,
-      "h": 3,
+      "h": 2,
       "isDynamic": false,
-      "guid": "349cc85700bf5a444bf7ba5dd60d51a8",
+      "guid": "5c9384d20d72ce54ab19c6f32f8fa64e",
       "path_id": "7747060321920899263"
     },
     {
       "tile": "PlayerDisciplineAndBansTile_4x4",
-      "x": 4,
+      "x": 0,
       "y": 4,
       "w": 4,
       "h": 4,
@@ -76,22 +76,22 @@
     },
     {
       "tile": "PlayerPerformanceDataTile_4x2",
-      "x": 0,
-      "y": 3,
+      "x": 4,
+      "y": 4,
       "w": 4,
-      "h": 3,
+      "h": 2,
       "isDynamic": false,
       "guid": "7ae8007f879021a47b160dd16f20d2d3",
       "path_id": "-7592875501242707367"
     },
     {
-      "tile": "PlayerIndividualTrainingOptionsBlock_8x1",
+      "tile": "PlayerIndividualTrainingOptionsBlock_4x4",
       "x": 0,
       "y": 0,
-      "w": 8,
-      "h": 1,
+      "w": 4,
+      "h": 4,
       "isDynamic": false,
-      "guid": "23af61209cf031e4aa6c488fd7efe36d",
+      "guid": "cce6bf4d3c087054cb555e1ef87b2b01",
       "path_id": "2020621545567606390"
     }
   ]
