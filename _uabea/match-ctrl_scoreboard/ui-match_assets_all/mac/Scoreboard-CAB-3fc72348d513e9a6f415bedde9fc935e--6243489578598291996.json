@@ -1641,6 +1641,204 @@
           "rid": 1064
         },
         "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.BindableSwitchElement",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -2101001010,
+        "m_OrderInDocument": 1,
+        "m_ParentId": 742891561,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": -1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1065
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.BindableSwitchElement",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -2101001012,
+        "m_OrderInDocument": 0,
+        "m_ParentId": -918273645,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": -1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1068
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.BindingRemapper",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -2101001011,
+        "m_OrderInDocument": 0,
+        "m_ParentId": -2101001010,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": -1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1069
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.SIImage",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -2101001022,
+        "m_OrderInDocument": 0,
+        "m_ParentId": -2101001011,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 9,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1071
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.BindingRemapper",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -2101001013,
+        "m_OrderInDocument": 0,
+        "m_ParentId": -2101001012,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": -1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1072
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.SIImage",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -2101001023,
+        "m_OrderInDocument": 0,
+        "m_ParentId": -2101001013,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 29,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1074
+        },
+        "m_SkipClone": 0
       }
     ]
   },
@@ -1697,7 +1895,7 @@
         },
         "m_Id": -858624433,
         "m_OrderInDocument": 1,
-        "m_ParentId": 742891561,
+        "m_ParentId": -2101001010,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -1739,8 +1937,8 @@
           "resolvedNamespace": ""
         },
         "m_Id": -858624434,
-        "m_OrderInDocument": 0,
-        "m_ParentId": -918273645,
+        "m_OrderInDocument": 1,
+        "m_ParentId": -2101001012,
         "m_NamespaceDefinitions": {
           "Array": []
         },
@@ -3735,6 +3933,16 @@
                 "type": {
                   "id": 1616315467
                 }
+              },
+              {
+                "m_serialisedType": 0,
+                "from": "nation",
+                "to": {
+                  "m_path": "team.nation"
+                },
+                "type": {
+                  "id": 1145176074
+                }
               }
             ]
           },
@@ -3823,6 +4031,16 @@
                 },
                 "type": {
                   "id": 0
+                }
+              },
+              {
+                "m_serialisedType": 0,
+                "from": "nation",
+                "to": {
+                  "m_path": "team.nation"
+                },
+                "type": {
+                  "id": 1145176074
                 }
               }
             ]
@@ -4908,6 +5126,16 @@
                 },
                 "type": {
                   "id": 0
+                }
+              },
+              {
+                "m_serialisedType": 0,
+                "from": "nation",
+                "to": {
+                  "m_path": "team.nation"
+                },
+                "type": {
+                  "id": 1145176074
                 }
               }
             ]
@@ -9797,6 +10025,1572 @@
           "DisableLinkStyling_UxmlAttributeFlags": 0,
           "DisplayTooltipWhenElided_UxmlAttributeFlags": 0,
           "DisableContextMenu_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1065,
+        "type": {
+          "class": "BindableSwitchElement/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -2101001010,
+          "name": "BindableSwitchElement_NationOrClubIcon",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "AlwaysInstantiate": 0,
+          "AlwaysInstantiate_UxmlAttributeFlags": 0,
+          "Preview": {
+            "Mask": 2
+          },
+          "FadeOptions": {
+            "FadedOpacity": 0.0
+          },
+          "VisibilityType": 0,
+          "Preview_UxmlAttributeFlags": 1,
+          "FadeOptions_UxmlAttributeFlags": 0,
+          "VisibilityType_UxmlAttributeFlags": 0,
+          "BindTextFunction": {
+            "m_isAssigned": 0,
+            "m_target": {
+              "m_AssetGUID": "",
+              "m_SubObjectName": "",
+              "m_SubObjectType": ""
+            },
+            "m_inputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            },
+            "m_outputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            }
+          },
+          "BindDirectAsMask": 0,
+          "InvertDirectBinding": 0,
+          "Binding": {
+            "m_kind": 1,
+            "m_direct": {
+              "Path": {
+                "m_path": "team.IsClub"
+              },
+              "Nullable": 0
+            },
+            "m_visualFunction": {
+              "m_isAssigned": 0,
+              "m_target": {
+                "m_AssetGUID": "",
+                "m_SubObjectName": "",
+                "m_SubObjectType": ""
+              },
+              "m_inputs": {
+                "m_variable": {
+                  "m_argumentBytes": {
+                    "Array": []
+                  }
+                }
+              },
+              "m_outputs": {
+                "m_variable": {
+                  "m_argumentBytes": {
+                    "Array": []
+                  }
+                }
+              }
+            }
+          },
+          "BindTextFunction_UxmlAttributeFlags": 0,
+          "BindDirectAsMask_UxmlAttributeFlags": 0,
+          "InvertDirectBinding_UxmlAttributeFlags": 0,
+          "Binding_UxmlAttributeFlags": 1
+        }
+      },
+      {
+        "rid": 1068,
+        "type": {
+          "class": "BindableSwitchElement/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -2101001012,
+          "name": "BindableSwitchElement_NationOrClubIcon",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "AlwaysInstantiate": 0,
+          "AlwaysInstantiate_UxmlAttributeFlags": 0,
+          "Preview": {
+            "Mask": 2
+          },
+          "FadeOptions": {
+            "FadedOpacity": 0.0
+          },
+          "VisibilityType": 0,
+          "Preview_UxmlAttributeFlags": 1,
+          "FadeOptions_UxmlAttributeFlags": 0,
+          "VisibilityType_UxmlAttributeFlags": 0,
+          "BindTextFunction": {
+            "m_isAssigned": 0,
+            "m_target": {
+              "m_AssetGUID": "",
+              "m_SubObjectName": "",
+              "m_SubObjectType": ""
+            },
+            "m_inputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            },
+            "m_outputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            }
+          },
+          "BindDirectAsMask": 0,
+          "InvertDirectBinding": 0,
+          "Binding": {
+            "m_kind": 1,
+            "m_direct": {
+              "Path": {
+                "m_path": "team.IsClub"
+              },
+              "Nullable": 0
+            },
+            "m_visualFunction": {
+              "m_isAssigned": 0,
+              "m_target": {
+                "m_AssetGUID": "",
+                "m_SubObjectName": "",
+                "m_SubObjectType": ""
+              },
+              "m_inputs": {
+                "m_variable": {
+                  "m_argumentBytes": {
+                    "Array": []
+                  }
+                }
+              },
+              "m_outputs": {
+                "m_variable": {
+                  "m_argumentBytes": {
+                    "Array": []
+                  }
+                }
+              }
+            }
+          },
+          "BindTextFunction_UxmlAttributeFlags": 0,
+          "BindDirectAsMask_UxmlAttributeFlags": 0,
+          "InvertDirectBinding_UxmlAttributeFlags": 0,
+          "Binding_UxmlAttributeFlags": 1
+        }
+      },
+      {
+        "rid": 1069,
+        "type": {
+          "class": "BindingRemapper/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -2101001011,
+          "name": "NationRemapper",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 1,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 1,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "Mappings": {
+            "Array": [
+              {
+                "m_serialisedType": 0,
+                "from": "nation",
+                "to": {
+                  "m_path": "team.nation"
+                },
+                "type": {
+                  "id": 1145176074
+                }
+              }
+            ]
+          },
+          "MigrateMappings": "",
+          "Mappings_UxmlAttributeFlags": 1,
+          "MigrateMappings_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1071,
+        "type": {
+          "class": "SIImage/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -2101001022,
+          "name": "ScoreboardNationImage_Home",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 1,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "PreviewVisibilityToggle": 0,
+          "PreviewVisibilityToggle_UxmlAttributeFlags": 0,
+          "VisibilityType": 0,
+          "VisibilityType_UxmlAttributeFlags": 0,
+          "FadedOpacityValue": 0.0,
+          "FadedOpacityValue_UxmlAttributeFlags": 0,
+          "AlwaysBindChildren": 0,
+          "AlwaysBindChildren_UxmlAttributeFlags": 0,
+          "StyleClassToApplyOnVisible": "",
+          "StyleClassToApplyOnVisible_UxmlAttributeFlags": 0,
+          "StyleClassBindingToApplyOnVisible": {
+            "m_path": ""
+          },
+          "StyleClassBindingToApplyOnVisible_UxmlAttributeFlags": 0,
+          "BindFunction_UxmlAttributeFlags": 0,
+          "InvertDirectBinding_UxmlAttributeFlags": 0,
+          "Binding_UxmlAttributeFlags": 1,
+          "StaticImage": {
+            "m_AssetGUID": "",
+            "m_SubObjectName": "",
+            "m_SubObjectType": ""
+          },
+          "ScaleMode": 0,
+          "StyleRecolourMode": 0,
+          "StaticImage_UxmlAttributeFlags": 0,
+          "ScaleMode_UxmlAttributeFlags": 0,
+          "StyleRecolourMode_UxmlAttributeFlags": 0,
+          "BindFunction": {
+            "m_isAssigned": 0,
+            "m_target": {
+              "m_AssetGUID": "",
+              "m_SubObjectName": "",
+              "m_SubObjectType": ""
+            },
+            "m_inputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            },
+            "m_outputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            }
+          },
+          "ImageKind": 0,
+          "Binding": {
+            "m_kind": 2,
+            "m_direct": {
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
+            },
+            "m_visualFunction": {
+              "m_isAssigned": 1,
+              "m_target": {
+                "m_AssetGUID": "7a35874b5cb0acb4d846df3f46c3a872",
+                "m_SubObjectName": "",
+                "m_SubObjectType": ""
+              },
+              "m_inputs": {
+                "m_variable": {
+                  "m_argumentBytes": {
+                    "Array": [
+                      6,
+                      88,
+                      0,
+                      0,
+                      0,
+                      62,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      71,
+                      101,
+                      110,
+                      101,
+                      114,
+                      105,
+                      99,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      96,
+                      49,
+                      91,
+                      83,
+                      73,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      97,
+                      98,
+                      108,
+                      101,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      105,
+                      110,
+                      103,
+                      80,
+                      97,
+                      116,
+                      104,
+                      93,
+                      1,
+                      23,
+                      110,
+                      97,
+                      116,
+                      105,
+                      111,
+                      110,
+                      46,
+                      79,
+                      98,
+                      106,
+                      101,
+                      99,
+                      116,
+                      76,
+                      111,
+                      111,
+                      107,
+                      117,
+                      112,
+                      68,
+                      97,
+                      116,
+                      97,
+                      84,
+                      0,
+                      0,
+                      0,
+                      62,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      71,
+                      101,
+                      110,
+                      101,
+                      114,
+                      105,
+                      99,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      96,
+                      49,
+                      91,
+                      83,
+                      73,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      97,
+                      98,
+                      108,
+                      101,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      105,
+                      110,
+                      103,
+                      80,
+                      97,
+                      116,
+                      104,
+                      93,
+                      1,
+                      19,
+                      110,
+                      97,
+                      116,
+                      105,
+                      111,
+                      110,
+                      46,
+                      80,
+                      114,
+                      105,
+                      109,
+                      97,
+                      114,
+                      121,
+                      67,
+                      111,
+                      108,
+                      111,
+                      114,
+                      86,
+                      0,
+                      0,
+                      0,
+                      62,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      71,
+                      101,
+                      110,
+                      101,
+                      114,
+                      105,
+                      99,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      96,
+                      49,
+                      91,
+                      83,
+                      73,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      97,
+                      98,
+                      108,
+                      101,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      105,
+                      110,
+                      103,
+                      80,
+                      97,
+                      116,
+                      104,
+                      93,
+                      1,
+                      21,
+                      110,
+                      97,
+                      116,
+                      105,
+                      111,
+                      110,
+                      46,
+                      83,
+                      101,
+                      99,
+                      111,
+                      110,
+                      100,
+                      97,
+                      114,
+                      121,
+                      67,
+                      111,
+                      108,
+                      111,
+                      114,
+                      85,
+                      0,
+                      0,
+                      0,
+                      62,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      71,
+                      101,
+                      110,
+                      101,
+                      114,
+                      105,
+                      99,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      96,
+                      49,
+                      91,
+                      83,
+                      73,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      97,
+                      98,
+                      108,
+                      101,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      105,
+                      110,
+                      103,
+                      80,
+                      97,
+                      116,
+                      104,
+                      93,
+                      1,
+                      20,
+                      110,
+                      97,
+                      116,
+                      105,
+                      111,
+                      110,
+                      46,
+                      84,
+                      101,
+                      114,
+                      116,
+                      105,
+                      97,
+                      114,
+                      121,
+                      67,
+                      111,
+                      108,
+                      111,
+                      114,
+                      79,
+                      0,
+                      0,
+                      0,
+                      74,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      69,
+                      110,
+                      117,
+                      109,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      96,
+                      49,
+                      91,
+                      70,
+                      77,
+                      46,
+                      71,
+                      114,
+                      97,
+                      112,
+                      104,
+                      105,
+                      99,
+                      115,
+                      46,
+                      71,
+                      114,
+                      97,
+                      112,
+                      104,
+                      105,
+                      99,
+                      115,
+                      85,
+                      116,
+                      105,
+                      108,
+                      115,
+                      43,
+                      82,
+                      101,
+                      115,
+                      111,
+                      117,
+                      114,
+                      99,
+                      101,
+                      84,
+                      121,
+                      112,
+                      101,
+                      93,
+                      3,
+                      0,
+                      0,
+                      0,
+                      37,
+                      0,
+                      0,
+                      0,
+                      34,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      83,
+                      116,
+                      114,
+                      105,
+                      110,
+                      103,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      1,
+                      0
+                    ]
+                  }
+                }
+              },
+              "m_outputs": {
+                "m_variable": {
+                  "m_argumentBytes": {
+                    "Array": []
+                  }
+                }
+              }
+            }
+          },
+          "PlaceholderImagePath": "Assets/UIAssets/Textures/ImagePlaceHolder.png",
+          "ImageKind_UxmlAttributeFlags": 1,
+          "PlaceholderImagePath_UxmlAttributeFlags": 1
+        }
+      },
+      {
+        "rid": 1072,
+        "type": {
+          "class": "BindingRemapper/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -2101001013,
+          "name": "NationRemapper",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 1,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 1,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "Mappings": {
+            "Array": [
+              {
+                "m_serialisedType": 0,
+                "from": "nation",
+                "to": {
+                  "m_path": "team.nation"
+                },
+                "type": {
+                  "id": 1145176074
+                }
+              }
+            ]
+          },
+          "MigrateMappings": "",
+          "Mappings_UxmlAttributeFlags": 1,
+          "MigrateMappings_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1074,
+        "type": {
+          "class": "SIImage/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -2101001023,
+          "name": "ScoreboardNationImage_Away",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 1,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "PreviewVisibilityToggle": 0,
+          "PreviewVisibilityToggle_UxmlAttributeFlags": 0,
+          "VisibilityType": 0,
+          "VisibilityType_UxmlAttributeFlags": 0,
+          "FadedOpacityValue": 0.0,
+          "FadedOpacityValue_UxmlAttributeFlags": 0,
+          "AlwaysBindChildren": 0,
+          "AlwaysBindChildren_UxmlAttributeFlags": 0,
+          "StyleClassToApplyOnVisible": "",
+          "StyleClassToApplyOnVisible_UxmlAttributeFlags": 0,
+          "StyleClassBindingToApplyOnVisible": {
+            "m_path": ""
+          },
+          "StyleClassBindingToApplyOnVisible_UxmlAttributeFlags": 0,
+          "BindFunction_UxmlAttributeFlags": 0,
+          "InvertDirectBinding_UxmlAttributeFlags": 0,
+          "Binding_UxmlAttributeFlags": 1,
+          "StaticImage": {
+            "m_AssetGUID": "",
+            "m_SubObjectName": "",
+            "m_SubObjectType": ""
+          },
+          "ScaleMode": 0,
+          "StyleRecolourMode": 0,
+          "StaticImage_UxmlAttributeFlags": 0,
+          "ScaleMode_UxmlAttributeFlags": 0,
+          "StyleRecolourMode_UxmlAttributeFlags": 0,
+          "BindFunction": {
+            "m_isAssigned": 0,
+            "m_target": {
+              "m_AssetGUID": "",
+              "m_SubObjectName": "",
+              "m_SubObjectType": ""
+            },
+            "m_inputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            },
+            "m_outputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            }
+          },
+          "ImageKind": 0,
+          "Binding": {
+            "m_kind": 2,
+            "m_direct": {
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
+            },
+            "m_visualFunction": {
+              "m_isAssigned": 1,
+              "m_target": {
+                "m_AssetGUID": "7a35874b5cb0acb4d846df3f46c3a872",
+                "m_SubObjectName": "",
+                "m_SubObjectType": ""
+              },
+              "m_inputs": {
+                "m_variable": {
+                  "m_argumentBytes": {
+                    "Array": [
+                      6,
+                      88,
+                      0,
+                      0,
+                      0,
+                      62,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      71,
+                      101,
+                      110,
+                      101,
+                      114,
+                      105,
+                      99,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      96,
+                      49,
+                      91,
+                      83,
+                      73,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      97,
+                      98,
+                      108,
+                      101,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      105,
+                      110,
+                      103,
+                      80,
+                      97,
+                      116,
+                      104,
+                      93,
+                      1,
+                      23,
+                      110,
+                      97,
+                      116,
+                      105,
+                      111,
+                      110,
+                      46,
+                      79,
+                      98,
+                      106,
+                      101,
+                      99,
+                      116,
+                      76,
+                      111,
+                      111,
+                      107,
+                      117,
+                      112,
+                      68,
+                      97,
+                      116,
+                      97,
+                      84,
+                      0,
+                      0,
+                      0,
+                      62,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      71,
+                      101,
+                      110,
+                      101,
+                      114,
+                      105,
+                      99,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      96,
+                      49,
+                      91,
+                      83,
+                      73,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      97,
+                      98,
+                      108,
+                      101,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      105,
+                      110,
+                      103,
+                      80,
+                      97,
+                      116,
+                      104,
+                      93,
+                      1,
+                      19,
+                      110,
+                      97,
+                      116,
+                      105,
+                      111,
+                      110,
+                      46,
+                      80,
+                      114,
+                      105,
+                      109,
+                      97,
+                      114,
+                      121,
+                      67,
+                      111,
+                      108,
+                      111,
+                      114,
+                      86,
+                      0,
+                      0,
+                      0,
+                      62,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      71,
+                      101,
+                      110,
+                      101,
+                      114,
+                      105,
+                      99,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      96,
+                      49,
+                      91,
+                      83,
+                      73,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      97,
+                      98,
+                      108,
+                      101,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      105,
+                      110,
+                      103,
+                      80,
+                      97,
+                      116,
+                      104,
+                      93,
+                      1,
+                      21,
+                      110,
+                      97,
+                      116,
+                      105,
+                      111,
+                      110,
+                      46,
+                      83,
+                      101,
+                      99,
+                      111,
+                      110,
+                      100,
+                      97,
+                      114,
+                      121,
+                      67,
+                      111,
+                      108,
+                      111,
+                      114,
+                      85,
+                      0,
+                      0,
+                      0,
+                      62,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      71,
+                      101,
+                      110,
+                      101,
+                      114,
+                      105,
+                      99,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      96,
+                      49,
+                      91,
+                      83,
+                      73,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      97,
+                      98,
+                      108,
+                      101,
+                      46,
+                      66,
+                      105,
+                      110,
+                      100,
+                      105,
+                      110,
+                      103,
+                      80,
+                      97,
+                      116,
+                      104,
+                      93,
+                      1,
+                      20,
+                      110,
+                      97,
+                      116,
+                      105,
+                      111,
+                      110,
+                      46,
+                      84,
+                      101,
+                      114,
+                      116,
+                      105,
+                      97,
+                      114,
+                      121,
+                      67,
+                      111,
+                      108,
+                      111,
+                      114,
+                      79,
+                      0,
+                      0,
+                      0,
+                      74,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      69,
+                      110,
+                      117,
+                      109,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      96,
+                      49,
+                      91,
+                      70,
+                      77,
+                      46,
+                      71,
+                      114,
+                      97,
+                      112,
+                      104,
+                      105,
+                      99,
+                      115,
+                      46,
+                      71,
+                      114,
+                      97,
+                      112,
+                      104,
+                      105,
+                      99,
+                      115,
+                      85,
+                      116,
+                      105,
+                      108,
+                      115,
+                      43,
+                      82,
+                      101,
+                      115,
+                      111,
+                      117,
+                      114,
+                      99,
+                      101,
+                      84,
+                      121,
+                      112,
+                      101,
+                      93,
+                      3,
+                      0,
+                      0,
+                      0,
+                      37,
+                      0,
+                      0,
+                      0,
+                      34,
+                      83,
+                      73,
+                      46,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      83,
+                      99,
+                      114,
+                      105,
+                      112,
+                      116,
+                      105,
+                      110,
+                      103,
+                      46,
+                      83,
+                      116,
+                      114,
+                      105,
+                      110,
+                      103,
+                      86,
+                      105,
+                      115,
+                      117,
+                      97,
+                      108,
+                      65,
+                      114,
+                      103,
+                      1,
+                      0
+                    ]
+                  }
+                }
+              },
+              "m_outputs": {
+                "m_variable": {
+                  "m_argumentBytes": {
+                    "Array": []
+                  }
+                }
+              }
+            }
+          },
+          "PlaceholderImagePath": "Assets/UIAssets/Textures/ImagePlaceHolder.png",
+          "ImageKind_UxmlAttributeFlags": 1,
+          "PlaceholderImagePath_UxmlAttributeFlags": 1
         }
       }
     ]

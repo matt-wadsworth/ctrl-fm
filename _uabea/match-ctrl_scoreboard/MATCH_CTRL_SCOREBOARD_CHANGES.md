@@ -233,7 +233,22 @@ Because **`m_Id` / `m_ParentId`** change when nodes are inserted or removed, pre
 
 ### `references`
 
-Patched **`references.RefIds`** count is **53** (stock **49**; +2 aggregate paren **`SIText`** nodes, +2 **`CompIconBg`** / related metadata from earlier patch). Any UXML edit must keep **`m_SerializedData.rid`**, template **`rid`**, and **`RefIds`** consistent — validate JSON parses before import.
+Patched **`references.RefIds`** count is **59** with nation/club icons (stock **49**). Any UXML edit must keep **`m_SerializedData.rid`**, template **`rid`**, and **`RefIds`** consistent — validate JSON parses before import.
+
+### Nation / club icons (icon-only)
+
+Do **not** change the text **`IsClub`** or **`SIText`** at orders **2** / **3**. Replace the row **`ClubIcon`** slot with **`BindableSwitchElement_NationOrClubIcon`** (**`team.IsClub`**, **`m_RuleIndex` `-1`**) at home order **1** / away order **0**. Nation branch (order **0**, same pattern as **`nav-next_match`** / **`CurrentDayWidget`**):
+
+```
+BindableSwitchElement_NationOrClubIcon
+├── NationRemapper — nation → team.nation
+│   └── ScoreboardNationImage_* — SIImage, m_RuleIndex [9] (home) / [29] (away), empty m_Classes (same slot sizing as ClubIcon)
+└── ClubIcon template — order 1, rules [9] / [29] unchanged
+```
+
+Nation **`SIImage`** uses **`ScaleMode` 0** and CurrentDay nation lookup bytes (`7a35874b…`). Do **not** add **`section-button-iphone__image`** (26×26 nav slot); scoreboard crests are **27×27** via **`inlineStyle`** only. Do **not** use **`NationFlag_Medium`**. Team **`BindingRemapper`** still maps **`nation` → `team.nation`**; no **`NTcontainer`**.
+
+**UABEA import (new refs):** each **`BindingRemapper`** needs **`MigrateMappings": ""`** after **`Mappings`**; each nation **`SIImage`** needs **`PlaceholderImagePath": "Assets/UIAssets/Textures/ImagePlaceHolder.png"`**, **`ImageKind_UxmlAttributeFlags": 1`**, **`PlaceholderImagePath_UxmlAttributeFlags": 1`** after **`Binding`** (copy from **`nav-next_match`** **`NationImage`** refs if re-authoring).
 
 ---
 
@@ -254,7 +269,7 @@ Patched **`references.RefIds`** count is **53** (stock **49**; +2 aggregate pare
 | Asset / path ID | Action |
 | --------------- | ------ |
 | `inlineStyle` `5770178802341094884` | Pools: **43** dims, **12** colors, **12** strings; root **420×40**; team inset **30px**; aggregate **-6px** row offset |
-| `Scoreboard` `-6243489578598291996` | Aggregate in centre inset; home **name→logo**; **53** refs; diff tree vs **`orig`** |
+| `Scoreboard` `-6243489578598291996` | Aggregate in centre inset; home **name→logo**; icon-only nation/club switch; **59** refs; diff tree vs **`orig`** |
 
 ---
 
