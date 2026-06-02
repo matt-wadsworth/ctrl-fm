@@ -1,0 +1,14 @@
+{
+  "id": "match-controller",
+  "name": "Match - Controller - CTRL",
+  "description": "Replaces the inline styling on the Match Controller widget.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-match_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": 2691751170888438562,
+      "file": "inlineStyle-CAB-3fc72348d513e9a6f415bedde9fc935e-2691751170888438562.json"
+    }
+  ]
+}

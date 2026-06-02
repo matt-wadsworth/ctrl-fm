@@ -1,0 +1,14 @@
+{
+  "id": "tiles-speaktosidepanel_border",
+  "name": "Tiles - Speak to Sidepanel Border",
+  "description": "Replaces the border colour on the Speak to Sidepanel tile with CTRL colours.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": 4528579247820316033,
+      "file": "inlineStyle-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba-4528579247820316033.json"
+    }
+  ]
+}

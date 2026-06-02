@@ -1,0 +1,20 @@
+{
+  "id": "messages-unread_indicators",
+  "name": "Messages - Unread Indicators",
+  "description": "Replaces the inline styling on the unread indicators with CTRL colours.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-widgets_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": -4684259242089685901,
+      "file": "inlineStyle-CAB-019ad19fde35e70c30c2e7a4cd52c3af--4684259242089685901.json"
+    },
+    {
+      "bundle": "ui-widgets_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": -8675747941173082291,
+      "file": "inlineStyle-CAB-019ad19fde35e70c30c2e7a4cd52c3af--8675747941173082291.json"
+    }
+  ]
+}

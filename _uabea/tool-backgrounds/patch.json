@@ -1,0 +1,74 @@
+{
+  "id": "tool-backgrounds",
+  "name": "Tools - Tile Backgrounds",
+  "description": "Adds a background image to the tool tiles.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "FigmaBaseReportMultiGridTemplate",
+      "pathId": -7128261493660232504,
+      "file": "FigmaBaseReportMultiGridTemplate-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba--7128261493660232504.json"
+    },
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "FigmaBaseReportTabbedTemplate",
+      "pathId": -6853685571306610514,
+      "file": "FigmaBaseReportTabbedTemplate-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba--6853685571306610514.json"
+    },
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "FigmaBaseReportTemplate",
+      "pathId": -7286913424223670684,
+      "file": "FigmaBaseReportTemplate-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba--7286913424223670684.json"
+    },
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "FigmaBaseSiteMultiGridTemplate",
+      "pathId": 8566240388769420849,
+      "file": "FigmaBaseSiteMultiGridTemplate-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba-8566240388769420849.json"
+    },
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "FigmaBaseSiteTemplate",
+      "pathId": -8447082276870198169,
+      "file": "FigmaBaseSiteTemplate-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba--8447082276870198169.json"
+    },
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "FigmaBaseToolMultiGridTemplate",
+      "pathId": -5382185517154910959,
+      "file": "FigmaBaseToolMultiGridTemplate-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba--5382185517154910959.json"
+    },
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "FigmaBaseToolTabbedHeaderTemplate",
+      "pathId": -5643027006255053682,
+      "file": "FigmaBaseToolTabbedHeaderTemplate-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba--5643027006255053682.json"
+    },
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "FigmaBaseToolTabbedTemplate",
+      "pathId": -3753704939979211631,
+      "file": "FigmaBaseToolTabbedTemplate-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba--3753704939979211631.json"
+    },
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "FigmaBaseToolTabbedTemplate-withheader",
+      "pathId": 5824540884813275916,
+      "file": "FigmaBaseToolTabbedTemplate-withheader-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba-5824540884813275916.json"
+    },
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "FigmaBaseToolTemplate",
+      "pathId": -3950974047860622828,
+      "file": "FigmaBaseToolTemplate-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba--3950974047860622828.json"
+    },
+    {
+      "bundle": "ui-panelids-uxml_assets_all",
+      "assetName": "ContractNegotiationToolTemplate",
+      "pathId": -2260545897271500938,
+      "file": "ContractNegotiationToolTemplate-CAB-2e85ca449b6b5bf1e21dfd7485c9c8ba--2260545897271500938.json"
+    }
+  ]
+}

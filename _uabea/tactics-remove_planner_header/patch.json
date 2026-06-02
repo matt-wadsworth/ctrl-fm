@@ -1,0 +1,14 @@
+{
+  "id": "tactics-remove_planner_header",
+  "name": "Tactics - Remove Planner Header",
+  "description": "Removes the gradient from the planner header.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-tactics_assets_all",
+      "assetName": "TacticalPlannerHeader",
+      "pathId": -966834888143150418,
+      "file": "TacticalPlannerHeader-CAB-3334bbe2d7ac7af32e86413e81ff46ff--966834888143150418.json"
+    }
+  ]
+}

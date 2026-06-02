@@ -1,0 +1,20 @@
+{
+  "id": "nav-next_match",
+  "name": "Nav - Next Match",
+  "description": "Adds a Next Match widget to the navigation area.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-calendar_assets_all",
+      "assetName": "CurrentDayWidget",
+      "pathId": 2536531161352205035,
+      "file": "CurrentDayWidget-CAB-b51564b8ef4017738dd87aa94de65cc7-2536531161352205035.json"
+    },
+    {
+      "bundle": "ui-calendar_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": 7705980741400097515,
+      "file": "inlineStyle-CAB-b51564b8ef4017738dd87aa94de65cc7-7705980741400097515.json"
+    }
+  ]
+}

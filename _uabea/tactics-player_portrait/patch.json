@@ -1,0 +1,20 @@
+{
+  "id": "tactics-player_portrait",
+  "name": "Tactics - Player Portraits",
+  "description": "Replaces the kits with player portraits in the tactics pitch.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-tactics_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": 1320523011556632994,
+      "file": "inlineStyle-CAB-3334bbe2d7ac7af32e86413e81ff46ff-1320523011556632994.json"
+    },
+    {
+      "bundle": "ui-tactics_assets_all",
+      "assetName": "TacticsPositionCombined",
+      "pathId": 3127595210179668386,
+      "file": "TacticsPositionCombined-CAB-3334bbe2d7ac7af32e86413e81ff46ff-3127595210179668386.json"
+    }
+  ]
+}

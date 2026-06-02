@@ -1,0 +1,307 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 11998
+  },
+  "m_Name": "inlineStyle",
+  "m_ImportedWithErrors": 0,
+  "m_ImportedWithWarnings": 0,
+  "m_Rules": {
+    "Array": [
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "align-self",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "align-self",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "margin-bottom",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "position",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "top",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "align-self",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 2
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "align-self",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "position",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "top",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "background-color",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 4,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "border-radius",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 1
+                  },
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 1
+                  },
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 1
+                  },
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "border-width",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 2
+                  },
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 2
+                  },
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 2
+                  },
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 2
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "border-color",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 4,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      }
+    ]
+  },
+  "m_ComplexSelectors": {
+    "Array": []
+  },
+  "floats": {
+    "Array": [
+      0.0
+    ]
+  },
+  "dimensions": {
+    "Array": [
+      {
+        "unit": 1,
+        "value": 8.0
+      },
+      {
+        "unit": 1,
+        "value": 12.0
+      },
+      {
+        "unit": 1,
+        "value": 1.0
+      }
+    ]
+  },
+  "colors": {
+    "Array": [
+      {
+        "r": 0.023529412,
+        "g": 0.050980393,
+        "b": 0.09019608,
+        "a": 0.98039216
+      },
+      {
+        "r": 0.8509804,
+        "g": 0.9098039,
+        "b": 0.92941177,
+        "a": 0.05
+      }
+    ]
+  },
+  "strings": {
+    "Array": [
+      "flex-start",
+      "absolute",
+      "flex-end"
+    ]
+  },
+  "assets": {
+    "Array": []
+  },
+  "imports": {
+    "Array": []
+  },
+  "m_FlattenedImportedStyleSheets": {
+    "Array": []
+  },
+  "m_ContentHash": 0,
+  "scalableImages": {
+    "Array": []
+  }
+}

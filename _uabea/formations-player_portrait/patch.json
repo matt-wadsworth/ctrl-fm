@@ -1,0 +1,32 @@
+{
+  "id": "formations-player_portrait",
+  "name": "Formations - Player Portraits",
+  "description": "Replaces kits with player portraits in formations",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-tactics_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": 3217575363710297493,
+      "file": "inlineStyle-CAB-3334bbe2d7ac7af32e86413e81ff46ff-3217575363710297493.json"
+    },
+    {
+      "bundle": "ui-tactics_assets_all",
+      "assetName": "TacticsMatchPositionFilled",
+      "pathId": 2040735658139592085,
+      "file": "TacticsMatchPositionFilled-CAB-3334bbe2d7ac7af32e86413e81ff46ff-2040735658139592085.json"
+    },
+    {
+      "bundle": "ui-widgets_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": 3320105331476789528,
+      "file": "inlineStyle-CAB-019ad19fde35e70c30c2e7a4cd52c3af-3320105331476789528.json"
+    },
+    {
+      "bundle": "ui-widgets_assets_all",
+      "assetName": "TacticsPastMatchPositionFilled",
+      "pathId": 919276422481836312,
+      "file": "TacticsPastMatchPositionFilled-CAB-019ad19fde35e70c30c2e7a4cd52c3af-919276422481836312.json"
+    }
+  ]
+}

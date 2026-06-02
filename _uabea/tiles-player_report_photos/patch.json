@@ -1,0 +1,32 @@
+{
+  "id": "tiles-player_report_photos",
+  "name": "Tiles - Player Report Photos",
+  "description": "Removes the border-radius and background from various player report photos.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-tiles_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": -1253022491152235485,
+      "file": "inlineStyle-CAB-651892cf441cf6c29e5bd20791e24f29--1253022491152235485.json"
+    },
+    {
+      "bundle": "ui-tiles_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": -3307895459461465053,
+      "file": "inlineStyle-CAB-651892cf441cf6c29e5bd20791e24f29--3307895459461465053.json"
+    },
+    {
+      "bundle": "ui-tiles_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": -4358236461696845827,
+      "file": "inlineStyle-CAB-651892cf441cf6c29e5bd20791e24f29--4358236461696845827.json"
+    },
+    {
+      "bundle": "ui-tiles_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": -812894235568295708,
+      "file": "inlineStyle-CAB-651892cf441cf6c29e5bd20791e24f29--812894235568295708.json"
+    }
+  ]
+}

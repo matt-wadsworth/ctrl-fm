@@ -1,0 +1,20 @@
+{
+  "id": "match-dugout_tile",
+  "name": "Match - Dugout Tile styles",
+  "description": "Replaces the inline styling on the Match Dugout Tile.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-tiles_assets_all",
+      "assetName": "Dugout_4x8_with_collapse",
+      "pathId": -389085435411529779,
+      "file": "Dugout_4x8_with_collapse-CAB-651892cf441cf6c29e5bd20791e24f29--389085435411529779.json"
+    },
+    {
+      "bundle": "ui-tiles_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": 4355907201153990605,
+      "file": "inlineStyle-CAB-651892cf441cf6c29e5bd20791e24f29-4355907201153990605.json"
+    }
+  ]
+}

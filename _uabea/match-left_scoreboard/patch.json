@@ -1,0 +1,32 @@
+{
+  "id": "match-left_scoreboard",
+  "name": "Match - Left Scoreboard",
+  "description": "Moves the scoreboard to the left of the screen and re-arranges elements affected by the change.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-match_assets_all",
+      "assetName": "ContinuePanel",
+      "pathId": -398932524086274306,
+      "file": "ContinuePanel-CAB-3fc72348d513e9a6f415bedde9fc935e--398932524086274306.json"
+    },
+    {
+      "bundle": "ui-match_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": -2719487159082004763,
+      "file": "inlineStyle-CAB-3fc72348d513e9a6f415bedde9fc935e--2719487159082004763.json"
+    },
+    {
+      "bundle": "ui-match_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": 4016413755955533566,
+      "file": "inlineStyle-CAB-3fc72348d513e9a6f415bedde9fc935e-4016413755955533566.json"
+    },
+    {
+      "bundle": "ui-match_assets_all",
+      "assetName": "OverviewHeader",
+      "pathId": -7819803725380563227,
+      "file": "OverviewHeader-CAB-3fc72348d513e9a6f415bedde9fc935e--7819803725380563227.json"
+    }
+  ]
+}

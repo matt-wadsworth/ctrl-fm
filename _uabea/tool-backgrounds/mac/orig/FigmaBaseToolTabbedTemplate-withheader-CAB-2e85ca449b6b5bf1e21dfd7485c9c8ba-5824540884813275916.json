@@ -1,0 +1,1689 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 11995
+  },
+  "m_Name": "FigmaBaseToolTabbedTemplate-withheader",
+  "m_ImportedWithErrors": 0,
+  "m_HasUpdatedUrls": 0,
+  "m_ImportedWithWarnings": 0,
+  "m_Usings": {
+    "Array": [
+      {
+        "alias": "SpeakToContainer",
+        "path": "6b896e0b845699f47a2a5b78b7d9a72e",
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      },
+      {
+        "alias": "reports-header-navigation-default-type-tool-header",
+        "path": "51fd4c8dc39a3394ca95f3a63d30046b",
+        "asset": {
+          "m_FileID": 0,
+          "m_PathID": 0
+        }
+      }
+    ]
+  },
+  "inlineSheet": {
+    "m_FileID": 0,
+    "m_PathID": 991240753036583692
+  },
+  "m_VisualElementAssets": {
+    "Array": [
+      {
+        "m_FullTypeName": "UnityEngine.UIElements.UXML",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -1364074815,
+        "m_OrderInDocument": 0,
+        "m_ParentId": 0,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": -1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": -2
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "FM.UI.BaseCardTemplateImpl",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": 1227435818,
+        "m_OrderInDocument": 1,
+        "m_ParentId": -1364074815,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 0,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1000
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.BindingVariables",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -1997155140,
+        "m_OrderInDocument": 2,
+        "m_ParentId": 1227435818,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1001
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.SIStyleSetter",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": 1847054199,
+        "m_OrderInDocument": 3,
+        "m_ParentId": -1997155140,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 2,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1002
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -124838053,
+        "m_OrderInDocument": 4,
+        "m_ParentId": 1847054199,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 3,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1003
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.BindingVariables",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -844031599,
+        "m_OrderInDocument": 6,
+        "m_ParentId": -124838053,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 4,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1004
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": 1210607856,
+        "m_OrderInDocument": 7,
+        "m_ParentId": -844031599,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 5,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1005
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": 1744113016,
+        "m_OrderInDocument": 8,
+        "m_ParentId": 1210607856,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 6,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": [
+            "layout-report-default-default"
+          ]
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1006
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": 756483881,
+        "m_OrderInDocument": 9,
+        "m_ParentId": 1744113016,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 7,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": [
+            "figma-base-tool-template-inner-frame",
+            "ios-card-styling"
+          ]
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1007
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.SIVisible",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -1752279549,
+        "m_OrderInDocument": 10,
+        "m_ParentId": 756483881,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": -1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1008
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.DynamicItem",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -499580843,
+        "m_OrderInDocument": 11,
+        "m_ParentId": 756483881,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 8,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": [
+            "padding-horizontal-global-padding-small"
+          ]
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1009
+        },
+        "m_SkipClone": 0
+      },
+      {
+        "m_FullTypeName": "SI.Bindable.TabbedGridLayoutElement",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -2020715138,
+        "m_OrderInDocument": 12,
+        "m_ParentId": 756483881,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 9,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1010
+        },
+        "m_SkipClone": 0
+      }
+    ]
+  },
+  "m_TemplateAssets": {
+    "Array": [
+      {
+        "m_FullTypeName": "",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": 677102696,
+        "m_OrderInDocument": 5,
+        "m_ParentId": -124838053,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": -1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1011
+        },
+        "m_SkipClone": 0,
+        "m_TemplateAlias": "SpeakToContainer",
+        "m_AttributeOverrides": {
+          "Array": []
+        },
+        "m_SerializedDataOverride": {
+          "Array": []
+        },
+        "m_SlotUsages": {
+          "Array": []
+        }
+      },
+      {
+        "m_FullTypeName": "",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -1487209978,
+        "m_OrderInDocument": 11,
+        "m_ParentId": -1752279549,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": -1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1012
+        },
+        "m_SkipClone": 0,
+        "m_TemplateAlias": "reports-header-navigation-default-type-tool-header",
+        "m_AttributeOverrides": {
+          "Array": []
+        },
+        "m_SerializedDataOverride": {
+          "Array": []
+        },
+        "m_SlotUsages": {
+          "Array": []
+        }
+      }
+    ]
+  },
+  "m_UxmlObjectEntries": {
+    "Array": []
+  },
+  "m_UxmlObjectIds": {
+    "Array": []
+  },
+  "m_AssetEntries": {
+    "Array": []
+  },
+  "m_Slots": {
+    "Array": []
+  },
+  "m_ContentContainerId": 0,
+  "m_ContentHash": -1181752447,
+  "references": {
+    "version": 2,
+    "RefIds": [
+      {
+        "rid": -2,
+        "type": {
+          "class": "",
+          "ns": "",
+          "asm": ""
+        },
+        "data": {}
+      },
+      {
+        "rid": 1000,
+        "type": {
+          "class": "BaseCardTemplateImpl/UxmlSerializedData",
+          "ns": "FM.UI",
+          "asm": "FM.UI"
+        },
+        "data": {
+          "uxmlAssetId": 1227435818,
+          "name": "CardController",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "CustomPanelToCloseOnBackgroundClick": {
+            "m_AssetGUID": "",
+            "m_SubObjectName": "",
+            "m_SubObjectType": ""
+          },
+          "CardSettings": {
+            "m_AssetGUID": "9f647f4737d9d6d4c96e32768fc8e931",
+            "m_SubObjectName": "",
+            "m_SubObjectType": ""
+          },
+          "DisallowClickToClose": 0,
+          "DisallowSettingClickableTargets": 0,
+          "CustomPanelToCloseOnBackgroundClick_UxmlAttributeFlags": 0,
+          "CardSettings_UxmlAttributeFlags": 1,
+          "DisallowClickToClose_UxmlAttributeFlags": 0,
+          "DisallowSettingClickableTargets_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1001,
+        "type": {
+          "class": "BindingVariables/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -1997155140,
+          "name": "SpeakToVariables",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "ValueVariables": {
+            "Array": [
+              {
+                "m_name": "speaktoisontheright",
+                "m_serializedData": "{\"$type\":\"SI.Bindable.BoolScopeValue, SI.Bindable\",\"m_value\":false}"
+              },
+              {
+                "m_name": "use-header-dropdown-for-speakto",
+                "m_serializedData": "{\"$type\":\"SI.Bindable.BoolScopeValue, SI.Bindable\",\"m_value\":false}"
+              }
+            ]
+          },
+          "ValueVariables_UxmlAttributeFlags": 1,
+          "ReferenceVariables": {
+            "Array": []
+          },
+          "ReferenceVariables_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1002,
+        "type": {
+          "class": "SIStyleSetter/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": 1847054199,
+          "name": "SIStyleSetter",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "BindFunction": {
+            "m_isAssigned": 1,
+            "m_target": {
+              "m_AssetGUID": "d4cdb2a2e77adec4ab06f28cdec4e783",
+              "m_SubObjectName": "",
+              "m_SubObjectType": ""
+            },
+            "m_inputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": [
+                    4,
+                    84,
+                    0,
+                    0,
+                    0,
+                    62,
+                    83,
+                    73,
+                    46,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    83,
+                    99,
+                    114,
+                    105,
+                    112,
+                    116,
+                    105,
+                    110,
+                    103,
+                    46,
+                    71,
+                    101,
+                    110,
+                    101,
+                    114,
+                    105,
+                    99,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    65,
+                    114,
+                    103,
+                    96,
+                    49,
+                    91,
+                    83,
+                    73,
+                    46,
+                    66,
+                    105,
+                    110,
+                    100,
+                    97,
+                    98,
+                    108,
+                    101,
+                    46,
+                    66,
+                    105,
+                    110,
+                    100,
+                    105,
+                    110,
+                    103,
+                    80,
+                    97,
+                    116,
+                    104,
+                    93,
+                    1,
+                    19,
+                    115,
+                    112,
+                    101,
+                    97,
+                    107,
+                    116,
+                    111,
+                    105,
+                    115,
+                    111,
+                    110,
+                    116,
+                    104,
+                    101,
+                    114,
+                    105,
+                    103,
+                    104,
+                    116,
+                    63,
+                    0,
+                    0,
+                    0,
+                    34,
+                    83,
+                    73,
+                    46,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    83,
+                    99,
+                    114,
+                    105,
+                    112,
+                    116,
+                    105,
+                    110,
+                    103,
+                    46,
+                    83,
+                    116,
+                    114,
+                    105,
+                    110,
+                    103,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    65,
+                    114,
+                    103,
+                    1,
+                    26,
+                    112,
+                    101,
+                    97,
+                    107,
+                    116,
+                    111,
+                    45,
+                    112,
+                    97,
+                    110,
+                    101,
+                    108,
+                    45,
+                    114,
+                    105,
+                    103,
+                    104,
+                    116,
+                    45,
+                    97,
+                    108,
+                    105,
+                    103,
+                    110,
+                    101,
+                    100,
+                    37,
+                    0,
+                    0,
+                    0,
+                    35,
+                    83,
+                    73,
+                    46,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    83,
+                    99,
+                    114,
+                    105,
+                    112,
+                    116,
+                    105,
+                    110,
+                    103,
+                    46,
+                    66,
+                    111,
+                    111,
+                    108,
+                    101,
+                    97,
+                    110,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    65,
+                    114,
+                    103,
+                    0,
+                    37,
+                    0,
+                    0,
+                    0,
+                    35,
+                    83,
+                    73,
+                    46,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    83,
+                    99,
+                    114,
+                    105,
+                    112,
+                    116,
+                    105,
+                    110,
+                    103,
+                    46,
+                    66,
+                    111,
+                    111,
+                    108,
+                    101,
+                    97,
+                    110,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    65,
+                    114,
+                    103,
+                    1
+                  ]
+                }
+              }
+            },
+            "m_outputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            }
+          },
+          "SecondaryColorDataLink": {
+            "m_path": ""
+          },
+          "PrimaryColorDataLink": {
+            "m_path": ""
+          },
+          "BindFunction_UxmlAttributeFlags": 1,
+          "SecondaryColorDataLink_UxmlAttributeFlags": 0,
+          "PrimaryColorDataLink_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1003,
+        "type": {
+          "class": "VisualElement/UxmlSerializedData",
+          "ns": "UnityEngine.UIElements",
+          "asm": "UnityEngine.UIElementsModule"
+        },
+        "data": {
+          "uxmlAssetId": -124838053,
+          "name": "VisualElement",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1004,
+        "type": {
+          "class": "BindingVariables/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -844031599,
+          "name": "BindingVariables",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "ValueVariables": {
+            "Array": [
+              {
+                "m_name": "isonmainscreen",
+                "m_serializedData": "{\"$type\":\"SI.Bindable.BoolScopeValue, SI.Bindable\",\"m_value\":false}"
+              }
+            ]
+          },
+          "ValueVariables_UxmlAttributeFlags": 1,
+          "ReferenceVariables": {
+            "Array": []
+          },
+          "ReferenceVariables_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1005,
+        "type": {
+          "class": "VisualElement/UxmlSerializedData",
+          "ns": "UnityEngine.UIElements",
+          "asm": "UnityEngine.UIElementsModule"
+        },
+        "data": {
+          "uxmlAssetId": 1210607856,
+          "name": "layout-tool-default-default",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1006,
+        "type": {
+          "class": "VisualElement/UxmlSerializedData",
+          "ns": "UnityEngine.UIElements",
+          "asm": "UnityEngine.UIElementsModule"
+        },
+        "data": {
+          "uxmlAssetId": 1744113016,
+          "name": "layout-tool-default-default",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1007,
+        "type": {
+          "class": "VisualElement/UxmlSerializedData",
+          "ns": "UnityEngine.UIElements",
+          "asm": "UnityEngine.UIElementsModule"
+        },
+        "data": {
+          "uxmlAssetId": 756483881,
+          "name": "Card-frame",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1008,
+        "type": {
+          "class": "SIVisible/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -1752279549,
+          "name": "ToolHeaderVisible",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "AlwaysInstantiate": 0,
+          "AlwaysInstantiate_UxmlAttributeFlags": 0,
+          "BindFunction": {
+            "m_isAssigned": 0,
+            "m_target": {
+              "m_AssetGUID": "",
+              "m_SubObjectName": "",
+              "m_SubObjectType": ""
+            },
+            "m_inputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            },
+            "m_outputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            }
+          },
+          "InvertDirectBinding": 0,
+          "Binding": {
+            "m_kind": 1,
+            "m_direct": {
+              "Path": {
+                "m_path": "game.ShowReportToolSiteHeader"
+              },
+              "Nullable": 0
+            },
+            "m_visualFunction": {
+              "m_isAssigned": 0,
+              "m_target": {
+                "m_AssetGUID": "",
+                "m_SubObjectName": "",
+                "m_SubObjectType": ""
+              },
+              "m_inputs": {
+                "m_variable": {
+                  "m_argumentBytes": {
+                    "Array": []
+                  }
+                }
+              },
+              "m_outputs": {
+                "m_variable": {
+                  "m_argumentBytes": {
+                    "Array": []
+                  }
+                }
+              }
+            }
+          },
+          "PreviewVisibilityToggle": 0,
+          "VisibilityType": 0,
+          "FadedOpacityValue": 0.0,
+          "AlwaysBindChildren": 0,
+          "StyleClassToApplyOnVisible": "",
+          "StyleClassBindingToApplyOnVisible": {
+            "m_path": ""
+          },
+          "BindFunction_UxmlAttributeFlags": 0,
+          "InvertDirectBinding_UxmlAttributeFlags": 1,
+          "Binding_UxmlAttributeFlags": 1,
+          "PreviewVisibilityToggle_UxmlAttributeFlags": 0,
+          "VisibilityType_UxmlAttributeFlags": 0,
+          "FadedOpacityValue_UxmlAttributeFlags": 0,
+          "AlwaysBindChildren_UxmlAttributeFlags": 0,
+          "StyleClassToApplyOnVisible_UxmlAttributeFlags": 0,
+          "StyleClassBindingToApplyOnVisible_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1009,
+        "type": {
+          "class": "DynamicItem/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -499580843,
+          "name": "ReportHeader",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "VisualFuncBinding": {
+            "m_isAssigned": 1,
+            "m_target": {
+              "m_AssetGUID": "c0f74129d4d01f04b9a6f91c47ad6eec",
+              "m_SubObjectName": "",
+              "m_SubObjectType": ""
+            },
+            "m_inputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": [
+                    2,
+                    48,
+                    0,
+                    0,
+                    0,
+                    42,
+                    83,
+                    73,
+                    46,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    83,
+                    99,
+                    114,
+                    105,
+                    112,
+                    116,
+                    105,
+                    110,
+                    103,
+                    46,
+                    65,
+                    115,
+                    115,
+                    101,
+                    116,
+                    82,
+                    101,
+                    102,
+                    101,
+                    114,
+                    101,
+                    110,
+                    99,
+                    101,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    65,
+                    114,
+                    103,
+                    0,
+                    1,
+                    0,
+                    1,
+                    0,
+                    37,
+                    0,
+                    0,
+                    0,
+                    34,
+                    83,
+                    73,
+                    46,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    83,
+                    99,
+                    114,
+                    105,
+                    112,
+                    116,
+                    105,
+                    110,
+                    103,
+                    46,
+                    83,
+                    116,
+                    114,
+                    105,
+                    110,
+                    103,
+                    86,
+                    105,
+                    115,
+                    117,
+                    97,
+                    108,
+                    65,
+                    114,
+                    103,
+                    1,
+                    0
+                  ]
+                }
+              }
+            },
+            "m_outputs": {
+              "m_variable": {
+                "m_argumentBytes": {
+                  "Array": []
+                }
+              }
+            }
+          },
+          "PreviewAsset": {
+            "m_AssetGUID": "",
+            "m_SubObjectName": "",
+            "m_SubObjectType": ""
+          },
+          "VisualFuncBinding_UxmlAttributeFlags": 1,
+          "PreviewAsset_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1010,
+        "type": {
+          "class": "TabbedGridLayoutElement/UxmlSerializedData",
+          "ns": "SI.Bindable",
+          "asm": "SI.Bindable"
+        },
+        "data": {
+          "uxmlAssetId": -2020715138,
+          "name": "TabGridElements",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "SelectedTabBinding": {
+            "m_path": ""
+          },
+          "AddTabButtonsHorizontalScrollView": 1,
+          "DefaultSelection": 0,
+          "SelectedTabBinding_UxmlAttributeFlags": 0,
+          "AddTabButtonsHorizontalScrollView_UxmlAttributeFlags": 1,
+          "DefaultSelection_UxmlAttributeFlags": 0,
+          "TabButtonTemplate": {
+            "m_AssetGUID": "a7cc7dc1eb64b4e41bd3d01f07272c92",
+            "m_SubObjectName": "",
+            "m_SubObjectType": ""
+          },
+          "ExtraTabRowButtonTemplate": {
+            "m_AssetGUID": "",
+            "m_SubObjectName": "",
+            "m_SubObjectType": ""
+          },
+          "GridCompositionSets": {
+            "Array": []
+          },
+          "HideTabButtonsIfOnlyOneVisible": 0,
+          "MigrateGridCompositionSets": "",
+          "SelectionBinding": {
+            "m_path": ""
+          },
+          "CurrentSelectedIdBinding": {
+            "m_path": ""
+          },
+          "TabButtonContainerStyle": "",
+          "TabContentContainerStyle": "",
+          "TabStyle": 0,
+          "SelectedStyle": "navigation-tab-default-default--active-true",
+          "InputPriority": 0,
+          "UsePersistantSelection": 0,
+          "TabButtonTemplate_UxmlAttributeFlags": 1,
+          "ExtraTabRowButtonTemplate_UxmlAttributeFlags": 0,
+          "GridCompositionSets_UxmlAttributeFlags": 0,
+          "HideTabButtonsIfOnlyOneVisible_UxmlAttributeFlags": 0,
+          "MigrateGridCompositionSets_UxmlAttributeFlags": 0,
+          "SelectionBinding_UxmlAttributeFlags": 0,
+          "CurrentSelectedIdBinding_UxmlAttributeFlags": 0,
+          "TabButtonContainerStyle_UxmlAttributeFlags": 0,
+          "TabContentContainerStyle_UxmlAttributeFlags": 0,
+          "TabStyle_UxmlAttributeFlags": 0,
+          "SelectedStyle_UxmlAttributeFlags": 1,
+          "InputPriority_UxmlAttributeFlags": 0,
+          "UsePersistantSelection_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1011,
+        "type": {
+          "class": "TemplateContainer/UxmlSerializedData",
+          "ns": "UnityEngine.UIElements",
+          "asm": "UnityEngine.UIElementsModule"
+        },
+        "data": {
+          "uxmlAssetId": 677102696,
+          "name": "SpeakToContainer",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "bindingPath": "",
+          "bindingPath_UxmlAttributeFlags": 0,
+          "template": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "template_UxmlAttributeFlags": 0,
+          "templateId": "SpeakToContainer",
+          "templateId_UxmlAttributeFlags": 1
+        }
+      },
+      {
+        "rid": 1012,
+        "type": {
+          "class": "TemplateContainer/UxmlSerializedData",
+          "ns": "UnityEngine.UIElements",
+          "asm": "UnityEngine.UIElementsModule"
+        },
+        "data": {
+          "uxmlAssetId": -1487209978,
+          "name": "reports-header-navigation-default-type-tool-header-1",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "bindingPath": "",
+          "bindingPath_UxmlAttributeFlags": 0,
+          "template": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "template_UxmlAttributeFlags": 0,
+          "templateId": "reports-header-navigation-default-type-tool-header",
+          "templateId_UxmlAttributeFlags": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "m_GameObject": {
+    "m_FileID": 0,
+    "m_PathID": 0
+  },
+  "m_Enabled": 1,
+  "m_Script": {
+    "m_FileID": 1,
+    "m_PathID": 11998
+  },
+  "m_Name": "inlineStyle",
+  "m_ImportedWithErrors": 0,
+  "m_ImportedWithWarnings": 0,
+  "m_Rules": {
+    "Array": [
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "align-items",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "align-self",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 1,
+                    "valueIndex": 2
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "justify-content",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "padding-top",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "padding-bottom",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "padding-left",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 5
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "padding-right",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 6
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "flex-grow",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "position",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 2
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "top",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "width",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "align-items",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 5
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "align-self",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "flex-grow",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "justify-content",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 4
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "margin-top",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 4
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "align-content",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 5
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "margin-bottom",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 2
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "min-height",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 3
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "height",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 3
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "align-self",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 5
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "top",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "right",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "left",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "bottom",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "position",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 2
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "flex-grow",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "position",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 6
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "right",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "top",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "left",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "bottom",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      }
+    ]
+  },
+  "m_ComplexSelectors": {
+    "Array": []
+  },
+  "floats": {
+    "Array": [
+      1.0,
+      0.0
+    ]
+  },
+  "dimensions": {
+    "Array": [
+      {
+        "unit": 1,
+        "value": 24.0
+      },
+      {
+        "unit": 2,
+        "value": 100.0
+      },
+      {
+        "unit": 1,
+        "value": 12.0
+      },
+      {
+        "unit": 1,
+        "value": 32.0
+      },
+      {
+        "unit": 1,
+        "value": 4.0
+      },
+      {
+        "unit": 1,
+        "value": 42.0
+      },
+      {
+        "unit": 1,
+        "value": 26.0
+      }
+    ]
+  },
+  "colors": {
+    "Array": []
+  },
+  "strings": {
+    "Array": [
+      "stretch",
+      "flex-end",
+      "absolute",
+      "center",
+      "space-between",
+      "flex-start",
+      "relative"
+    ]
+  },
+  "assets": {
+    "Array": []
+  },
+  "imports": {
+    "Array": []
+  },
+  "m_FlattenedImportedStyleSheets": {
+    "Array": []
+  },
+  "m_ContentHash": 0,
+  "scalableImages": {
+    "Array": []
+  }
+}

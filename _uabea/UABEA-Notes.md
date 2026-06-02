@@ -95,6 +95,7 @@ Conventions mirror **[Bracket notation and the `references` object](#bracket-not
 | `tactics-remove_planner_header` | [TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md](./tactics-remove_planner_header/TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md) |
 | `tiles-player_report_photos`    | [PLAYER_REPORT_PHOTOS_CHANGES.md](./tiles-player_report_photos/PLAYER_REPORT_PHOTOS_CHANGES.md)                          |
 | `tiles-speaktosidepanel_border` | [SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md](./tiles-speaktosidepanel_border/SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md)             |
+| `tool-backgrounds`              | [TOOL_BACKGROUNDS_CHANGES.md](./tool-backgrounds/TOOL_BACKGROUNDS_CHANGES.md)                                           |
 
 Reference-only notes:
 
@@ -145,6 +146,17 @@ Use **logical filename + Path ID** suffix to reopen quickly in UABEA.
 | `ui-tactics_assets_all`       | `inlineStyle`                   | `3217575363710297493`  | `formations-player_portrait`    |
 | `ui-widgets_assets_all`       | `TacticsPastMatchPositionFilled`| `919276422481836312`   | `formations-player_portrait`    |
 | `ui-widgets_assets_all`       | `inlineStyle`                   | `3320105331476789528`  | `formations-player_portrait`    |
+| `ui-panelids-uxml_assets_all` | `FigmaBaseToolTemplate`         | `-3950974047860622828` | `tool-backgrounds`              |
+| `ui-panelids-uxml_assets_all` | `FigmaBaseToolTabbedTemplate`   | `-3753704939979211631` | `tool-backgrounds`              |
+| `ui-panelids-uxml_assets_all` | `FigmaBaseToolTabbedHeaderTemplate` | `-5643027006255053682` | `tool-backgrounds`          |
+| `ui-panelids-uxml_assets_all` | `FigmaBaseToolTabbedTemplate-withheader` | `5824540884813275916` | `tool-backgrounds`       |
+| `ui-panelids-uxml_assets_all` | `FigmaBaseToolMultiGridTemplate` | `-5382185517154910959` | `tool-backgrounds`           |
+| `ui-panelids-uxml_assets_all` | `FigmaBaseReportTemplate`       | `-7286913424223670684` | `tool-backgrounds`              |
+| `ui-panelids-uxml_assets_all` | `FigmaBaseReportTabbedTemplate` | `-6853685571306610514` | `tool-backgrounds`              |
+| `ui-panelids-uxml_assets_all` | `FigmaBaseReportMultiGridTemplate` | `-7128261493660232504` | `tool-backgrounds`           |
+| `ui-panelids-uxml_assets_all` | `FigmaBaseSiteTemplate`         | `-8447082276870198169` | `tool-backgrounds`              |
+| `ui-panelids-uxml_assets_all` | `FigmaBaseSiteMultiGridTemplate` | `8566240388769420849` | `tool-backgrounds`               |
+| `ui-panelids-uxml_assets_all` | `ContractNegotiationToolTemplate` | `-2260545897271500938` | `tool-backgrounds`            |
 
 ## Note template
 
