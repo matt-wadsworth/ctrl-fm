@@ -1,0 +1,29 @@
+{
+  "name": "SquadLoansCardPlayersOnLoanComposition",
+  "grid": {
+    "width": 16,
+    "height": 8
+  },
+  "tiles": [
+    {
+      "tile": "LoansPlayersTile_8x3",
+      "x": 0,
+      "y": 0,
+      "w": 9,
+      "h": 8,
+      "isDynamic": false,
+      "guid": "536ad8ed4e9cc79419de96060f53c216",
+      "path_id": "-2514805277329241613"
+    },
+    {
+      "tile": "PlayerLoanReportTile_8x4",
+      "x": 9,
+      "y": 0,
+      "w": 7,
+      "h": 8,
+      "isDynamic": false,
+      "guid": "7bb1eadfe91ae934e982a7023546d44e",
+      "path_id": "7213312529119324453"
+    }
+  ]
+}
