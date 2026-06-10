@@ -1,0 +1,163 @@
+{
+  "id": "texture_background",
+  "name": "Textures - UI Backgrounds",
+  "description": "Replaces the main UI and competition backgrounds.",
+  "enabled": true,
+  "assets": [
+    {
+      "type": "texture",
+      "source": "bg.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": [
+        "fm-skin-v2",
+        "BoardroomBasic",
+        "BoardroomHighEnd",
+        "BoardroomStandard",
+        "ChangingRoomBasic",
+        "ChangingRoomHighEnd",
+        "ChangingRoomStandard",
+        "ChangingRoomStateOfTheArt",
+        "InterviewAreaBasic",
+        "InterviewAreaHighEnd",
+        "InterviewAreaStandard",
+        "PressConferenceRoomBasic",
+        "PressConferenceRoomHighEnd",
+        "PressConferenceRoomStandard",
+        "TeamMeetingRoomBasic",
+        "TeamMeetingRoomHighEnd",
+        "TeamMeetingRoomStandard"
+      ]
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-pl.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": "premier_league_skin_fm26"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-bundesliga.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": "fm-bundesliga-skin-min"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-efl.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": [
+        "efl-championship-skin",
+        "efl-league-one-skin",
+        "efl-league-two-skin"
+      ]
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-carabao.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": "efl-league-cup-skin"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-ucl.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": "uefa-cl_league_skin_fm26"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-uwcl.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": "uefa-cl_womens_league_skin_fm26"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-europa.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": "fm-europa-league-skin-min"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-super.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": "fm-super-cup-skin-min"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-vertu.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": "efl-bst-skin"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-europa.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_",
+      "target": "uefa-europa_league_skin_fm26"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-super.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_",
+      "target": "uefa-super-cup_league_skin_fm26"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-vertu.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_",
+      "target": "vertu_fm26"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-bundesliga.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_",
+      "target": "bundesliga_fm26"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-efl.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_",
+      "target": ["efl_skin_fm26", "efl_vertu_skin_fm26"]
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-conferenceleague.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_",
+      "target": "uefa-conference_league_skin_fm26"
+    },
+    {
+      "type": "texture",
+      "source": "comps/bg-wc.png",
+      "format": "BC7",
+      "bundle": "ui-textures_assets_all",
+      "target": ["WorldCup", "WorldCupKnockedOut", "world_cup_match_bg"]
+    },
+    {
+      "type": "texture",
+      "source": "mainmenu.png",
+      "format": "BC7",
+      "bundle": "ui-mainmenu-assets_assets_all",
+      "target": "start_screen_main_texture"
+    },
+    {
+      "type": "texture",
+      "source": "startup.png",
+      "format": "BC7",
+      "bundle": "ui-backgrounds_assets_common",
+      "target": "dynamic-pattern-dark-texture"
+    }
+  ]
+}
