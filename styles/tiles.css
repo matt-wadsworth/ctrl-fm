@@ -14,7 +14,7 @@
 /* ---- Base ---- */
 .border-tile-radius-12px {
   border-width: 1px;
-  border-color: var(--colours-alpha-light-alpha-8);
+  border-color: rgba(217, 232, 237, 0.03);
 }
 .layout-tile-base-container {
   border-width: 1px;
@@ -39,7 +39,7 @@
 }
 /* SI Block - Border */
 .siblock-border {
-  border-color: var(--colours-alpha-light-alpha-8);
+  border-color: rgba(217, 232, 237, 0.03);
 }
 
 /* ---- Tactics ---- */
@@ -65,31 +65,31 @@
   background-color: rgba(217, 232, 237, 0.04);
 }
 .tactics-pitch-tile-background-colour {
-  background-color: var(--none);
+  background-color: rgba(76, 171, 67, 0.15);
 }
 .tactics-collapsable-pitch-grass-colour {
   background-color: rgba(46, 110, 40, 0.2);
 }
 .tactics-collapsable-pitch-header {
-  border-color: var(--colours-alpha-light-alpha-8);
-  background-color: var(--none);
+  border-color: rgba(76, 171, 67, 0.15);
+  background-color: rgba(76, 171, 67, 0.15);
 }
 .tactics-collapsable-pitch-container {
   border-width: 1px;
-  border-color: var(--colours-alpha-light-alpha-8);
-  background-color: var(--none);
+  border-color: rgba(76, 171, 67, 0.15);
+  background-color: rgba(76, 171, 67, 0.15);
   border-radius: 12px;
 }
 .tactics-subs-block {
   border-width: 1px;
-  border-color: var(--colours-alpha-light-alpha-8);
-  background-color: var(--none);
+  border-color: rgba(217, 232, 237, 0.03);
+  background-color: rgba(217, 232, 237, 0.02);
   border-radius: 12px;
 }
 .frame-tactics-nav-menu {
   border-width: 1px;
   border-radius: 12px;
-  border-color: var(--colours-alpha-light-alpha-8);
+  border-color: rgba(217, 232, 237, 0.03);
 }
 .tactics-nav-secondary-actions-property-1-team-shape {
   background-color: var(--none);
