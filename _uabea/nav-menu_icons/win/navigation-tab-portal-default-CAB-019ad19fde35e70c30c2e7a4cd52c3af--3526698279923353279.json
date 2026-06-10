@@ -330,6 +330,41 @@
         "m_SkipClone": 0
       },
       {
+        "m_FullTypeName": "SI.Bindable.SIVisible",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": 1193066137,
+        "m_OrderInDocument": 8,
+        "m_ParentId": -593137729,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": -1,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": [
+            "row-direction-normal"
+          ]
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1009
+        },
+        "m_SkipClone": 0
+      },
+      {
         "m_FullTypeName": "SI.Bindable.SIImage",
         "m_XmlNamespace": {
           "prefix": "",
@@ -362,41 +397,6 @@
         },
         "m_SerializedData": {
           "rid": 1008
-        },
-        "m_SkipClone": 0
-      },
-      {
-        "m_FullTypeName": "SI.Bindable.SIVisible",
-        "m_XmlNamespace": {
-          "prefix": "",
-          "resolvedNamespace": ""
-        },
-        "m_Id": 1193066137,
-        "m_OrderInDocument": 8,
-        "m_ParentId": -593137729,
-        "m_NamespaceDefinitions": {
-          "Array": []
-        },
-        "m_Properties": {
-          "Array": []
-        },
-        "m_Name": "",
-        "m_RuleIndex": -1,
-        "m_Text": "",
-        "m_PickingMode": 0,
-        "m_Classes": {
-          "Array": [
-            "row-direction-normal"
-          ]
-        },
-        "m_StylesheetPaths": {
-          "Array": []
-        },
-        "m_Stylesheets": {
-          "Array": []
-        },
-        "m_SerializedData": {
-          "rid": 1009
         },
         "m_SkipClone": 0
       },
@@ -1158,7 +1158,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "config.ShowMainTabsDropdown"
+              "Path": {
+                "m_path": "config.ShowMainTabsDropdown"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -1312,7 +1315,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "config.ShowMainTabsIcon"
+              "Path": {
+                "m_path": "config.ShowMainTabsIcon"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -1432,7 +1438,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -1574,7 +1583,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "config.ShowMainTabsIcon"
+              "Path": {
+                "m_path": "config.ShowMainTabsIcon"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -1703,7 +1715,10 @@
           "TextBinding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -1896,7 +1911,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -3268,7 +3286,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "config.ShowMainTabsDropdown"
+              "Path": {
+                "m_path": "config.ShowMainTabsDropdown"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,

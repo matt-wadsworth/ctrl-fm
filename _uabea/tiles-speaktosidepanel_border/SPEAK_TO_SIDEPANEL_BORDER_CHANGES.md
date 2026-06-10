@@ -16,9 +16,9 @@
 
 Edit **`colors.Array[0]`** to:
 
-- `r` **0.41568628**
-- `g` **0.42352942**
-- `b` **0.44313726**
-- `a` **0**
+- `r` **0.8509804**
+- `g` **0.9098039**
+- `b` **0.9294118**
+- `a` **0.04**
 
-On the stock `orig` dump, RGB already matches; **`a`** is typically **`1.0`** and must be set to **`0`** so the border is fully transparent while the tint RGB stays the same.
+Replaces the stock grey tint (`r` 0.41568628, `g` 0.42352942, `b` 0.44313726) with a light blue at 4% opacity.

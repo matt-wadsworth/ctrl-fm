@@ -53,30 +53,6 @@
               }
             },
             {
-              "m_Name": "padding-top",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 0
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "padding-bottom",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 0
-                  }
-                ]
-              }
-            },
-            {
               "m_Name": "padding-left",
               "m_Line": -1,
               "m_Values": {
@@ -96,6 +72,30 @@
                   {
                     "m_ValueType": 3,
                     "valueIndex": 6
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "padding-top",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "padding-bottom",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 0
                   }
                 ]
               }

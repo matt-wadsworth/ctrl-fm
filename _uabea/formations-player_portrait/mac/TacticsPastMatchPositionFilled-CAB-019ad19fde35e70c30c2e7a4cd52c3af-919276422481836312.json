@@ -1104,7 +1104,7 @@
     "Array": []
   },
   "m_ContentContainerId": 0,
-  "m_ContentHash": -391184148,
+  "m_ContentHash": 1475917614,
   "references": {
     "version": 2,
     "RefIds": [
@@ -4026,7 +4026,7 @@
                   "m_path": "Position.player"
                 },
                 "type": {
-                  "id": 1886157170
+                  "id": 0
                 }
               }
             ]
@@ -4034,6 +4034,57 @@
           "MigrateMappings": "",
           "Mappings_UxmlAttributeFlags": 1,
           "MigrateMappings_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1029,
+        "type": {
+          "class": "TemplateContainer/UxmlSerializedData",
+          "ns": "UnityEngine.UIElements",
+          "asm": "UnityEngine.UIElementsModule"
+        },
+        "data": {
+          "uxmlAssetId": 1928374653,
+          "name": "PersonPicture",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 1,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "bindingPath": "",
+          "bindingPath_UxmlAttributeFlags": 0,
+          "template": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "template_UxmlAttributeFlags": 0,
+          "templateId": "PersonPicture",
+          "templateId_UxmlAttributeFlags": 1
         }
       },
       {
@@ -5637,57 +5688,6 @@
           "dataSourcePathString_UxmlAttributeFlags": 0,
           "dataSourceTypeString_UxmlAttributeFlags": 0,
           "bindings_UxmlAttributeFlags": 0
-        }
-      },
-      {
-        "rid": 1029,
-        "type": {
-          "class": "TemplateContainer/UxmlSerializedData",
-          "ns": "UnityEngine.UIElements",
-          "asm": "UnityEngine.UIElementsModule"
-        },
-        "data": {
-          "uxmlAssetId": 1928374653,
-          "name": "PersonPicture",
-          "bindings": {
-            "Array": []
-          },
-          "tooltip": "",
-          "dataSourcePathString": "",
-          "dataSourceTypeString": "",
-          "dataSourceUnityObject": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "viewDataKey": "",
-          "pickingMode": 0,
-          "usageHints": 0,
-          "languageDirection": 0,
-          "tabIndex": 0,
-          "focusable": 0,
-          "enabledSelf": 0,
-          "name_UxmlAttributeFlags": 1,
-          "enabledSelf_UxmlAttributeFlags": 0,
-          "viewDataKey_UxmlAttributeFlags": 0,
-          "pickingMode_UxmlAttributeFlags": 0,
-          "tooltip_UxmlAttributeFlags": 0,
-          "usageHints_UxmlAttributeFlags": 0,
-          "tabIndex_UxmlAttributeFlags": 0,
-          "focusable_UxmlAttributeFlags": 0,
-          "languageDirection_UxmlAttributeFlags": 0,
-          "dataSourceUnityObject_UxmlAttributeFlags": 0,
-          "dataSourcePathString_UxmlAttributeFlags": 0,
-          "dataSourceTypeString_UxmlAttributeFlags": 0,
-          "bindings_UxmlAttributeFlags": 0,
-          "bindingPath": "",
-          "bindingPath_UxmlAttributeFlags": 0,
-          "template": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "template_UxmlAttributeFlags": 0,
-          "templateId": "PersonPicture",
-          "templateId_UxmlAttributeFlags": 1
         }
       }
     ]

@@ -1,0 +1,32 @@
+{
+  "id": "match-ctrl_matchUI",
+  "name": "Match - CTRL Match UI",
+  "description": "CTRL-styled match UI, in-match scoreboard and pre-match graphics.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-match_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": 5770178802341094884,
+      "file": "inlineStyle-CAB-3fc72348d513e9a6f415bedde9fc935e-5770178802341094884.json"
+    },
+    {
+      "bundle": "ui-match_assets_all",
+      "assetName": "Scoreboard",
+      "pathId": -6243489578598291996,
+      "file": "Scoreboard-CAB-3fc72348d513e9a6f415bedde9fc935e--6243489578598291996.json"
+    },
+    {
+      "bundle": "ui-match_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": -6226874023061975071,
+      "file": "inlineStyle-CAB-3fc72348d513e9a6f415bedde9fc935e--6226874023061975071.json"
+    },
+    {
+      "bundle": "ui-match_assets_all",
+      "assetName": "inlineStyle",
+      "pathId": -938937733320772996,
+      "file": "inlineStyle-CAB-3fc72348d513e9a6f415bedde9fc935e--938937733320772996.json"
+    }
+  ]
+}

@@ -15,14 +15,6 @@
   "m_Usings": {
     "Array": [
       {
-        "alias": "PersonPicture",
-        "path": "a3126e03e5bea6348ba86f23b5c5d7de",
-        "asset": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        }
-      },
-      {
         "alias": "layout-divider-solid-horizontal",
         "path": "54ffead3e652b1541aab0ebadd074df1",
         "asset": {
@@ -423,7 +415,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -269833835,
-        "m_OrderInDocument": 11,
+        "m_OrderInDocument": 10,
         "m_ParentId": -534903406,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -456,7 +448,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1525898559,
-        "m_OrderInDocument": 12,
+        "m_OrderInDocument": 11,
         "m_ParentId": -269833835,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -493,7 +485,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1247934442,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 12,
         "m_ParentId": -269833835,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -530,7 +522,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -538269424,
-        "m_OrderInDocument": 14,
+        "m_OrderInDocument": 11,
         "m_ParentId": -534903406,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -565,7 +557,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -2062769737,
-        "m_OrderInDocument": 15,
+        "m_OrderInDocument": 12,
         "m_ParentId": -538269424,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -598,7 +590,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -813437049,
-        "m_OrderInDocument": 16,
+        "m_OrderInDocument": 13,
         "m_ParentId": -2062769737,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -633,7 +625,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -810071031,
-        "m_OrderInDocument": 17,
+        "m_OrderInDocument": 13,
         "m_ParentId": -538269424,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -666,7 +658,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1691960363,
-        "m_OrderInDocument": 18,
+        "m_OrderInDocument": 14,
         "m_ParentId": -810071031,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -701,7 +693,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -2142150922,
-        "m_OrderInDocument": 19,
+        "m_OrderInDocument": 8,
         "m_ParentId": 1171919275,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -736,7 +728,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1612579178,
-        "m_OrderInDocument": 20,
+        "m_OrderInDocument": 9,
         "m_ParentId": -2142150922,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -769,7 +761,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -448792313,
-        "m_OrderInDocument": 21,
+        "m_OrderInDocument": 10,
         "m_ParentId": 1612579178,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -804,7 +796,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 263669197,
-        "m_OrderInDocument": 22,
+        "m_OrderInDocument": 11,
         "m_ParentId": -448792313,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -837,7 +829,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -545003588,
-        "m_OrderInDocument": 23,
+        "m_OrderInDocument": 12,
         "m_ParentId": 263669197,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -870,7 +862,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1420156628,
-        "m_OrderInDocument": 24,
+        "m_OrderInDocument": 13,
         "m_ParentId": -545003588,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -903,7 +895,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1864182549,
-        "m_OrderInDocument": 25,
+        "m_OrderInDocument": 14,
         "m_ParentId": 1420156628,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -938,7 +930,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 343048254,
-        "m_OrderInDocument": 26,
+        "m_OrderInDocument": 15,
         "m_ParentId": 1420156628,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -974,7 +966,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1247932314,
-        "m_OrderInDocument": 27,
+        "m_OrderInDocument": 12,
         "m_ParentId": -448792313,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1007,7 +999,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1423522646,
-        "m_OrderInDocument": 28,
+        "m_OrderInDocument": 13,
         "m_ParentId": 1247932314,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1040,7 +1032,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1794336276,
-        "m_OrderInDocument": 29,
+        "m_OrderInDocument": 13,
         "m_ParentId": -448792313,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1067,46 +1059,13 @@
         "m_SkipClone": 0
       },
       {
-        "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
-        "m_XmlNamespace": {
-          "prefix": "",
-          "resolvedNamespace": ""
-        },
-        "m_Id": 2019847551,
-        "m_OrderInDocument": 34,
-        "m_ParentId": -448792313,
-        "m_NamespaceDefinitions": {
-          "Array": []
-        },
-        "m_Properties": {
-          "Array": []
-        },
-        "m_Name": "",
-        "m_RuleIndex": 31,
-        "m_Text": "",
-        "m_PickingMode": 0,
-        "m_Classes": {
-          "Array": []
-        },
-        "m_StylesheetPaths": {
-          "Array": []
-        },
-        "m_Stylesheets": {
-          "Array": []
-        },
-        "m_SerializedData": {
-          "rid": 1047
-        },
-        "m_SkipClone": 0
-      },
-      {
         "m_FullTypeName": "SI.Bindable.SIVisible",
         "m_XmlNamespace": {
           "prefix": "",
           "resolvedNamespace": ""
         },
         "m_Id": -366047238,
-        "m_OrderInDocument": 30,
+        "m_OrderInDocument": 14,
         "m_ParentId": -1794336276,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1139,7 +1098,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -458892495,
-        "m_OrderInDocument": 31,
+        "m_OrderInDocument": 15,
         "m_ParentId": -366047238,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1172,7 +1131,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -2072872047,
-        "m_OrderInDocument": 32,
+        "m_OrderInDocument": 16,
         "m_ParentId": -458892495,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1207,7 +1166,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 700960954,
-        "m_OrderInDocument": 33,
+        "m_OrderInDocument": 17,
         "m_ParentId": -458892495,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1243,7 +1202,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1251298332,
-        "m_OrderInDocument": 36,
+        "m_OrderInDocument": 11,
         "m_ParentId": 1612579178,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1252,7 +1211,7 @@
           "Array": []
         },
         "m_Name": "",
-        "m_RuleIndex": 33,
+        "m_RuleIndex": -1,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -1276,7 +1235,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -631116809,
-        "m_OrderInDocument": 37,
+        "m_OrderInDocument": 12,
         "m_ParentId": 1251298332,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1309,7 +1268,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 260301051,
-        "m_OrderInDocument": 38,
+        "m_OrderInDocument": 13,
         "m_ParentId": -631116809,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1347,7 +1306,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1523099939,
-        "m_OrderInDocument": 39,
+        "m_OrderInDocument": 10,
         "m_ParentId": -2142150922,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1380,7 +1339,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 2146082210,
-        "m_OrderInDocument": 41,
+        "m_OrderInDocument": 12,
         "m_ParentId": 1523099939,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1415,7 +1374,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1247930186,
-        "m_OrderInDocument": 42,
+        "m_OrderInDocument": 13,
         "m_ParentId": 2146082210,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1448,7 +1407,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1171356133,
-        "m_OrderInDocument": 43,
+        "m_OrderInDocument": 14,
         "m_ParentId": 1247930186,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1483,7 +1442,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1602476868,
-        "m_OrderInDocument": 44,
+        "m_OrderInDocument": 15,
         "m_ParentId": 1247930186,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1518,7 +1477,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 979494597,
-        "m_OrderInDocument": 45,
+        "m_OrderInDocument": 14,
         "m_ParentId": 2146082210,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1551,7 +1510,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1708227311,
-        "m_OrderInDocument": 46,
+        "m_OrderInDocument": 15,
         "m_ParentId": 979494597,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1587,7 +1546,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -2062773993,
-        "m_OrderInDocument": 47,
+        "m_OrderInDocument": 15,
         "m_ParentId": 2146082210,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1620,7 +1579,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 797170101,
-        "m_OrderInDocument": 48,
+        "m_OrderInDocument": 16,
         "m_ParentId": -2062773993,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1653,7 +1612,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1065044676,
-        "m_OrderInDocument": 49,
+        "m_OrderInDocument": 7,
         "m_ParentId": 1891112821,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1692,7 +1651,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -627750791,
-        "m_OrderInDocument": 40,
+        "m_OrderInDocument": 11,
         "m_ParentId": 1523099939,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -1718,49 +1677,6 @@
         },
         "m_SkipClone": 0,
         "m_TemplateAlias": "layout-divider-solid-horizontal",
-        "m_AttributeOverrides": {
-          "Array": []
-        },
-        "m_SerializedDataOverride": {
-          "Array": []
-        },
-        "m_SlotUsages": {
-          "Array": []
-        }
-      },
-      {
-        "m_FullTypeName": "",
-        "m_XmlNamespace": {
-          "prefix": "",
-          "resolvedNamespace": ""
-        },
-        "m_Id": 2019847552,
-        "m_OrderInDocument": 35,
-        "m_ParentId": 2019847551,
-        "m_NamespaceDefinitions": {
-          "Array": []
-        },
-        "m_Properties": {
-          "Array": []
-        },
-        "m_Name": "",
-        "m_RuleIndex": 32,
-        "m_Text": "",
-        "m_PickingMode": 0,
-        "m_Classes": {
-          "Array": []
-        },
-        "m_StylesheetPaths": {
-          "Array": []
-        },
-        "m_Stylesheets": {
-          "Array": []
-        },
-        "m_SerializedData": {
-          "rid": 1048
-        },
-        "m_SkipClone": 0,
-        "m_TemplateAlias": "PersonPicture",
         "m_AttributeOverrides": {
           "Array": []
         },
@@ -8356,99 +8272,6 @@
           },
           "template_UxmlAttributeFlags": 0,
           "templateId": "layout-divider-solid-horizontal",
-          "templateId_UxmlAttributeFlags": 1
-        }
-      },
-      {
-        "rid": 1047,
-        "type": {
-          "class": "VisualElement/UxmlSerializedData",
-          "ns": "UnityEngine.UIElements",
-          "asm": "UnityEngine.UIElementsModule"
-        },
-        "data": {
-          "uxmlAssetId": 2019847551,
-          "name": "SquadPlayerPictureWrap",
-          "bindings": {
-            "Array": []
-          },
-          "tooltip": "",
-          "dataSourcePathString": "",
-          "dataSourceTypeString": "",
-          "dataSourceUnityObject": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "viewDataKey": "",
-          "pickingMode": 0,
-          "usageHints": 0,
-          "languageDirection": 0,
-          "tabIndex": 0,
-          "focusable": 0,
-          "enabledSelf": 0,
-          "name_UxmlAttributeFlags": 1,
-          "enabledSelf_UxmlAttributeFlags": 0,
-          "viewDataKey_UxmlAttributeFlags": 0,
-          "pickingMode_UxmlAttributeFlags": 0,
-          "tooltip_UxmlAttributeFlags": 0,
-          "usageHints_UxmlAttributeFlags": 0,
-          "tabIndex_UxmlAttributeFlags": 0,
-          "focusable_UxmlAttributeFlags": 0,
-          "languageDirection_UxmlAttributeFlags": 0,
-          "dataSourceUnityObject_UxmlAttributeFlags": 0,
-          "dataSourcePathString_UxmlAttributeFlags": 0,
-          "dataSourceTypeString_UxmlAttributeFlags": 0,
-          "bindings_UxmlAttributeFlags": 0
-        }
-      },
-      {
-        "rid": 1048,
-        "type": {
-          "class": "TemplateContainer/UxmlSerializedData",
-          "ns": "UnityEngine.UIElements",
-          "asm": "UnityEngine.UIElementsModule"
-        },
-        "data": {
-          "uxmlAssetId": 2019847552,
-          "name": "PersonPicture",
-          "bindings": {
-            "Array": []
-          },
-          "tooltip": "",
-          "dataSourcePathString": "",
-          "dataSourceTypeString": "",
-          "dataSourceUnityObject": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "viewDataKey": "",
-          "pickingMode": 0,
-          "usageHints": 0,
-          "languageDirection": 0,
-          "tabIndex": 0,
-          "focusable": 0,
-          "enabledSelf": 0,
-          "name_UxmlAttributeFlags": 1,
-          "enabledSelf_UxmlAttributeFlags": 0,
-          "viewDataKey_UxmlAttributeFlags": 0,
-          "pickingMode_UxmlAttributeFlags": 0,
-          "tooltip_UxmlAttributeFlags": 0,
-          "usageHints_UxmlAttributeFlags": 0,
-          "tabIndex_UxmlAttributeFlags": 0,
-          "focusable_UxmlAttributeFlags": 0,
-          "languageDirection_UxmlAttributeFlags": 0,
-          "dataSourceUnityObject_UxmlAttributeFlags": 0,
-          "dataSourcePathString_UxmlAttributeFlags": 0,
-          "dataSourceTypeString_UxmlAttributeFlags": 0,
-          "bindings_UxmlAttributeFlags": 0,
-          "bindingPath": "",
-          "bindingPath_UxmlAttributeFlags": 0,
-          "template": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "template_UxmlAttributeFlags": 0,
-          "templateId": "PersonPicture",
           "templateId_UxmlAttributeFlags": 1
         }
       }

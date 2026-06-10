@@ -2206,6 +2206,7 @@
           "asm": "SI.Bindable"
         },
         "data": {
+          "uxmlAssetId": -1981034516,
           "name": "ToolBackgroundImage",
           "bindings": {
             "Array": []
@@ -2305,10 +2306,11 @@
           "BindFunction_UxmlAttributeFlags": 0,
           "ImageKind_UxmlAttributeFlags": 1,
           "Binding_UxmlAttributeFlags": 1,
-          "PlaceholderImagePath_UxmlAttributeFlags": 0,
-          "uxmlAssetId": -1981034516
+          "PlaceholderImagePath_UxmlAttributeFlags": 0
         }
       }
+
+    
     ]
   }
 }

@@ -1155,7 +1155,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "config.ShowMainTabsDropdown"
+              "Path": {
+                "m_path": "config.ShowMainTabsDropdown"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -1309,7 +1312,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "config.ShowMainTabsIcon"
+              "Path": {
+                "m_path": "config.ShowMainTabsIcon"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -1429,7 +1435,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -1571,7 +1580,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "config.ShowMainTabsIcon"
+              "Path": {
+                "m_path": "config.ShowMainTabsIcon"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,
@@ -1700,7 +1712,10 @@
           "TextBinding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -1893,7 +1908,10 @@
           "Binding": {
             "m_kind": 2,
             "m_direct": {
-              "m_path": ""
+              "Path": {
+                "m_path": ""
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 1,
@@ -3265,7 +3283,10 @@
           "Binding": {
             "m_kind": 1,
             "m_direct": {
-              "m_path": "config.ShowMainTabsDropdown"
+              "Path": {
+                "m_path": "config.ShowMainTabsDropdown"
+              },
+              "Nullable": 0
             },
             "m_visualFunction": {
               "m_isAssigned": 0,

@@ -13,16 +13,7 @@
   "m_HasUpdatedUrls": 0,
   "m_ImportedWithWarnings": 0,
   "m_Usings": {
-    "Array": [
-      {
-        "alias": "PersonPicture",
-        "path": "a3126e03e5bea6348ba86f23b5c5d7de",
-        "asset": {
-          "m_FileID": 0,
-          "m_PathID": 0
-        }
-      }
-    ]
+    "Array": []
   },
   "inlineSheet": {
     "m_FileID": 0,
@@ -802,6 +793,39 @@
         "m_SkipClone": 0
       },
       {
+        "m_FullTypeName": "FM.UI.FMTacticsShirt",
+        "m_XmlNamespace": {
+          "prefix": "",
+          "resolvedNamespace": ""
+        },
+        "m_Id": -1495218538,
+        "m_OrderInDocument": 10,
+        "m_ParentId": 2087287248,
+        "m_NamespaceDefinitions": {
+          "Array": []
+        },
+        "m_Properties": {
+          "Array": []
+        },
+        "m_Name": "",
+        "m_RuleIndex": 16,
+        "m_Text": "",
+        "m_PickingMode": 0,
+        "m_Classes": {
+          "Array": []
+        },
+        "m_StylesheetPaths": {
+          "Array": []
+        },
+        "m_Stylesheets": {
+          "Array": []
+        },
+        "m_SerializedData": {
+          "rid": 1021
+        },
+        "m_SkipClone": 0
+      },
+      {
         "m_FullTypeName": "UnityEngine.UIElements.VisualElement",
         "m_XmlNamespace": {
           "prefix": "",
@@ -1045,51 +1069,7 @@
     ]
   },
   "m_TemplateAssets": {
-    "Array": [
-      {
-        "m_FullTypeName": "",
-        "m_XmlNamespace": {
-          "prefix": "",
-          "resolvedNamespace": ""
-        },
-        "m_Id": 1928374653,
-        "m_OrderInDocument": 10,
-        "m_ParentId": 2087287248,
-        "m_NamespaceDefinitions": {
-          "Array": []
-        },
-        "m_Properties": {
-          "Array": []
-        },
-        "m_Name": "",
-        "m_RuleIndex": 19,
-        "m_Text": "",
-        "m_PickingMode": 0,
-        "m_Classes": {
-          "Array": []
-        },
-        "m_StylesheetPaths": {
-          "Array": []
-        },
-        "m_Stylesheets": {
-          "Array": []
-        },
-        "m_SerializedData": {
-          "rid": 1029
-        },
-        "m_SkipClone": 0,
-        "m_TemplateAlias": "PersonPicture",
-        "m_AttributeOverrides": {
-          "Array": []
-        },
-        "m_SerializedDataOverride": {
-          "Array": []
-        },
-        "m_SlotUsages": {
-          "Array": []
-        }
-      }
-    ]
+    "Array": []
   },
   "m_UxmlObjectEntries": {
     "Array": []
@@ -4018,22 +3998,92 @@
                 "type": {
                   "id": 0
                 }
-              },
-              {
-                "m_serialisedType": 0,
-                "from": "person",
-                "to": {
-                  "m_path": "Position.player"
-                },
-                "type": {
-                  "id": 1886157170
-                }
               }
             ]
           },
           "MigrateMappings": "",
           "Mappings_UxmlAttributeFlags": 1,
           "MigrateMappings_UxmlAttributeFlags": 0
+        }
+      },
+      {
+        "rid": 1021,
+        "type": {
+          "class": "FMTacticsShirt/UxmlSerializedData",
+          "ns": "FM.UI",
+          "asm": "FM.UI"
+        },
+        "data": {
+          "uxmlAssetId": -1495218538,
+          "name": "",
+          "bindings": {
+            "Array": []
+          },
+          "tooltip": "",
+          "dataSourcePathString": "",
+          "dataSourceTypeString": "",
+          "dataSourceUnityObject": {
+            "m_FileID": 0,
+            "m_PathID": 0
+          },
+          "viewDataKey": "",
+          "pickingMode": 0,
+          "usageHints": 0,
+          "languageDirection": 0,
+          "tabIndex": 0,
+          "focusable": 0,
+          "enabledSelf": 0,
+          "name_UxmlAttributeFlags": 0,
+          "enabledSelf_UxmlAttributeFlags": 0,
+          "viewDataKey_UxmlAttributeFlags": 0,
+          "pickingMode_UxmlAttributeFlags": 0,
+          "tooltip_UxmlAttributeFlags": 0,
+          "usageHints_UxmlAttributeFlags": 0,
+          "tabIndex_UxmlAttributeFlags": 0,
+          "focusable_UxmlAttributeFlags": 0,
+          "languageDirection_UxmlAttributeFlags": 0,
+          "dataSourceUnityObject_UxmlAttributeFlags": 0,
+          "dataSourcePathString_UxmlAttributeFlags": 0,
+          "dataSourceTypeString_UxmlAttributeFlags": 0,
+          "bindings_UxmlAttributeFlags": 0,
+          "OutfieldKitDataBinding": {
+            "m_path": "kit"
+          },
+          "IsGoalkeeper": {
+            "m_path": "position.UseGoalkeeperShirt"
+          },
+          "GoalkeeperKitDataBinding": {
+            "m_path": "kitgk"
+          },
+          "ShirtNumberBinding": {
+            "m_path": "Position.SquadNumber"
+          },
+          "ShirtNameBinding": {
+            "m_path": ""
+          },
+          "PlayerIndexBinding": {
+            "m_path": ""
+          },
+          "HasSubBibBinding": {
+            "m_path": ""
+          },
+          "IsUnavailable": {
+            "m_path": ""
+          },
+          "ShirtNumberUSSType": 0,
+          "ShirtNameUSSType": 0,
+          "EnableInvalidPlayerStyle": 0,
+          "OutfieldKitDataBinding_UxmlAttributeFlags": 1,
+          "IsGoalkeeper_UxmlAttributeFlags": 1,
+          "GoalkeeperKitDataBinding_UxmlAttributeFlags": 1,
+          "ShirtNumberBinding_UxmlAttributeFlags": 1,
+          "ShirtNameBinding_UxmlAttributeFlags": 0,
+          "PlayerIndexBinding_UxmlAttributeFlags": 0,
+          "HasSubBibBinding_UxmlAttributeFlags": 0,
+          "IsUnavailable_UxmlAttributeFlags": 0,
+          "ShirtNumberUSSType_UxmlAttributeFlags": 0,
+          "ShirtNameUSSType_UxmlAttributeFlags": 0,
+          "EnableInvalidPlayerStyle_UxmlAttributeFlags": 0
         }
       },
       {
@@ -5637,57 +5687,6 @@
           "dataSourcePathString_UxmlAttributeFlags": 0,
           "dataSourceTypeString_UxmlAttributeFlags": 0,
           "bindings_UxmlAttributeFlags": 0
-        }
-      },
-      {
-        "rid": 1029,
-        "type": {
-          "class": "TemplateContainer/UxmlSerializedData",
-          "ns": "UnityEngine.UIElements",
-          "asm": "UnityEngine.UIElementsModule"
-        },
-        "data": {
-          "uxmlAssetId": 1928374653,
-          "name": "PersonPicture",
-          "bindings": {
-            "Array": []
-          },
-          "tooltip": "",
-          "dataSourcePathString": "",
-          "dataSourceTypeString": "",
-          "dataSourceUnityObject": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "viewDataKey": "",
-          "pickingMode": 0,
-          "usageHints": 0,
-          "languageDirection": 0,
-          "tabIndex": 0,
-          "focusable": 0,
-          "enabledSelf": 0,
-          "name_UxmlAttributeFlags": 1,
-          "enabledSelf_UxmlAttributeFlags": 0,
-          "viewDataKey_UxmlAttributeFlags": 0,
-          "pickingMode_UxmlAttributeFlags": 0,
-          "tooltip_UxmlAttributeFlags": 0,
-          "usageHints_UxmlAttributeFlags": 0,
-          "tabIndex_UxmlAttributeFlags": 0,
-          "focusable_UxmlAttributeFlags": 0,
-          "languageDirection_UxmlAttributeFlags": 0,
-          "dataSourceUnityObject_UxmlAttributeFlags": 0,
-          "dataSourcePathString_UxmlAttributeFlags": 0,
-          "dataSourceTypeString_UxmlAttributeFlags": 0,
-          "bindings_UxmlAttributeFlags": 0,
-          "bindingPath": "",
-          "bindingPath_UxmlAttributeFlags": 0,
-          "template": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "template_UxmlAttributeFlags": 0,
-          "templateId": "PersonPicture",
-          "templateId_UxmlAttributeFlags": 1
         }
       }
     ]

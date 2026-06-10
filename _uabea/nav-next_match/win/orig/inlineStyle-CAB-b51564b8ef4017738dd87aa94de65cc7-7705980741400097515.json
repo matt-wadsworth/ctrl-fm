@@ -17,36 +17,31 @@
         "m_Properties": {
           "Array": [
             {
-              "m_Name": "opacity",
+              "m_Name": "align-self",
               "m_Line": -1,
               "m_Values": {
                 "Array": [
                   {
-                    "m_ValueType": 2,
+                    "m_ValueType": 7,
                     "valueIndex": 0
                   }
                 ]
               }
-            },
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
             {
-              "m_Name": "width",
+              "m_Name": "align-items",
               "m_Line": -1,
               "m_Values": {
                 "Array": [
                   {
-                    "m_ValueType": 3,
-                    "valueIndex": 0
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "height",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
+                    "m_ValueType": 7,
                     "valueIndex": 1
                   }
                 ]
@@ -62,27 +57,19 @@
     "Array": []
   },
   "floats": {
-    "Array": [
-      0.5
-    ]
+    "Array": []
   },
   "dimensions": {
-    "Array": [
-      {
-        "unit": 1,
-        "value": 1.0
-      },
-      {
-        "unit": 1,
-        "value": 20.0
-      }
-    ]
+    "Array": []
   },
   "colors": {
     "Array": []
   },
   "strings": {
-    "Array": []
+    "Array": [
+      "flex-start",
+      "center"
+    ]
   },
   "assets": {
     "Array": []

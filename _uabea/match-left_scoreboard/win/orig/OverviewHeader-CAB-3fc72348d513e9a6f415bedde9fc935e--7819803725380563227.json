@@ -325,7 +325,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -569867493,
-        "m_OrderInDocument": 9,
+        "m_OrderInDocument": 7,
         "m_ParentId": 1670460348,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -338,9 +338,7 @@
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
-          "Array": [
-            "margin-right-global-gap-regular"
-          ]
+          "Array": []
         },
         "m_StylesheetPaths": {
           "Array": []
@@ -730,7 +728,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 861787563,
-        "m_OrderInDocument": 7,
+        "m_OrderInDocument": 9,
         "m_ParentId": 1670460348,
         "m_NamespaceDefinitions": {
           "Array": []

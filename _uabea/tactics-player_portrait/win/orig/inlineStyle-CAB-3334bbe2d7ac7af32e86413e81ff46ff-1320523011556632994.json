@@ -121,7 +121,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 16
+                    "valueIndex": 2
                   }
                 ]
               }
@@ -201,18 +201,6 @@
                   {
                     "m_ValueType": 3,
                     "valueIndex": 4
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "left",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 15
                   }
                 ]
               }
@@ -372,7 +360,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 16
+                    "valueIndex": 2
                   }
                 ]
               }
@@ -1216,128 +1204,6 @@
           ]
         },
         "line": -1
-      },
-      {
-        "m_Properties": {
-          "Array": [
-            {
-              "m_Name": "width",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 12
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "height",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 12
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "position",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 4
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "left",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 6
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "margin-left",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 13
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "margin-top",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 14
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "justify-content",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 2
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "align-items",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 2
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "line": -1
-      },
-      {
-        "m_Properties": {
-          "Array": [
-            {
-              "m_Name": "width",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 12
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "line": -1
       }
     ]
   },
@@ -1355,11 +1221,11 @@
     "Array": [
       {
         "unit": 1,
-        "value": 50.0
+        "value": 32.0
       },
       {
         "unit": 1,
-        "value": -50.0
+        "value": -32.0
       },
       {
         "unit": 1,
@@ -1367,11 +1233,11 @@
       },
       {
         "unit": 1,
-        "value": 40.0
+        "value": 34.0
       },
       {
         "unit": 1,
-        "value": 16.0
+        "value": 3.0
       },
       {
         "unit": 1,
@@ -1400,26 +1266,6 @@
       {
         "unit": 1,
         "value": 80.0
-      },
-      {
-        "unit": 1,
-        "value": 40.0
-      },
-      {
-        "unit": 1,
-        "value": -28.0
-      },
-      {
-        "unit": 1,
-        "value": 11.0
-      },
-      {
-        "unit": 1,
-        "value": 12.0
-      },
-      {
-        "unit": 1,
-        "value": 0.0
       }
     ]
   },

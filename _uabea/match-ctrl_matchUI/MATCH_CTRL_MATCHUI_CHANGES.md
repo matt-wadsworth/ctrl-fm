@@ -1,20 +1,105 @@
-# Match CTRL scoreboard (UABEA)
+# Match CTRL match UI (UABEA)
 
-- **Patch folder:** `match-ctrl_scoreboard`
+- **Patch folder:** `match-ctrl_matchUI`
 - **Bundle:** `ui-match_assets_all`
 - **Dump format:** serialized asset dump (`.json`)
 - **Working copies:** `ui-match_assets_all/win/` and `ui-match_assets_all/mac/` (copy from each platform’s `orig` before editing)
 - **Stock only:** `win/orig/`, `mac/orig/` — do not modify; keep as the unpatched baseline.
 
-Moves the in-match **Scoreboard** HUD to the **left** of the screen with CTRL panel colours, asymmetric team blocks, and absolute positioning for clock / scores / centre overlay. Replaces stock FM purple styling and reworks several UXML nodes (club-colour bindings, steppers, no progress bar). **Cannot** be done from Skin Builder alone.
+CTRL-styled match UI assets in **`ui-match_assets_all`**. These UXML / USS edits **cannot** be done from Skin Builder alone.
 
-Works with **`match-left_scoreboard`** (OverviewHeader / ContinuePanel insets) — both target the same left-edge rhythm.
+## Scope
+
+| Asset | Path ID | Status | Notes |
+| ----- | ------- | ------ | ----- |
+| **Scoreboard** + linked **`inlineStyle`** | `-6243489578598291996` / `5770178802341094884` | **Shipped** | In-match scorebug — left-aligned bar, CTRL colours, club-colour bindings |
+| Pre-match lineup divider **`inlineStyle`** | `-6226874023061975071` | **Shipped** | Hide FM purple divider border on lineup graphic |
+| Pre-match lineup player blocks **`inlineStyle`** | `-938937733320772996` | **Shipped** | Player row borders — **#222b38** fill, **4px** radius, **2px** border |
+
+The in-match scoreboard works with **`match-left_scoreboard`** (OverviewHeader / ContinuePanel insets) — both target the same left-edge rhythm. Pre-match **`inlineStyle`** sheets are pool-only edits; stock **`win/orig`** and **`mac/orig`** match on both assets, and patched dumps are byte-identical across OS.
 
 ## Implementation notes
 
 - Notation **`[n]`** = **0-based index** into the named array in the JSON dump — see **[Bracket notation and the `references` object](../UABEA-NOTES.md#bracket-notation-and-the-references-object)** in **`UABEA-NOTES.md`**.
 - **`m_ValueType`:** **`2`** = float, **`3`** = dimension, **`4`** = color, **`7`** = keyword (`strings` pool).
 - **`m_Properties.Array` order matters** on each rule; insert new properties in the correct sibling position rather than replacing whole rules unless intentional.
+
+## Path IDs
+
+| Bundle                | Filename       | Path ID                | Role |
+| --------------------- | -------------- | ---------------------- | ---- |
+| `ui-match_assets_all` | `Scoreboard`   | `-6243489578598291996` | In-match scorebug / clock / score UXML |
+| `ui-match_assets_all` | `inlineStyle`  | `5770178802341094884`  | USS for **`Scoreboard`** |
+| `ui-match_assets_all` | `inlineStyle`  | `-6226874023061975071` | USS for pre-match lineup divider |
+| `ui-match_assets_all` | `inlineStyle`  | `-938937733320772996`  | USS for pre-match lineup player blocks |
+
+---
+
+## Pre-match lineups
+
+Pool-only **`inlineStyle`** patches for the broadcast lineup graphic. Mirrors Skin Builder targets in **`styles/match.css`** (`.team-lineup-sitv-item-details-container`).
+
+### 1. Lineup divider — `inlineStyle` (`-6226874023061975071`)
+
+Hides the stock FM purple frame on the centre divider between home/away columns.
+
+**Regression counts (both OS):** **`10`** rules, **`7`** dimensions, **`2`** colors, **`3`** strings.
+
+**Stock pools (relevant slots):**
+
+| Pool | Index | Stock | Patched |
+| ---- | ----- | ----- | ------- |
+| **`colors`** | **`[1]`** | FM purple `{ r: 0.43137255, g: 0.05882353, b: 0.84313726, a: 1 }` | same RGB, **`a: 0`** (fully transparent) |
+| **`colors`** | **`[0]`** | orange accent (competition header) | unchanged |
+| **`dimensions`** | **`[4]`** | **`2px`** (`border-top-width` on rule **`[8]`**) | unchanged |
+
+**Rule target:** **`[8]`** — divider row: all four **`border-*-color`** properties use **`valueIndex = 1`** → **`colors[1]`**. No rule edits; only the pool alpha change.
+
+**Pitfall:** Setting **`colors[1]`** RGB instead of alpha leaves a visible purple stroke.
+
+### 2. Lineup player blocks — `inlineStyle` (`-938937733320772996`)
+
+Restyles bordered player rows (starters / subs list items).
+
+**Regression counts (both OS):** **`6`** rules, **`3`** dimensions (stock **`2`**), **`1`** color, **`2`** floats.
+
+**Stock pools (relevant slots):**
+
+| Pool | Index | Stock | Patched |
+| ---- | ----- | ----- | ------- |
+| **`colors`** | **`[0]`** | white `{ r: 1, g: 1, b: 1, a: 1 }` | **#222b38** `{ r: 0.13333333, g: 0.16862745, b: 0.21960784, a: 1 }` |
+| **`dimensions`** | **`[1]`** | **`2px`** | unchanged — **`border-*-width`** on rule **`[4]`** |
+| **`dimensions`** | **`[2]`** | *(new)* | **`4px`** — append slot for radius |
+
+**Rule target:** **`[4]`** — player block shell:
+
+- **`border-*-color`** → **`colors[0]`** (patched dark fill)
+- **`border-*-width`** → **`dimensions[1]`** (**`2px`**)
+- **`border-*-radius`** → **`valueIndex = 2`** (**`4px`**) — stock used **`valueIndex = 1`** (**`2px`**)
+
+**Pitfall:** Bumping **`dimensions[1]`** to **`4px`** also thickens borders; radius needs a separate pool slot.
+
+### Pre-match quick checklist
+
+| Asset / path ID | Action |
+| --------------- | ------ |
+| `inlineStyle` `-6226874023061975071` | **`colors[1].a` → 0**; rule **`[8]`** border colours unchanged |
+| `inlineStyle` `-938937733320772996` | **`colors[0]` → #222b38**; append **`dimensions[2] = 4px`**; rule **`[4]`** radius **`valueIndex` → 2** |
+
+### Pre-match validation
+
+- Lineup graphic: no visible purple divider line between columns; player rows show **#222b38** borders with **4px** corners and **2px** stroke.
+- JSON: both **`inlineStyle`** files parse on each OS; re-smoke after title re-export.
+
+---
+
+## Scoreboard
+
+Moves the in-match **Scoreboard** HUD to the **left** of the screen with CTRL panel colours, asymmetric team blocks, and absolute positioning for clock / scores / centre overlay. Replaces stock FM purple styling and reworks several UXML nodes (club-colour bindings, steppers, no progress bar).
+
+### Scoreboard implementation notes
+
+- Notation and **`m_ValueType`** — see **[Implementation notes](#implementation-notes)** above.
 - **Regression counts (both OS, this FM lineage):** **`Scoreboard`** — **`44`** `m_VisualElementAssets`, **`3`** `m_TemplateAssets`, **`53`** `references.RefIds`; **`inlineStyle`** — **`33`** rules, **`43`** dimensions, **`12`** colors.
 - **UXML:** Stock → patched is a **structural** diff (node count, `m_Id`, templates, `references`). Rebuild Mac from **`mac/orig`** using this note’s **layout targets**; do **not** paste Windows **`Scoreboard`** JSON wholesale into Mac. For Windows, diffing committed **`win/`** against **`win/orig/`** is the fastest way to re-apply the tree after a title update.
 - **Patch order:** **`inlineStyle`** first, then **`Scoreboard`**.
@@ -22,7 +107,7 @@ Works with **`match-left_scoreboard`** (OverviewHeader / ContinuePanel insets) �
 
 ---
 
-## Path IDs
+### Scoreboard path IDs
 
 | Bundle              | Filename       | Path ID               | Role                                      |
 | ------------------- | -------------- | --------------------- | ----------------------------------------- |
@@ -31,7 +116,7 @@ Works with **`match-left_scoreboard`** (OverviewHeader / ContinuePanel insets) �
 
 ---
 
-## Layout (patched)
+### Layout (patched)
 
 Left-anchored **420×40** bar. Major slices (absolute unless noted):
 
@@ -57,7 +142,7 @@ Stock (for comparison): root **`316px`** wide; clock block used **`justify-conte
 
 ---
 
-## 1. `inlineStyle` (`5770178802341094884`)
+### 1. `inlineStyle` (`5770178802341094884`)
 
 ### Pooled values (patched target)
 
@@ -170,7 +255,7 @@ Apply after pools match the table above. Resolved values below use patched indic
 
 ---
 
-## 2. `Scoreboard` (`-6243489578598291996`)
+### 2. `Scoreboard` (`-6243489578598291996`)
 
 ### UXML goals
 
@@ -252,7 +337,7 @@ Nation **`SIImage`** uses **`ScaleMode` 0** and CurrentDay nation lookup bytes (
 
 ---
 
-## Pitfalls
+### Pitfalls
 
 | Mistake | Symptom |
 | ------- | ------- |
@@ -264,7 +349,7 @@ Nation **`SIImage`** uses **`ScaleMode` 0** and CurrentDay nation lookup bytes (
 
 ---
 
-## Quick checklist
+### Quick checklist
 
 | Asset / path ID | Action |
 | --------------- | ------ |
@@ -273,10 +358,10 @@ Nation **`SIImage`** uses **`ScaleMode` 0** and CurrentDay nation lookup bytes (
 
 ---
 
-## macOS rebuild (`apply_mac_patch.py`)
+### macOS rebuild (`apply_mac_patch.py`)
 
 1. Ensure **`win/`** holds the known-good Windows patch and **`mac/orig/`** is stock.
-2. Run: `python apply_mac_patch.py` from **`match-ctrl_scoreboard/`**.
+2. Run: `python apply_mac_patch.py` from **`match-ctrl_matchUI/`**.
 3. Writes **`mac/inlineStyle`** (copy of **`win/inlineStyle`**) and **`mac/Scoreboard`** (deep-copy **`win/Scoreboard`** with **`m_Id` / `m_ParentId` / `uxmlAssetId`** remapped via aligned **`orig`** rows).
 4. New nodes introduced only in the Windows patch keep their **Windows `m_Id`s** when they do not collide with **`mac/orig`** (this FM lineage: **no collisions**).
 5. Overlay children at **`m_OrderInDocument` 13 / 14** must parent to the rule **`[25]`** overlay node (**`m_Id` `-582934710`** on this export), not dangling IDs.
@@ -285,7 +370,7 @@ Nation **`SIImage`** uses **`ScaleMode` 0** and CurrentDay nation lookup bytes (
 
 ---
 
-## Validation
+### Scoreboard validation
 
 - In-match: scorebug sits **left**, clock and scores readable, added-time ticks visible, no horizontal clip at **420px** width; second-leg aggregate stacks under live score; home block shows **name then crest**.
 - JSON: both files parse; **`inlineSheet.m_PathID`** on **`Scoreboard`** still **`5770178802341094884`**.

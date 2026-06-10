@@ -310,12 +310,13 @@
         "m_PickingMode": 0,
         "m_Classes": {
           "Array": [
-            "content-no-wrap",
-            "content-ellipsis",
             "global-text-secondary",
             "body-small-12px-regular",
-            "margin-right-global-gap-small",
-            "sitext-hover-cursor"
+            "content-no-wrap",
+            "content-ellipsis",
+            "sitext-hover-cursor",
+            "align-self-flex-start",
+            "margin-right-global-gap-small"
           ]
         },
         "m_StylesheetPaths": {
@@ -350,11 +351,12 @@
         "m_PickingMode": 0,
         "m_Classes": {
           "Array": [
-            "content-no-wrap",
-            "content-ellipsis",
             "global-text-secondary",
             "body-small-12px-regular",
+            "content-no-wrap",
+            "content-ellipsis",
             "sitext-hover-cursor",
+            "align-self-flex-start",
             "margin-right-global-gap-small"
           ]
         },

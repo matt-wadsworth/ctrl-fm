@@ -116,7 +116,8 @@
         "m_PickingMode": 0,
         "m_Classes": {
           "Array": [
-            "row-direction-normal"
+            "row-direction-normal",
+            "padding-horizontal-global-padding-regular"
           ]
         },
         "m_StylesheetPaths": {
@@ -355,9 +356,7 @@
         "m_PickingMode": 0,
         "m_Classes": {
           "Array": [
-            "flex-grow-class",
-            "align-items-end",
-            "margin-right-global-gap-regular"
+            "flex-grow-class"
           ]
         },
         "m_StylesheetPaths": {

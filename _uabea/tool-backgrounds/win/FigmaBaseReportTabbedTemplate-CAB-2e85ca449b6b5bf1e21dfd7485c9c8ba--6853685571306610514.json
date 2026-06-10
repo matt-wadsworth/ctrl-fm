@@ -153,7 +153,7 @@
           "prefix": "",
           "resolvedNamespace": ""
         },
-        "m_Id": -1692820528,
+        "m_Id": -1800498702,
         "m_OrderInDocument": 3,
         "m_ParentId": 15997199,
         "m_NamespaceDefinitions": {
@@ -178,7 +178,7 @@
           "Array": []
         },
         "m_SerializedData": {
-          "rid": 1017
+          "rid": 1016
         },
         "m_SkipClone": 0
       },
@@ -189,7 +189,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -434760758,
-        "m_OrderInDocument": 4,
+        "m_OrderInDocument": 3,
         "m_ParentId": 15997199,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -198,7 +198,7 @@
           "Array": []
         },
         "m_Name": "",
-        "m_RuleIndex": 2,
+        "m_RuleIndex": 1,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -222,7 +222,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1888314286,
-        "m_OrderInDocument": 5,
+        "m_OrderInDocument": 4,
         "m_ParentId": -434760758,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -257,7 +257,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1169120740,
-        "m_OrderInDocument": 7,
+        "m_OrderInDocument": 6,
         "m_ParentId": 1888314286,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -266,7 +266,7 @@
           "Array": []
         },
         "m_Name": "",
-        "m_RuleIndex": 3,
+        "m_RuleIndex": 2,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -290,7 +290,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1071207101,
-        "m_OrderInDocument": 8,
+        "m_OrderInDocument": 7,
         "m_ParentId": 1169120740,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -299,7 +299,7 @@
           "Array": []
         },
         "m_Name": "",
-        "m_RuleIndex": 4,
+        "m_RuleIndex": 3,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -323,7 +323,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -537701941,
-        "m_OrderInDocument": 9,
+        "m_OrderInDocument": 8,
         "m_ParentId": -1071207101,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -332,7 +332,7 @@
           "Array": []
         },
         "m_Name": "",
-        "m_RuleIndex": 5,
+        "m_RuleIndex": 4,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -358,7 +358,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1525331076,
-        "m_OrderInDocument": 10,
+        "m_OrderInDocument": 9,
         "m_ParentId": -537701941,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -373,8 +373,7 @@
         "m_Classes": {
           "Array": [
             "figma-base-report-template-inner-frame",
-            "ios-card-styling",
-            "figma-base-report-template-inner-frame--no-background"
+            "ios-card-styling"
           ]
         },
         "m_StylesheetPaths": {
@@ -395,7 +394,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 260872790,
-        "m_OrderInDocument": 11,
+        "m_OrderInDocument": 10,
         "m_ParentId": -1525331076,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -404,7 +403,7 @@
           "Array": []
         },
         "m_Name": "",
-        "m_RuleIndex": 6,
+        "m_RuleIndex": 5,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -428,7 +427,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 525942361,
-        "m_OrderInDocument": 12,
+        "m_OrderInDocument": 11,
         "m_ParentId": 260872790,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -437,7 +436,7 @@
           "Array": []
         },
         "m_Name": "",
-        "m_RuleIndex": 7,
+        "m_RuleIndex": 6,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -461,7 +460,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1778641067,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 12,
         "m_ParentId": 260872790,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -494,7 +493,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1245135907,
-        "m_OrderInDocument": 12,
+        "m_OrderInDocument": 11,
         "m_ParentId": -1525331076,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -503,7 +502,7 @@
           "Array": []
         },
         "m_Name": "",
-        "m_RuleIndex": 8,
+        "m_RuleIndex": 7,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -527,7 +526,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1800498701,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 12,
         "m_ParentId": 1245135907,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -536,7 +535,7 @@
           "Array": []
         },
         "m_Name": "",
-        "m_RuleIndex": 9,
+        "m_RuleIndex": 8,
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
@@ -564,7 +563,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -1604712261,
-        "m_OrderInDocument": 6,
+        "m_OrderInDocument": 5,
         "m_ParentId": 1888314286,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -607,7 +606,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": -730122363,
-        "m_OrderInDocument": 13,
+        "m_OrderInDocument": 12,
         "m_ParentId": 525942361,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -650,7 +649,7 @@
           "resolvedNamespace": ""
         },
         "m_Id": 1775275049,
-        "m_OrderInDocument": 14,
+        "m_OrderInDocument": 13,
         "m_ParentId": 1778641067,
         "m_NamespaceDefinitions": {
           "Array": []
@@ -2223,14 +2222,14 @@
         }
       },
       {
-        "rid": 1017,
+        "rid": 1016,
         "type": {
           "class": "SIImage/UxmlSerializedData",
           "ns": "SI.Bindable",
           "asm": "SI.Bindable"
         },
         "data": {
-          "uxmlAssetId": -1692820528,
+          "uxmlAssetId": -1800498702,
           "name": "ToolBackgroundImage",
           "bindings": {
             "Array": []
@@ -2333,6 +2332,8 @@
           "PlaceholderImagePath_UxmlAttributeFlags": 0
         }
       }
+
+    
     ]
   }
 }

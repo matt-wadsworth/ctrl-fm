@@ -132,9 +132,7 @@
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
-          "Array": [
-            "flex-grow-class"
-          ]
+          "Array": []
         },
         "m_StylesheetPaths": {
           "Array": []
@@ -144,41 +142,6 @@
         },
         "m_SerializedData": {
           "rid": 1001
-        },
-        "m_SkipClone": 0
-      },
-      {
-        "m_FullTypeName": "SI.Bindable.SIImage",
-        "m_XmlNamespace": {
-          "prefix": "",
-          "resolvedNamespace": ""
-        },
-        "m_Id": -1901948204,
-        "m_OrderInDocument": 3,
-        "m_ParentId": -281238743,
-        "m_NamespaceDefinitions": {
-          "Array": []
-        },
-        "m_Properties": {
-          "Array": []
-        },
-        "m_Name": "",
-        "m_RuleIndex": -1,
-        "m_Text": "",
-        "m_PickingMode": 0,
-        "m_Classes": {
-          "Array": [
-            "tool-background-image"
-          ]
-        },
-        "m_StylesheetPaths": {
-          "Array": []
-        },
-        "m_Stylesheets": {
-          "Array": []
-        },
-        "m_SerializedData": {
-          "rid": 1027
         },
         "m_SkipClone": 0
       },
@@ -202,9 +165,7 @@
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
-          "Array": [
-            "flex-grow-class"
-          ]
+          "Array": []
         },
         "m_StylesheetPaths": {
           "Array": []
@@ -237,9 +198,7 @@
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
-          "Array": [
-            "flex-grow-class"
-          ]
+          "Array": []
         },
         "m_StylesheetPaths": {
           "Array": []
@@ -748,7 +707,7 @@
         "m_PickingMode": 0,
         "m_Classes": {
           "Array": [
-            "flex-grow-class"
+            "fm-tool-grid-negative-margin-top"
           ]
         },
         "m_StylesheetPaths": {
@@ -815,7 +774,9 @@
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
-          "Array": []
+          "Array": [
+            "fm-tool-grid-negative-margin-top"
+          ]
         },
         "m_StylesheetPaths": {
           "Array": []
@@ -881,7 +842,9 @@
         "m_Text": "",
         "m_PickingMode": 0,
         "m_Classes": {
-          "Array": []
+          "Array": [
+            "fm-tool-grid-negative-margin-top"
+          ]
         },
         "m_StylesheetPaths": {
           "Array": []
@@ -3268,117 +3231,6 @@
           "template_UxmlAttributeFlags": 0,
           "templateId": "reports-header-navigation-default-type-tool-header",
           "templateId_UxmlAttributeFlags": 1
-        }
-      },
-      {
-        "rid": 1027,
-        "type": {
-          "class": "SIImage/UxmlSerializedData",
-          "ns": "SI.Bindable",
-          "asm": "SI.Bindable"
-        },
-        "data": {
-          "uxmlAssetId": -1901948204,
-          "name": "ToolBackgroundImage",
-          "bindings": {
-            "Array": []
-          },
-          "tooltip": "",
-          "dataSourcePathString": "",
-          "dataSourceTypeString": "",
-          "dataSourceUnityObject": {
-            "m_FileID": 0,
-            "m_PathID": 0
-          },
-          "viewDataKey": "",
-          "pickingMode": 1,
-          "usageHints": 0,
-          "languageDirection": 0,
-          "tabIndex": 0,
-          "focusable": 0,
-          "enabledSelf": 0,
-          "name_UxmlAttributeFlags": 1,
-          "enabledSelf_UxmlAttributeFlags": 0,
-          "viewDataKey_UxmlAttributeFlags": 0,
-          "pickingMode_UxmlAttributeFlags": 1,
-          "tooltip_UxmlAttributeFlags": 0,
-          "usageHints_UxmlAttributeFlags": 0,
-          "tabIndex_UxmlAttributeFlags": 0,
-          "focusable_UxmlAttributeFlags": 0,
-          "languageDirection_UxmlAttributeFlags": 0,
-          "dataSourceUnityObject_UxmlAttributeFlags": 0,
-          "dataSourcePathString_UxmlAttributeFlags": 0,
-          "dataSourceTypeString_UxmlAttributeFlags": 0,
-          "bindings_UxmlAttributeFlags": 0,
-          "StaticImage": {
-            "m_AssetGUID": "",
-            "m_SubObjectName": "",
-            "m_SubObjectType": ""
-          },
-          "ScaleMode": 1,
-          "StyleRecolourMode": 0,
-          "StaticImage_UxmlAttributeFlags": 0,
-          "ScaleMode_UxmlAttributeFlags": 1,
-          "StyleRecolourMode_UxmlAttributeFlags": 0,
-          "BindFunction": {
-            "m_isAssigned": 0,
-            "m_target": {
-              "m_AssetGUID": "",
-              "m_SubObjectName": "",
-              "m_SubObjectType": ""
-            },
-            "m_inputs": {
-              "m_variable": {
-                "m_argumentBytes": {
-                  "Array": []
-                }
-              }
-            },
-            "m_outputs": {
-              "m_variable": {
-                "m_argumentBytes": {
-                  "Array": []
-                }
-              }
-            }
-          },
-          "ImageKind": 2,
-          "Binding": {
-            "m_kind": 1,
-            "m_direct": {
-              "Path": {
-                "m_path": "game.BackgroundImage.BackgroundImage"
-              },
-              "Nullable": 0
-            },
-            "m_visualFunction": {
-              "m_isAssigned": 0,
-              "m_target": {
-                "m_AssetGUID": "",
-                "m_SubObjectName": "",
-                "m_SubObjectType": ""
-              },
-              "m_inputs": {
-                "m_variable": {
-                  "m_argumentBytes": {
-                    "Array": []
-                  }
-                }
-              },
-              "m_outputs": {
-                "m_variable": {
-                  "m_argumentBytes": {
-                    "Array": []
-                  }
-                }
-              }
-            }
-          },
-          "PlaceholderImagePath": "",
-          "BindFunction_UxmlAttributeFlags": 0,
-          "ImageKind_UxmlAttributeFlags": 1,
-          "Binding_UxmlAttributeFlags": 1,
-          "PlaceholderImagePath_UxmlAttributeFlags": 0
         }
       }
     ]

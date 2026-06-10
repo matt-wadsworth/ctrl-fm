@@ -77,30 +77,6 @@
               }
             },
             {
-              "m_Name": "padding-left",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 5
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "padding-right",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 6
-                  }
-                ]
-              }
-            },
-            {
               "m_Name": "flex-grow",
               "m_Line": -1,
               "m_Values": {
@@ -169,7 +145,7 @@
                 "Array": [
                   {
                     "m_ValueType": 7,
-                    "valueIndex": 5
+                    "valueIndex": 3
                   }
                 ]
               }
@@ -231,7 +207,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 4
+                    "valueIndex": 2
                   }
                 ]
               }
@@ -468,7 +444,7 @@
     "Array": [
       {
         "unit": 1,
-        "value": 24.0
+        "value": 6.0
       },
       {
         "unit": 2,
@@ -481,18 +457,6 @@
       {
         "unit": 1,
         "value": 32.0
-      },
-      {
-        "unit": 1,
-        "value": 4.0
-      },
-      {
-        "unit": 1,
-        "value": 42.0
-      },
-      {
-        "unit": 1,
-        "value": 26.0
       }
     ]
   },

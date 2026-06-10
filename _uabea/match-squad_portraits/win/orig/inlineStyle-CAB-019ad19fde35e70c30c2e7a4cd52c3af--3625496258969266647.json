@@ -425,18 +425,6 @@
               }
             },
             {
-              "m_Name": "padding-top",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 22
-                  }
-                ]
-              }
-            },
-            {
               "m_Name": "border-radius",
               "m_Line": -1,
               "m_Values": {
@@ -510,7 +498,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 18
+                    "valueIndex": 7
                   }
                 ]
               }
@@ -529,6 +517,85 @@
             },
             {
               "m_Name": "justify-content",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 6
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "align-items",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 1
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "flex-shrink",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 2,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "align-self",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 0
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "padding-bottom",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 3,
+                    "valueIndex": 8
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "line": -1
+      },
+      {
+        "m_Properties": {
+          "Array": [
+            {
+              "m_Name": "justify-content",
+              "m_Line": -1,
+              "m_Values": {
+                "Array": [
+                  {
+                    "m_ValueType": 7,
+                    "valueIndex": 6
+                  }
+                ]
+              }
+            },
+            {
+              "m_Name": "align-items",
               "m_Line": -1,
               "m_Values": {
                 "Array": [
@@ -540,30 +607,6 @@
               }
             },
             {
-              "m_Name": "align-items",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 1
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "flex-shrink",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 2,
-                    "valueIndex": 0
-                  }
-                ]
-              }
-            },
-            {
               "m_Name": "align-self",
               "m_Line": -1,
               "m_Values": {
@@ -571,109 +614,6 @@
                   {
                     "m_ValueType": 7,
                     "valueIndex": 0
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "padding-bottom",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 8
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "line": -1
-      },
-      {
-        "m_Properties": {
-          "Array": [
-            {
-              "m_Name": "justify-content",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 6
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "align-items",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 1
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "align-self",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 0
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "position",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 9
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "padding-top",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 3
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "min-height",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 20
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "padding-bottom",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 17
                   }
                 ]
               }
@@ -705,18 +645,6 @@
                   {
                     "m_ValueType": 3,
                     "valueIndex": 4
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "margin-top",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 23
                   }
                 ]
               }
@@ -840,7 +768,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 14
+                    "valueIndex": 2
                   }
                 ]
               }
@@ -852,7 +780,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 14
+                    "valueIndex": 2
                   }
                 ]
               }
@@ -883,18 +811,6 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 0
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "opacity",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 2,
                     "valueIndex": 0
                   }
                 ]
@@ -927,18 +843,6 @@
                   {
                     "m_ValueType": 3,
                     "valueIndex": 4
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "margin-top",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 23
                   }
                 ]
               }
@@ -1136,19 +1040,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 8
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "opacity",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 2,
-                    "valueIndex": 0
+                    "valueIndex": 6
                   }
                 ]
               }
@@ -1338,171 +1230,6 @@
                   {
                     "m_ValueType": 2,
                     "valueIndex": 0
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "line": -1
-      },
-      {
-        "m_Properties": {
-          "Array": [
-            {
-              "m_Name": "width",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 15
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "height",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 15
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "position",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 8
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "left",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 12
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "top",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 12
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "margin-left",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 16
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "margin-top",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 19
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "justify-content",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 1
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "align-items",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 7,
-                    "valueIndex": 1
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "line": -1
-      },
-      {
-        "m_Properties": {
-          "Array": [
-            {
-              "m_Name": "width",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 0
-                  }
-                ]
-              }
-            },
-            {
-              "m_Name": "height",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 0
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        "line": -1
-      },
-      {
-        "m_Properties": {
-          "Array": [
-            {
-              "m_Name": "margin-top",
-              "m_Line": -1,
-              "m_Values": {
-                "Array": [
-                  {
-                    "m_ValueType": 3,
-                    "valueIndex": 21
                   }
                 ]
               }
@@ -1546,7 +1273,7 @@
       },
       {
         "unit": 1,
-        "value": 130.0
+        "value": 120.0
       },
       {
         "unit": 1,
@@ -1567,58 +1294,6 @@
       {
         "unit": 1,
         "value": 16.0
-      },
-      {
-        "unit": 1,
-        "value": 62.0
-      },
-      {
-        "unit": 2,
-        "value": 50.0
-      },
-      {
-        "unit": 1,
-        "value": -31.0
-      },
-      {
-        "unit": 1,
-        "value": 70.0
-      },
-      {
-        "unit": 1,
-        "value": 60.0
-      },
-      {
-        "unit": 1,
-        "value": -30.0
-      },
-      {
-        "unit": 1,
-        "value": 32.0
-      },
-      {
-        "unit": 1,
-        "value": 128.0
-      },
-      {
-        "unit": 1,
-        "value": -2.0
-      },
-      {
-        "unit": 1,
-        "value": 80.0
-      },
-      {
-        "unit": 1,
-        "value": 14.0
-      },
-      {
-        "unit": 1,
-        "value": 18.0
-      },
-      {
-        "unit": 1,
-        "value": 42.0
       }
     ]
   },
@@ -1628,13 +1303,13 @@
         "r": 0.039215688,
         "g": 0.05882353,
         "b": 0.11764706,
-        "a": 0.0
+        "a": 0.39215687
       },
       {
-        "r": 0.851,
-        "g": 0.91,
-        "b": 0.929,
-        "a": 0.05
+        "r": 0.9019608,
+        "g": 0.9019608,
+        "b": 0.98039216,
+        "a": 0.08235294
       }
     ]
   },
@@ -1648,8 +1323,7 @@
       "column",
       "space-between",
       "flex-start",
-      "absolute",
-      "relative"
+      "absolute"
     ]
   },
   "assets": {

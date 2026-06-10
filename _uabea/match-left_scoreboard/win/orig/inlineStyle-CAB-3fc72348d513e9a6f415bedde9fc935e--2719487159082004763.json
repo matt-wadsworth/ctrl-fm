@@ -85,7 +85,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 12
+                    "valueIndex": 1
                   }
                 ]
               }
@@ -295,7 +295,7 @@
                 "Array": [
                   {
                     "m_ValueType": 7,
-                    "valueIndex": 1
+                    "valueIndex": 4
                   }
                 ]
               }
@@ -307,7 +307,7 @@
                 "Array": [
                   {
                     "m_ValueType": 7,
-                    "valueIndex": 1
+                    "valueIndex": 4
                   }
                 ]
               }
@@ -325,13 +325,13 @@
               }
             },
             {
-              "m_Name": "left",
+              "m_Name": "width",
               "m_Line": -1,
               "m_Values": {
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 5
+                    "valueIndex": 3
                   }
                 ]
               }
@@ -343,7 +343,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 13
+                    "valueIndex": 4
                   }
                 ]
               }
@@ -467,7 +467,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 4
+                    "valueIndex": 5
                   }
                 ]
               }
@@ -479,7 +479,7 @@
                 "Array": [
                   {
                     "m_ValueType": 3,
-                    "valueIndex": 5
+                    "valueIndex": 6
                   }
                 ]
               }
@@ -983,11 +983,11 @@
       },
       {
         "unit": 1,
-        "value": 72.0
+        "value": -4.0
       },
       {
         "unit": 1,
-        "value": 26.0
+        "value": 56.0
       },
       {
         "unit": 1,
@@ -1014,12 +1014,8 @@
         "value": 14.0
       },
       {
-        "unit": 1,
-        "value": 24.0
-      },
-      {
-        "unit": 1,
-        "value": 0.0
+        "unit": 2,
+        "value": 35.0
       }
     ]
   },
