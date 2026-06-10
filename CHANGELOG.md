@@ -2,6 +2,23 @@
 
 All notable changes to the CTRL skin are documented here.
 
+## [1.8] – Ongoing
+
+### Fixed
+
+- **26.3.2 Support** - Compatibility with the FM 26.3.2 update.
+
+### Added
+
+- **Card Backgrounds** - Background images added to main screens throughout the game (Player Reports, Tactics, Squad, Club Sites and more) for a more consistent look across the skin and a slightly brighter overall feel.
+- **Competition Backgrounds** - Subtle competition-themed backgrounds re-introduced for licensed leagues and cups (Premier League, Champions League, Bundesliga, World Cup and more).
+- **Pre-match Graphics** - Added CTRL styled pre-match lineup and table assets, replacing the default look.
+
+### Changed
+
+- **Styling Refresh** - Adjusted tiles, tool panels and status colours so existing elements read clearly against the new backgrounds.
+- **Tiles - Loans** - Increased size of Loans card to show more information.
+
 ## [1.7.2] – 31/05/2025
 
 ### Fixed
