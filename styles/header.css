@@ -3,8 +3,8 @@
 /* Remove border and BG */
 .main-navigation-overview-container {
   border-bottom-width: 1px;
-  border-bottom-color: var(--colours-alpha-light-alpha-8);
-  background-color: var(--none);
+  border-bottom-color: #0f1a30;
+  background-color: #050d1c;
 }
 
 /* ---- Club Colours ---- */

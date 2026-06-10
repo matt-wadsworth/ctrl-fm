@@ -193,11 +193,11 @@
 }
 /* Message Sender Header (Right Side) */
 .message-sender-frame-colour {
-  background-color: #121a24;
+  background-color: var(--colours-alpha-light-alpha-8);
 }
 /* Message Container (Right Side) */
 .message-container-frame {
-  border-color: #121a24;
+  border-color: var(--colours-alpha-light-alpha-8);
   border-width: 1px;
 }
 /* Message Item - Hover */
@@ -225,15 +225,15 @@
 }
 /* Actioned */
 .notificationmessagestatus-action-performed-colour {
-  background-color: rgba(109, 211, 98, 0.12);
+  background-color: rgba(26, 78, 34, 0.6);
 }
 /* Required */
 .notificationmessagestatus-action-required-colour {
-  background-color: rgba(242, 44, 44, 0.12);
+  background-color: rgba(114, 25, 27, 0.6);
 }
 /* Required - Submenu */
 .notificationmessagesstatus-actionslist-required-colour {
-  background-color: rgba(242, 44, 44, 0.08);
+  background-color: rgba(57, 18, 21, 0.6);
 }
 
 /* ---- Data Display Cells ---- */
@@ -593,11 +593,11 @@
 /* ---- Player Status ----*/
 /* Base */
 .player-status {
-  border-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.03);
 }
 /* Preview - Hidden "below" the player status */
 .player-status-preview {
-  border-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.03);
 }
 /* Text */
 .item-text {
@@ -606,77 +606,77 @@
 /* Player Status - Status Colours */
 /* Negative - Injured */
 .cannot-play-high {
-  background-color: #58181e;
+  background-color: #7e0c0c;
 }
 /* Negative - Low */
 .cannot-play {
-  background-color: #35131b;
+  background-color: #641f22;
 }
 .sub-off {
-  background-color: #35131b;
+  background-color: #641f22;
 }
 .sub-on-off {
-  background-color: #35131b;
+  background-color: #641f22;
 }
 .two-yellows {
-  background-color: #58181e;
+  background-color: #7e0c0c;
 }
 .red-card {
-  background-color: #58181e;
+  background-color: #7e0c0c;
 }
 .cannot-play-low {
-  background-color: #38232b;
+  background-color: #542021;
 }
 .restricted {
-  background-color: #38232b;
+  background-color: #542021;
 }
 /* non-EU */
 .restricted-low {
-  background-color: #1f262f;
+  background-color: #2e3c43;
 }
 /* Injured - Half */
 .shouldnt-play-high {
-  background-color: #4f311a;
+  background-color: #703c0d;
 }
 .shouldnt-play {
-  background-color: #362519;
+  background-color: #573412;
 }
 .shouldnt-play-low {
-  background-color: #2a1f18;
+  background-color: #45311c;
 }
 .warning {
-  background-color: #5c4d0f;
+  background-color: #8e7408;
 }
 /* PR - Promises etc. */
 .advisory-low {
-  background-color: #07282e;
+  background-color: #033936;
 }
 /* Wanted */
 .advisory {
-  background-color: #183522;
+  background-color: #1e3d28;
 }
 .sub-on {
-  background-color: #183522;
+  background-color: #1e3d28;
 }
 .man-of-the-match {
-  background-color: #183522;
+  background-color: #1e3d28;
 }
 .can-play {
-  background-color: #10251e;
+  background-color: #24382d;
 }
 /* Unhappy / Bid */
 .advisory-high {
-  background-color: #1e4426;
+  background-color: #1a4d22;
 }
 /* Homegrown */
 .homegrown-club {
-  background-color: #0d1d45;
+  background-color: #031c5d;
 }
 .homegrown-nation {
-  background-color: #0d1d45;
+  background-color: #031c5d;
 }
 .homegrown-club-or-nation {
-  background-color: #0d1d45;
+  background-color: #031c5d;
 }
 
 /* ---- SpeakTo ---- */
@@ -706,7 +706,7 @@
 /* ---- Fitness Test Results ---- */
 /* TBC */
 .fitness-test-result-background-colour-tbc {
-  background-color: #1f262f;
+  background-color: #2e3c43;
 }
 .fitness-test-result-text-colour-tbc {
   color: rgba(255, 255, 255, 0.5);
@@ -716,17 +716,17 @@
 }
 /* Fail */
 .fitness-test-result-background-colour-fail {
-  background-color: #35131b;
+  background-color: #641f22;
 }
 .fitness-test-result-text-colour-fail {
-  color: #f22c2c;
+  color: #d93840;
 }
 .fitness-test-result-image-colour-fail {
-  -unity-background-image-tint-color: #f22c2c;
+  -unity-background-image-tint-color: #d93840;
 }
 /* Pass */
 .fitness-test-result-background-colour-pass {
-  background-color: #10251e;
+  background-color: #24382d;
 }
 .fitness-test-result-text-colour-pass {
   color: #4cab43;
@@ -736,7 +736,7 @@
 }
 /* Partial Pass */
 .fitness-test-result-background-colour-partial-pass {
-  background-color: #362519;
+  background-color: #573412;
 }
 .fitness-test-result-text-colour-partial-pass {
   color: #f88320;
@@ -761,11 +761,11 @@
 }
 /* Reply Speech Bubble */
 .speech-background-type-reply {
-  background-color: #0d1d45;
+  background-color: #031c5d;
 }
 /* Reply Speech Bubble Tail */
 .speech-tail-reply-colour {
-  -unity-background-image-tint-color: #0d1d45;
+  -unity-background-image-tint-color: #031c5d;
 }
 
 /* ---- Speech Bubbles - Contract Negotiation ---- */
@@ -798,8 +798,8 @@
   border-color: #683d1b;
 }
 .speech-bubble-major-warning-gradient {
-  --end-colour: #4f311a;
-  --start-colour: #4f311a;
+  --end-colour: #703c0d;
+  --start-colour: #703c0d;
 }
 
 /* ---- Start Screen / Main Menu ---- */

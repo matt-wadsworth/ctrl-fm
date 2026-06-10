@@ -15,7 +15,7 @@
   --colours-base-teal-80: #2e6e28;
 
   /* Brand Colours - Foundation */
-  --colours-brand-foundation-midnight: #060d17;
+  --colours-brand-foundation-midnight: #050d1c;
   --colours-brand-foundation-midnight-100: #121a24;
   --colours-brand-foundation-cloud: #d9e8ed;
   --colours-brand-foundation-horizon: #fbc500;
@@ -24,7 +24,7 @@
   --colours-brand-foundation-twinight-120: #121a24;
 
   /* Brand Colours - Tints */
-  --colours-brand-tints-midnight-80: #060d17cc;
+  --colours-brand-tints-midnight-80: #050d1ccc;
   --colours-brand-tints-twilight-120: #5e6b76;
 
   /* Brand Colours - FM */
@@ -68,8 +68,8 @@
   --colours-tactics-base-20: rgba(217, 232, 237, 0.2);
 
   /* Speak To */
-  --colours-speak-to-background-dark: #060d17;
-  --colours-speak-to-background-default: #121a24;
+  --colours-speak-to-background-dark: #0d121a;
+  --colours-speak-to-background-default: #0d121a;
 
   /* Layout - UI Tiles - Interaction Border */
   --layout-ui-tiles-interaction-border-default: var(

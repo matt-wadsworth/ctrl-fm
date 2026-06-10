@@ -5,6 +5,12 @@
   color: #fbc500;
 }
 
+/* Fallback (No Info) */
+.layout-tile-scalable-default--background-true {
+  border-color: rgba(217, 232, 237, 0.05);
+  background-color: rgba(5, 3, 28, 0.3);
+}
+
 /* ---- Base ---- */
 .border-tile-radius-12px {
   border-width: 1px;
@@ -21,15 +27,15 @@
 
 .layout-tile-interaction_border {
   border-width: 1px;
-  border-color: var(--colours-alpha-light-alpha-8);
+  border-color: rgba(217, 232, 237, 0.03);
 }
 .layout-tile-interaction-button,
 .layout-tile-interaction-none {
-  background-color: var(--none);
+  background-color: rgba(217, 232, 237, 0.02);
 }
 .layout-tile-interaction-button:active,
 .layout-tile-interaction-button:hover:enabled {
-  background-color: rgba(217, 232, 237, 0.02);
+  background-color: rgba(217, 232, 237, 0.04);
 }
 /* SI Block - Border */
 .siblock-border {
@@ -41,12 +47,12 @@
   background-color: var(--none);
 }
 .tactics-overlay-bkg {
-  background-color: var(--none);
+  background-color: rgba(217, 232, 237, 0.02);
 }
 .layout-tile-interaction-button.startscreenVar,
 .layout-tile-tactics .layout-tile-interaction-button,
 .layout-tile-interaction-button.newsTileVar {
-  background-color: var(--none);
+  background-color: rgba(217, 232, 237, 0.02);
 }
 .layout-tile-interaction-button.startscreenVar:active,
 .layout-tile-interaction-button.startscreenVar:hover:enabled,
@@ -56,7 +62,7 @@
 .layout-tile-tactics .layout-tile-interaction-button:hover:enabled,
 .startnewcareer_custom_bg_tile .layout-tile-interaction-button:active,
 .startnewcareer_custom_bg_tile .layout-tile-interaction-button:hover:enabled {
-  background-color: rgba(217, 232, 237, 0.02);
+  background-color: rgba(217, 232, 237, 0.04);
 }
 .tactics-pitch-tile-background-colour {
   background-color: var(--none);
@@ -271,4 +277,41 @@
 .frames-frame-states-season_preview-key-players,
 .frames-frame-states-season_preview-transfer-spend {
   border-color: var(--colours-alpha-light-alpha-8);
+}
+
+/* Tiles - Border Only */
+.block-border-only {
+  border-width: 1px;
+  border-color: var(--colours-alpha-light-alpha-8);
+}
+
+/* ---- Background Image styles ---- */
+/* Tool Container - Remove Fade */
+.tool-container {
+  background-color: var(--none);
+}
+/* Templates - Remove background overlay */
+.figma-base-popup-template-inner-frame,
+.figma-base-report-template-inner-frame {
+  background-color: var(--none);
+}
+.figma-base-tool-template-inner-frame {
+  background-color: var(--none);
+}
+.figma-base-tool-standard-template-inner-frame--no-custom-background {
+  background-color: var(--none);
+}
+
+/* Squad - Rules bar */
+.match-rules-property-1-expanded {
+  border-top-color: var(--colours-alpha-light-alpha-8);
+  background-color: var(--colours-alpha-light-alpha-8);
+}
+/* Stages - Minimise/Expand Tiles */
+.recruitment-player-search-foldout-bar {
+  border-top-color: var(--colours-alpha-light-alpha-8);
+  background-color: var(--colours-alpha-light-alpha-8);
+}
+.recruitment-player-search-foldout-bar:hover {
+  background-color: var(--colours-alpha-light-alpha-16);
 }
