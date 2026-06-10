@@ -7,5 +7,5 @@
   "text.css": "AlwaysAppliedStyleSheet",
   "fixes.css": ["AlwaysAppliedStyleSheet", "iPhoneStyles"],
   "_testing.css": "AlwaysAppliedStyleSheet",
-  "match.css": "AlwaysAppliedStyleSheet"
+  "match.css": ["AlwaysAppliedStyleSheet", "MatchUIStyles"]
 }
