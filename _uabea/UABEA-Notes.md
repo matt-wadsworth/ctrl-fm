@@ -93,6 +93,7 @@ Conventions mirror **[Bracket notation and the `references` object](#bracket-not
 | `tactics-player_portrait`       | [TACTICS_PLAYERPORTRAIT_CHANGES.md](./tactics-player_portrait/TACTICS_PLAYERPORTRAIT_CHANGES.md)                         |
 | `formations-player_portrait`  | [FORMATIONS_PLAYER_PORTRAIT_CHANGES.md](./formations-player_portrait/FORMATIONS_PLAYER_PORTRAIT_CHANGES.md)             |
 | `tactics-remove_planner_header` | [TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md](./tactics-remove_planner_header/TACTICS_PLANNER_HEADER_GRADIENT_CHANGES.md) |
+| `tactics-fixes`                 | [TACTICS_FIXES_CHANGES.md](./tactics-fixes/TACTICS_FIXES_CHANGES.md)                                                       |
 | `tiles-player_report_photos`    | [PLAYER_REPORT_PHOTOS_CHANGES.md](./tiles-player_report_photos/PLAYER_REPORT_PHOTOS_CHANGES.md)                          |
 | `tiles-speaktosidepanel_border` | [SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md](./tiles-speaktosidepanel_border/SPEAK_TO_SIDEPANEL_BORDER_CHANGES.md)             |
 | `tool-backgrounds`              | [TOOL_BACKGROUNDS_CHANGES.md](./tool-backgrounds/TOOL_BACKGROUNDS_CHANGES.md)                                           |
@@ -142,6 +143,7 @@ Use **logical filename + Path ID** suffix to reopen quickly in UABEA.
 | `ui-widgets_assets_all`       | `inlineStyle`                   | `-3625496258969266647` | `match-squad_portraits`         |
 | `ui-panelids-uxml_assets_all` | `inlineStyle`                   | `4528579247820316033`  | `tiles-speaktosidepanel_border` |
 | `ui-tactics_assets_all`       | `TacticalPlannerHeader`         | `-966834888143150418`  | `tactics-remove_planner_header` |
+| `ui-tactics_assets_all`       | `TacticalPlannerPhasesPitches`  | `3412805035020634299`  | `tactics-fixes`                 |
 | `ui-tactics_assets_all`       | `TacticsPositionCombined`       | `3127595210179668386`  | `tactics-player_portrait`       |
 | `ui-tactics_assets_all`       | `inlineStyle`                   | `1320523011556632994`  | `tactics-player_portrait`       |
 | `ui-tactics_assets_all`       | `TacticsMatchPositionFilled`    | `2040735658139592085`  | `formations-player_portrait`    |

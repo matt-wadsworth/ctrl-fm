@@ -1,0 +1,14 @@
+{
+  "id": "tactics-fixes",
+  "name": "Tactics - Misc Fixes",
+  "description": "Small miscellaneous fixes for tactics-related UI issues.",
+  "enabled": true,
+  "assets": [
+    {
+      "bundle": "ui-tactics_assets_all",
+      "assetName": "TacticalPlannerPhasesPitches",
+      "pathId": 3412805035020634299,
+      "file": "TacticalPlannerPhasesPitches-CAB-3334bbe2d7ac7af32e86413e81ff46ff-3412805035020634299.json"
+    }
+  ]
+}
