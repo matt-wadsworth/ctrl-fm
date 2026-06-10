@@ -2,7 +2,7 @@
 
 All notable changes to the CTRL skin are documented here.
 
-## [1.8] – Ongoing
+## [1.8.1] – 10/06/2026
 
 ### Fixed
 
@@ -10,7 +10,7 @@ All notable changes to the CTRL skin are documented here.
 
 ### Added
 
-- **Card Backgrounds** - Background images added to main screens throughout the game (Player Reports, Tactics, Squad, Club Sites and more) for a more consistent look across the skin and a slightly brighter overall feel.
+- **Backgrounds** - Background images added to main screens throughout the game (Player Reports, Tactics, Squad, Club Sites and more) for a more consistent look across the skin and a slightly brighter overall feel.
 - **Competition Backgrounds** - Subtle competition-themed backgrounds re-introduced for licensed leagues and cups (Premier League, Champions League, Bundesliga, World Cup and more).
 - **Pre-match Graphics** - Added CTRL styled pre-match lineup and table assets, replacing the default look.
 
