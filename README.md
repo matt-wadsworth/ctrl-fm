@@ -4,6 +4,12 @@
 
 # CTRL 26
 
+### ⚠️ Usage guidelines
+
+This repository is shared so people can build personal tweaks of CTRL and learn how the skin is put together. You are welcome to explore the files, study how things work, and make changes for your own game.
+
+Please do not make small tweaks to CTRL and release the result as your own skin. If you want to publish something publicly, it should be meaningfully your own work rather than a lightly edited version of this project.
+
 ### 📦 Install via FM Skin Builder
 
 Use **FM Skin Builder** to download CTRL, apply it to your game, and keep backups, all without juggling files by hand. When a new release is available, you’re notified in the app so you can update and apply it to your game from the same place. Download the skin in the skins gallery, or grab it directly from the website: **[CTRL 26 on FM Skin Builder](https://fmskinbuilder.com/skins/ctrl-26)**.
